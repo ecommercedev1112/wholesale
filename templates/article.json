@@ -1,0 +1,120 @@
+{
+  "sections": {
+    "fb66634b-f7de-439b-bf02-e07180ac3c43": {
+      "type": "image-with-text",
+      "blocks": {
+        "f7660b83-deae-44d3-8360-335b2e8e08a6": {
+          "type": "caption",
+          "settings": {
+            "caption": "Featured",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "template--21829930778931__fb66634b-f7de-439b-bf02-e07180ac3c43-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "The silica supplement everyone is talking about.",
+            "heading_size": "h2"
+          }
+        },
+        "template--21829930778931__fb66634b-f7de-439b-bf02-e07180ac3c43-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--21829930778931__fb66634b-f7de-439b-bf02-e07180ac3c43-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "shopify:\/\/blogs\/news\/the-silica-supplement-everyone-is-talking-about"
+          }
+        }
+      },
+      "block_order": [
+        "f7660b83-deae-44d3-8360-335b2e8e08a6",
+        "template--21829930778931__fb66634b-f7de-439b-bf02-e07180ac3c43-heading-1",
+        "template--21829930778931__fb66634b-f7de-439b-bf02-e07180ac3c43-text-1",
+        "template--21829930778931__fb66634b-f7de-439b-bf02-e07180ac3c43-button-1"
+      ],
+      "settings": {
+        "title": "",
+        "image": "shopify:\/\/shop_images\/Rectangle_357.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "small"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "share",
+        "content"
+      ],
+      "settings": {
+      }
+    },
+    "featured_blog_3YQkg4": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "BLOG POSTS",
+        "heading_size": "h2",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "accent-2",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    }
+  },
+  "order": [
+    "fb66634b-f7de-439b-bf02-e07180ac3c43",
+    "main",
+    "featured_blog_3YQkg4"
+  ]
+}

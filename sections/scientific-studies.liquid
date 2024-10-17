@@ -1,0 +1,96 @@
+{{ 'stability-studies.aio.min.css' | asset_url | stylesheet_tag }}
+
+<section class="stability-studies {{ page.handle }}">
+  <div class="page-width page-width--wide">
+    <div class="flext_row">
+      <div class="content">
+        {% for block in section.blocks %}
+          {% if forloop.index <= 3 %}
+            <div class="row_flex">
+              <div class="description left">
+                <p class="heading">{{ block.settings.heading }}</p>
+                <p>{{ block.settings.description }}</p>
+              </div>
+              <div class="icon">{{ block.settings.icon | img_url: '250x' | img_tag }}</div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="image">
+        {{ section.settings.image | img_url: '250x' | img_tag }}
+      </div>
+      <div class="content">
+        {% for block in section.blocks %}
+          {% if forloop.index > 3 %}
+            <div class="row_flex">
+              <div class="icon">{{ block.settings.icon | img_url: '250x' | img_tag }}</div>
+              <div class="description right">
+             <p class="heading">{{ block.settings.heading }}</p>
+                <p>{{ block.settings.description }}</p>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "scientific-studies",
+  "settings": [
+    {
+       "type": "image_picker",
+       "id": "image",
+      "label": "Image"
+    }
+
+  ],
+
+   "blocks": [
+  {
+    "type": "block",
+    "name": "blocks",
+    "settings": [
+    {
+      "id": "icon",
+      "type": "image_picker",
+      "label": "icon"
+
+    },
+      {
+      "id": "heading",
+      "type": "text",
+      "label": "Heading"
+
+    },
+       {
+      "id": "description",
+      "type": "richtext",
+      "label": "Description"
+
+    }
+
+
+  ]
+  }
+
+
+],
+
+
+  "presets": [
+    {
+      "name": "Science Studies",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

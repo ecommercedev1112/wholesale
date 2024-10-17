@@ -1,0 +1,150 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "home_super_one_YcJzEy": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 145,
+        "paddingsettingtwo": 65,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_231_5137274e-6d10-4c02-87ab-ff718e24cd74.png",
+        "image_text": "OUR HEALTH EXPERTS"
+      }
+    },
+    "home_super_two_eTWBN4": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_AVQQyQ": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_126_8d7e05b0-d56a-463a-9808-2d969171734a.png",
+            "step": "",
+            "section_heading": "ANTHONY",
+            "section_subheading": "WILLIAMS",
+            "section_subheadingtwo": "",
+            "section_description": "<p><strong>Inc. Medical Medium Blog<\/strong><\/p><p>“LIVING SILICA® as found in ORGONO® G5 Siliplant is one of the best forms of supplemental silica. It can be helpful for supporting and then maintaining healthy bone, skin, hair, teeth, tendon, ligament, and connective tissues.* The body easily absorbs LIVING SILICA®.“<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_yJT7A7": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_134_808fc31e-f2d1-4b3e-8e52-5ce473a415bd.png",
+            "step": "",
+            "section_heading": "DAVID",
+            "section_subheading": "WOLFE",
+            "section_subheadingtwo": "",
+            "section_description": "<p><strong>Genuine #1 celebrity and pioneer of the raw food, superfoods, and longevity universe<\/strong><br\/><br\/>David Wolfe has recommended our silica in a number of his books, notably, Eating for Beauty and Longevity Now. Our Products Are Featured In David’s Webcasts And Live Seminars With Approximately 2750 Events Since Inception.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_rLJiJL": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_135_28d937ef-b187-426d-a59d-ed9a3e18aa74.png",
+            "step": "",
+            "section_heading": "KIMBERLY",
+            "section_subheading": "SPAIR",
+            "section_subheadingtwo": "",
+            "section_description": "<p><strong>Holistic Health + Nutrition For Moms, Women, Families<br\/><br\/><\/strong>Kimberly has dedicated her career to supporting and empowering women, families, and mothers by helping them regain their health and vitality through nutrition, herbs, and soul healing practices.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_KW9qGQ": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_136_d514137d-cbc5-47c1-b732-27defc8e224e.png",
+            "step": "",
+            "section_heading": "VALERIA",
+            "section_subheading": "HINOJOSA",
+            "section_subheadingtwo": "",
+            "section_description": "<p><strong>Influencer<br\/><\/strong><br\/>“Let’s talk collagen, shall we? Finding a healthy, natural and plant-based collagen supplement has been difficult for me. As you may already know, most collagen products have animal by products as their ingredients and involve unnatural production processes. And then, a month ago, I found LIVING SILICA®.“<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_eAqLqb": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_137_6deb4349-0561-46a1-bb74-695d7f7347f0.png",
+            "step": "",
+            "section_heading": "JILL",
+            "section_subheading": "HINOJOSA",
+            "section_subheadingtwo": "",
+            "section_description": "<p><strong>Holistic Health Coach. Speaker<br\/><br\/><\/strong>Health Coach Jill Anenberg Lawrence has a wellness gem to share! ! Silica is an incredible mineral that impacts so many systems in our bodies. Silica is a vegan collagen boosting formula that supercharges your health. LIVING SILICA® tastes like slightly sweetened water. I take a TBS and genuinely love the taste and benefits”.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_AVQQyQ",
+        "content_yJT7A7",
+        "content_rLJiJL",
+        "content_KW9qGQ",
+        "content_eAqLqb"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "",
+        "main_paragraph": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "home_super_one_YcJzEy",
+    "home_super_two_eTWBN4"
+  ]
+}

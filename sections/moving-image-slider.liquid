@@ -1,0 +1,54 @@
+<div class="moving-text-slider">
+  {% for block in section.blocks %}
+        <div class="moving-text"><img loading="lazy" src="{{ block.settings.image | img_url : 'master' }}"</div>
+  {% endfor %}
+        
+    </div>
+<style>
+  .moving-text-slider{
+    background:#1C2E3A;
+    padding:10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .moving-text{
+    color:white;
+    padding:0px 10px;
+    width:300px
+  }
+</style>
+<script src="{{ 'moving-image-slider.aio.min.js' | asset_url }}">
+
+</script>
+
+{% schema %}
+  {
+    "name": "Moving Slider",
+    "settings": [],
+    "blocks":[
+      {
+        "name":"Image",
+        "type":"image",
+        "settings":[
+          {
+        "type":"image_picker",
+        "id":"image",
+        "label":"Image"
+      }
+        ]
+      }
+    ],
+    "presets":[
+      {
+        "name":"Moving Slider"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,92 @@
+{
+  "sections": {
+    "home_super_one_PTb3ww": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#fff",
+        "paddingsetting": 145,
+        "paddingsettingtwo": 60,
+        "backgound_image": "shopify:\/\/shop_images\/WH-banner-5-backG.jpg",
+        "image_text": "Webinars"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "new_webinar_section_8tXN9E": {
+      "type": "new-webinar-section",
+      "blocks": {
+        "content_VGAPPC": {
+          "type": "content",
+          "settings": {
+            "nw_change_direction": false,
+            "nw_section_image": "shopify:\/\/shop_images\/Webinar-ban-1.jpg",
+            "nw_section_subheading": "HOW SILICA",
+            "nw_section_heading": "Benefits You",
+            "nw_section_description": "<p><strong>LENGTH:<\/strong>  12:36<\/p><h2>WEBINAR МAINFRAME POINTS :<\/h2><ul><li>Facts about Silicon<\/li><li>Silica and Bones<\/li><li>Silica and Skin<\/li><li>Silica and Body Mechanics<\/li><li>Silica and the Brain<\/li><li>Silica and the Cardiovascular System<\/li><li>What Types of Silica to Use?<\/li><\/ul>",
+            "nwbtntext": "WATCH NOW",
+            "nwbtntexturl": "https:\/\/www.youtube.com\/watch?v=qbNxv_2NxqM&skip_registered_account_check=true",
+            "nw_section_description2": "<p>You liked our webinar, and do not want to miss the new one? Subscribe and stay updated.<\/p>",
+            "nwbtntext2": "SUBSCRIBE",
+            "nwbtntexturl2": "https:\/\/www.youtube.com\/channel\/UC0pZfH9W9_yPn0J3HBqAPdw",
+            "nw_mobile_font_size": "16",
+            "nw_desktop_letter_spacing": 2,
+            "nw_mobile_letter_spacing": 2,
+            "nw_mobile_font_weight": "400",
+            "nw_line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_VGAPPC"
+      ],
+      "settings": {
+        "nwbackcolor": "",
+        "nw_main_title": "",
+        "nw_main_paragraph": ""
+      }
+    },
+    "new_brand_images_t7Cxiw": {
+      "type": "new-brand-images",
+      "blocks": {
+        "block_ByGiMd": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector-Smart-Object-1.png"
+          }
+        },
+        "block_cUDti3": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset-1.svg"
+          }
+        },
+        "block_jKqYMc": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ORGONO-lOGO.png"
+          }
+        }
+      },
+      "block_order": [
+        "block_ByGiMd",
+        "block_cUDti3",
+        "block_jKqYMc"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "home_super_one_PTb3ww",
+    "main",
+    "new_webinar_section_8tXN9E",
+    "new_brand_images_t7Cxiw"
+  ]
+}

@@ -1,0 +1,360 @@
+<style>
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-button-prevv {
+    display: inline-block;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 99;
+  }
+  .swiper-button-nextt {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    z-index: 999;
+    right: 3px;
+  }
+  .swiper-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 50%;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: contain;
+  }
+
+
+  .swiper-button-nextt svg {
+    max-width: 35px;
+
+  }
+  .swiper-button-prevv svg {
+    max-width: 35px;
+    transform: rotate(180deg);
+  }
+  .my-width {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    padding: 100px 0;
+  }
+  .exexr {
+    width: 100%;
+    max-width: 253px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .exexr h2 {
+    font-size: 21px;
+    font-family: "Roboto"
+    , sans-serif !important;
+    color: #1C2E3A;
+    font-weight: bold;
+  }
+  .product-description-short {
+    color: #797979;
+
+  }
+  .exexr p {
+    font-size: 16px;
+    font-family: "Roboto"
+    , sans-serif !important;
+    margin-top: 0;
+    color: #797979;
+  }
+  .exexr a {
+    color: #606060;
+  }
+  .btns-positions-set {
+    width: 100% !important;
+    position: absolute;
+    bottom: 50%;
+    z-index: 1;
+  }
+  .product-description-full {
+    font-size: 15px;
+  }
+  .new-inc {
+    color: #1C2E3A;
+    font-size: 48px;
+    margin: 40px 0;
+    text-transform: uppercase;
+    font-family: "Gloock"
+    , serif !important;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+  }
+  .product-description-short {
+    color: #797979;
+    font-size: 15px;
+    font-family: "Roboto"
+    , sans-serif !important;
+    margin-top: 0;
+  }
+  a.readmore {
+    display: block;
+    font-size: 14px;
+    font-family: "Roboto"
+    , sans-serif !important;
+    font-weight: 700;
+  }
+  a.readless {
+    display: block;
+    font-size: 14px;
+    font-family: "Roboto"
+    , sans-serif !important;
+    font-weight: 700;
+  }
+  @media screen and (max-width: 500px) {
+    .new-inc {
+      font-size: 30px;
+      margin-top: 20px;
+    }
+    .section-template--21862676660531__50ab2f8b-acfb-469f-9349-a2d6eb1513d1-padding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+  }
+  body.gradient.custom-.custom-pro--travel-size .swiper-button-prevv.swiper-button-lock {
+    display: none !important;
+}
+body.gradient.custom-.custom-pro--travel-size .swiper-button-nextt.swiper-button-lock {
+    display: none !important;
+}
+.swiper-button-prevv.swiper-button-lock , .swiper-button-nextt.swiper-button-lock  {
+    display: none;
+}
+</style>
+<div class="page-width">
+  <div class="new-inc">{{ section.settings.textobe }}</div>
+
+  <div class=" swiper mySwiper-{{ section.id }}">
+
+    <div class="swiper-button-nextt">
+      <svg
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="#000000">
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g
+          id="SVGRepo_tracerCarrier"
+          stroke-linecap="round"
+          stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
+        <defs>
+          <style>
+            .cls-1 {
+              fill: none;
+              stroke: #000000;
+              stroke-linecap: round;
+              stroke-linejoin: round;
+              stroke-width: 20px;
+            }
+          </style>
+        </defs>
+        <g data-name="Layer 2" id="Layer_2">
+        <g data-name="E415, next, Media, media player, multimedia" id="E415_next_Media_media_player_multimedia">
+          <circle
+            class="cls-1"
+            cx="256"
+            cy="256"
+            r="246"></circle>
+          <polyline class="cls-1" points="178.18 411.63 333.82 256 178.18 100.37"></polyline>
+        </g>
+      </g>
+    </g>
+  </svg>
+</div>
+
+<div class="swiper-wrapper">
+
+
+  {%- for block in section.blocks -%}
+    <div class="swiper-slide">
+      <div class="exexr">
+        {% if block.settings.image != blank %}
+          <div class="swiper-image">
+            <img loading="lazy" class="my-img0vls" src="{{ block.settings.image | img_url : 'master' }}">
+          </div>
+        {% endif %}
+        <h2>{{ block.settings.text }}</h2>
+        <p>
+          {%- if block.settings.para != blank -%}
+
+            {% if block.settings.para.size > 47 %}
+              <div class="product-description-short">
+                {{ block.settings.para | truncate: 47, ". . . " }}<a class="readmore" href="#">Show More
+                </a>
+              </div>
+              <div class="product-description-full" style="display:none;">
+                {{ block.settings.para }}
+                <br>
+                <br><a class="readless" href="#">
+                  Show Less</a>
+              </div>
+            {% else %}
+              {{ block.settings.para }}
+            {% endif %}
+          {%- endif -%}
+        </p>
+      </div>
+    </div>
+  {%- endfor -%}
+</div>
+<div class="swiper-button-prevv ">
+  <svg
+    viewBox="0 0 512 512"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="#000000"
+    transform="rotate(0)matrix(-1, 0, 0, 1, 0, 0)">
+    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+    <g
+      id="SVGRepo_tracerCarrier"
+      stroke-linecap="round"
+      stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
+    <defs>
+      <style>
+        .cls-1 {
+          fill: none;
+          stroke: #000000;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-width: 20px;
+        }
+      </style>
+    </defs>
+    <g data-name="Layer 2" id="Layer_2">
+    <g data-name="E415, next, Media, media player, multimedia" id="E415_next_Media_media_player_multimedia">
+      <circle
+        class="cls-1"
+        cx="256"
+        cy="256"
+        r="246"></circle>
+      <polyline class="cls-1" points="178.18 411.63 333.82 256 178.18 100.37"></polyline>
+    </g>
+  </g>
+</g></svg></div></div></div><script>
+    $("a.readmore").click(function(event) {
+      event.preventDefault();
+      var $shortDescription = $(this).closest('.product-description-short');
+      var $fullDescription = $shortDescription.next('.product-description-full');
+      
+      $shortDescription.hide();
+      $fullDescription.show();
+    });
+    
+    $("a.readless").click(function(event) {
+      event.preventDefault();
+      var $fullDescription = $(this).closest('.product-description-full');
+      var $shortDescription = $fullDescription.prev('.product-description-short');
+      
+      $fullDescription.hide();
+      $shortDescription.show();
+    });
+</script><script>
+    var swiper = new Swiper(".mySwiper-{{ section.id }}", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-nextt",
+        prevEl: ".swiper-button-prevv",
+      },
+              breakpoints: {
+                 320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          1024: {
+            slidesPerView: {{ section.settings.slidesperview_desktopone }},
+            spaceBetween: 10,
+          },
+          1224: {
+            slidesPerView: {{ section.settings.slidesperview_desktop }},
+            spaceBetween: 10,
+          },
+        },
+    });
+</script>{% schema %}
+{
+  "name": "Ingredient S-readmore",
+  "settings": [
+    {
+      "type": "text",
+      "id": "textobe",
+      "label": "Heading"
+    },
+    {
+      "type": "range",
+      "id": "slidesperview_desktopone",
+      "label": "slidesPerView Desktop 1024 Above screen",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "default": 3,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "slidesperview_desktop",
+      "label": "slidesPerView Desktop 1224 Above screen",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "default": 4,
+      "unit": "px"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Block",
+      "type": "block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }, {
+          "type": "text",
+          "id": "text",
+          "label": "Heading"
+        }, {
+          "type": "text",
+          "id": "para",
+          "label": "Paragraph"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ingredient S-readmore",
+      "category": "Ingredient S-readmore"
+    }
+  ]
+}{% endschema %}

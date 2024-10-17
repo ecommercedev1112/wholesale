@@ -1,0 +1,342 @@
+<style>
+  .guide-main {
+    display: flex;
+    width: 100%;
+    gap: 60px;
+    padding: 50px 0;
+}
+
+.guide-main1 {
+    width: 100%;
+    max-width: 50%;
+}
+
+.guide-main2 {
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.guide-main1 img {
+    width: 100%;
+    max-width: 550px;
+    height: 100%;
+    max-height: 620px;
+}
+
+p.guide-main-2p1 {
+    font-size: 18px;
+    color: #1C2E3A;
+    margin: 0;
+    font-family: "Roboto", sans-serif !important;
+    padding-bottom: 12px;
+}
+
+h2.guide-main-2h1 {
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: 0 10px;
+    margin-left: 0;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 4px;
+}
+
+.guide-inner p {
+    font-size: 18px;
+    color: #5C5C5C;
+    margin: 0;
+    font-family: "Roboto Light";
+    margin: 10px 0;
+}
+
+.guide-inner {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+  .guide-counter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.guide-counter-swt p {
+    margin: 0;
+    font-size: 16px;
+    color: #1C2E3A;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.guide-counter-swt h2 {
+    margin: 0;
+    font-size: 42px;
+    color: #1C2E3A;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+    .guide-counter {
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 100%;
+    width: 100%;
+}
+  @media only screen and (max-width: 768px){
+    .guide-main {
+    flex-direction: column;
+    align-items: center;
+}
+
+.guide-main1 {
+    max-width: 100%;
+    text-align: center;
+}
+
+.guide-main2 {
+    max-width: 100%;
+}
+
+.guide-main1 img {
+    max-width: 100%;
+}
+  }
+  @media only screen and (max-width: 500px){
+    .guide-counter {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    max-width: 100%;
+    width: 100%;
+}
+    h2.guide-main-2h1{
+      margin:0;
+    }
+    h2.guide-main-2h1 {
+    font-size: {{ section.settings.font_size_on_mobile  }}px;
+    letter-spacing: {{ section.settings.letter_spacing_on_mobile }}px;
+    font-weight: {{ section.settings.font_weight_on_mobile }};
+}
+    .guide-main-2p1{
+      font-size:18px;
+    }
+  }
+</style>
+
+<div class="guide-up">
+  <div class="page-width">
+    <div class="guide-main">
+      <div class="guide-main1">
+        {% if section.settings.image != blank %}
+            <img loading="lazy" src="{{ section.settings.image | img_url : 'master' }}" >
+        {% endif %}
+      </div>
+      <div class="guide-main2">
+        <p class="guide-main-2p1">{{ section.settings.first_heading }}</p>
+        <h2 class="guide-main-2h1">{{ section.settings.top_heading }}</h2>
+        <div class="guide-inner">
+          {{ section.settings.richt }}
+          <div class="guide-counter">
+            <div class="guide-counter-swt">
+              <p class="counter-pall">
+                {{ section.settings.tricht }}
+              </p>
+              <h2 class="conter-h2all">
+                {{ section.settings.count1 }}
+              </h2>
+              <p class="counter-pall">
+                {{ section.settings.bricht }}
+              </p>
+            </div>
+            <div class="guide-counter-swt">
+              <p class="counter-pall">
+                {{ section.settings.btricht }}
+              </p>
+              <h2 class="conter-h2all">
+                {{ section.settings.count2 }}
+              </h2>
+              <p class="counter-pall">
+                {{ section.settings.bbtricht }}
+              </p>
+            </div>
+            <div class="guide-counter-swt">
+              <p class="counter-pall">
+                {{ section.settings.bbbbtricht }}
+              </p>
+              <h2 class="conter-h2all">
+                {{ section.settings.count3 }}
+              </h2>
+              <p class="counter-pall">
+                {{ section.settings.endofrich }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+"name": "Home Guide Number",
+"settings": [
+  {
+  "type": "image_picker",
+  "id": "image",
+  "label": "Image"
+},
+{
+  "type": "text",
+  "id": "first_heading",
+  "label": "First Heading",
+  "default": "WHAT"
+},
+  {
+  "type": "text",
+  "id": "top_heading",
+  "label": "Bold Heading",
+  "default": "GUIDES US?"
+},
+  {
+  "type": "richtext",
+  "id": "richt",
+  "label": "Paragraph"
+},
+    {
+  "type": "richtext",
+  "id": "tricht",
+  "label": "First Counter Top Text"
+},
+    {
+  "type": "text",
+  "id": "count1",
+  "label": "First Counter",
+  "default": "37"
+},
+      {
+  "type": "richtext",
+  "id": "bricht",
+  "label": "First Counter Bottom Text"
+},
+        {
+  "type": "richtext",
+  "id": "btricht",
+  "label": "Second Counter Top Text"
+},
+    {
+  "type": "text",
+  "id": "count2",
+  "label": "Second Counter",
+  "default": "9,745"
+},
+        {
+  "type": "richtext",
+  "id": "bbtricht",
+  "label": "Second Counter Bottom Text"
+},
+        {
+  "type": "richtext",
+  "id": "bbbbtricht",
+  "label": "Third Counter Top Text"
+},
+    {
+  "type": "text",
+  "id": "count3",
+  "label": "Third Counter",
+  "default": "155,000"
+},
+        {
+  "type": "richtext",
+  "id": "endofrich",
+  "label": "Third Counter Bottom Text"
+},
+    {
+      "type": "select",
+      "id": "font_size_on_mobile",
+      "label": "Font size on mobile",
+      "options": [
+        {
+          "value": "10",
+          "label": "Small"
+        },
+        {
+          "value": "16",
+          "label": "Medium"
+        },
+        {
+          "value": "26",
+          "label": "Large"
+        }
+      ],
+      "default": "16"
+    },
+      {
+      "type": "range",
+      "id": "letter_spacing_on_mobile",
+      "label": "Letter spacing on Mobile",
+      "min": 1,
+      "max": 24,
+      "step": 1,
+      "default": 2,
+      "unit": "px"
+    },
+     {
+      "type": "select",
+      "id": "font_weight_on_mobile",
+      "label": "Font weight on mobile",
+      "options": [
+        {
+          "value": "100",
+          "label": "100"
+        },
+        {
+          "value": "200",
+          "label": "200"
+        },
+        {
+          "value": "300",
+          "label": "300"
+        },
+        {
+          "value": "400",
+          "label": "400"
+        },
+        {
+          "value": "500",
+          "label": "500"
+        },
+        {
+          "value": "600",
+          "label": "600"
+        },
+        {
+          "value": "700",
+          "label": "700"
+        },
+        {
+          "value": "800",
+          "label": "800"
+        },
+        {
+          "value": "900",
+          "label": "900"
+        }
+      ],
+      "default": "400"
+    }
+],
+"presets": [
+{
+"name": "Home Guide Number",
+"category": "Home Guide Number"
+}
+]
+}
+{% endschema %}

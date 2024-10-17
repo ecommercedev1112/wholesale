@@ -1,0 +1,280 @@
+<style>
+  img.books-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .text-year p {
+    margin: 0;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-align: left;
+  }
+
+  .main-title h3 {
+    margin: 0;
+    font-family: "Gloock", serif !important;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-align: left;
+  }
+
+  .description-text p {
+    margin: 0;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .slider-prev-button path,
+  .slider-next-button path {
+    fill: black;
+  }
+
+  .slider-prev-button svg,
+  .slider-next-button svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  .slider-buttonsxx {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 150px;
+  }
+
+  .slider-prev-button,
+  .slider-next-button {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 35px;
+    cursor: pointer;
+  }
+
+  .main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .main-sub-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .main-container-custom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+    padding: 4rem 0;
+  }
+  .max-container {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  @media screen and (max-width: 780px) {
+    .main-title h3 {
+      font-size: 24px;
+      line-height: 30px;
+    }
+
+    .text-year p {
+      font-size: 14px;
+      line-height: 12px;
+    }
+
+    .description-text p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .slider-prev-button,
+    .slider-next-button {
+      padding: 8px;
+    }
+  }
+@media screen and (min-width:768px){
+  .description-text {
+    height: 100%;
+    min-height: 280px;
+}
+}
+  @media screen and (max-width: 500px) {
+    .main-container {
+      flex-direction: column;
+    }
+    .main-title h3{
+    font-size: 20px;
+  }
+    .max-container {
+      position: relative;
+    }
+
+    .slider-buttonsxx {
+      /* position: absolute; */
+      top: 50%;
+      bottom: 40%;
+      left: 0;
+      right: 0;
+      justify-content: center;
+      margin-left: auto;
+      z-index: 1;
+    }
+
+    .main-sub-container {
+      padding-top: 5%;
+    }
+  }
+
+  @media screen and (max-width: 380px) {
+    .slider-buttonsxx {
+      bottom: 50%;
+    }
+  }
+  @media screen and (max-width: 823px) {
+    .main-sub-container {
+      width: 100%;
+    }
+    .main-container {
+      flex-direction: column;
+    }
+
+    .main-container-custom {
+      grid-template-columns: 1fr;
+      gap: 30px;
+      padding: 1rem 0;
+    }
+
+    .swiper.aswiper {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+
+    .main-container-custom {
+      padding-top: 40px;
+    }
+    .description-text p{
+      font-family: "Roboto", sans-serif !important;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0;
+    text-align: start;
+    }
+    .section-template--22161164435763__blog_multicolumn_rCk9cn-padding{
+      padding-top: 10px !important;
+    }
+    .main-container-custom{
+      gap: 5px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    div#setline:after {
+    left: 95%;
+}
+div#setline:after {
+    width: 60%;
+}
+.points-text-year p {
+    font-size: 12px;
+}
+  }
+</style>
+<div class="page-width">
+  <div class="swiper aswiper">
+    <div class="min-container swiper-wrapper">
+      {% for block in section.blocks %}
+        <div class="min-sub-container swiper-slide" data-slider="{{ forloop.index0 }}">
+          <div class="main-container-custom">
+            <div class="books-image">
+              <img loading="lazy" class="books-img oktwo" src="{{ block.settings.books_image | image_url }}">
+            </div>
+            <div class="main-sub-container">
+              <div class="text-year">
+                <p>{{ block.settings.year_text }}</p>
+              </div>
+              <div class="main-title newxxximage--{{ forloop.index }}">
+                <h3>{{ block.settings.main_title }}</h3>
+              </div>
+              <div class="description-text">{{ block.settings.description_text }}</div>
+              <div class="slider-buttonsxx">
+                <div class="slider-prev-button">{% render 'prev-arrow-svg' %}</div>
+                <div class="slider-next-button">{% render 'next-arrow-svg' %}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<script>
+  var swiper = new Swiper(".aswiper", {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  autoHeight: true,
+  keyboard: {
+  enabled: true,
+  },
+  
+  navigation: {
+  nextEl: ".slider-next-button",
+  prevEl: ".slider-prev-button",
+  },
+  });
+</script>
+{% schema %}
+  {
+    "name": "Home point super Slider",
+    "settings": [],
+    "blocks": [
+      {
+        "name": "Slider",
+        "type": "content",
+        "settings": [
+          {
+            "type": "text",
+            "id": "year_text",
+            "label": "Years"
+          }, {
+            "type": "text",
+            "id": "main_title",
+            "label": "Title"
+          }, {
+            "type": "richtext",
+            "id": "description_text",
+            "label": "Description"
+          }, {
+            "type": "image_picker",
+            "id": "books_image",
+            "label": "Book Image"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Home point super Slider"
+      }
+    ]
+  }
+{% endschema %}

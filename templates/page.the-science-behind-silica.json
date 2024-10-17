@@ -1,0 +1,182 @@
+{
+  "sections": {
+    "home_super_one_BNBXix": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 145,
+        "paddingsettingtwo": 65,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_230_1_205f637d-a145-4672-bd63-95c6b91e99f2.png",
+        "image_text": "The Science Behind Silica"
+      }
+    },
+    "super_rich_xLjwLC": {
+      "type": "super-rich",
+      "custom_css": [
+        "@media screen and (min-width: 560px) {.text-seaction {padding-bottom: 0; }}"
+      ],
+      "settings": {
+        "background_color": "#ffffff",
+        "para": "<p>LIVING SILICA®, combines the power of nature & technology to create the most effective form of silica. Refined through rigorous scientific trials, our products reveals a formulation of incomparable potency perfected through an exclusive proprietary process. <\/p>",
+        "interesting_facts_about": "",
+        "the_safety_of_our_products": "",
+        "text": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "home_super_two_pW9nAk": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_iKzVEF": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/image_52_cad59c40-b890-450b-99b9-ec0bc3202364.jpg",
+            "step": "",
+            "section_heading": "experts in the science",
+            "section_subheading": "of silica",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Our groudbreaking research has led us to uncover the most effective form of silica, revolutionizing the understanding of its potential. <br\/><br\/>With proven clinical results and extensive scientific infomation behind it, our proprietary formulation process, Heritage Concentrate™, sets LIVING SILICA apart from other silica supplements.  <\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_WBxgcg": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_238_5ac0b38d-66d7-4ef9-ad3b-ee88f306a268.png",
+            "step": "",
+            "section_heading": "bio- active collagen",
+            "section_subheading": "builder",
+            "section_subheadingtwo": "",
+            "section_description": "<p>LIVING SILICA is a backed by science supplement and is the only form of silica that includes a compound that contains enhanced OSA, which undergoes methylation for improved absorption. <br\/><br\/>Within the body, the methylated OSA is enzymatically converted into a more potent and bioactive form. This advancement enhances the product's effectiveness, ensuring your body thrives at its best.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_bPdggp": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/image_48_b0d25ae3-089f-4322-9321-53a497ba4025.jpg",
+            "step": "",
+            "section_heading": "What Makes Us",
+            "section_subheading": "UNIQUE",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Carrying on Sc. D. Loïc Le Ribault's legacy, we develop our products under a proprietary heritage process. <br\/><br\/>Heritage Concentrate™ is the proprietary process used across all LIVING SILICA products. This unique method enhances the solubility limit of Si, maintaining it in a small, monomeric, and easily absorbed form for maximum intestinal absorption. <\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_iKzVEF",
+        "content_WBxgcg",
+        "content_bPdggp"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "",
+        "main_paragraph": ""
+      }
+    },
+    "home_superbanertwo_3HLtVX": {
+      "type": "home-superbanertwo",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 50,
+        "paddingsettingtwo": 30,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_230_1_205f637d-a145-4672-bd63-95c6b91e99f2.png",
+        "set-txt": "<p>Perfected by our exclusive proprietary process Heritage Concentrate™ <\/p>",
+        "letter_spacing": 1,
+        "desktop_content_width": 80,
+        "font_weight": "400",
+        "font_size": 36,
+        "text-transform": "math-auto",
+        "mobilefont_size": 16,
+        "mobile_content_width": 60
+      }
+    },
+    "home_science_GXxihk": {
+      "type": "home-science",
+      "blocks": {
+        "image_picker_RCt7Nj": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/quart_1_1.png",
+            "head": "Extracted from Quartz",
+            "par": "<p>Quartz is the second most abundant element in the Earth’s crust. This unique ingredient is essential to promote healthy skin, hair and nails. It supports collagen formation, connective and maintains bone health.<\/p>",
+            "bb-color": "#f7f9fb",
+            "body_text": "#000000"
+          }
+        },
+        "image_picker_44VnTV": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/test-results_1.png",
+            "head": "Clinically Proven",
+            "par": "<p>Clinical trials have demonstrated the efficacy of LIVING SILICA® in double-blind placebo-controlled studies. At Silicium Laboratories, we are committed to investing in research to ensure the efficacy and safety of LIVING SILICA®.<\/p>",
+            "bb-color": "#f7f9fb",
+            "body_text": "#000000"
+          }
+        },
+        "image_picker_rpDnNc": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/danger_1.png",
+            "head": "Bio-Active",
+            "par": "<p>Contributes to the production of collagen, a protein important for maintaining healthy skin, hair, and nails. It is also involved in the formation and maintenance of connective tissues, such as bones, tendons, and cartilage.<\/p>",
+            "bb-color": "#f7f9fb",
+            "body_text": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "image_picker_RCt7Nj",
+        "image_picker_44VnTV",
+        "image_picker_rpDnNc"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "home_super_one_BNBXix",
+    "super_rich_xLjwLC",
+    "main",
+    "home_super_two_pW9nAk",
+    "home_superbanertwo_3HLtVX",
+    "home_science_GXxihk"
+  ]
+}

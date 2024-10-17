@@ -1,0 +1,308 @@
+{
+  "sections": {
+    "home_super_one_nJ6gR6": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 145,
+        "paddingsettingtwo": 65,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_232_7374c9e1-e281-421c-89b5-2a542851e3c5.png",
+        "image_text": "Choosing\n<br>\nThe Right Silica"
+      }
+    },
+    "home_super_two_U7KwQU": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_emAUiP": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/MicrosoftTeams-image_510_12d1996e-b9c8-46d1-9308-09b55754eab4.jpg",
+            "step": "",
+            "section_heading": "key factors for selecting",
+            "section_subheading": "the right silica",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Exploring supplements based on different forms of silica to find the most effective formula can be challenging. With numerous forms and formulations available, it can be difficult to discern which one will provide the greatest benefits.<br\/><br\/>To truly understand the science of silicon and its potential health benefits, it is essential to evaluate multiple factors.<br\/><br\/>Here are a few key points to help you evaluate silica supplements and ensure that you choose the most effective option available.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_wM3Kkm": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_129_2_2ca2957d-6824-4083-9c45-dec240aff181.png",
+            "step": "",
+            "section_heading": "1# the company behind",
+            "section_subheading": "the brand",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Differentiate between committed companies and small players by considering those that invest in clinical research. Look for products that undergo thorough clinical testing and offer clinical dosages. <br\/><br\/>Choose supplements that are tested in every batch for active ingredient characterization, quantity, identity, molecular weight, and undergo microbiological testing.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_bRTCbT": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_130_d178aa5d-125d-48ee-9635-6011805a2775.png",
+            "step": "",
+            "section_heading": "#2 BIOAVAILAVILITY: the key to",
+            "section_subheading": "better absorption",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Bioavailability is crucial in determining the effectiveness of silica. It refers to the amount of active ingredients that can be effectively absorbed and utilized by the body. <br\/><br\/>Optimal bioavailability ensures efficient absorption into the bloodstream and distribution to the cells and tissues that require them.<br\/><br\/>When selecting silica supplements, consider bioavailability to maximize absorption and utilization of the nutrients or bioactive compounds they contain instead of solely focusing on concentration.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_zY7m3a": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_131_2.png",
+            "step": "",
+            "section_heading": "3# particle size: the secret",
+            "section_subheading": "TO effectiveness",
+            "section_subheadingtwo": "",
+            "section_description": "<p>The size of silica particles plays a significant role in their effectiveness. Smaller particles have a greater potential for releasing beneficial bioactive silica ions into the body. However, silica is inherently unstable and can undergo polymerization, forming larger chemical chains that hinder absorption.<br\/><br\/>To overcome this, prioritize formulations that prevent or minimize the polymerization process, thereby enhancing bioavailability and absorption potential.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_HtQhRF": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_132_212fec85-a071-4ded-9dfa-14b13c0a21e6.png",
+            "step": "",
+            "section_heading": "4# electric charge:",
+            "section_subheading": "restoring balance",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Due to its semiconductor properties, silicon influences the electrical charge of cells and membranes, affecting their interaction. An optimized electrical charge is crucial for achieving superior affinity with cellular structures and receptors, enhancing the effectiveness of silicon-based supplements.<br\/><br\/>Positively charged silicon particles (cationic) have a heightened affinity for negatively charged cell surfaces, enhancing cellular uptake and improving bioavailability.<br\/><br\/>Choose silica supplements that maintain a significant electric charge to facilitate absorption, transport, and targeted action in various tissues.   <\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_T9n8fV": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_187_1_613d60e8-c4b1-44ce-8bd2-d22a699cc832.png",
+            "step": "",
+            "section_heading": "#5 concentration: Suppressing",
+            "section_subheading": "polymerization",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Concentration is not the sole determinant of silica formulas. The inherent polymerization tendencies of monomeric silicon species are crucial to consider.Concentrations higher than 2mM or 120 mg\/L may lead to reduced solubility and low bioavailability.<br\/><br\/>Stabilizing agents and specific technological processes can mitigate polymerization effects and enhance absorption. Remember, an increase in concentration does not necessarily equate to increased absorption or effectiveness.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_qHLkMp": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_134_1_c3c723d1-9762-4d46-9cbb-91bf9854d52a.png",
+            "step": "",
+            "section_heading": "READY TO MAKE",
+            "section_subheading": "a smart choice?",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Now that we have outlined the key considerations for selecting the right form of silica, it's time to empower yourself to make a well-informed decision.<br\/><br\/>When choosing a silica supplement, prioritize manufacturers with a professional reputation and scientific support for factors such as bioavailability, particle size, and technology employed to overcome polymerization challenges. <br\/><br\/>By comprehensively understanding and evaluating these crucial aspects, you can confidently navigate the options available, ensuring your decision is based on sound information.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_emAUiP",
+        "content_wM3Kkm",
+        "content_bRTCbT",
+        "content_zY7m3a",
+        "content_HtQhRF",
+        "content_T9n8fV",
+        "content_qHLkMp"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "",
+        "main_paragraph": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "super_rich_dxhAkA": {
+      "type": "super-rich",
+      "custom_css": [
+        ".text-seaction {padding: 0;}"
+      ],
+      "settings": {
+        "background_color": "#ffffff",
+        "para": "",
+        "interesting_facts_about": "Learn More About",
+        "the_safety_of_our_products": "Silica",
+        "text": ""
+      }
+    },
+    "home_types_of_silica_DVX7it": {
+      "type": "home-types-of-silica",
+      "blocks": {
+        "home_types_of_silica_CNWBbq": {
+          "type": "home_types_of_silica",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_42_05372dc3-2606-4ac9-8e56-6042080df1bb.png",
+            "types_of_silica": "Types Of Silica",
+            "content": "Explore their distinct compositions and benefits for your wellness journey.",
+            "button_text": "Previous Article",
+            "button_link": ""
+          }
+        },
+        "home_types_of_silica_mXAJ7e": {
+          "type": "home_types_of_silica",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_43_5e5704b9-ebaf-49f9-b1fc-e4a237facfdd.png",
+            "types_of_silica": "The Most Effective Form Of Silica",
+            "content": "Our groundbreaking research has led us to uncover the most potent and bioavailable form of silica.",
+            "button_text": "Read Next",
+            "button_link": "shopify:\/\/pages\/the-most-effective-form-of-silica"
+          }
+        }
+      },
+      "block_order": [
+        "home_types_of_silica_CNWBbq",
+        "home_types_of_silica_mXAJ7e"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "61758da8-84df-4ec2-96d2-7fec41a95a85": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "learn_more_about": "",
+        "silica": "",
+        "heading": "",
+        "heading_size": "h1",
+        "blog": "silica",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "blog_multicolumn_Cnc6XF": {
+      "type": "blog-multicolumn",
+      "blocks": {
+        "column_9NCzfC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_42_05372dc3-2606-4ac9-8e56-6042080df1bb.png",
+            "title": "Types Of Silica",
+            "text": "<p>Explore their distinct compositions and benefits for your wellness journey.<\/p>",
+            "link_label": "Previous Article",
+            "link": "shopify:\/\/pages\/types-of-silica"
+          }
+        },
+        "column_dzfxAP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_43_5e5704b9-ebaf-49f9-b1fc-e4a237facfdd.png",
+            "title": "The Most Effective Form Of Silica",
+            "text": "<p>Our groundbreaking research has led us to uncover the most potent and bioavailable form of silica.<\/p>",
+            "link_label": "Read Next",
+            "link": "shopify:\/\/pages\/the-most-effective-form-of-silica"
+          }
+        }
+      },
+      "block_order": [
+        "column_9NCzfC",
+        "column_dzfxAP"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "home_super_one_nJ6gR6",
+    "home_super_two_U7KwQU",
+    "main",
+    "super_rich_dxhAkA",
+    "home_types_of_silica_DVX7it",
+    "61758da8-84df-4ec2-96d2-7fec41a95a85",
+    "blog_multicolumn_Cnc6XF"
+  ]
+}

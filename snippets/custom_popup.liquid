@@ -1,0 +1,393 @@
+<div class="modal-popup-content" id="customPopup">
+    <div class="modal-popup-inner">
+        <div class="col-auto mx-auto">
+            <div class="popup-content">
+                <div class="popup-body">
+                    <div class="popup-form-column">
+                        <div class="popup-content-heading">
+                            <h2 class="popup-heading">{{ section.settings.title }}</h2>
+                        </div>
+                        <div class="popup-form-content">
+                            <p>Sign up & receive an exclusive discount on your next order.</p>
+                            <div class="popup-text-content">
+                                {{ section.settings.text }}
+                            </div>
+                            <div class="the-popup-form">
+                                <div id="hubspot-form-container"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popup-image-column">
+                        <div class="popup-context-img">
+                            <img loading="lazy" src="https://cdn.shopify.com/s/files/1/0788/5622/5075/files/imagen_popup.png?v=1721138948" alt="Living Silica Product">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="close-icon" onclick="closePopup()">
+                <span class="close-cross-icon"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Botón para reabrir el popup -->
+<button id="reopenPopupButton" class="reopen-popup-button" onclick="openPopup()" style="display: none;">GET 10% OFF</button>
+
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "na1",
+    portalId: "7050579",
+    formId: "b2eaab4d-c5f1-404a-968e-7cd121642140",
+    target: '#hubspot-form-container',
+    onFormSubmit: function() {
+      localStorage.setItem('formSubmitted', 'true');
+      document.getElementById('customPopup').style.display = 'none';
+    }
+  });
+
+  function closePopup() {
+      let closeCount = parseInt(sessionStorage.getItem('popupCloseCount')) || 0;
+      closeCount++;
+      sessionStorage.setItem('popupCloseCount', closeCount);
+      document.getElementById('customPopup').style.display = 'none';
+      document.getElementById('reopenPopupButton').style.display = 'block'; // Mostrar el botón
+
+      // If closed three times, set a flag in sessionStorage
+      if (closeCount >= 3) {
+          sessionStorage.setItem('popupMaxClosed', 'true');
+      }
+  }
+
+  function openPopup() {
+      document.getElementById('customPopup').style.display = 'block';
+      document.getElementById('reopenPopupButton').style.display = 'none';
+  }
+
+  function shouldShowPopup() {
+      if (localStorage.getItem('formSubmitted') === 'true') {
+          return false;
+      }
+
+      // If popup has been closed three times, do not show it again
+      if (sessionStorage.getItem('popupMaxClosed') === 'true') {
+          return false;
+      }
+
+      return true;
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+      if (shouldShowPopup()) {
+          document.getElementById('customPopup').style.display = 'block';
+      }
+  });
+
+  window.addEventListener('beforeunload', function () {
+      if (shouldShowPopup()) {
+          // Reset close count on page unload if popup should show again
+          sessionStorage.removeItem('popupCloseCount');
+      }
+  });
+</script>
+
+
+<style>
+.custom_popup_module .modal-popup-content {
+  width: auto !important; 
+  margin: auto !important;
+  position: fixed !important; 
+  top: 50% !important; 
+  left: 50% !important;
+  transform: translate(-50%, -50%) scale(0.8) !important;
+  z-index: 1000 !important; 
+  background-image: url('https://livingsilica.com/cdn/shop/files/background-blue.png?v=1711215470'); 
+  background-size: cover; 
+  background-color: transparent !important;
+  background-repeat: no-repeat; 
+  background-position: center center; 
+  border-radius: 0px !important;
+}
+
+  
+.popup-content{
+  width: 830px;
+}
+.custom_popup_module .popup-content {
+  padding: 20px; 
+}
+
+.popup-body {
+  display: flex;
+  width: 100%;
+}
+
+.popup-form-column {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 3rem;
+}
+
+.popup-content-heading {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.popup-content .popup-heading {
+  font-size: 50px !important;
+  margin: 0 !important;
+ /* padding-top: 2rem;*/
+  color: #fff;
+}
+
+.popup-form-content {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+.popup-form-content p {
+  text-align: center !important;
+  color: #fff;
+  font-size: 12px;
+}
+
+.the-popup-form {
+    margin-bottom: 18px;
+}
+
+.hs-form .hs-form-field {
+  margin-bottom: 15px;
+}
+
+.popup-image-column {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-context-img img {
+  max-width: 65%;
+  height: auto;
+  margin-left: 7rem;
+}
+
+
+.popup-text-content {
+    padding: 0;
+}
+
+
+/* Estilos para las etiquetas */
+.hs-form label {
+  color: #33475b;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+/* Estilos para los campos de entrada */
+.hs-form input[type="text"],
+.hs-form input[type="email"],
+.hs-form input[type="tel"],
+.hs-form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+.hs-form input[type="email"]::placeholder {
+  color: black !important;
+}
+.hs-fieldtype-intl-phone.hs-input {
+  width: 100%;
+}
+.legal-consent-container .field.hs-form-field .inputs-list {
+  padding-left: 0;
+}
+
+/* Estilos para el texto de ayuda */
+.hs-form .help-text {
+  color: #7c98b6;
+  font-size: 11px;
+}
+
+/* Estilos para el botón de envío */
+#hsForm_b2eaab4d-c5f1-404a-968e-7cd121642140 input[type="submit"] /*.hs-form .hs-submit .hs-button.primary.large*/ {
+  background-color: #2a98df !important;
+  color: #ffffff !important;
+  padding: 10px 20px !important;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-top: 0 !important;
+}
+
+/* Estilos para los enlaces */
+.hs-form a {
+  color: #0000ee;
+  text-decoration: none;
+}
+
+/* Estilos para los enlaces al hacer clic */
+.hs-form a:active {
+  color: #551a8b;
+}
+
+/* Estilos para el mensaje de agradecimiento */
+.hs-form .thank-you-message {
+  color: #33475b;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilos para la clase legal-consent-container */
+.legal-consent-container .hs-form-field {
+  font-size: 14px;
+}
+
+.legal-consent-container .hs-form-booleancheckbox-display p {
+  font-size: 11px;
+  border: 1px solid transparent;
+  color: #fff;
+}
+.legal-consent-container {
+  text-align: left;
+}
+.phone-field {
+  width: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.hs-form .country-selector {
+  margin-right: 10px;
+}
+
+.hs-form .country-selector select {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.reopen-popup-button {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #1C2E3A;
+    color: #ffffff;
+    padding: 20px 10px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    z-index: 1000;
+    display: none; /* Oculto por defecto */
+    writing-mode: vertical-rl; /* Orientación vertical del texto */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Tablet Styles */
+@media (max-width: 991px) {
+  .custom_popup_module .modal-popup-content {
+    top: 17%;
+    left: 50%;
+  }
+  .popup-content {
+    width: 80%;
+  }
+  .popup-body {
+    flex-direction: column;
+  }
+  .popup-content .popup-heading {
+    font-size: 40px !important;
+  }
+  .popup-content p {
+    font-size: 12px;
+  }
+  .popup-form-content {
+    margin: 0;
+  }
+  .hs-fieldtype-intl-phone.hs-input, .hs-form input[type="email"], .hs-form select {
+    width: 410px;
+  }
+  .legal-consent-container .hs-form-booleancheckbox-display p {
+    font-size: 12px;
+  }
+  .popup-form-column {
+    flex: none;
+  }
+   .popup-image-column {
+     display: none;
+   }
+  #hsForm_b2eaab4d-c5f1-404a-968e-7cd121642140 input[type="submit"] {
+    border-radius: 0px !important;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .custom_popup_module .modal-popup-content {
+    top: 14%;
+    left: 28%;
+  }
+  .popup-content {
+    width: 90%;
+  }
+  .popup-content .popup-heading {
+    font-size: 30px !important;
+    padding-top: 0;
+  }
+  .popup-content p {
+    font-size: 11px;
+  }
+  .popup-form-content {
+    margin: 0;
+  }
+  .popup-image-column {
+     display: none;
+  }
+  .hs-form input[type="email"], .hs-form select {
+    width: 342px;
+  }
+  .hs-fieldtype-intl-phone.hs-input {
+    width: 100%;
+  }
+  .legal-consent-container .hs-form-booleancheckbox-display p {
+    font-size: 11px;
+  }
+  .phone-field {
+    width: 100%;
+  }
+  #hsForm_b2eaab4d-c5f1-404a-968e-7cd121642140 input[type="submit"] {
+    border-radius: 0px !important;
+  }
+}
+@media (max-width: 424px) {
+  .hs-form input[type="email"], .hs-form select {
+    width: 298px;
+  }
+  .popup-content p {
+    font-size: 10px;
+  }
+  .legal-consent-container .hs-form-booleancheckbox-display p {
+    font-size: 10px;
+  }
+  #hsForm_b2eaab4d-c5f1-404a-968e-7cd121642140 input[type="submit"] {
+    border-radius: 0px !important;
+  }
+}
+@media (max-width: 374px) {
+  .hs-form input[type="email"], .hs-form select {
+    width: 248px;
+  }
+  #hsForm_b2eaab4d-c5f1-404a-968e-7cd121642140 input[type="submit"] {
+    border-radius: 0px !important;
+  }
+}
+</style>

@@ -1,0 +1,283 @@
+{
+  "sections": {
+    "2db0bf0a-9f37-49c8-abbf-f4602b30006f": {
+      "type": "image-with-text",
+      "blocks": {
+        "72894e93-53dd-413a-b322-0af348017567": {
+          "type": "caption",
+          "settings": {
+            "caption": "Featured",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "template--21829930811699__2db0bf0a-9f37-49c8-abbf-f4602b30006f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "The silica supplement everyone is talking about.",
+            "heading_size": "h2"
+          }
+        },
+        "template--21829930811699__2db0bf0a-9f37-49c8-abbf-f4602b30006f-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--21829930811699__2db0bf0a-9f37-49c8-abbf-f4602b30006f-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "READ MORE",
+            "button_link": "shopify:\/\/blogs\/news\/the-silica-supplement-everyone-is-talking-about"
+          }
+        }
+      },
+      "block_order": [
+        "72894e93-53dd-413a-b322-0af348017567",
+        "template--21829930811699__2db0bf0a-9f37-49c8-abbf-f4602b30006f-heading-1",
+        "template--21829930811699__2db0bf0a-9f37-49c8-abbf-f4602b30006f-text-1",
+        "template--21829930811699__2db0bf0a-9f37-49c8-abbf-f4602b30006f-button-1"
+      ],
+      "settings": {
+        "title": "",
+        "image": "shopify:\/\/shop_images\/Rectangle_357.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "disabled": true,
+      "settings": {
+        "layout": "grid",
+        "show_image": true,
+        "image_height": "medium",
+        "show_date": false,
+        "show_author": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "blog_multicolumn_c8fXgm": {
+      "type": "blog-multicolumn",
+      "blocks": {
+        "column_NtzTCJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blog_2.png",
+            "title": "The Right Silica",
+            "text": "<p>Choosing the right silica supplement: Plant-Based vs. Mineral-Based.<\/p>",
+            "link_label": "Read More",
+            "link": "shopify:\/\/blogs\/news\/choosing-the-right-silica-supplement-plant-based-vs-mineral-based-formulas-2"
+          }
+        },
+        "column_AVVb9a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blog_3.png",
+            "title": "Eliminating Toxins",
+            "text": "<p>Discover a Natural Way to Detoxify Your Body.<\/p>",
+            "link_label": "Read More",
+            "link": "shopify:\/\/blogs\/news\/the-ultimate-guide-to-eliminating-toxins"
+          }
+        },
+        "column_hUphhX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blog_4.png",
+            "title": "Beyond Collagen",
+            "text": "<p>Exploring Animal-Free Alternatives to Collagen.<\/p>",
+            "link_label": "Read More",
+            "link": "shopify:\/\/blogs\/news\/the-ultimate-guide-to-eliminating-toxins"
+          }
+        },
+        "column_7hbR6M": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blog_5.png",
+            "title": "Joint Pain",
+            "text": "<p>Can Silica Supplements Aid in Managing Arthritis and Joint Pain?<\/p>",
+            "link_label": "Read More",
+            "link": "shopify:\/\/blogs\/news\/can-silica-supplements-aid-in-managing-arthritis-and-joint-pain"
+          }
+        },
+        "column_Fnz8UP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blog_6.png",
+            "title": "Vegan Collagen",
+            "text": "<p>The Most Trusted Vegan Plant-Based Collagen Booster.<\/p>",
+            "link_label": "Read More",
+            "link": "shopify:\/\/blogs\/news\/experience-the-benefits-of-the-most-trusted-vegan-plant-based-collagen-booster"
+          }
+        },
+        "column_fThcUm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blog_7.png",
+            "title": "90 Day Protocol",
+            "text": "<p>Begin the LIVING SILICA Protocol and See Results within 90 Days!<\/p>",
+            "link_label": "Read More",
+            "link": "shopify:\/\/blogs\/news\/begin-the-living-silica-protocol-and-see-results-within-90-days"
+          }
+        },
+        "column_dTkgAr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blog_8.png",
+            "title": "The Essential Mineral",
+            "text": "<p>Silica: A Foundational Mineral for Good Health by Dr. Kimberly Spair.<\/p>",
+            "link_label": "Read More",
+            "link": "shopify:\/\/blogs\/news\/silica-a-foundational-mineral-for-good-health-by-dr-kimberly-spair"
+          }
+        },
+        "column_Y8KrMf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blog_9.png",
+            "title": "Plant- Based Collagen",
+            "text": "<p>5 Powerful Benefits of Silica Plant-Based Supplements.<\/p>",
+            "link_label": "Read More",
+            "link": "shopify:\/\/blogs\/news\/5-powerful-benefits-of-silica-plant-based-supplements"
+          }
+        },
+        "column_mbyyGj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-vanessa-loring-5966428_1.jpg",
+            "title": "Silica for Hair",
+            "text": "<p>Discover How Silica Supports Healthy & Glowing Hair.<\/p>",
+            "link_label": "Read More",
+            "link": "shopify:\/\/blogs\/news\/choosing-the-right-silica-supplement-plant-based-vs-mineral-based-formulas"
+          }
+        },
+        "column_e3LzPd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/antho.webp",
+            "title": "Medical Medium",
+            "text": "<p>Benefits of Silica by Anthony Williams - Medical Medium<\/p>",
+            "link_label": "Read More",
+            "link": "shopify:\/\/blogs\/news\/benegits-of-silica-by-anthony-willaims-medical-medium"
+          }
+        },
+        "column_jfdVUw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-rdne-stock-project-12322971_1.jpg",
+            "title": "Why LIVING SILICA?",
+            "text": "<p>Why You Need LIVING SILCA In Your Beauty Regime.<\/p>",
+            "link_label": "Read More",
+            "link": "shopify:\/\/blogs\/news\/why-you-need-living-silica-in-your-beauty-regime"
+          }
+        },
+        "column_T3p6hQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-antoni-shkraba-4397255_2.jpg",
+            "title": "Silica Food Sources",
+            "text": "<p>Food that naturally promote and produce collagen in your body<\/p>",
+            "link_label": "Read More",
+            "link": "shopify:\/\/blogs\/news\/best-food-sources-of-silica-to-promote-collagen"
+          }
+        },
+        "column_BC986j": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Captura_84167732-17b0-42e3-a953-8cbada6d2407.png",
+            "title": "Silica is the New Trend",
+            "text": "<p>While collagen supplements often receive all the hype, the real hero<\/p>",
+            "link_label": "Read More",
+            "link": "shopify:\/\/blogs\/news\/why-everyone-s-talking-about-silica-for-collagen-and-health-boosting"
+          }
+        },
+        "column_iPzmFh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Captura_597b4ca4-d098-4fbb-9682-9af6d8ad7871.png",
+            "title": "Signs of Silica Deficiency",
+            "text": "<p>Signs of silica deficiency and why silica is more important than...<\/p>",
+            "link_label": "Read More",
+            "link": "shopify:\/\/blogs\/blogs\/signs-of-silica-deficiency-and-its-vital-role-in-your-health-1"
+          }
+        },
+        "column_xpYxGW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Living_Silica_x_waterthruskin_4_n.png",
+            "title": "A Plant-Based Journey",
+            "text": "<p>Discover Valeria Hinojosa’s favorite plant-based collagen booster option<\/p>",
+            "link_label": "Read More",
+            "link": "shopify:\/\/blogs\/blogs\/how-to-boost-collagen-on-a-plant-based-diet-valeria-hinojosa-shares-her-journey"
+          }
+        },
+        "column_kKtmqC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled-1.png",
+            "title": "90 Days to Boost Collagen Naturally",
+            "text": "<p>Join us on a 90-day journey to naturally boost collagen levels for improved skin and joint health. Dive into the world of scientifically proven results.<\/p>",
+            "link_label": "Read More",
+            "link": "shopify:\/\/blogs\/blogs\/boost-collagen-naturally-the-science-backed-90-day-protocol-for-enhanced-skin-and-joint-health"
+          }
+        }
+      },
+      "block_order": [
+        "column_NtzTCJ",
+        "column_AVVb9a",
+        "column_hUphhX",
+        "column_7hbR6M",
+        "column_Fnz8UP",
+        "column_fThcUm",
+        "column_dTkgAr",
+        "column_Y8KrMf",
+        "column_mbyyGj",
+        "column_e3LzPd",
+        "column_jfdVUw",
+        "column_T3p6hQ",
+        "column_BC986j",
+        "column_iPzmFh",
+        "column_xpYxGW",
+        "column_kKtmqC"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "home_blog_text_image_FGRVdE": {
+      "type": "home-blog-text-image",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "2db0bf0a-9f37-49c8-abbf-f4602b30006f",
+    "main",
+    "blog_multicolumn_c8fXgm",
+    "home_blog_text_image_FGRVdE"
+  ]
+}

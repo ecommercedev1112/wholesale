@@ -1,0 +1,253 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "home_super_one_tALLkB": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "#8bb9d4",
+        "text_color": "#ffffff",
+        "paddingsetting": 145,
+        "paddingsettingtwo": 65,
+        "backgound_image": "shopify:\/\/shop_images\/Group_419.png",
+        "image_text": "myths about Silica"
+      }
+    },
+    "home_super_two_FXxFNp": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_kaYzjn": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_126_8.png",
+            "step": "",
+            "section_heading": "Myth#1: animal collagen",
+            "section_subheading": "IS SUPERIOR",
+            "section_subheadingtwo": "",
+            "section_description": "<p>It is often believed that animal collagen supplements are superior to silica-based supplements when it comes to promoting collagen production in the human body. While animal collagen does have its advantages, it is important to understand that collagen synthesis is a complex process that involves multiple factors. Silica, a mineral abundantly found in nature, plays a crucial role in supporting collagen synthesis by facilitating the cross-linking of collagen fibers. Silica-based supplements can provide the necessary building blocks for collagen production, contributing to the maintenance of healthy bones, joints, skin.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_KMAw66": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "step": "",
+            "section_heading": "",
+            "section_subheading": "",
+            "section_subheadingtwo": "",
+            "section_description": "",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_Cd8AME": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "change_direction": true,
+            "step": "",
+            "section_heading": "",
+            "section_subheading": "",
+            "section_subheadingtwo": "",
+            "section_description": "",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_AGCtxd": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_127_a542dcf3-3089-4980-a2b6-83c554b9962c.png",
+            "step": "",
+            "section_heading": "MYTH#2: ALL SILICAS ARE",
+            "section_subheading": "THE SAME",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Another prevailing myth is that all silicas are identical. In reality, there are different forms of silica with distinct properties and compositions. Silica can exist in various forms such as diatomaceous earth, colloidal silica, and silicic acid. Each form has its own unique characteristics and bioavailability. It is essential to select a high-quality silica-based supplement that offers a bioavailable form of silica, ensuring optimal absorption and utilization by the body. <\/p>",
+            "btntext": "LEARN MORE",
+            "btntexturl": "shopify:\/\/pages\/types-of-silica",
+            "accordionone": "",
+            "accordiontwo": "<p>Another prevailing myth is that all silicas are identical. In reality, there are different forms of silica with distinct properties and compositions. Silica can exist in various forms such as diatomaceous earth, colloidal silica, and silicic acid. Each form has its own unique characteristics and bioavailability. It is essential to select a high-quality silica-based supplement that offers a bioavailable form of silica, ensuring optimal absorption and utilization by the body. <\/p>",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_ijXaGr": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_128_006b6358-7c9b-4053-9600-51226ea010e5.png",
+            "step": "",
+            "section_heading": "MYTH#3: higher CONCENTRATION,",
+            "section_subheading": "better results",
+            "section_subheadingtwo": "",
+            "section_description": "<p>There is a misconception that the higher the concentration of silica in a supplement, the better the results. However, it is important to understand that the effectiveness of silica-based supplements is not solely determined by their concentration. Factors such as the form of silica, its bioavailability, and the overall quality of the supplement play a significant role. A high-quality supplement with a bioavailable form of silica, even at a moderate concentration, can provide better results compared to a supplement with a higher concentration of a less bioavailable form. <\/p><p><\/p><p><em>*LIVING SILICA® is the only silica ingredient in the market reviewed and recognized by the United States FDA for its Generally <\/em>Recognized<em> as Safe (GRAS) status.<\/em><\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_ArWmkY": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "change_direction": true,
+            "step": "",
+            "section_heading": "",
+            "section_subheading": "",
+            "section_subheadingtwo": "",
+            "section_description": "",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_GHJzxp": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_129_1_7dd5e7c7-dfbb-4203-964f-b65c7056b68a.png",
+            "step": "",
+            "section_heading": "MYTH #4: SILICA has",
+            "section_subheading": "TOXIC EFFECTS",
+            "section_subheadingtwo": "",
+            "section_description": "<p>There is a common misconception that silica is a toxic substance. While it is true that crystalline silica, commonly found in industrial settings, can be harmful when inhaled in large quantities, it is important to differentiate between different forms of silica. The amorphous silica used in silica-based supplements, sourced from reputable and regulated manufacturers, is considered safe for oral consumption. Silica-based supplements are designed to provide a safe and beneficial form of silica that supports various aspects of health and beauty. By dispelling these myths, misconceptions can gain a better understanding of the potential benefits of silica-based supplements and make informed decisions regarding their use. It is crucial to choose high-quality supplements and consult with healthcare professionals for personalized advice. <\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_kaYzjn",
+        "content_KMAw66",
+        "content_Cd8AME",
+        "content_AGCtxd",
+        "content_ijXaGr",
+        "content_ArWmkY",
+        "content_GHJzxp"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "SEPARATING FACTS",
+        "main_paragraph": "<p>FROM MYTHS<\/p>"
+      }
+    },
+    "super_rich_t6K83B": {
+      "type": "super-rich",
+      "custom_css": [
+        ".text-seaction {padding: 0;}"
+      ],
+      "settings": {
+        "background_color": "#ffffff",
+        "para": "",
+        "interesting_facts_about": "LEARN MORE ABOUT",
+        "the_safety_of_our_products": "SILICA",
+        "text": ""
+      }
+    },
+    "blog_multicolumn_Q6cxRR": {
+      "type": "blog-multicolumn",
+      "blocks": {
+        "column_rDm9EX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_42_13.png",
+            "title": "The Most Effective Form Of Silica",
+            "text": "<p>Our groundbreaking research has led us to uncover the most potent and bioavailable form of silica.<\/p>",
+            "link_label": "Previous Article",
+            "link": "shopify:\/\/pages\/the-most-effective-form-of-silica"
+          }
+        },
+        "column_9EtDRQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_42_14.png",
+            "title": "The Science Behind Silica",
+            "text": "<p>Heritage Concentrate is a unique method that raises the solubility limit of silica.<\/p>",
+            "link_label": "Read Next",
+            "link": "shopify:\/\/pages\/the-science-behind-silica"
+          }
+        }
+      },
+      "block_order": [
+        "column_rDm9EX",
+        "column_9EtDRQ"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "home_super_one_tALLkB",
+    "home_super_two_FXxFNp",
+    "super_rich_t6K83B",
+    "blog_multicolumn_Q6cxRR"
+  ]
+}

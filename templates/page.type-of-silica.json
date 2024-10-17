@@ -1,0 +1,300 @@
+{
+  "sections": {
+    "home_super_one_BiJ6Hb": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 145,
+        "paddingsettingtwo": 65,
+        "backgound_image": "shopify:\/\/shop_images\/Group_414.png",
+        "image_text": "Types of Silica"
+      }
+    },
+    "super_rich_TgEKHB": {
+      "type": "super-rich",
+      "custom_css": [
+        "@media screen and (min-width: 560px) {.text-seaction {padding-bottom: 0; }}"
+      ],
+      "settings": {
+        "background_color": "#ffffff",
+        "para": "<p>If you're considering silica supplements, research emphasizes the importance of absorption in silica supplementation. Therefore, understanding the diverse absorption rates among different formulations is crucial for making informed choices in your wellness routine.<\/p>",
+        "interesting_facts_about": "",
+        "the_safety_of_our_products": "",
+        "text": ""
+      }
+    },
+    "home_super_two_N7Ey3A": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_WHBKpj": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_126_9cd860ff-eafe-421d-b9b8-9b70f8b44f70.png",
+            "step": "",
+            "section_heading": "| Bamboo",
+            "section_subheading": "",
+            "section_subheadingtwo": "",
+            "section_description": "<p>All plants contain silica, some more than others: horsetail and bamboo are the most well-known for their high silica content.<br\/><br\/>Bamboo is the richest known source of natural silica, containing over 70%. Bamboo Silica extract is prepared from the Tabashir bamboo leaves and stem from India (Bambusa vulgaris). Bamboo Extract contains a variety of compounds such as flavones, glycosides, phenolic acids, and amino acids, all of which have antioxidant, skin-soothing, and astringent properties.<br\/><br\/>This natural silica source, is actually a grass but it's the tallest, strongest, fastest-growing grass in the world thanks to the incredible concentration of silica contained in the leaves and stems.<br\/><br\/>Some varieties of bamboo, renowned for their rapid growth, can grow up to several feet a day, a phenomenon attributed to their high silica content.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_nCEY3b": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_134_9d4ca17b-435b-40f6-8a14-642abc42d180.png",
+            "step": "",
+            "section_heading": "| Horsetail",
+            "section_subheading": "",
+            "section_subheadingtwo": "",
+            "section_description": "<p>In contrast to this, Horsetail (also called horseradish, scrub or simply horsetail) has a silica content of 5-7%.<br\/><br\/>Horsetail silica is a natural form of silica derived from the horsetail plant (Equisetum arvense). It contains a high concentration of silica, along with other beneficial compounds like flavonoids and minerals. <br\/><br\/>Silica from horsetail extract offers good bioavailability. It is valued for its potential benefits in supporting healthy hair, skin, and nails. Horsetail extract may also provide additional nutrients and antioxidants that contribute to overall health & well-being.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_wqT6Pr": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_135_c26211ed-2c33-4daa-81f7-eb28682498cb.png",
+            "step": "",
+            "section_heading": "| Considerations",
+            "section_subheading": "",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Despite the great properties of each plant-based silica, it is worth noting that commercial plant extracts often have limitations. The silica present in these extracts is not easily assimilated due to the tendency of plants to crystallize and form phytoliths, which are fine grains of siliceous stone with limited assimilation capabilities.<br\/><br\/>Additionally, certain plants like horsetail and bamboo shoots contain an enzyme called thiaminase, which breaks down thiamine (vitamin B1) in the body.<br\/><br\/>This can potentially result in thiamine deficiency as it interferes with absorption and utilization. Therefore, it is important to exercise caution when considering plant-based silica supplements in liquid, capsule, tablet, or powder form, as they may contain oxidized silica and associated drawbacks.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "Absorption Rate: 3%",
+            "accordiontwo": "<p>(*) Source: Dr. N. Boqué EURECAT \/TECHNOLOGICAL CENTER OF CATALONIA | Relative absorption of silica from different formulations of dietary supplements: a pilot randomized, double-blind, crossover post-prandial study. Spain - 2015)<\/p>",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_WHBKpj",
+        "content_nCEY3b",
+        "content_wqT6Pr"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 560px) {.about-us-main-container {margin-top: 0; }}"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "1. Plant-Based Sources",
+        "main_paragraph": "<p>OF SILICA<\/p>"
+      }
+    },
+    "home_super_two_aVHnkQ": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_Xt4Ynx": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_130_d178aa5d-125d-48ee-9635-6011805a2775.png",
+            "step": "",
+            "section_heading": "",
+            "section_subheading": "",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Colloidal Silicic Acid or Colloidal Silica is composed of ultrafine particles, typically in the nanometer range. <br\/><br\/>The small particle size allows for better absorption and utilization by the body, ensuring great bioavailability. <br\/><br\/>It is worth noting that the bioavailability of colloidal silica can be influenced by factors such as the specific formulation, concentration, and method of administration. Individual variations in absorption may also occur, as is the case with other forms of silica. In general, colloidal silica is highly soluble and readily available for absorption in the body. It is often derived from colloidal silica through a specific manufacturing process that converts some of the colloidal silica particles into ions.<br\/><br\/>One common issue found in many products containing colloidal silica is that it is minimally assimilated due to its highly oxidized form. While manufacturers may claim a high concentration of silica, it should be noted that increased silica concentration should be approached with caution, not only due to its limited absorption but also potential kidney-related problems.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "Absorption Rate: 7%",
+            "accordiontwo": "<p>(*) Source: Dr. N. Boqué EURECAT \/TECHNOLOGICAL CENTER OF CATALONIA | Relative absorption of silica from different formulations of dietary supplements: a pilotrandomized, double-blind, crossoverpost-prandialstudy. Spain - 2015)<\/p>",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_Xt4Ynx"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "2. Colloidal",
+        "main_paragraph": "<p>SILICIC ACID<\/p>"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "line_divider_kNw3bK": {
+      "type": "line-divider",
+      "settings": {
+      }
+    },
+    "home_super_two_nXzm7a": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_b7Y9Xf": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_146_17598b98-7df7-496e-90b2-c803f182d141.png",
+            "step": "",
+            "section_heading": "",
+            "section_subheading": "",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Choline-stabilized orthosilicic acid is a specialized form of orthosilicic acid that incorporates choline, a nutrient known for its ability to enhance the stability and bioavailability of orthosilicic acid.<\/p><p>Supplements containing Choline stabilized OSA are widely marketed for their potential to support healthy aging, improve skin elasticity and hydration, strengthen hair and nails, and maintain optimal bone health. The reported side effects of Choline-Stabilized Orthosilicic Acid are generally mild and infrequent.<\/p><p>Choline-Stabilized Orthosilicic Acid has undergone rigorous clinical testing to validate its health and beauty benefits and in terms of bioavailability, it has demonstrated an absorption rate of 17%, which is significantly higher than other forms of silica, making it the second most bioavailable form available.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "Absorption Rate: 17%",
+            "accordiontwo": "<p>(*) Source: Dr. N. Boqué EURECAT \/TECHNOLOGICAL CENTER OF CATALONIA | Relative absorption of silica from different formulations of dietary supplements: a pilotrandomized, double-blind, crossoverpost-prandialstudy. Spain - 2015)<\/p>",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_b7Y9Xf"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "3. Choline-Stabilized",
+        "main_paragraph": "<p>ORTHOSILICIC ACID<\/p>"
+      }
+    },
+    "line_divider_tCaxQR": {
+      "type": "line-divider",
+      "settings": {
+      }
+    },
+    "home_super_two_FU4Gpr": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_BfBWW6": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_148_08faa2e5-b5e2-48bc-a11f-5ca93c6e3ae9.png",
+            "step": "",
+            "section_heading": "",
+            "section_subheading": "",
+            "section_subheadingtwo": "",
+            "section_description": "<p>LIVING SILICA is a type of silica, derived from pure quartz extract and plant- based extracts. Back in 1994, it was formulated and acclaimed as the groundbreaking silica product to meet pharmaceutical-grade standards. <br\/><br\/>LIVING SILICA is highly bio- available and easily absorbed, making it an ideal form of silica. It has been very effective in providing quick and visible results in a short time thanks to its assimilation.<br\/><br\/>Clinical tests have demonstrated an impressive 64% absorption rate for LIVING SILICA, further confirming its effectiveness in supplying the body with silica.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "Absorption Rate: 64%",
+            "accordiontwo": "<p>(*) Source: Dr. N. Boqué EURECAT \/TECHNOLOGICAL CENTER OF CATALONIA | Relative absorption of silica from different formulations of dietary supplements: a pilotrandomized, double-blind, crossoverpost-prandialstudy. Spain - 2015)<\/p>",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_BfBWW6"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "4. PATENTED FORMULA",
+        "main_paragraph": "<p>LIVING SILICA®<\/p>"
+      }
+    },
+    "super_rich_CpwwFe": {
+      "type": "super-rich",
+      "custom_css": [
+        ".text-seaction {padding: 0;}"
+      ],
+      "settings": {
+        "background_color": "#ffffff",
+        "para": "",
+        "interesting_facts_about": "LEARN MORE ABOUT",
+        "the_safety_of_our_products": "SILICA",
+        "text": ""
+      }
+    },
+    "blog_multicolumn_jdQbCh": {
+      "type": "blog-multicolumn",
+      "blocks": {
+        "column_yPXmgz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_42_6.png",
+            "title": "Why Silica?",
+            "text": "<p>Silica is one of those elements whose list of documented benefits keeps growing over time. Learn about its multiple benefits here.<\/p>",
+            "link_label": "Previous Article",
+            "link": "shopify:\/\/pages\/why-silica"
+          }
+        },
+        "column_xcMYn3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_42_7.png",
+            "title": "Choosing The Right Silica",
+            "text": "<p>To truly understand the science of silicon and its potential health benefits, it is essential to evaluate multiple factors. <\/p>",
+            "link_label": "Read Next",
+            "link": "shopify:\/\/pages\/choosing-the-right-silica"
+          }
+        }
+      },
+      "block_order": [
+        "column_yPXmgz",
+        "column_xcMYn3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "home_super_one_BiJ6Hb",
+    "super_rich_TgEKHB",
+    "home_super_two_N7Ey3A",
+    "home_super_two_aVHnkQ",
+    "main",
+    "line_divider_kNw3bK",
+    "home_super_two_nXzm7a",
+    "line_divider_tCaxQR",
+    "home_super_two_FU4Gpr",
+    "super_rich_CpwwFe",
+    "blog_multicolumn_jdQbCh"
+  ]
+}

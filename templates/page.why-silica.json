@@ -1,0 +1,292 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "home_super_one_VWWmWJ": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 145,
+        "paddingsettingtwo": 65,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_125_d3adabef-d82e-4c4f-8bdf-06578149f778.webp",
+        "image_text": "WHY LIVING SILICA®"
+      }
+    },
+    "home_super_two_mRRynE": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_9AU8Uc": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_129_2_4619e80c-5c75-4055-9953-34d5729b626e.png",
+            "step": "",
+            "section_heading": "HERITAGE FORMULA",
+            "section_subheading": "SINCE 1994",
+            "section_subheadingtwo": "",
+            "section_description": "<p>The original patented formula of LIVING SILICA® was pioneered in 1994 by Sc. D. Loïc Le Ribault, a trailblazing figure in the realm of science. With an unconventional approach, he set himself apart as a dissident scientist, challenging conventional scientific norms. <br\/><br\/>Our founder, driven by the vision of enhancing people's well-being, embarked on a journey to develop a revolutionary formula. Through unwavering passion and conviction, he laid the cornerstone for LIVING SILICA®.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_n7xRDB": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_226_caf75ce4-b48a-4d0c-a949-6818d475230c.png",
+            "step": "",
+            "section_heading": "more than 30 years",
+            "section_subheading": "Of research",
+            "section_subheadingtwo": "",
+            "section_description": "<p>With over three decades of silica research, Sc. D. Loïc Le Ribault developed the first drinkable product on the market. Initially designed with the vision of being synthesized, patented, and sold to a pharmaceutical company, this approach is the reason why competing supplements truly do not compare to LIVING SILICA® standards. <br\/><br\/>Rooted in Sc. D. Loïc Le Ribault's groundbreaking molecule, our formula transcends and redefines the standards of dietary supplements with a world-class process, best known as Heritage Concentrate®. <\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_f9eU99": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_227_388e7101-b512-4b33-9dbb-7c7cdb024883.png",
+            "step": "",
+            "section_heading": "THE MOST absorbable",
+            "section_subheading": "FORM OF SILICA",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Sc. D. Loïc Le Ribault’s method demonstrated its therapeutic effects in different clinical studies. He tested and perfected his proprietary silica molecule until he obtained the safest and most absorbable form on the market. <br\/><br\/>This molecule, under the trade name LIVING SILICA® in the United States, is the best-known silica product in Europe and the most effective in the market. It has an absorption rate of 64% compared to the average 5-20% of competing products on the market.<\/p>",
+            "btntext": "Learn More",
+            "btntexturl": "shopify:\/\/pages\/our-story",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_9AU8Uc",
+        "content_n7xRDB",
+        "content_f9eU99"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "",
+        "main_paragraph": ""
+      }
+    },
+    "home_superbanertwo_G3rEYC": {
+      "type": "home-superbanertwo",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 45,
+        "paddingsettingtwo": 30,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_125_d3adabef-d82e-4c4f-8bdf-06578149f778.webp",
+        "set-txt": "<p>Go Beyond Animal Collagen.  Promote the Power of Your Own Collagen. <\/p>",
+        "letter_spacing": 1,
+        "desktop_content_width": 60,
+        "font_weight": "400",
+        "font_size": 36,
+        "text-transform": "math-auto",
+        "mobilefont_size": 16,
+        "mobile_content_width": 80
+      }
+    },
+    "home_science_d6UjgP": {
+      "type": "home-science",
+      "blocks": {
+        "image_picker_VUDrX6": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_24_178a9f4b-a700-4dc0-87ee-7e2968550c1e.png",
+            "head": "Naturally Extracted From Quartz *  ",
+            "par": "",
+            "bb-color": "#f7f9fb",
+            "body_text": "#000000"
+          }
+        },
+        "image_picker_a6BBHt": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_168_ffb43211-02ac-4bcf-b8f0-ddf70419a30c.png",
+            "head": "10x More Bioavailable *",
+            "par": "",
+            "bb-color": "#f7f9fb",
+            "body_text": "#000000"
+          }
+        },
+        "image_picker_ARQAU7": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_170_2c3720f1-650d-4aa3-b00c-7338f1ec085d.png",
+            "head": "Promotes Collagen Production *",
+            "par": "",
+            "bb-color": "#f7f9fb",
+            "body_text": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "image_picker_VUDrX6",
+        "image_picker_a6BBHt",
+        "image_picker_ARQAU7"
+      ],
+      "custom_css": [
+        ".headingabc h2 {min-height: 60px;}",
+        "@media screen and (max-width: 550px) {.headingabc h2 {min-height: unset; }}"
+      ],
+      "settings": {
+      }
+    },
+    "super_rich_tzHKma": {
+      "type": "super-rich",
+      "custom_css": [
+        ".text-seaction {padding: 0;}"
+      ],
+      "settings": {
+        "background_color": "#ffffff",
+        "para": "",
+        "interesting_facts_about": "Learn More About",
+        "the_safety_of_our_products": "Silica",
+        "text": ""
+      }
+    },
+    "featured_blog_tDR4wf": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "learn_more_about": "",
+        "silica": "",
+        "heading": "",
+        "heading_size": "h2",
+        "blog": "silica",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "home_types_of_silica_wiAxXR": {
+      "type": "home-types-of-silica",
+      "blocks": {
+        "home_types_of_silica_UbwCEe": {
+          "type": "home_types_of_silica",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_42_1_107f78ef-5f9e-4efb-9bb7-de87e1f1b883.png",
+            "types_of_silica": "The Most Effective Form of Silica",
+            "content": "Our groundbreaking research has led us to uncover the most potent and bioavailable form of silica.",
+            "button_text": "Read More",
+            "button_link": "shopify:\/\/pages\/the-most-effective-form-of-silica"
+          }
+        },
+        "home_types_of_silica_cRRYwV": {
+          "type": "home_types_of_silica",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_42_464e8b3f-020b-46d8-b0f5-473f14c1d514.png",
+            "types_of_silica": "The Science Behind Silica",
+            "content": "Heritage Concentrate is a unique method that raises the solubility limit of silica...",
+            "button_text": "Read More",
+            "button_link": "shopify:\/\/pages\/the-science-behind-silica"
+          }
+        }
+      },
+      "block_order": [
+        "home_types_of_silica_UbwCEe",
+        "home_types_of_silica_cRRYwV"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".main-cilca {margin-bottom: 30px;}"
+      ],
+      "settings": {
+      }
+    },
+    "multicolumn_dwBK3e": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_TFk6Aj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_42_1_107f78ef-5f9e-4efb-9bb7-de87e1f1b883.png",
+            "title": "The Most Effective Form of Silica",
+            "text": "<p>Our groundbreaking research has led us to uncover the most potent and bioavailable form of silica.<\/p>",
+            "link_label": "Read More",
+            "link": "shopify:\/\/pages\/the-most-effective-form-of-silica"
+          }
+        },
+        "column_iwAHRT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_42_464e8b3f-020b-46d8-b0f5-473f14c1d514.png",
+            "title": "The Science Behind Silica",
+            "text": "<p>Heritage Concentrate is a unique method that raises the solubility limit of silica...<\/p>",
+            "link_label": "Read More",
+            "link": "shopify:\/\/pages\/the-science-behind-silica"
+          }
+        }
+      },
+      "block_order": [
+        "column_TFk6Aj",
+        "column_iwAHRT"
+      ],
+      "custom_css": [
+        ".main-cilca {margin-bottom: 30px;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "home_super_one_VWWmWJ",
+    "home_super_two_mRRynE",
+    "home_superbanertwo_G3rEYC",
+    "home_science_d6UjgP",
+    "super_rich_tzHKma",
+    "featured_blog_tDR4wf",
+    "home_types_of_silica_wiAxXR",
+    "multicolumn_dwBK3e"
+  ]
+}

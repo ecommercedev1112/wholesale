@@ -1,0 +1,82 @@
+<style>
+  p.guide-main-2p1 {
+    font-size: 18px;
+    color: #1C2E3A;
+    margin: 0;
+    font-family: "Roboto", sans-serif !important;
+  }
+  h2.guide-main-2h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #1C2E3A;
+  }
+  .guide-center {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+  }
+  .guide-center1 {
+    text-transform: uppercase;
+  }
+  .us-fixed-width {
+    text-align: center;
+    padding: 100px 0;
+  }
+  .product-info {
+    background-color: {{ section.settings.color }};
+  }
+  @media only screen and (max-width: 500px) {
+    h2.guide-main-2h1 {
+      margin-top:10px;
+      font-size: 23px;
+    }
+
+    p.guide-main-2p1 {
+      font-size: 14px;
+    }
+
+    p.result_p {
+      font-size: 14px;
+    }
+  }
+</style>
+
+
+<div class="product-info">
+  <div class="page-width">
+    <div class="product-info-main">
+      <div class="us-fixed-width">
+        <p class="guide-main-2p1 guide-center">{{ section.settings.first_heading }}</p>
+        <h2 class="guide-main-2h1 guide-center1">{{ section.settings.top_heading }}</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Background option",
+    "settings": [
+      {
+        "type": "color",
+        "label": "Background Color",
+        "id": "color"
+      }, {
+        "type": "text",
+        "id": "first_heading",
+        "label": "First Heading",
+        "default": "Real results that speak BY "
+      }, {
+        "type": "text",
+        "id": "top_heading",
+        "label": "Bold Heading",
+        "default": "themselves"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Background option",
+        "category": "ADVANCED LAYOUT"
+      }
+    ]
+  }
+{% endschema %}

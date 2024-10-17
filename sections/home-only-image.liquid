@@ -1,0 +1,77 @@
+<style>
+  .sliderimageonly {
+    width: 100%;
+    padding-bottom: 90px;
+    background: #F7F9FB;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .image-insta img {
+    width: 100%;
+    height: auto;
+}
+.image-insta {
+    display: flex;
+}
+</style>
+<div class="sliderimageonly">
+  <div class="swiper mySwiper--{{ section.id }}">
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+        <div class="swiper-slide">
+          {% if block.settings.slide-pic != blank %}
+            <div class="image-insta">
+              <img loading="lazy" src="{{ block.settings.slide-pic |  img_url : 'master' }}">
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<script>
+  var swiper = new Swiper(".mySwiper--{{ section.id }}", {
+    spaceBetween:5 ,
+    breakpoints: {
+      320: {
+        slidesPerView: 1.2,
+        spaceBetween: 5
+      },
+      642: {
+        slidesPerView: 2.5,
+        spaceBetween: 5
+      },
+      743: {
+        slidesPerView: 5,
+        spaceBetween: 10
+      }
+    }
+  });
+</script>
+{% schema %}
+  {
+    "name": "Home image slider",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "image_picker",
+        "name": "ADD-images",
+        "settings": [
+          {
+            "id": "slide-pic",
+            "type": "image_picker",
+            "label": "images"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Home image slider",
+        "category": "Home Hero"
+      }
+    ]
+  }
+{% endschema %}

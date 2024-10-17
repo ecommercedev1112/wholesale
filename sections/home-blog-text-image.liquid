@@ -1,0 +1,270 @@
+    <style>
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+.btns-positions-set1 {
+    max-width: 1400px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    bottom: 340px;
+}
+      a.readmore {
+    display: block;
+    margin-top: 10px;
+}
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper {
+      margin-left: auto;
+      margin-right: auto;
+    }
+.swiper-button-nextt svg {
+    max-width: 35px;
+}
+.swiper-button-prevv svg {
+    max-width: 35px;
+
+}
+      .h-pess-text {
+    background-color: #F6F7F7;
+    padding: 15px;
+}
+.my-width1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 0;
+}
+.exexr1 {
+    width: 100%;
+    max-width: 394px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: left;
+}
+      .exexr1 h2 {
+    font-size: 24px;
+    font-family: "Gloock", serif!important;
+    font-style: normal;
+    font-weight: 700;
+    color: #1C2E3A;
+}
+
+.exexr1 p {
+    font-size: 16px;
+    margin-top: 0;
+    color: #797979;
+      font-size: 16px;
+    font-family: "Roboto", sans-serif !important;
+  color:#1C2E3A;
+}
+      .exexr1 a {
+    color: #606060;
+}
+
+      .blog_set_pad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-nextt {
+    width: 30px;
+}
+
+.swiper-button-prevv {
+    width: 30px;
+}
+.swiper-button-prevv {
+    width: 50px;
+    position: relative;
+    left: -22px;
+    z-index: 9999;
+}
+      .swiper-button-nextt{
+    width: 50px;
+    position: relative;
+    right: -22px;
+    z-index: 9999;
+      }
+      @media screen and (max-width:750px) {
+  .swiper-button-prevv {
+    left: -3px !important;
+    width: 30px;
+}
+.exexr1{
+  max-width: 100%;
+}
+.swiper-image1 {
+    width: 100%;
+}
+.swiper-button-nextt {
+    width: 30px;
+    right: -3px;
+}
+        .blog_set_pad {
+    margin-bottom: 20px;
+}
+}
+  </style>
+  <div class="page-width">
+    <div class="blog_set_pad">
+
+    <div class="swiper-button-prevv  ee"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="#000000" transform="rotate(0)matrix(-1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs> <style>.cls-1{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:20px;}</style> </defs> <g data-name="Layer 2" id="Layer_2"> <g data-name="E415, next, Media, media player, multimedia" id="E415_next_Media_media_player_multimedia"> <circle class="cls-1" cx="256" cy="256" r="246"></circle> <polyline class="cls-1" points="178.18 411.63 333.82 256 178.18 100.37"></polyline> </g> </g> </g></svg></div>
+   
+  <div class=" swiper mySwiper--{{ section.id }}">
+    <div class="swiper-wrapper">
+{%- for block in section.blocks -%}
+      <div class="swiper-slide">
+        <div class="exexr1">
+            {% if block.settings.image != blank %}
+        <div class="swiper-image1">
+          <img loading="lazy" class="my-img0vls1" src="{{ block.settings.image | img_url : 'master' }}">
+        </div>
+  {% endif %}
+        <div class="h-pess-text">
+        <h2>{{ block.settings.text }}</h2>
+                <p>
+          {%- if block.settings.para != blank -%}
+
+            {% if block.settings.para.size > 47 %}
+              <div class="product-description-short">
+                {{ block.settings.para | truncate: 89, ". . . " }}<a class="readmore" href="#">Show More
+                </a>
+              </div>
+              <div class="product-description-full" style="display:none;">
+                {{ block.settings.para }}
+                <br>
+                <br><a class="readless" href="#">
+                  Show Less</a>
+              </div>
+            {% else %}
+              {{ block.settings.para }}
+            {% endif %}
+          {%- endif -%}
+        </p>
+        </div>
+        </div>
+      </div>
+{%- endfor -%}
+    </div>
+
+  </div>
+    <div class="btns-positions-set1">
+      
+   
+    </div>
+        <div class="swiper-button-nextt"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs> <style>.cls-1{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:20px;}</style> </defs> <g data-name="Layer 2" id="Layer_2"> <g data-name="E415, next, Media, media player, multimedia" id="E415_next_Media_media_player_multimedia"> <circle class="cls-1" cx="256" cy="256" r="246"></circle> <polyline class="cls-1" points="178.18 411.63 333.82 256 178.18 100.37"></polyline> </g> </g> </g></svg>
+      </div>
+    
+
+      </div>
+    </div>
+  <script>
+    $("a.readmore").click(function(event) {
+      event.preventDefault();
+      var $shortDescription = $(this).closest('.product-description-short');
+      var $fullDescription = $shortDescription.next('.product-description-full');
+      
+      $shortDescription.hide();
+      $fullDescription.show();
+    });
+    
+    $("a.readless").click(function(event) {
+      event.preventDefault();
+      var $fullDescription = $(this).closest('.product-description-full');
+      var $shortDescription = $fullDescription.prev('.product-description-short');
+      
+      $fullDescription.hide();
+      $shortDescription.show();
+    });
+  </script>
+  <script>
+    var swiper = new Swiper(".mySwiper--{{ section.id }}", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-nextt",
+        prevEl: ".swiper-button-prevv",
+      },
+              breakpoints: {
+                 320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          640: {
+            slidesPerView: 1.5,
+            spaceBetween: 10,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          },
+          1224: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          },
+        },
+    });
+  </script>
+{% schema %}
+{
+"name": "Home blog slider",
+"settings": [
+
+],
+   "blocks": [
+    {
+      "name": "Block",
+      "type": "block",
+      "settings": [
+        {
+  "type": "image_picker",
+  "id": "image",
+  "label": "Image"
+},
+  {
+  "type": "text",
+  "id": "text",
+  "label": "Heading"
+},
+  {
+  "type": "text",
+  "id": "para",
+  "label": "Paragraph"
+}
+      ]
+    }
+  ],
+"presets": [
+{
+"name": "Home blog slider",
+"category": "Home blog slider"
+}
+]
+}
+{% endschema %}

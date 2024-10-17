@@ -1,0 +1,91 @@
+.custom_popup_module .modal-popup-content {
+  width: 1200px;
+  margin: auto;
+}
+
+.custom_popup_module .popup-content {
+  padding: 20px;
+}
+
+.popup-body {
+  display: flex;
+  width: 100%;
+}
+
+.popup-form-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.popup-content-heading {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.popup-form-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.popup-image-column {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-context-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+span.close-cross-icon {
+  position: relative;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  border-radius: 50%;
+  transition: all 0.15s;
+}
+
+span.close-cross-icon:after {
+  content: "";
+  background: #fff;
+  position: absolute;
+  width: 25px;
+  height: 1px;
+  transform: rotate(45deg);
+  transition: all 0.15s;
+}
+
+span.close-cross-icon:before {
+  content: "";
+  background: #fff;
+  position: absolute;
+  width: 25px;
+  height: 1px;
+  transform: rotate(134deg);
+  transition: all 0.15s;
+}
+
+.close-icon:hover span.close-cross-icon:after,
+.close-icon:hover span.close-cross-icon:before {
+  width: 28px;
+  height: 2px;
+}
+
+.close-icon:hover span.close-cross-icon {
+  transform: scale(1.1);
+}
+
+.close-icon {
+  position: absolute;
+  top: 10px; 
+  right: 10px; 
+  cursor: pointer; 
+}

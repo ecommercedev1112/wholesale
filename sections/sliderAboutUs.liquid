@@ -1,0 +1,223 @@
+<style>
+  img.books-img {
+  width: 100%;
+  height: auto;
+  }
+
+  .text-year p {
+  margin: 0;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  }
+
+  .main-title h3 {
+  margin: 0;
+  font-family: "Gloock", serif !important;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 5px;
+  text-align: left;
+  }
+
+  .description-text p {
+  margin: 0;
+  font-family: "Roboto Light", sans-serif !important;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  }
+
+  .slider-prev-button path, .slider-next-button path {
+  fill: black;
+  }
+
+  .slider-prev-button svg, .slider-next-button svg {
+  width: 20px;
+  height: 20px;
+  }
+
+  .slider-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 150px;
+  }
+
+  .slider-prev-button, .slider-next-button {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 35px;
+  cursor: pointer;
+  }
+
+  .main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+
+  .main-sub-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  }
+
+  .max-container {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+  }
+
+  @media screen and (max-width: 780px){
+  .main-title h3 {
+  font-size: 24px;
+  line-height: 30px;
+  }
+
+  .text-year p {
+  font-size: 14px;
+  line-height: 12px;
+  }
+
+  .description-text p {
+  font-size: 14px;
+  line-height: 20px;
+  }
+
+  .slider-prev-button, .slider-next-button {
+  padding: 8px;
+  }
+  }
+
+  @media screen and (max-width: 500px){
+    .description-text p {
+    font-size: 17px !important;
+    line-height: 26px !important;
+}
+  .main-container {
+  flex-direction: column;
+  }
+  .main-title h3{
+    font-size: 20px;
+  }
+  .max-container {
+  position: relative;
+  }
+
+  .slider-buttons {
+  position: absolute;
+  top: 50%;
+  bottom: 40%;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  margin: auto;
+  z-index: 1;
+  }
+
+  .main-sub-container {
+  padding-top: 5%;
+  }
+  }
+
+  @media screen and (max-width: 380px){
+  .slider-buttons {
+  bottom: 50%;
+  }
+  }
+</style>
+<div class="page-width">
+  <div class="main-container">
+    <div class="swiper aswiper">
+      <div class="min-container swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="min-sub-container swiper-slide">
+            <div class="books-image">
+              <img loading="lazy" class="books-img ok" src="{{ block.settings.books_image | image_url }}">
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="main-sub-container">
+      <div class="text-year">
+        <p>{{ section.settings.year_text }}</p>
+      </div>
+      <div class="main-title newimage-{{ forloop.index }}">
+        <h3>{{ section.settings.main_title }}</h3>
+      </div>
+      <div class="description-text">{{ section.settings.description_text }}</div>
+      <div class="slider-buttons">
+        <div class="slider-prev-button">{% render 'prev-arrow-svg' %}</div>
+        <div class="slider-next-button">{% render 'next-arrow-svg' %}</div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+    var swiper = new Swiper(".aswiper", {
+  slidesPerView: 1,
+  loop: true,
+  spaceBetween: 10,
+  keyboard: {
+  enabled: true,
+  },
+  navigation: {
+  nextEl: ".slider-next-button",
+  prevEl: ".slider-prev-button",
+  },
+  });
+</script>
+{% schema %}
+{
+"name": "Custom Slider Section",
+"settings": [
+{
+"type": "text",
+"id": "year_text",
+"label": "Years"
+},
+{
+"type": "text",
+"id": "main_title",
+"label": "Title"
+},
+{
+"type": "richtext",
+"id": "description_text",
+"label": "Description"
+}
+],
+"blocks": [
+{
+"name": "Slider",
+"type": "content",
+"settings": [
+{
+"type": "image_picker",
+"id": "books_image",
+"label": "Book Image"
+}
+]
+}
+],
+"presets": [
+{
+"name": "Custom Slider Section"
+}
+]
+}
+{% endschema %}

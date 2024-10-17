@@ -1,0 +1,114 @@
+<style>
+  .the-home-product-cstm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+  }
+
+  .the-cls-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .the-cls-pro-conts {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h3.the-block-cls-head {
+    font-size: 24px;
+    line-height: 30px;
+    color: #1C2E3A;
+    font-family: "Roboto", sans-serif !important;
+    width: 100%;
+    max-width: 300px;
+    font-weight: 500;
+  }
+
+  p.the-block-cls-price {
+    font-size: 24px;
+    color: #6E6E6E;
+    line-height: normal;
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 500;
+  }
+  h2.section-cls-head {
+    font-size: 48px;
+    color: #1C2E3A;
+    text-align: center;
+    font-family: "Gloock", serif!important;
+    font-weight: 400 !important;
+  font-style: normal;
+  letter-spacing: 7px;
+
+  }
+  .the-home-product-cstm a {
+    list-style: none;
+    text-decoration: none;
+}
+  @media only screen and (max-width: 500px) {
+    .the-home-product-cstm {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+
+<div class="main-custom-product">
+  <div class="page-width">
+    <h2 class="section-cls-head">{{ section.settings.head }}</h2>
+    <div class="the-home-product-cstm">
+      {%- for block in section.blocks -%}
+        {%- assign product = block.settings.product_0 -%}
+        <a href="{{ product.url }}">
+        <div class="the-prodyct-cst">
+          <div class="the-cls-image">
+            <img loading="lazy" src="{{ product.featured_image | img_url: "master" }}">
+          </div>
+          <div class="the-cls-pro-conts">
+            <h3 class="the-block-cls-head">
+              {{ product.title }}
+            </h3>
+            <p class="the-block-cls-price">
+              {{ product.price | money }}
+            </p>
+          </div>
+        </div>
+        </a>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Home Custom Product 2",
+    "settings": [
+      {
+        "type": "text",
+        "label": "Heading",
+        "id": "head",
+        "default": "This Kit Contains:"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Block",
+        "type": "block",
+        "settings": [
+          {
+            "type": "product",
+            "label": "Product",
+            "id": "product_0"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Home Custom Product 2",
+        "category": "Product"
+      }
+    ]
+  }
+{% endschema %}

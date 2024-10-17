@@ -1,0 +1,207 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "home_super_one_M7mMVg": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 145,
+        "paddingsettingtwo": 45,
+        "backgound_image": "shopify:\/\/shop_images\/Group_415.png",
+        "image_text": "Mission & Vision"
+      }
+    },
+    "home_super_two_U79cWj": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_Qm6FnM": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_126_1_2ff3be85-883d-4d39-a5f2-b2ed9f6e389e.png",
+            "step": "",
+            "section_heading": "research",
+            "section_subheading": "& DEVELOPMENT",
+            "section_subheadingtwo": "",
+            "section_description": "<p>LIVING SILICA® is at the forefront of the supplement and manufacturing industry. From the beginning, Silicium Laboratories' goal has been to promote health benefits through the most effective, clinically proven silica-based ingredients. With a clear vision in research & development, we focus on the quality and safety of our products, the creation and implementation of unique formulas, and production technologies. We are proud to offer you supplements that are highly bioavailable, supporting your own collagen production and helping you see visible results from the inside out. Our proprietary formula allows nutrients to be absorbed rapidly and act with up to 10 times the efficacy of standard products.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_xURYE3": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_131_7e4a808d-4d2e-4649-9714-ca48753a2686.png",
+            "step": "",
+            "section_heading": "honoring science",
+            "section_subheading": "& NATURE",
+            "section_subheadingtwo": "",
+            "section_description": "<p>For the past 30 years, we have been supporting all-natural products to help you achieve optimum health. We combine science and nature to provide silica, along with other plant-based ingredients, bringing you the most absorbable, advanced and life-enhancing supplementation. Our ingredients are designed to boost your body’s natural collagen and offer a vegan alternative to collagen, allowing you to go beyond animal collagen.Our mission is to accomplish Le Ribault’ s dream of making LIVING SILICA® available to every human being around the world.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_Qm6FnM",
+        "content_xURYE3"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "",
+        "main_paragraph": ""
+      }
+    },
+    "home_superbanertwo_LBYrk7": {
+      "type": "home-superbanertwo",
+      "custom_css": [
+        ".about-us-main {max-width: 1300px; margin: auto;}"
+      ],
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 20,
+        "paddingsettingtwo": 20,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_230_1_205f637d-a145-4672-bd63-95c6b91e99f2.png",
+        "set-txt": "<p>Our Mission is to accomplish Le Ribault’ s dream of making LIVING SILICA® available to every human being.<\/p>",
+        "letter_spacing": 1,
+        "desktop_content_width": 80,
+        "font_weight": "400",
+        "font_size": 36,
+        "text-transform": "math-auto",
+        "mobilefont_size": 16,
+        "mobile_content_width": 80
+      }
+    },
+    "408dd851-d4c4-4cc6-b8ef-643bb34cd9ce": {
+      "type": "image-with-text",
+      "blocks": {
+        "6ad07656-7444-49a1-8348-09dbea1e3f5a": {
+          "type": "caption",
+          "settings": {
+            "caption": "MESSAGE FROM OUR",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "45286312-17d8-4267-a19e-b07574525e97": {
+          "type": "heading",
+          "settings": {
+            "heading": "FOUNDER",
+            "heading_size": "h1"
+          }
+        },
+        "6b162d38-24d7-4bca-96c7-5151f1235f82": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“I shall continue my actions of distributing OS5 despite all the opposition. I do it for all those patients for whom I have the opportunity and honor of caring, those who were abandoned by modern medicine which was unable to offer them a cure or who found the orthodox treatments worse than the illness itself.”<br\/><\/p>",
+            "text_style": "body"
+          }
+        },
+        "f6bc54b1-042d-4cd7-bcc6-72c11f51e668": {
+          "type": "html",
+          "settings": {
+            "html": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0788\/5622\/5075\/files\/image_54.png?v=1703100721\" width=\"50%\">"
+          }
+        }
+      },
+      "block_order": [
+        "6ad07656-7444-49a1-8348-09dbea1e3f5a",
+        "45286312-17d8-4267-a19e-b07574525e97",
+        "6b162d38-24d7-4bca-96c7-5151f1235f82",
+        "f6bc54b1-042d-4cd7-bcc6-72c11f51e668"
+      ],
+      "settings": {
+        "title": "",
+        "image": "shopify:\/\/shop_images\/Rectangle_231_ab32ac7b-8387-4b0c-b808-77ef7481f0e9.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-558943f0-6b40-49da-a8ec-6465189ec0ab",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "super_rich_PXTrPE": {
+      "type": "super-rich",
+      "custom_css": [
+        ".text-seaction {padding: 0;}"
+      ],
+      "settings": {
+        "background_color": "#ffffff",
+        "para": "",
+        "interesting_facts_about": "UNLEASH THE POWER OF YOUR",
+        "the_safety_of_our_products": "OWN COLLAGEN",
+        "text": ""
+      }
+    },
+    "76db4bff-6b0c-41e5-b19d-39c1f0462841": {
+      "type": "featured-collection",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "liquids",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 4,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "home_super_one_M7mMVg",
+    "home_super_two_U79cWj",
+    "home_superbanertwo_LBYrk7",
+    "408dd851-d4c4-4cc6-b8ef-643bb34cd9ce",
+    "super_rich_PXTrPE",
+    "76db4bff-6b0c-41e5-b19d-39c1f0462841"
+  ]
+}

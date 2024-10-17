@@ -1,0 +1,132 @@
+<style>
+  div#shopify-section-homeaboutus {
+    width: 100% !important;
+}  
+  section.about-first-color {
+    width: 100%;
+}
+.main-backaboutimage {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-heading h3 {
+    border-left: 2px solid;
+}
+.about-first-text {
+    padding: {{ section.settings.paddingsetting }}px  0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    letter-spacing: 0.11em;
+    color : {{ section.settings.text_color }};
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .about-first-text{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width:500px) {
+    .about-first-text {
+    font-size: 26px !important;
+    text-align: center;
+    padding: {{ section.settings.paddingsettingtwo }}px  10px;
+          line-height: 30px;
+}
+  .main-backaboutimage {
+    height: 100vh;
+    min-height: 280px;
+    max-height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+body.gradient.custom-Choosing.The.Right.Silica.custom-pro-- .about-first-text {
+    line-height: 56px;
+}
+body.gradient.custom-Choosing.The.Right.Silica.custom-pro-- .main-cilca {
+    margin-bottom: 20px;
+}
+</style>
+<section class="about-first-color" {% if section.settings.background_color != blank %} style="background-color: {{ section.settings.background_color }} ;" {% endif %}>
+<div class="about-hi">
+<div class="about-us-main">
+<div class="main-backaboutimage" {% if section.settings.backgound_image != blank %} style="background-image: url( {{ section.settings.backgound_image | img_url: 'master'}} );" {% endif %}>
+{% if section.settings.image_text  != blank %}
+<div class="about-first-text">
+    {{ section.settings.image_text }} 
+</div>
+{% endif %}
+
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+
+{% schema %}
+  {
+  "name": "Home Super banner",
+  "class": "Home Super banner",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#8bb9d4"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#fff"
+    },
+    {
+      "type": "range",
+      "id": "paddingsetting",
+      "label": "Padding Top and  padding bottom",
+      "min": 5,
+      "max": 400,
+      "step": 5,
+      "default": 40,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "paddingsettingtwo",
+      "label": "Mobile Padding Top and  padding bottom",
+      "min": 5,
+      "max": 200,
+      "step": 5,
+      "default": 40,
+      "unit": "px"
+    },
+    {
+      "type": "image_picker",
+      "id": "backgound_image",
+      "label": "Backgound image"
+    },
+    {
+      "type": "textarea",
+      "id": "image_text",
+      "label": "image text",
+      "default": "We bow to you. And the environment."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Home Super banner"
+    }
+  ]
+}  
+{% endschema %}

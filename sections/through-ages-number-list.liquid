@@ -1,0 +1,54 @@
+{{ 'component-number-list.aio.min.css' | asset_url | stylesheet_tag }}
+
+
+
+    <section class="number_list">
+        <div class="container page-widt">
+          <ul>
+            {% for block in section.blocks %} 
+                <li class="radio-item"><p>{{ block.settings.custom_text_title }}</p><input type="radio" name="{{ block.settings.custom_text_title }}"  checked="true">  <label for="ritema"></label></li>
+                 {% endfor %}   
+          </ul>         
+        </div>
+      
+
+  </section>
+
+{% schema %}
+  {
+    "name": "through-number-list",
+   
+     "blocks": [
+    {
+      "type": "number",
+      "name": "Centure",
+      "settings": [     
+      {
+        "id": "custom_text_title",
+        "type": "text",
+        "label": "Centure",
+        "default": "Number"
+      }
+       
+      
+    ]
+    }
+  ],
+  
+    "presets": [
+      {
+        "name": "Through Ages Number List",
+        "category": "Custom"
+      }
+    ]
+  }
+{% endschema %}
+
+
+
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,272 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "home_super_one_WGTGMC": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 145,
+        "paddingsettingtwo": 65,
+        "backgound_image": "shopify:\/\/shop_images\/Group_418.png",
+        "image_text": "THE MOST EFFECTIVE<br> FORM OF SILICA"
+      }
+    },
+    "super_rich_FW8TqY": {
+      "type": "super-rich",
+      "settings": {
+        "background_color": "#ffffff",
+        "para": "<p>Not all forms of silica are created equal. Our groundbreaking research has led us to uncover the most potent and bioavailable form of silica, revolutionizing the understanding of its potential.<\/p>",
+        "interesting_facts_about": "",
+        "the_safety_of_our_products": "",
+        "text": ""
+      }
+    },
+    "home_super_two_tt9emr": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_nkkMpT": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_126_2_65668e05-02ca-42ee-a0f7-d3abd78e187d.png",
+            "step": "",
+            "section_heading": "SUPERIOR",
+            "section_subheading": "BIOAVAILABILITY",
+            "section_subheadingtwo": "",
+            "section_description": "<p>LIVING SILICA is considered 10X more bioavailable than standard silicon forms. With an ingredient that has been independently tested and shown to have an absorption rate of 64%, you can trust you are getting a premier grade of silicon supplement. <br\/><br\/>No other colloidal silicon, silicic acid, or plant extract-based silica provides higher bioavailability than this patented formula developed by the research company Silicium Laboratories.<br\/><br\/>As a purpose-driven company guided by its mission, Silicium has prioritized the development of highly bioavailable forms of silica since its establishment for the purpose of studying the therapeutic benefits of silicon.<\/p>",
+            "btntext": "Read Clinical Study",
+            "btntexturl": "https:\/\/www.mdpi.com\/2076-3417\/10\/18\/6255",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_nkkMpT"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "",
+        "main_paragraph": ""
+      }
+    },
+    "home_super_two_8hRqqB": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_GPTCh6": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_131_afc24a92-c41f-46ec-8561-ce7b22ad8e0a.png",
+            "step": "",
+            "section_heading": "| Patended Technology",
+            "section_subheading": "",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Silica is inherently unstable and can form large chemical chains that are difficult for the body to break down and absorb. <br\/><br\/>The effectiveness of silica largely depends on the size of its particles. <br\/><br\/>To ensure that you receive monomeric and bioavailable silica, we've developed a patented Anti-Polymerization Technology, to effectively prevent silica from forming less absorbable structures, addressing and overcoming silicon's natural tendency to polymerize, thus ensuring its stability and bioavailability.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_WFJzLe": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_187_1_613d60e8-c4b1-44ce-8bd2-d22a699cc832.png",
+            "step": "",
+            "section_heading": "| Enhanced by Carbon",
+            "section_subheading": "",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Dr. Loïc Le Ribault's groundbreaking discovery of stabilizing carbon-based silica in the 1970s, later launched as LIVING SILICA in 1994, unveiled its unprecedented potential and introduced the world to the first methylated form of silica intricately bound with carbon.<br\/><br\/>Through studying how microorganisms dissolved quartz crystals, he grasped the crucial role of carbon in improving silicon solubility, promoting excellent bioavailability, and enhancing absorption. Carbon atoms contribute to the overall stability of the LIVING SILICA molecule, reducing the likelihood of silica aggregation and the formation of larger unabsorbable particles.<br\/><br\/>Thanks to this discovery, our brand has earned a strong reputation as a highly regarded product in both the US and Europe. It has become widely recognized as a globally recommended formula and the preferred choice of experts in the field. Extensive research and scientific testing have further substantiated its effectiveness and safety profile.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_M8hjEj": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_126_1.jpg",
+            "step": "",
+            "section_heading": "| Particle Size",
+            "section_subheading": "",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Our advanced technology addresses the challenges associated with the unstable nature of silicon, distinguishing LIVING SILICA from unsafe alternatives found in the marketplace. <br\/><br\/>Unlike highly concentrated and acidified products available in drops or formulations based on nano particles, we prioritize safety and efficacy. <br\/><br\/>Additionally, our commitment to rigorous research standards exceeds those of most dietary supplement companies. With an average weight of 164 Daltons and a particle size of approximately 0.5 nanometers, Living Silica facilitates the efficient penetration of concentrated Silicon ions into the gastrointestinal tract, promoting optimal absorption rates.<br\/><br\/>With proven clinical results and extensive scientific infomation behind it, our proprietary formulation process, Heritage Concentrate ™ , sets LIVING SILICA apart from other silica supplements. Developed with the guidance of Sc. D Loic Le Ribault, our obsession with creating the most effective form of silica has resulted in a product that truly stands out for its greater absorption and highest bioavailability.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_GPTCh6",
+        "content_WFJzLe",
+        "content_M8hjEj"
+      ],
+      "settings": {
+        "backcolor": "#f7f9fb",
+        "main_title": "Anti-Polymerization",
+        "main_paragraph": "<p>TECHNOLOGY<\/p>"
+      }
+    },
+    "home_super_two_xcbNkh": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_YB9McC": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_126_11a5944d-be6e-4d80-84da-34cbd86c2e40.jpg",
+            "step": "",
+            "section_heading": "| Molecular Balance",
+            "section_subheading": "",
+            "section_subheadingtwo": "",
+            "section_description": "<p>LIVING SILICA uniqueness lies in masterfully replicating the natural ecosystem of silica-rich artesian waters, where microorganisms preserve silica's stability at high concentrations; At Silicium Laboratories, we´ve captured and bottled this unique natural essence, so you have it available in every drop for your convenience. <br\/><br\/>LIVING SILICA delivers unmatched superiority and ensures that even at higher concentrations, the active ingredient remains effective and ready for your body to absorb. It achieves this through a carefully preserved monomeric structure and a proprietary, superior molecular structure.<br\/><br\/>This way, LIVING SILICA sets itself apart from competing products addressing the challenges associated with the unstable nature of silicon, through safety and bioavailability, setting it apart from conventional, non-reliable alternatives found in the marketplace.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_9a6iem": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_126_1_98b72e9b-f43c-40ad-a666-1bb48caa5c75.jpg",
+            "step": "",
+            "section_heading": "| Particle Size",
+            "section_subheading": "",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Our proprietary technology solves the issues of potentially unsafe silica supplements. We steer clear of the common industry standard of highly concentrated or acidified products available in drops based on nanoparticle formulations. <br\/><br\/>Additionally, our commitment to rigorous research standards exceeds those of most dietary supplement companies. With an average weight of 164 Daltons and a particle size of approximately 0.5 nanometers, Living Silica facilitates the efficient penetration of concentrated Silicon ions into the gastrointestinal tract, promoting optimal absorption rates. <br\/><br\/>With proven clinical results and extensive scientific infomation behind it, our proprietary formulation process, Heritage Concentrate ™ , sets LIVING SILICA apart from other silica supplements. <br\/><br\/>Developed with the guidance of Sc. D Loic Le Ribault, our obsession with creating the most effective form of silica has resulted in a product that truly stands out for its greater absorption and highest bioavailability.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_YB9McC",
+        "content_9a6iem"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "Bio-active",
+        "main_paragraph": "<p>Concentrate<\/p>"
+      }
+    },
+    "home_super_two_ff8KHh": {
+      "type": "home-super-two",
+      "settings": {
+        "backcolor": "",
+        "main_title": "Learn More About",
+        "main_paragraph": "<p>Silica<\/p>"
+      }
+    },
+    "blog_multicolumn_97dGPa": {
+      "type": "blog-multicolumn",
+      "blocks": {
+        "column_yfBiLT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_42_9.png",
+            "title": "Choosing The Right Silica",
+            "text": "<p>To truly understand the science of silicon and its potential health benefits, it is essential to evaluate multiple factors. <\/p>",
+            "link_label": "Previous Article",
+            "link": "shopify:\/\/pages\/choosing-the-right-silica"
+          }
+        },
+        "column_nP7VPV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_42_10.png",
+            "title": "Silica Through The Ages",
+            "text": "<p>Dive deeper into the journey of silica and the discovery of its potential health and beauty benefits throughout the ages.<\/p>",
+            "link_label": "Read Next",
+            "link": "shopify:\/\/pages\/silica-through-the-ages"
+          }
+        }
+      },
+      "block_order": [
+        "column_yfBiLT",
+        "column_nP7VPV"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 52
+      }
+    },
+    "17207096126bc1a5d2": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "home_super_one_WGTGMC",
+    "super_rich_FW8TqY",
+    "home_super_two_tt9emr",
+    "home_super_two_8hRqqB",
+    "home_super_two_xcbNkh",
+    "home_super_two_ff8KHh",
+    "blog_multicolumn_97dGPa",
+    "17207096126bc1a5d2"
+  ]
+}

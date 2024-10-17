@@ -1,0 +1,89 @@
+<style>
+  .iconsText {
+    padding: 50px 0;
+  }
+
+  .iconsText-main {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .icontext-image {
+    width: 100%;
+    max-width: 160px;
+    margin: auto;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.iconsText-text{
+    color: #1C2E3A;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif !important;
+}
+  .icontext-para p {
+    color: #1C2E3A;
+    font-size: 18px;
+    margin-top: 25px;
+  }
+  @media only screen and (max-width: 768px) {
+    .iconsText-main {
+      grid-template-columns: 80%;
+      margin: auto;
+      justify-content: center;
+    }
+  }
+</style>
+
+
+<div class="iconsText">
+  <div class="page-width">
+    <div class="iconsText-main">
+      {%- for block in section.blocks -%}
+        <div class="iconsText-width">
+          {% if block.settings.image != blank %}
+            <div class="icontext-image">
+              <img loading="lazy" src={{ block.settings.image | img_url : 'master' }}>
+            </div>
+          {% endif %}
+          <div class="icontext-para">
+            <p class="iconsText-text">{{ block.settings.para }}</p>
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Home Shipping Schedule",
+    "settings": [],
+    "blocks": [
+      {
+        "name": "Block",
+        "type": "block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "label": "Image",
+            "id": "image"
+          }, {
+            "type": "text",
+            "id": "para",
+            "label": "Text"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Home Shipping Schedule",
+        "category": "Home Shipping Schedule"
+      }
+    ]
+  }
+{% endschema %}

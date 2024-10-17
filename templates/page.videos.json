@@ -1,0 +1,214 @@
+{
+  "sections": {
+    "home_super_one_3rGmKR": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 145,
+        "paddingsettingtwo": 65,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_231_5137274e-6d10-4c02-87ab-ff718e24cd74.png",
+        "image_text": "VIDEOS"
+      }
+    },
+    "home_new_last_RQdnxt": {
+      "type": "home-new-last",
+      "settings": {
+        "top-text": "Check our",
+        "heading": "Videos",
+        "bottom-text": "Subscribe to our Channel and never miss another video!",
+        "butt-text": "SUBSCRIBE",
+        "butt-link": "https:\/\/www.youtube.com\/@livingsilica"
+      }
+    },
+    "1fecc0bb-15de-42d9-a124-a36dc6c3a571": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=WR7Rp1ozydM",
+        "cover_image": "shopify:\/\/shop_images\/Rectangle_126_2_f7eb855b-1b25-4d10-a625-25e22444f75a.png",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "home_new_last_K4a4Bg": {
+      "type": "home-new-last",
+      "settings": {
+        "top-text": "the impact of",
+        "heading": "silica",
+        "bottom-text": "Don’t miss another informative video and join our silica fam by subscribing below!",
+        "butt-text": "SUBSCRIBE",
+        "butt-link": "https:\/\/www.youtube.com\/@livingsilica"
+      }
+    },
+    "6906825b-2e5f-47b9-b039-4e1c95dba904": {
+      "type": "rich-text",
+      "blocks": {
+        "2374604f-79ff-4393-8ab3-ea18da860b26": {
+          "type": "caption",
+          "settings": {
+            "caption": "the impact of silica",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--21889610940723__6906825b-2e5f-47b9-b039-4e1c95dba904-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "IN OUR BODY",
+            "heading_size": "h1"
+          }
+        },
+        "template--21889610940723__6906825b-2e5f-47b9-b039-4e1c95dba904-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Don’t miss another informative video and join our silica fam by subscribing below!<\/p>"
+          }
+        },
+        "template--21889610940723__6906825b-2e5f-47b9-b039-4e1c95dba904-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "SUBSCRIBE",
+            "button_link": "https:\/\/www.youtube.com\/@livingsilica",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "2374604f-79ff-4393-8ab3-ea18da860b26",
+        "template--21889610940723__6906825b-2e5f-47b9-b039-4e1c95dba904-heading-1",
+        "template--21889610940723__6906825b-2e5f-47b9-b039-4e1c95dba904-text-1",
+        "template--21889610940723__6906825b-2e5f-47b9-b039-4e1c95dba904-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "ac74fb5a-99e7-4061-a9cf-3ff0dfe4022a": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=5sZnQ8kdIcA&t=2s",
+        "cover_image": "shopify:\/\/shop_images\/Rectangle_127_9db5e1d2-cd15-4cc1-990f-6bc5bc7a6e1c.png",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "82e8ad8f-2995-4a8b-865f-3b78baaa4c54": {
+      "type": "rich-text",
+      "blocks": {
+        "3c14f9d1-bf84-4e68-b8ae-5a9e86f77dd1": {
+          "type": "caption",
+          "settings": {
+            "caption": "Silica benefits",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--21889610940723__82e8ad8f-2995-4a8b-865f-3b78baaa4c54-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "HOW SILICA BENEFITS YOU",
+            "heading_size": "h1"
+          }
+        },
+        "template--21889610940723__82e8ad8f-2995-4a8b-865f-3b78baaa4c54-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to our Youtube Channel, become part of our silica family and stay updated!<\/p>"
+          }
+        },
+        "template--21889610940723__82e8ad8f-2995-4a8b-865f-3b78baaa4c54-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "SUBSCRIBE",
+            "button_link": "https:\/\/www.youtube.com\/@livingsilica",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "3c14f9d1-bf84-4e68-b8ae-5a9e86f77dd1",
+        "template--21889610940723__82e8ad8f-2995-4a8b-865f-3b78baaa4c54-heading-1",
+        "template--21889610940723__82e8ad8f-2995-4a8b-865f-3b78baaa4c54-text-1",
+        "template--21889610940723__82e8ad8f-2995-4a8b-865f-3b78baaa4c54-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "home_new_last_pPMW8n": {
+      "type": "home-new-last",
+      "settings": {
+        "top-text": "how silica",
+        "heading": "BENEFITS YOU",
+        "bottom-text": "Subscribe to our Youtube Channel, become part of our silica family and stay updated!",
+        "butt-text": "SUBSCRIBE",
+        "butt-link": "https:\/\/www.youtube.com\/@livingsilica"
+      }
+    },
+    "03556dc2-c400-4732-8a01-d0a160cf4e46": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/youtu.be\/ZNRORa-PR4s?si=p5zdwDNQbLj-beXP",
+        "cover_image": "shopify:\/\/shop_images\/Rectangle_128_4ba2d63c-1d76-40bd-b689-8f35ef6566a5.png",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "home_super_one_3rGmKR",
+    "home_new_last_RQdnxt",
+    "1fecc0bb-15de-42d9-a124-a36dc6c3a571",
+    "main",
+    "home_new_last_K4a4Bg",
+    "6906825b-2e5f-47b9-b039-4e1c95dba904",
+    "ac74fb5a-99e7-4061-a9cf-3ff0dfe4022a",
+    "82e8ad8f-2995-4a8b-865f-3b78baaa4c54",
+    "home_new_last_pPMW8n",
+    "03556dc2-c400-4732-8a01-d0a160cf4e46"
+  ]
+}

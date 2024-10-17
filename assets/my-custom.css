@@ -1,0 +1,716 @@
+@media screen and (max-width:1315px) {
+  button.button.custom-setone {
+    min-width: 44% !important;
+}
+}
+@media screen and (max-width:1239px) {
+  button.button.custom-setone {
+    min-width: 46% !important;
+    font-size: 12px !important;
+}
+.newsletter-form__field-wrapper .field__input {
+  padding-right: 0!important;
+}
+.footer__content-top.xx-set-width .field__input {
+  width: 133px !important;
+}
+}
+@media screen and (max-width:1063px) {
+  .newsletter-form__field-wrapper {
+    gap: 4px;
+}
+.field__input{
+  padding: 1.1rem;
+}
+}
+
+.rich-text__blocks
+  p.rich-text__caption.caption-with-letter-spacing.caption-with-letter-spacing--large {
+  font-size: 18px;
+  color: #1c2e3a;
+}
+.rich-text__blocks h2.rich-text__heading.rte.inline-richtext.h1 {
+  font-size: 48px;
+  color: #1c2e3a;
+  margin-top: 0px !important;
+}
+p.tag_best_seller {
+  font-size: 14px !important;
+}
+
+.quick-add__submit span {
+  font-size: 20px;
+  letter-spacing: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.heading_text {
+  max-width: 100%;
+}
+.featured_product .collection__view-all .button {
+  font-size: 20px;
+}
+.banner__box.content-container.content-container--full-width-mobile.color-accent-2
+  h2 {
+  font-size: 48px;
+}
+
+.banner__text.rte.body p {
+  font-size: 20px;
+}
+
+.banner__buttons a {
+  font-family: "o" !important;
+}
+
+.text-container h2 {
+  font-size: 38px !important;
+}
+
+.text-container p {
+  font-size: 18px !important;
+  margin-top: 10px !important;
+  color: #5c5c5c !important;
+}
+img.multicolumn-card__image {
+  border-radius: 0 !important;
+  width: 100%;
+  max-width: 100% !important;
+}
+
+.multicolumn-card__image-wrapper.multicolumn-card__image-wrapper--full-width.multicolumn-card-spacing {
+  margin: 0;
+}
+
+.multicolumn-card__info > :nth-child(2) {
+  padding: 0px !important;
+}
+.multicolumn-card__image-wrapper.multicolumn-card__image-wrapper--full-width.multicolumn-card-spacing {
+  padding: 0 !important;
+}
+
+.my-rte.rte {
+  padding: 10px 0 45px !important;
+}
+/* .multicolumn-list__item.grid__item {
+    max-width: 380px !important;
+} */
+body.gradient
+  .custom-pro--MineralBasedCollagenBooster
+  .multicolumn-list__item.grid__item {
+  max-width: unset !important;
+}
+ul#Slider-template--21829931172147__multicolumn_CnBD8V {
+  justify-content: space-around;
+}
+legend.form__label {
+  display: none;
+}
+fieldset.js.product-form__input label {
+  max-width: 50%;
+  width: 100%;
+  border-radius: 0 !important;
+  background-color: #1c2e3a !important;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.product__title h1 {
+  font-size: 48px;
+  color: #1c2e3a !important;
+}
+
+span.price-item.price-item--regular {
+  color: #1c2e3a !important;
+  font-size: 28px;
+}
+.text-with-icon__container {
+  justify-content: left !important;
+}
+.text-with-icon__container .text-container {
+  font-size: 14px !important;
+  color: #606060 !important;
+}
+p.accordion__title.inline-richtext.weight-700 {
+  color: #1c2e3a;
+  letter-spacing: 0;
+}
+.text-with-icon__container .text-container {
+  font-size: 14px !important;
+  color: #606060 !important;
+}
+
+.summary__title h2.h4.accordion__title.inline-richtext {
+  font-size: 16px;
+  color: #1c2e3a;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+div#ProductAccordion-49aa9743-5442-4a17-a2bb-e31669b60bc7-template--21793320108339__main
+  p
+  strong {
+  color: #1c2e3a !important;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+div#ProductAccordion-49aa9743-5442-4a17-a2bb-e31669b60bc7-template--21793320108339__main
+  p {
+  font-size: 16px;
+  font-family: "Roboto";
+}
+img.multicolumn-card__image {
+  border-radius: 50%;
+}
+quantity-input.quantity {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+.multicolumn a.link.animate-arrow {
+  font-weight: bold !important;
+}
+.title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin
+  h2 {
+  font-size: 48px !important;
+}
+
+h3.inline-richtext strong {
+  font-size: 38px;
+  font-family: reg;
+}
+
+.rte p {
+  font-size: 18px;
+}
+
+.rte p strong {
+  color: #1c2e3a;
+}
+
+.rte h6 {
+  font-size: 20px;
+  margin: 0;
+  margin-top: 10px;
+  font-weight: 100;
+}
+
+.rte h6 strong {
+  color: #1c2e3a;
+}
+.the-main-acc {
+  border-left: 1px solid #ededed;
+  border-right: 1px solid #ededed;
+}
+.full-unstyled-link {
+  font-size: 22px;
+}
+.price__regular span.price-item.price-item--regular {
+  color: #6e6e6e;
+  font-size: 24px !important;
+}
+.card__heading a {
+  font-size: 24px !important;
+}
+.card__information {
+  gap: 0 !important;
+}
+.my-grid {
+  padding: 30px;
+}
+h3.accordion__title.inline-richtext.h4 {
+  font-size: 16px;
+  color: #1c2e3a !important;
+  padding: 0 10px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+a.my-bottom-link.link.animate-arrow {
+  background: #1c2e3a !important;
+  padding: 5px 25px;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+label.custom_btn {
+  color: white !important;
+}
+.page-width.section-template--22048980992307__how_tow_use_qjYKCg-padding.isolate {
+  padding-bottom: 170px !important;
+}
+
+.rte_footer {
+  position: unset !important;
+}
+span.price-item.price-item--regular {
+  color: #1c2e3a !important;
+}
+.text-container\; {
+  font-size: 14px !important;
+  color: #606060;
+}
+
+.slick-initialized .slick-slide {
+  width: 275px !important;
+}
+.slider-cont {
+  background: #f7f9fb !important;
+  padding-top: 80px !important;
+  padding-bottom: 50px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: auto !important;
+  justify-content: center !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.testimonial-slider.slick-initialized.slick-slider {
+  width: 100%;
+  max-width: 100%;
+}
+.slick-track div p {
+  color: #1C2E3A;
+}
+.slick-track {
+  display: flex !important;
+  justify-content: center !important;
+}
+span.price-item.price-item--regular {
+  font-weight: bold !important;
+}
+.multicolumn-card.content-container.howtouse {
+  height: 100% !important;
+}
+
+p#retclick {
+  text-decoration: underline;
+  font-weight: bold !important;
+  font-size: 14px;
+  color: #606060;
+  cursor: pointer;
+  height: 100%;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 0;
+  padding-bottom: 0 !important;
+}
+.center {
+  text-align: center;
+  margin-top: 20px;
+}
+.slick-initialized .slick-slide {
+  display: block;
+  max-width: 380px !important;
+  width: 100% !important;
+}
+h2.image-with-text__heading.h2.rte {
+  font-family: "Roboto";
+  font-weight: 400;
+}
+.accordion details {
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+ul#Slider-template--21829931172147__my_columns_6FLbHe {
+  justify-content: space-around;
+}
+.lets-see {
+  display: none !important;
+}
+.mega-menu svg.icon.icon-caret {
+  display: none;
+}
+
+.header__menu-item {
+  text-decoration-color: #00c1d5 !important;
+  -moz-text-decoration-color: #00c1d5 !important;
+}
+/* body.gradient.livingpro a.header__menu-item.list-menu__item:hover {
+  text-decoration-color: #00c1d5 !important;
+  -moz-text-decoration-color: #00c1d5 !important;
+  text-decoration: underline;
+
+} */
+body.gradient.custom-ingredient-sourcing h3.inline-richtext {
+  color: #1C2E3A;
+  font-size: 30px !important;
+  font-family: "Gloock", serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+body.gradient.custom-science-studies .about-first-texteee {
+  padding-top: 0;
+}
+body.gradient.custom-science-studies .image_textonememe {
+  padding-top: 140px;
+}
+body.gradient.custom-science-studies  .about-first-texteee{
+
+    padding-top: 30px !important;
+  }
+  body.gradient.custom-science-studies .bottom-main-one{
+    padding-bottom: 15px;
+  }
+  body.gradient.custom-Returns section.faq_main_section {
+    margin-top: 70px;
+}
+@media screen and (max-width:500px) {
+  .svg_set {
+    padding-right: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  h3.inline-richtext strong {
+    font-size: 24px;
+    font-family: "Gloock", serif !important;
+    font-weight: normal;
+}
+  body.gradient.custom-Returns section.faq_main_section {
+    margin-top: 20px;
+}
+  .image-iconxx img {
+    width: 100%;
+    max-width: 100%;
+}
+.about-first-texteee {
+    padding: 0;
+}
+.main-backaboutimage.about-first-texteee {
+    max-height: 50vh;
+}
+  .main-backaboutimage.about-first-texteee img {
+    max-width: 150px;
+}
+.image-iconxx {
+    gap: 10px;
+}
+}
+body.gradient.custom-termsofuse h2.rich-text__heading.rte.inline-richtext.h1 {
+  font-size: 48px !important;
+  font-family: "Gloock", serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+@media screen and (min-width:700px) {
+  body.gradient.custom-whysilica img.sec-img {
+    /* padding: 40px; */
+  }
+  body.gradient.custom-whysilica .text-seaction {
+    padding: 0;
+}
+}
+body.gradient.custom-TheMostEffectiveFormOfSilica .about-first-text {
+    line-height: 65px;
+}
+
+body.gradient.custom-TheMostEffectiveFormOfSilica .text-seaction {
+    width: 100%;
+  padding-bottom: 0;
+    margin: auto;
+}
+body.gradient.livingpro div#shopify-section-template--22161162993971__super_rich_fU46nQ {
+  background: #f7f9fb;
+}
+body.gradient.livingpro .bottominner-main{
+  margin: 0;
+}
+product-recommendations .card__information {
+  display: flex;
+}
+body .allproduct .card__ {
+  display: none !important;
+}
+.centebtncollection {
+  text-align: center;
+}
+.centebtncollection a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #1C2E3A;
+  padding: 11px 85px;
+  font-family: "Roboto", sans-serif !important;
+  letter-spacing: 3px;
+}
+@media screen and (max-width:600px) {
+  .centebtncollection a{
+    font-size: 17px;
+    padding: 8px 26px;
+  }
+  body.gradient.custom-science-studies .bottom-main-one{
+    padding:0px;
+  }
+  body.gradient.custom-science-studies .bottom-main-two{
+        padding:0px;
+  }
+  body.gradient.custom-TheMostEffectiveFormOfSilica .about-first-text {
+    line-height: 40px;
+}
+}
+.card_me {
+  margin-top: 10px;
+}
+@media screen and (min-width:769px){
+  product-recommendations ul.grid {
+    justify-content: center !important;
+}
+}
+@media screen and (max-width:400px) {
+  .jdgm-widget .jdgm-temp-hidden{
+    display: none !important;
+  }
+}
+@media screen and (max-width:600px){
+.collection_list ul{
+  flex-wrap: wrap;
+}
+  body.gradient.custom-science-studies .image_textonememe{
+        padding-top: 40px;
+  }
+   body.gradient.custom-science-studies .image_textonememe{
+        font-size: 19px;
+  }
+  .card__heading a {
+    font-size: 16px !important;
+    letter-spacing: 0px;
+    line-height: 19px;
+}
+  .price__regular span.price-item.price-item--regular{
+    font-size: 16px !important;
+    letter-spacing: 0px;
+  }
+  body.gradient.custom-termsofuse h2.rich-text__heading.rte.inline-richtext.h1{
+    font-size: 30px !important;
+  }
+}
+body.gradient.custom-TheMostEffectiveFormOfSilica.custom-pro-- h3.inline-richtext {
+  color: #1C2E3A !important;
+  font-size: 24px !important;
+  font-family: "Gloock", serif !important;
+  font-style: normal;
+  font-weight: 400;
+}
+body.gradient.custom-TheMostEffectiveFormOfSilica.custom-pro-- {
+  font-size: 16px !important;
+  color: #1C2E3A;
+  font-family: "Roboto", sans-serif !important;
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+ body.gradient.custom-myths.about.Silica.custom-pro--  {
+  font-size: 16px !important;
+  color: #1C2E3A;
+  font-family: "Roboto", sans-serif !important;
+  line-height: 26px;
+  letter-spacing: 1px;
+ }
+  div#shopify-section-template--21829931172147__home_five_new_CpX3HF .seaction-in a {
+    color: black;
+    font-family: "Roboto";
+}
+div#shopify-section-template--21829931172147__home_five_new_CpX3HF .seaction-in a:hover {
+    color: white;
+}
+@media screen and (max-width:412px){
+  .card__information {
+    padding: 0;
+}
+  .card__heading a {
+    font-size: 14px !important;
+}
+    .price__regular span.price-item.price-item--regular{
+    font-size: 14px !important;
+  }
+ .shop_grid .quick-add__submit {
+    letter-spacing: 0px;
+}
+  .quick-add__submit span {
+    font-size: 15px;
+}
+.shop_grid .card__information{
+  padding-right:0px !important;
+}
+body.gradient.custom-TheMostEffectiveFormOfSilica.custom-pro-- .multicolumn-card__info , body.gradient.custom-myths.about.Silica.custom-pro-- .multicolumn-card__info {
+  padding: 0;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+body.gradient.custom-TheMostEffectiveFormOfSilica.custom-pro-- h3.inline-richtext , body.gradient.custom-myths.about.Silica.custom-pro-- h3.inline-richtext {
+  font-size: 24px !important;
+}
+body.gradient.custom-TheMostEffectiveFormOfSilica.custom-pro-- .page-width.section-template--21846420554035__blog_multicolumn_97dGPa-padding.isolate {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+body.gradient.custom-myths.about.Silica.custom-pro-- .page-width.section-template--21846747840819__blog_multicolumn_Q6cxRR-padding.isolate{
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+body.gradient.custom-TheMostEffectiveFormOfSilica.custom-pro-- li#Slide-template--21846420554035__blog_multicolumn_97dGPa-1 {
+  margin-bottom: 20px;
+
+}
+body.gradient.custom-myths.about.Silica.custom-pro-- li#Slide-template--21846747840819__blog_multicolumn_Q6cxRR-1{
+  margin-bottom: 20px;
+}
+body.gradient.custom-videos.custom-pro-- h2.rich-text__heading.rte.inline-richtext.h1 {
+  font-size: 24px !important;
+  line-height: 43px !important;
+}
+.rich-text.content-container.color-background-1.gradient.rich-text--full-width.content-container--full-width.section-template--21889610940723__6906825b-2e5f-47b9-b039-4e1c95dba904-padding{
+  padding-top: 0px !important;
+}
+body.gradient.custom-videos.custom-pro-- .rich-text__wrapper.rich-text__wrapper--center.page-width {
+  padding: 0;
+}
+}
+.centebtncollection a:hover {
+  background-color: #00C1D5;
+  color: white;
+  border: none;
+}
+
+button.btn-set-me:hover {
+  background-color: #00C1D5;
+}
+.login_register_btn .active:hover{
+  background-color: #00C1D5;
+  color: white;
+
+}
+.customer button{
+  background-color: #00C1D5;
+}
+form#customer_login button:hover {
+  background-color: #00C1D5;
+}
+button.button.custom-setone {
+  min-width: 50% !important;
+}
+.customer button {
+    border: 1px solid white;
+}
+
+
+@media screen and (max-width:400px) {
+  .collection.featured_product ul li {
+    width: 100%;
+    max-width: 47%;
+}
+.slider-prev-button path, .slider-next-button path {
+    fill: #1C2E3A;
+}
+.quick-add__submit{
+    padding: .5rem !important;
+}
+
+}
+
+@media screen and (max-width:500px) {
+  .answer_faq ul {
+    padding: 0;
+    font-size: 17px;
+    line-height: 26px;
+}
+  div#shopify-section-template--21857492140339__progress_iDiHyn p.other_text {
+    font-size: 17px;
+    margin-top: 20px;
+    line-height: 26px;
+}
+  .slider-buttons {
+    justify-content: space-between !important;
+    padding: 0 10px;
+}
+  div#shopify-section-template--22187490541875__super_rich_dxhAkA .bottom-main-one {
+    padding-top: 0;
+}
+  button.button_textinner {
+    padding: 11px 62px !important;
+}
+  .deleted-context a {
+    padding: 8px 32px !important;
+  }
+  div#shopify-section-template--21829931172147__home_five_new_CpX3HF .seaction-in a {
+    padding: 9.7px 58px !important;
+    color: black;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+}
+  .bottom-main-two {
+    font-size: 26px !important;
+    letter-spacing: 1px !important;
+}
+  section#shopify-section-template--21829931172147__multicolumn_CnBD8V .multicolumn .multicolumn-card.content-container {
+    margin-right: 30px;
+    padding-bottom:0px;
+}
+  section#shopify-section-template--21829931434291__blog_multicolumn_8fFgG4 .multicolumn.background-primary .multicolumn-card {
+    padding-bottom: 0;
+}
+  section#shopify-section-template--21829931172147__multicolumn_CnBD8V .multicolumn.color-accent-2.gradient.background-primary.no-heading {
+    margin-top: 40px;
+}
+  .collapsible-section {
+    padding: 0px !important;
+}
+  .accordion__content.rte p {
+    line-height: 26px;
+}
+  p.accordion__title.inline-richtext.weight-700 {
+    line-height: 21px;
+}
+  button.button.custom-setone {
+    min-width: 50% !important;
+  } 
+  body.gradient.custom-myths.about.Silica.custom-pro-- .about-first-text {
+    font-size: 20px;
+}
+body.gradient.custom-myths.about.Silica.custom-pro-- .about-description-multi{
+padding-bottom: 0px;
+}
+body.gradient.custom-myths.about.Silica.custom-pro-- .multicolumn-card__info {
+  padding: 10px;
+}
+body.gradient.custom-myths.about.Silica.custom-pro-- .blog_post .multicolumn-card__info h3.inline-richtext{
+  font-size: 24px !important;
+  margin-top: 0px;
+}
+body.gradient.custom-myths.about.Silica.custom-pro--  .blog_post .multicolumn-card__info>:nth-child(2){
+  min-height: 55px;
+}
+}
+@media screen and (min-width: 768px) {
+  .footer__content-top.xx-set-width  .field__input{
+    width: 159px !important;
+  }
+}
+body.gradient.custom-OUR.HEALTH.EXPERTS.custom-pro-- h3.sec-head {
+  margin: 0 !important;
+}
+body.gradient.custom-OUR.HEALTH.EXPERTS.custom-pro-- h4.content_rLJiJL {
+  margin: 0 !important;
+}
+body.gradient.custom-OUR.HEALTH.EXPERTS.custom-pro-- .section-description p {
+  color:#1C2E3A;
+  margin: 0 !important;
+}
+body.gradient.custom-OUR.HEALTH.EXPERTS.custom-pro-- h4.content_yJT7A7{
+  margin: 0 !important;
+}
+body.gradient.custom-OUR.HEALTH.EXPERTS.custom-pro-- h4.content_AVQQyQ{
+  margin: 0 !important;
+}
+body.gradient.custom-OUR.HEALTH.EXPERTS.custom-pro-- h4.content_KW9qGQ {
+  margin: 0 !important;
+}
+body.gradient.custom-OUR.HEALTH.EXPERTS.custom-pro--  h4.content_eAqLqb{
+  margin: 0!important;
+}
+
+.section-description p {
+  color:#1C2E3A !important;
+}

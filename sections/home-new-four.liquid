@@ -1,0 +1,224 @@
+<style>
+  p.guide-main-2p1 {
+    font-size: 18px;
+    color: #1C2E3A;
+    margin: 0;
+  font-family: "Roboto";
+  }
+  .product-info {
+    margin: 80px 0px;
+}
+  p.guide-main-2p1.guide-center{
+text-align: center;
+  }
+  h2.guide-main-2h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #1C2E3A;
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+  }
+  .guide-center {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+  }
+  .guide-center1 {
+    text-transform: uppercase;
+  }
+  .product-blocks {
+    display: flex;
+    padding: 30px 0;
+    gap: 40px;
+  }
+  .product-image img {
+    max-width: 100%;
+    height: auto;
+}
+  .product-graph {
+    width: 100%;
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+  }
+
+  .product-graph img {
+    width: 100%;
+  }
+  .product-block-context h2 {
+    font-size: 38px;
+    margin: 0;
+    font-family: "Gloock", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  }
+
+  .product-block-context p {
+    font-size: 18px;
+    font-family: "Roboto Light";
+    color: #1C2E3A;
+    margin: 0;
+    padding-top: 10px;
+  }
+  .product-single-block {
+    display: flex;
+    gap: 15px;
+  }
+
+  .product-image {
+    display: flex;
+    margin: auto;
+    max-width: 80px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .product-all-contexr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 50%;
+  }
+  @media only screen and (max-width: 950px) {
+    .product-blocks {
+      flex-direction: column;
+    }
+
+    .product-graph {
+      max-width: 100%;
+    }
+
+    .product-graph img {
+      max-width: 100%;
+    }
+
+    .product-all-contexr {
+      max-width: 100%;
+      gap: 20px;
+    }
+
+    .product-image {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  @media  screen and (max-width:550px) {
+    p.guide-main-2p1.guide-center{
+      font-size: 17px;
+    }
+    h2.guide-main-2h1{
+      font-size: 26px;
+      letter-spacing: 1px;
+    }
+    .product-block-context h2{
+      font-size: 24px;
+    }
+    .product-single-block {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .product-block-context {
+    text-align: center;
+  }
+      .product-info {
+    margin: 20px 0px;
+}
+      .product-blocks {
+    display: flex;
+    padding: 0;
+    gap: 20px;
+  }
+  }
+</style>
+
+
+<div class="product-info">
+  <div class="page-width">
+    <div class="product-info-main">
+      <div class="fixed-width">
+        <p class="guide-main-2p1 guide-center">{{ section.settings.first_heading }}</p>
+        <h2 class="guide-main-2h1 guide-center1">{{ section.settings.top_heading }}</h2>
+      </div>
+    </div>
+    <div class="product-blocks">
+      <div class="product-graph">
+        {% if section.settings.image != blank %}
+          <img loading="lazy" src="{{ section.settings.image | img_url : 'master' }}">
+        {% endif %}
+      </div>
+      <div class="product-all-contexr">
+        {%- for block in section.blocks -%}
+          <div class="product-single-block">
+            {% if block.settings.image2 != blank %}
+              <div class="product-image">
+                <img loading="lazy" src="{{ block.settings.image2 | img_url : 'master' }}">
+              </div>
+            {% endif %}
+            <div class="product-block-context">
+              <h2>{{ block.settings.b_heading }}</h2>
+              <p class="result_p">{{ block.settings.para }}</p>
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "home section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "first_heading",
+        "label": "First Heading",
+        "default": "Real results that speak BY "
+      }, {
+        "type": "text",
+        "id": "top_heading",
+        "label": "Bold Heading",
+        "default": "themselves"
+      }, {
+        "type": "image_picker",
+        "label": "Image",
+        "id": "image"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Block",
+        "type": "block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "label": "Image",
+            "id": "image2"
+          }, {
+            "type": "text",
+            "id": "b_heading",
+            "label": "Block Heading",
+            "default": "Skin, Hair & nails"
+          }, {
+            "type": "text",
+            "id": "para",
+            "label": "Block Paragraph",
+            "default": "Since 1994, our Legacy Formula promotes Healthy Skin, Hair & Nails.* "
+          }
+
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "home section",
+        "category": "home section"
+      }
+    ]
+  }
+{% endschema %}

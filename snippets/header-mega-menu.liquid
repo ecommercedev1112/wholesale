@@ -1,0 +1,162 @@
+{% comment %}
+  Renders a megamenu for the header.
+
+  Usage:
+  {% render 'header-mega-menu' %}
+{% endcomment %}
+<style>
+  .mega-menu__list{
+          grid-template-columns: 2.5fr 2fr 3fr !important;
+
+  }
+   .mega-menu__list a{
+
+           color: #000000c4 !important;
+     
+        letter-spacing: .12rem;
+        text-transform: uppercase;
+        font-weight: 300;
+     
+   }
+  .mega-menu__content{
+    background-color:white !important;
+  }
+  .mega-menu__content .list-unstyled a:hover{
+    color:#00C1D5 !important;
+    text-decoration:unset !important;
+  }
+   .mega-menu__list .head_title{
+     padding-top:50px !important;
+   }
+  .mega-menu__list .head_title > a:first-child{
+        font-weight: 700 !important ;
+    text-decoration:none !important;
+    
+    
+  }
+  .mega-menu:hover .mega-menu__content{
+    opacity:1 !important;
+    display:block !important;
+    visibility:visible !important;
+  }
+  
+</style>
+<nav class="header__inline-menu">
+  <ul class="list-menu list-menu--inline" role="list">
+   
+    
+    {%- comment %}<locksmith:2563>{% endcomment -%}
+      {%- assign locksmith_2377_forloop__size = 0 %}{%- for link in section.settings.menu.links -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: section.settings.menu, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_2377_forloop__size = locksmith_2377_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_2377_forloop__index = nil -%}
+    {%- comment %}</locksmith:2563>{% endcomment -%}
+    {%- for link in section.settings.menu.links -%}
+   
+      {%- comment %}<locksmith:e4c2>{% endcomment -%}
+        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: section.settings.menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_2377_forloop__index == nil %}{% assign locksmith_2377_forloop__index = 1 %}{% assign locksmith_2377_forloop__index0 = 0 %}{% else %}{% assign locksmith_2377_forloop__index = locksmith_2377_forloop__index | plus: 1 %}{% assign locksmith_2377_forloop__index0 = locksmith_2377_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_2377_forloop__index == 1 %}{% assign locksmith_2377_forloop__first = true %}{% else %}{% assign locksmith_2377_forloop__first = false %}{% endif %}{% if locksmith_2377_forloop__index == locksmith_2377_forloop__size %}{% assign locksmith_2377_forloop__last = true %}{% else %}{% assign locksmith_2377_forloop__last = false %}{% endif %}{% assign locksmith_2377_forloop__rindex = locksmith_2377_forloop__size | minus: locksmith_2377_forloop__index | minus: 1 %}{% assign locksmith_2377_forloop__rindex0 = locksmith_2377_forloop__size | minus: locksmith_2377_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+      {%- comment %}</locksmith:e4c2>{% endcomment -%}
+   
+      <li>
+        {%- if link.links != blank -%} 
+    
+          <header-menu>
+            <details id="Details-HeaderMenu-{{ locksmith_2377_forloop__index }}" class="mega-menu">
+              <summary
+                id="HeaderMenu-{{ link.handle }}"
+                class="header__menu-item list-menu__item link focus-inset"
+              >
+                <span
+                  {%- if link.child_active %}
+                    class="header__active-menu-item"
+                  {% endif %}
+                >
+                  {{- link.title | escape -}}
+                </span>
+                {% render 'icon-caret' %}
+              </summary>
+              <div
+                id="MegaMenu-Content-{{ locksmith_2377_forloop__index }}"
+                class="mega-menu__content gradient motion-reduce global-settings-popup"
+                tabindex="-1"
+              >
+                <ul
+                  class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
+                  role="list"
+                >
+          
+                  {% if  locksmith_2377_forloop__index == 2  %}
+                    <li><img loading="lazy" src="{{ mega_menu_image |  img_url : 'master' }}" width="100%"     height= "100%;"></li>
+                    {%  elsif  locksmith_2377_forloop__index == 3    %} 
+                    <li><img loading="lazy" src="{{ mega_menu_imageone |  img_url : 'master' }}" width="100%"     height= "100%;"></li>
+                    {%  elsif  locksmith_2377_forloop__index == 4    %} 
+                    <li><img loading="lazy" src="{{ mega_menu_imagetwo |  img_url : 'master' }}" width="100%"     height= "100%;"></li>
+                    {%  elsif  locksmith_2377_forloop__index == 5    %} 
+                    <li><img loading="lazy" src="{{ mega_menu_imagethree |  img_url : 'master' }}" width="100%"     height= "100%;"></li>
+                {% endif %}
+                  {%- for childlink in link.links -%}
+             
+                    {%- comment %}<locksmith:5dbc>{% endcomment -%}
+                      {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: childlink, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                    {%- comment %}</locksmith:5dbc>{% endcomment -%}
+             
+                    <li class="head_title" data-level="{{ link.levels }}">
+                      <a
+                        id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                        href="{{ childlink.url }}"
+                        class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                        {% if childlink.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
+                        {{ childlink.title | escape }}
+                      </a>
+                      {%- if childlink.links != blank -%}
+                        <ul class="list-unstyled" role="list">
+                          {%- for grandchildlink in childlink.links -%}
+          
+                            {%- comment %}<locksmith:5bb8>{% endcomment -%}
+                              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: grandchildlink, subject_parent: childlink, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                            {%- comment %}</locksmith:5bb8>{% endcomment -%}
+          
+                            <li>
+                              <a
+                                id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
+                                href="{{ grandchildlink.url }}"
+                                class="mega-menu__link link{% if grandchildlink.current %} mega-menu__link--active{% endif %}"
+                                {% if grandchildlink.current %}
+                                  aria-current="page"
+                                {% endif %}
+                              >
+                                {{ grandchildlink.title | escape }}
+                              </a>
+                            </li>
+                          {%- endfor -%}
+                        </ul>
+                      {%- endif -%}
+                    </li>
+                  {%- endfor -%}
+                </ul>
+
+              </div>
+            </details>
+          </header-menu>
+        {%- else -%}
+          <a
+            id="HeaderMenu-{{ link.handle }}"
+            href="{{ link.url }}"
+            class="header__menu-item list-menu__item link link--text focus-inset"
+            {% if link.current %}
+              aria-current="page"
+            {% endif %}
+          >
+            <span
+              {%- if link.current %}
+                class="header__active-menu-item"
+              {% endif %}
+            >
+              {{- link.title | escape -}}
+            </span>
+          </a>
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+</nav>

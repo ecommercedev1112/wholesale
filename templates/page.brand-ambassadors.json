@@ -1,0 +1,312 @@
+{
+  "sections": {
+    "aca2ae31-ffd7-404d-a2c7-08cbefce68b2": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21752750047539__aca2ae31-ffd7-404d-a2c7-08cbefce68b2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR HEALTH EXPERTS",
+            "heading_size": "h1"
+          }
+        },
+        "template--21752750047539__aca2ae31-ffd7-404d-a2c7-08cbefce68b2-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--21752750047539__aca2ae31-ffd7-404d-a2c7-08cbefce68b2-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21752750047539__aca2ae31-ffd7-404d-a2c7-08cbefce68b2-heading-1",
+        "template--21752750047539__aca2ae31-ffd7-404d-a2c7-08cbefce68b2-text-1",
+        "template--21752750047539__aca2ae31-ffd7-404d-a2c7-08cbefce68b2-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_231_5137274e-6d10-4c02-87ab-ff718e24cd74.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "d81d8d8e-def7-4a18-a588-56c6ecde1b88": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-heading-1",
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-text-1",
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "80f809e7-df42-409d-8532-af9f5a808313": {
+      "type": "multirow",
+      "blocks": {
+        "template--21752750047539__80f809e7-df42-409d-8532-af9f5a808313-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AW_1.webp",
+            "caption": "ANTHONY",
+            "heading": "WILLIAMS",
+            "text": "<p>“<strong>LIVING SILICA®<\/strong> as found in ORGONO® G5 Siliplant is one of the best forms of supplemental silica. It can be helpful for supporting and then maintaining healthy bone, skin, hair, teeth, tendon, ligament, and connective tissues.* The body easily absorbs <strong>LIVING SILICA®<\/strong>.“<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "accordionone": "",
+            "accordiontwo": ""
+          }
+        },
+        "template--21752750047539__80f809e7-df42-409d-8532-af9f5a808313-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DW1_1.webp",
+            "caption": "DAVID",
+            "heading": "WOLFE",
+            "text": "<p>David Wolfe has recommended our silica in a number of his books, notably, Eating for Beauty and Longevity Now. Our Products Are Featured In David’s Webcasts And Live Seminars With Approximately 2750 Events Since Inception.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "accordionone": "",
+            "accordiontwo": ""
+          }
+        },
+        "template--21752750047539__80f809e7-df42-409d-8532-af9f5a808313-row-3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ki_1.webp",
+            "caption": "KIMBERLY",
+            "heading": "SPAIR",
+            "text": "<p>Kimberly has dedicated her career to supporting and empowering women, families, and mothers by helping them regain their health and vitality through nutrition, herbs, and soul healing practices.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "accordionone": "",
+            "accordiontwo": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21752750047539__80f809e7-df42-409d-8532-af9f5a808313-row-1",
+        "template--21752750047539__80f809e7-df42-409d-8532-af9f5a808313-row-2",
+        "template--21752750047539__80f809e7-df42-409d-8532-af9f5a808313-row-3"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 32,
+        "padding_bottom": 36
+      }
+    },
+    "45bbae6a-cf10-4830-93b9-feea4803217f": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "By harnessing the power of silica from nature,we can replenish our bodies with this essential mineral that tends to diminish as we age.",
+            "heading_size": "h1"
+          }
+        },
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-heading-1",
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-text-1",
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "61758da8-84df-4ec2-96d2-7fec41a95a85": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "learn_more_about": "",
+        "silica": "",
+        "heading": "<div style=\"text-align:center\">\n<span style=\"font-size:18px;text-transform:uppercase;font-family:roboto,sans-serif;line-height:21.09px;LETTER-SPACING:3PX;\">Learn MORE About<\/span>\n<h2 style=\"text-transform:uppercase;font-size:40px;margin:0px\">Silica<\/h2>\n<\/div>",
+        "heading_size": "h1",
+        "blog": "silica",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8c9c75c1-9b20-4410-83fd-6aadbf592a5a": {
+      "type": "multirow",
+      "blocks": {
+        "template--21791155323187__8c9c75c1-9b20-4410-83fd-6aadbf592a5a-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vh_1.webp",
+            "caption": "VALERIA",
+            "heading": "HINOJOSA",
+            "text": "<p>“Let’s talk collagen, shall we? Finding a healthy, natural and plant-based collagen supplement has been difficult for me. As you may already know, most collagen products have animal by products as their ingredients and involve unnatural production processes. And then, a month ago, I found <strong>LIVING SILICA®<\/strong>.“<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "accordionone": "",
+            "accordiontwo": ""
+          }
+        },
+        "template--21791155323187__8c9c75c1-9b20-4410-83fd-6aadbf592a5a-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JillLawrence_1.webp",
+            "caption": "JILL",
+            "heading": "LAWRENCE",
+            "text": "<p>Health Coach Jill Anenberg Lawrence has a wellness gem to share! ! Silica is an incredible mineral that impacts so many systems in our bodies. Silica is a vegan collagen boosting formula that supercharges your health. <strong>LIVING SILICA®<\/strong> tastes like slightly sweetened water. I take a TBS and genuinely love the taste and benefits”.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "accordionone": "",
+            "accordiontwo": ""
+          }
+        },
+        "template--21791155323187__8c9c75c1-9b20-4410-83fd-6aadbf592a5a-row-3": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "accordionone": "",
+            "accordiontwo": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21791155323187__8c9c75c1-9b20-4410-83fd-6aadbf592a5a-row-1",
+        "template--21791155323187__8c9c75c1-9b20-4410-83fd-6aadbf592a5a-row-2",
+        "template--21791155323187__8c9c75c1-9b20-4410-83fd-6aadbf592a5a-row-3"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "aca2ae31-ffd7-404d-a2c7-08cbefce68b2",
+    "d81d8d8e-def7-4a18-a588-56c6ecde1b88",
+    "main",
+    "80f809e7-df42-409d-8532-af9f5a808313",
+    "45bbae6a-cf10-4830-93b9-feea4803217f",
+    "61758da8-84df-4ec2-96d2-7fec41a95a85",
+    "8c9c75c1-9b20-4410-83fd-6aadbf592a5a"
+  ]
+}

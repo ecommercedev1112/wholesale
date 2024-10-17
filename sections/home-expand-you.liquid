@@ -1,0 +1,145 @@
+<style>
+  .deleted-pic img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+  }
+
+  .deleted-all {
+    position: relative;
+  }
+
+  .deleted-context {
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .deleted-context h2 {
+    font-family: 'Gloock',serif;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: .11em;
+    text-align: center;
+    color: white;
+    margin: 0;
+  }
+
+  .deleted-context p {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif !important;
+  }
+  .deleted-context a:hover{
+    background-color: #00C1D5;
+    color: white;
+    border: none;
+  }
+  .deleted-context a {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #223D58;
+    background-color: white;
+    max-width: 290px;
+    margin: 0 auto;
+    display: flex;
+    padding: 5px 32px;
+    font-family: "Roboto", sans-serif !important;
+    letter-spacing: 3px;
+    font-weight: 300;
+  }
+  @media only screen and (max-width: 768px) {
+    .deleted-context h2 {
+      font-size: 25px;
+      line-height: 36px;
+    }
+
+    .deleted-context p {
+      font-size: 14px;
+    }
+
+    .deleted-context a {
+      font-size: 14px;
+    }
+    .deleted-pic img {
+    min-height: 304px !important;
+    object-fit: cover;
+    }       
+  }
+  @media screen and (max-width:500px) {
+    .deleted-context h2 {
+    font-size: 20px;
+    line-height: 29px;
+    }
+    .deleted-pic img {
+    min-height: 230px !important;
+  }
+  }
+</style>
+<div class="deleted-main">
+  <div class="full-width">
+    <div class="deleted-all">
+      <div class="deleted-pic">
+        {% if section.settings.image != blank %}
+          <img loading="lazy" src="{{ section.settings.image | img_url : 'master' }}">
+        {% endif %}
+      </div>
+      <div class="deleted-context">
+        <h2>{{ section.settings.head }}</h2>
+        <p>{{ section.settings.sub_head }}</p>
+        <a href="{{ section.settings.bt_url }}">{{ section.settings.t_url }}</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Bg Blue",
+    "settings": [
+      {
+        "type": "image_picker",
+        "label": "Image",
+        "id": "image"
+      },
+      {
+        "type": "text",
+        "id": "head",
+        "label": "Heading",
+        "default": "REFERENCE"
+      },
+      {
+        "type": "text",
+        "id": "sub_head",
+        "label": "Sub Heading",
+        "default": "Clinical Studies:"
+      },
+      {
+        "type": "text",
+        "id": "t_url",
+        "label": "Bottom Link Text",
+        "default": "View All References"
+      }, {
+        "type": "url",
+        "id": "bt_url",
+        "label": "Link"
+      }
+    ],
+    "presets": [
+      {
+        "name": "home Expane",
+        "category": "home Expane"
+      }
+    ]
+  }
+{% endschema %}

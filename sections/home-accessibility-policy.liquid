@@ -1,0 +1,114 @@
+<style>
+               .sectionbg {
+          background-color: #f7f9fb;
+          padding: 25px 0px 0px 0px;
+      }
+        .policy-text{
+
+                  font-family: "Roboto", sans-serif;
+             font-size: 18px;
+             font-weight: 300;
+             line-height: 25px;
+        padding-bottom: 25px;
+
+               }
+
+
+             .policy-content {
+               display: grid;
+               grid-template-columns: 5% 88%;
+
+           }
+             .policy-icon-box {
+               display: flex;
+               justify-content: center;
+               align-items: start;
+           }
+           .content-box {
+             margin: auto;
+             width: 80%;
+
+           .policy-content {
+             display: grid;
+             grid-template-columns: 5% 95%;
+         }
+             @media screen and (max-width:600px){
+
+               .policy-text {
+
+        font-size: 16px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+               .policy-content {
+
+        grid-template-columns: 90%!important;
+        margin: auto;
+        justify-content: center !important;
+    }
+               .sectionbg {
+      background-color: #f7f9fb;
+      padding: 50px 0px 0px 0px;
+  }
+             }
+</style>
+
+<div class="page-width">
+  <div class="sectionbg">
+    <div class="content-box">
+      {% for block in section.blocks %}
+        <div class="policy-content">
+          {% if block.settings['policy-icon'] != blank %}
+            <div class="policy-icon-box">
+              <img loading="lazy" src="{{ block.settings.policy-icon | img_url : 'master' }}" class="policy-icon-box">
+            </div>
+          {% endif %}
+          <div class="policy-text">
+            {{ block.settings['policy-text'] }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+  "name": "Acessability Policy",
+  "settings": [
+    {
+      "type": "color",
+      "label": "Section Background",
+      "id": "policy-bg"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Policy points",
+      "type": "Policy-block",
+      "settings": [
+        {
+          "type": "text",
+          "label": "text",
+          "id": "policy-text"
+        },
+        {
+          "type": "image_picker",
+          "label": "policy icons",
+          "id": "policy-icon"
+        },
+        {
+          "type": "color",
+          "label": "textcolor",
+          "id": "policy-text-color"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Acessability policy"
+    }
+  ]
+}
+{% endschema %}

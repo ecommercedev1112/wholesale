@@ -1,0 +1,459 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "home_super_one_9EhRCk": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 145,
+        "paddingsettingtwo": 65,
+        "backgound_image": "shopify:\/\/shop_images\/Group_419.png",
+        "image_text": "SILICA THROUGH THE AGES"
+      }
+    },
+    "home_super_two_Kq7zRK": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_qrCxgQ": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/pexels-monstera-production-7794430_1.png",
+            "step": "",
+            "section_heading": "A Historical",
+            "section_subheading": "JOURNEY",
+            "section_subheadingtwo": "",
+            "section_description": "<p>The narrative of silica has a long and intriguing history from the dawn of civilization to the cutting edge of today's research. Valued by both ancient scholars and modern scientists, its recent association with collagen production has spotlighted potential benefits affecting our bones, joints, and dermal health. This article explores the evolution of silica's application for health, including the contributions of Sc. D. Loïc Le Ribault, who who introduced the concept of \"silica therapy\" and led the way in developing its topical application on the skin and joint health. <\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_x9tAY6": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/pexels-monstera-production-7794495_1.png",
+            "step": "",
+            "section_heading": "ANCIENT",
+            "section_subheading": "ORIGINS",
+            "section_subheadingtwo": "",
+            "section_description": "<p>The use of silica dates back centuries, the ancient Chinese civilization employed it to soothe burns, accelerate wound healing, and alleviate the discomfort caused by insect bites. Topical nettle paste, which is very rich in silica, was applied directly to joints and painful areas of the body in compresses. Its use in tinctures has also been documented. They recognized the healing properties of diatomaceous earth as well, a fossilized form of silica that was readily available to them. This practice underlines the foundational role of silica in the annals of medicinal history, showcasing its impact on in natural healing practices.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_HzexYF": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/MicrosoftTeams-image_508_1.jpg",
+            "step": "",
+            "section_heading": "ANCIENT & MODERN",
+            "section_subheading": "HEALING",
+            "section_subheadingtwo": "",
+            "section_description": "<p>One therapy method described for addressing joint issues in ancient Egypt involved burying parts or the entire body in the earth; this practice is known today as mud therapy. Indigenous tribes applied plasters of wet, thick clay for skin issues, using silica-rich pure clay. Additionally, the use of thermal waters with high silica content, reported in other cultures across Europe, is gaining popularity worldwide. This resurgence is driven by evidence that silica microparticles can be absorbed through the skin. <\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_qrCxgQ",
+        "content_x9tAY6",
+        "content_HzexYF"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "",
+        "main_paragraph": ""
+      }
+    },
+    "super_home_point_DTQikd": {
+      "type": "super-home-point",
+      "blocks": {
+        "content_cbHRT7": {
+          "type": "content",
+          "settings": {
+            "points_text_year": "1800s",
+            "icn_image": "shopify:\/\/shop_images\/Ellipse_130_6f7da482-4640-4beb-89cf-4ddffd9e1423.png"
+          }
+        },
+        "content_V7L3fh": {
+          "type": "content",
+          "settings": {
+            "points_text_year": "1940s",
+            "icn_image": "shopify:\/\/shop_images\/Group_53_2d9cdcf0-5512-45e3-b6bf-8c8e81bd7a82.png"
+          }
+        },
+        "content_xDQcPD": {
+          "type": "content",
+          "settings": {
+            "points_text_year": "1970s",
+            "icn_image": "shopify:\/\/shop_images\/Group_53_2d9cdcf0-5512-45e3-b6bf-8c8e81bd7a82.png"
+          }
+        },
+        "content_YPpgdX": {
+          "type": "content",
+          "settings": {
+            "points_text_year": "1980s",
+            "icn_image": "shopify:\/\/shop_images\/Group_53_2d9cdcf0-5512-45e3-b6bf-8c8e81bd7a82.png"
+          }
+        },
+        "content_yqgXQM": {
+          "type": "content",
+          "settings": {
+            "points_text_year": "1994",
+            "icn_image": "shopify:\/\/shop_images\/Group_53_2d9cdcf0-5512-45e3-b6bf-8c8e81bd7a82.png"
+          }
+        },
+        "content_QP8Lri": {
+          "type": "content",
+          "settings": {
+            "points_text_year": "2000s",
+            "icn_image": "shopify:\/\/shop_images\/Group_53_2d9cdcf0-5512-45e3-b6bf-8c8e81bd7a82.png"
+          }
+        }
+      },
+      "block_order": [
+        "content_cbHRT7",
+        "content_V7L3fh",
+        "content_xDQcPD",
+        "content_YPpgdX",
+        "content_yqgXQM",
+        "content_QP8Lri"
+      ],
+      "settings": {
+        "year-points-bg": "",
+        "points_text": "SCIENTIFIC",
+        "points_title": "<h2>Exploration<\/h2>",
+        "points_content_text": "<p>In the 19th century, scientific exploration of silica began with research into its chemical composition. Despite challenges in understanding silicon's role in biology, it was largely overlooked in medicine. However, in the 1970s, Carlisle's studies revealed silica's importance in connective tissues like bones and cartilage. This breakthrough established silicon as an essential trace element, leading to the discovery of its potential connection to collagen, a critical protein for structural support.<\/p>"
+      }
+    },
+    "home_super_point_6iHcKz": {
+      "type": "home-super-point",
+      "blocks": {
+        "content_QVUb6K": {
+          "type": "content",
+          "settings": {
+            "year_text": "Year",
+            "main_title": "1800s",
+            "description_text": "<p>Friedrich Mohs develops the Mohs scale, which ranks minerals based on their hardness. Silica is classified as one of the hardest minerals.<\/p>",
+            "books_image": "shopify:\/\/shop_images\/Rectangle_187_1_613d60e8-c4b1-44ce-8bd2-d22a699cc832.png"
+          }
+        },
+        "content_J6reCA": {
+          "type": "content",
+          "settings": {
+            "year_text": "Year",
+            "main_title": "1940s",
+            "description_text": "<p>Dr. Louis Kervran, a distinguished French inventor, lecturer, and nominee for the Nobel Prize, played a pivotal role in advancing the study of silica's health benefits. Through his pioneering work, he successfully developed and patented a method to extract silicon from horsetail rushes using only water, entirely free from chemicals or solvents. This groundbreaking technique led to the creation of a water-soluble silicon extract, which opened up new avenues for ongoing research and diverse applications.  <br\/>Kervran proposed that elements like silicon could transmute into calcium within living organisms, a concept initially mocked by mainstream scientists.<\/p>",
+            "books_image": "shopify:\/\/shop_images\/MicrosoftTeams-image_507.jpg"
+          }
+        },
+        "content_Ap6p7j": {
+          "type": "content",
+          "settings": {
+            "year_text": "Year",
+            "main_title": "1970s",
+            "description_text": "<p>Dr. Edith Carlisle, an American biochemist, conducts groundbreaking research on the essentiality of silica. Her research provided valuable insights into the molecular mechanisms underlying the relationship between silica and collagen, deepening our understanding of how silica contributes to the structural and functional integrity of the human body. <\/p>",
+            "books_image": "shopify:\/\/shop_images\/MicrosoftTeams-image_509.jpg"
+          }
+        },
+        "content_KNJTRB": {
+          "type": "content",
+          "settings": {
+            "year_text": "Year",
+            "main_title": "1980s",
+            "description_text": "<p>Dr. Ravin Jugdaohsingh, American scientist, explores the role of silica in bone health. His studies indicate that silica enhances bone mineralization and may help prevent osteoporosis.  <\/p>",
+            "books_image": "shopify:\/\/shop_images\/MicrosoftTeams-image_510.jpg"
+          }
+        },
+        "content_TAkP8V": {
+          "type": "content",
+          "settings": {
+            "year_text": "Year",
+            "main_title": "1994s",
+            "description_text": "<p>Sc. D. Le Ribault, a French geologist and essayist, studied the therapeutic uses of silica in all its scientific aspects for more than 30 years. In 1994, Le Ribault created a new molecule that was tested for 3 years and had a distinct advantage: it did not require additional drugs to enhance its effectiveness. This molecule proved to be more effective than previous ones and demonstrated exceptional stability. Over time, it was shown that the molecule maintains its monomeric stability for years and can be safely used orally for extended periods of time. This molecule is now globally known as Orgono – Living Silica. In collaboration with medical professionals, Sc. D. Loïc Le Ribault coined the name “silica therapy”, formulating advanced protocols for its application, including spray, vaporizations, and more, as detailed in his seminal work, \"The Study of Living Silica Compounds in Human Health\" (2002). Beyond these innovations, he amassed and analyzed thousands of testimonials to understand its potential health benefits. His commitment extended to sharing this knowledge globally through two decades of seminars and lectures at prestigious universities and institutions, significantly impacting the field and promoting silica's therapeutic potential on a large scale.<\/p>",
+            "books_image": "shopify:\/\/shop_images\/Rectangle_128_006b6358-7c9b-4053-9600-51226ea010e5.png"
+          }
+        },
+        "content_NdzxT4": {
+          "type": "content",
+          "settings": {
+            "year_text": "Year",
+            "main_title": "2000s",
+            "description_text": "<p>Dr. Christopher Exley, an English chemist known for his work on aluminum toxicity, investigates the potential of silica in aluminum detoxification. Dr. Exley's investigations into the interplay between silica and aluminum opened up fresh perspectives and avenues for comprehending the role of silica in addressing aluminum toxicity. This line of research carries significant implications for human health, as aluminum toxicity has been linked to various health concerns.<\/p>",
+            "books_image": "shopify:\/\/shop_images\/Rectangle_126_7.png"
+          }
+        }
+      },
+      "block_order": [
+        "content_QVUb6K",
+        "content_J6reCA",
+        "content_Ap6p7j",
+        "content_KNJTRB",
+        "content_TAkP8V",
+        "content_NdzxT4"
+      ],
+      "settings": {
+      }
+    },
+    "60dd524c-3eeb-42d3-8199-bdf26161ebc2": {
+      "type": "through-ages-number-list",
+      "blocks": {
+        "3bff9afd-3d3b-4c65-b0f3-e397b3c5cc2f": {
+          "type": "number",
+          "settings": {
+            "custom_text_title": "1800s"
+          }
+        },
+        "75146eb8-a262-492e-b84e-ea74e65d81fa": {
+          "type": "number",
+          "settings": {
+            "custom_text_title": "1940s"
+          }
+        },
+        "af01069d-8533-4c8c-8804-bf3bdfb892ee": {
+          "type": "number",
+          "settings": {
+            "custom_text_title": "1970s"
+          }
+        },
+        "8b9fffb5-148e-4736-8f6e-bec32b81c0cb": {
+          "type": "number",
+          "settings": {
+            "custom_text_title": "1980s"
+          }
+        },
+        "98a16d88-fccd-423c-9b63-689a9a526dfe": {
+          "type": "number",
+          "settings": {
+            "custom_text_title": "1994s"
+          }
+        },
+        "4d64088d-1493-441a-9aad-4bec464555bc": {
+          "type": "number",
+          "settings": {
+            "custom_text_title": "2000s"
+          }
+        }
+      },
+      "block_order": [
+        "3bff9afd-3d3b-4c65-b0f3-e397b3c5cc2f",
+        "75146eb8-a262-492e-b84e-ea74e65d81fa",
+        "af01069d-8533-4c8c-8804-bf3bdfb892ee",
+        "8b9fffb5-148e-4736-8f6e-bec32b81c0cb",
+        "98a16d88-fccd-423c-9b63-689a9a526dfe",
+        "4d64088d-1493-441a-9aad-4bec464555bc"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "45bbae6a-cf10-4830-93b9-feea4803217f": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "By harnessing the power of silica from nature,we can replenish our bodies with this essential mineral that tends to diminish as we age.",
+            "heading_size": "h1"
+          }
+        },
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-heading-1",
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-text-1",
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_230.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "home_super_two_fxTgTh": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_Rm4acN": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_126_6_a97c7fec-21a1-4a55-926a-de7c40789bd0.png",
+            "step": "",
+            "section_heading": "CHALLENGING",
+            "section_subheading": "LIMITATIONS: ",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Almost unknown in medical, biological, and clinical practice, silicon has been extensively studied in scientific research. Despite its significant role, silicon remains the great forgotten among the many essential trace elements crucial to the biological processes of life. <br\/><br\/>Over the years, anecdotal evidence and traditional knowledge have highlighted the benefits of silica. However, scientific research conducted from the late 20th century to the present has significantly expanded our understanding in this area. Moreover, ongoing clinical trials are actively underway, aiming to provide deeper insights into the potential benefits of silica. <br\/><br\/>The accumulating evidence supporting the essentiality of silicon is becoming increasingly compelling. Therefore, it is crucial for regulatory authorities in the field of nutrition to officially acknowledge its significance and undertake comprehensive studies, similar to those carried out for other essential elements such as calcium and iron. By doing so, we can further advance our understanding of silica and its potential therapeutic applications. <\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_ckVQKQ": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_126_7.png",
+            "step": "",
+            "section_heading": "potential contributions are",
+            "section_subheading": "STILL EMERGING",
+            "section_subheadingtwo": "",
+            "section_description": "<p>While research on silica's potential role in preventing and treating various health issues continues to develop, its applications in modern medicine are already notable. Silica is being explored for use in bone-repairing devices due to its supportive role in connective tissue health. Its benefits extend to skin and wound healing, showcasing its reparative properties. <br\/><br\/>Additionally, silica-based eye drops like Conjonctyl® offer promising therapeutic effects. Mesotherapy, a treatment that involves microinjections of substances directly into the skin, also utilizes silica, highlighting its versatility in medical applications. <\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_Rm4acN",
+        "content_ckVQKQ"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "",
+        "main_paragraph": ""
+      }
+    },
+    "super_rich_Jg8Fi3": {
+      "type": "super-rich",
+      "custom_css": [
+        ".text-seaction {padding: 0;}"
+      ],
+      "settings": {
+        "background_color": "#ffffff",
+        "para": "",
+        "interesting_facts_about": "LEARN MORE ABOUT",
+        "the_safety_of_our_products": "SILICA",
+        "text": ""
+      }
+    },
+    "blog_multicolumn_rCk9cn": {
+      "type": "blog-multicolumn",
+      "blocks": {
+        "column_7PjGQr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_42_11.png",
+            "title": "The Most Effective Form Of Silica",
+            "text": "<p>Our groundbreaking research has led us to uncover the most potent and bioavailable form of silica.<\/p>",
+            "link_label": "Previous Article",
+            "link": "shopify:\/\/pages\/the-most-effective-form-of-silica"
+          }
+        },
+        "column_VERD4K": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_42_12.png",
+            "title": "Myths About Silica",
+            "text": "<p>Dive deeper into the journey of silica and the discovery of its potential health and beauty benefits throughout the ages.<\/p>",
+            "link_label": "Read Next",
+            "link": "shopify:\/\/pages\/myths-about-silica"
+          }
+        }
+      },
+      "block_order": [
+        "column_7PjGQr",
+        "column_VERD4K"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "home_super_one_9EhRCk",
+    "home_super_two_Kq7zRK",
+    "super_home_point_DTQikd",
+    "home_super_point_6iHcKz",
+    "60dd524c-3eeb-42d3-8199-bdf26161ebc2",
+    "45bbae6a-cf10-4830-93b9-feea4803217f",
+    "home_super_two_fxTgTh",
+    "super_rich_Jg8Fi3",
+    "blog_multicolumn_rCk9cn"
+  ]
+}

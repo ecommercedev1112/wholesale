@@ -1,0 +1,443 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Discover the Essential Mineral",
+            "heading_size": "h0"
+          }
+        },
+        "5a9c4205-2433-4cd3-8c82-24c307d746ab": {
+          "type": "text",
+          "settings": {
+            "text": "The most effective form of silica to unleash the power of           your own collagen.",
+            "text_style": "subtitle"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "5a9c4205-2433-4cd3-8c82-24c307d746ab",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "e7a7b885-eef1-4e1f-ac2d-593fb25070c1": {
+      "type": "moving-slider",
+      "blocks": {
+        "99bbf522-9af5-4170-bdc7-c64f0ce6b2c7": {
+          "type": "text",
+          "settings": {
+            "html": "<div style=\"display:flex;align-items:center;height:45px\">\n<img style=\"width:25px;margin-right:10px\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0788\/5622\/5075\/files\/Asset_4_1.png?v=1701438316\">COLLAGEN PRODUCTION\n<\/div>"
+          }
+        },
+        "612b8149-66bb-4fc7-bf09-850eef5bf143": {
+          "type": "text",
+          "settings": {
+            "html": "<div style=\"display:flex;align-items:center;height:45px;\">\n<img style=\"width:25px;margin-right:10px\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0788\/5622\/5075\/files\/Asset_3_1.png?v=1701438316\">HAIR, SKIN AND NAILS\n<\/div>"
+          }
+        },
+        "a9034911-c2f9-4a1a-8bf9-b8ffe6b7236e": {
+          "type": "text",
+          "settings": {
+            "html": "<div style=\"display:flex;align-items:center;height:45px\">\n<img style=\"width:20px;margin-right:10px\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0788\/5622\/5075\/files\/Asset_2_1.png?v=1701438316\">BONED AND JOINTS\n<\/div>"
+          }
+        },
+        "c31228b8-e8a8-4795-818c-88ab529faa2f": {
+          "type": "text",
+          "settings": {
+            "html": "<div style=\"display:flex;align-items:center;height:45px\">\n<img style=\"width:25px;margin-right:10px\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0788\/5622\/5075\/files\/Asset_2_2.png?v=1701438316\">GREATER ABSORPTION\n<\/div>"
+          }
+        },
+        "a7d71e53-b099-4794-94a3-8932ede69f55": {
+          "type": "text",
+          "settings": {
+            "html": "<div style=\"display:flex;align-items:center;height:45px\">\n<img style=\"width:25px;margin-right:10px\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0788\/5622\/5075\/files\/Asset_4_1.png?v=1701438316\">COLLAGEN PRODUCTION\n<\/div>"
+          }
+        },
+        "caaf8a30-5274-49c6-8dbc-24083fd1a277": {
+          "type": "text",
+          "settings": {
+            "html": "<div style=\"display:flex;align-items:center;height:45px\">\n<img style=\"width:25px;margin-right:10px\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0788\/5622\/5075\/files\/Asset_3_1.png?v=1701438316\">HAIR, SKIN AND BONE\n<\/div>"
+          }
+        },
+        "ae7a2e30-ca03-46c7-b80c-44d108fb379a": {
+          "type": "text",
+          "settings": {
+            "html": "<div style=\"display:flex;align-items:center;height:45px\">\n<img style=\"width:20px;margin-right:10px\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0788\/5622\/5075\/files\/Asset_2_1.png?v=1701438316\">BONED AND JOINTS\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "99bbf522-9af5-4170-bdc7-c64f0ce6b2c7",
+        "612b8149-66bb-4fc7-bf09-850eef5bf143",
+        "a9034911-c2f9-4a1a-8bf9-b8ffe6b7236e",
+        "c31228b8-e8a8-4795-818c-88ab529faa2f",
+        "a7d71e53-b099-4794-94a3-8932ede69f55",
+        "caaf8a30-5274-49c6-8dbc-24083fd1a277",
+        "ae7a2e30-ca03-46c7-b80c-44d108fb379a"
+      ],
+      "settings": {
+      }
+    },
+    "0eaaffee-96aa-4ded-9044-ffed61cf0b29": {
+      "type": "rich-text",
+      "blocks": {
+        "9e405221-0d7d-41c2-86a3-9ce7930ae1c9": {
+          "type": "caption",
+          "settings": {
+            "caption": "Boost The Power Of Your",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "template--21829931172147__0eaaffee-96aa-4ded-9044-ffed61cf0b29-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "OWN COLLAGEN",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "9e405221-0d7d-41c2-86a3-9ce7930ae1c9",
+        "template--21829931172147__0eaaffee-96aa-4ded-9044-ffed61cf0b29-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 76,
+        "padding_bottom": 12
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "liquids",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-558943f0-6b40-49da-a8ec-6465189ec0ab",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 56
+      }
+    },
+    "77daf07f-5a44-4ffc-ae53-2ed95b01d8f3": {
+      "type": "image-banner",
+      "blocks": {
+        "template--19746327429427__77daf07f-5a44-4ffc-ae53-2ed95b01d8f3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "EXPAND YOUR KNOWLEDGE",
+            "heading_size": "h1"
+          }
+        },
+        "template--19746327429427__77daf07f-5a44-4ffc-ae53-2ed95b01d8f3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Uncover the science behind silica",
+            "text_style": "body"
+          }
+        },
+        "template--19746327429427__77daf07f-5a44-4ffc-ae53-2ed95b01d8f3-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "LEARN MORE",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19746327429427__77daf07f-5a44-4ffc-ae53-2ed95b01d8f3-heading-1",
+        "template--19746327429427__77daf07f-5a44-4ffc-ae53-2ed95b01d8f3-text-1",
+        "template--19746327429427__77daf07f-5a44-4ffc-ae53-2ed95b01d8f3-buttons-1"
+      ],
+      "custom_css": [
+        ".banner__buttons {background-color: #fff !important;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_124_1_02439a13-8a27-4c20-8e9c-ea4018d8e598.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "89c8b823-4526-45ac-a110-fc3ef6ee9e91": {
+      "type": "image-with-text",
+      "blocks": {
+        "cb26d24d-1b92-4894-921a-82a49f2b5470": {
+          "type": "html",
+          "settings": {
+            "html": "<div style=\"display:flex;gap:25px;align-items:center;\" class=\"icon-with-text__container\">\n<div style=\"border:2px solid #1A3045;border-radius:50%;padding: 10px 10px 5px 10px;class=\" icon-container=\"\">\n<img style=\"width:32px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0788\/5622\/5075\/files\/Asset_3_2_1.png?v=1701943579\">\n<\/div>\n<div class=\"text-container\">\n<h2 style=\"text-transform:uppercase;font-size:35px;margin:0px\">Skin, Hair &amp; nails<\/h2>\n<p style=\"line-height:25px;font-size:16px;    margin: 0px;\">\nLIVING SILICA´s patented formula promotes glowing skin, healthier hair &amp; stronger nails.*\n<\/p>\n<\/div>\n<\/div>"
+          }
+        },
+        "d2b4470a-cea5-4670-a8bb-9fba544f349a": {
+          "type": "html",
+          "settings": {
+            "html": "<div style=\"display:flex;gap:28px;align-items:center;\" class=\"icon-with-text__container\">\n<div style=\"border:2px solid #1A3045;border-radius:50%;padding:8px 18px 1px 18px; class=\" icon-container=\"\">\n<img style=\"width:15px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0788\/5622\/5075\/files\/Asset_2_2_8a93ab0d-a442-4b35-9a29-bdab2edc2c6e.png?v=1701943579\">\n<\/div>\n<div class=\"text-container\">\n<h2 style=\"text-transform:uppercase;font-size:38px;margin:0px\">Bones &amp; Joints<\/h2>\n<p style=\"line-height:25px;font-size:16px;    margin: 0px;\">\nLIVING SILICA´s original formula supports healthy bones and joints.*\n<\/p>\n<\/div>\n<\/div>"
+          }
+        },
+        "214f0595-bcdd-423a-b43d-43ae9762beff": {
+          "type": "html",
+          "settings": {
+            "html": "<div style=\"display:flex;gap:27px;align-items:center;\" class=\"icon-with-text__container\">\n<div style=\"border:2px solid #1A3045;border-radius:50%;padding:12px 14px 1px 14px;  class=\" icon-container=\"\">\n<img style=\"width:22px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0788\/5622\/5075\/files\/Asset_4_2.png?v=1701943579\">\n<\/div>\n<div class=\"text-container\">\n<h2 style=\"text-transform:uppercase;font-size:38px;margin:0px\">Collagen<\/h2>\n<p style=\"line-height:25px;font-size:16px;    margin: 0px;\">\nLIVING SILICA's ingredients are fully absorbed by the body, crucial for enhanced collagen production. *\n<\/p>\n<\/div>\n<\/div>"
+          }
+        },
+        "3711a0a8-9b99-4cab-98cd-90234695b12d": {
+          "type": "html",
+          "settings": {
+            "html": "<div style=\"display:flex;gap:28px;align-items:center;\" class=\"icon-with-text__container\">\n<div style=\"border:2px solid #1A3045;border-radius:50%;padding:9px 12px 5px 12px; class=\" icon-container=\"\">\n<img style=\"width:26px;margin-bottom:0px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0788\/5622\/5075\/files\/Asset_3_3.png?v=1701943579\">\n<\/div>\n<div class=\"text-container\">\n<h2 style=\"text-transform:uppercase;font-size:30px;margin:0px\">Clinically Proven<\/h2>\n<p style=\"line-height:25px;font-size:16px;    margin: 0px;\">\nLIVING SILICA's benefits are backed by independent clinical studies and supported by proven facts.\n<\/p>\n<\/div>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "cb26d24d-1b92-4894-921a-82a49f2b5470",
+        "d2b4470a-cea5-4670-a8bb-9fba544f349a",
+        "214f0595-bcdd-423a-b43d-43ae9762beff",
+        "3711a0a8-9b99-4cab-98cd-90234695b12d"
+      ],
+      "settings": {
+        "title": "<div style=\"color: #1C2E3A;text-align:center;margin:10px;font-size: 18px;line-height:21.09px;text-transform:uppercase;\">\n<span>Explore The<\/span>\n<h2 style=\"color: #1C2E3A;margin:0px; font-size:48px\">Benefits<\/h2>\n<\/div>",
+        "image": "shopify:\/\/shop_images\/Rectangle_96.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-558943f0-6b40-49da-a8ec-6465189ec0ab",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e4d29394-e984-448a-981c-b02d73bc31c6": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "blog": "new",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-558943f0-6b40-49da-a8ec-6465189ec0ab",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "5ced6877-fe40-4b02-a905-0db91eb9375c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"custom-bg\" style=\"background:url(https:\/\/cdn.shopify.com\/s\/files\/1\/0788\/5622\/5075\/files\/Rectangle_231.png?v=1701425721);height:675px\">\n<div style=\"max-width:950px;margin:auto;    text-align: center;\n    padding: 50px;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0788\/5622\/5075\/files\/HC_dark_blue_TRANSPARENT_2.png?v=1701425826\">\n<h2 style=\"font-size:50px;margin-bottom;-70px;color:white;letter-spacing: 5px;\">\nHERITAGE CONCENTRATE\n<\/h2>\n<p style=\"margin-bottom:40px;color:white;font-weight:300 !important\">\nThe proprietary process used across all LIVING SILICA® products. Developed in 1994 by Sc.D. Loïc Le Ribault, this unique method raises the solubility limit of Si and maintains it in a small, monomeric, and well-absorbed from for maximum intestinal absorption.\n<\/p>\n<a href=\"\/\" style=\"margin-top:50px; padding: 10px 58px !important;\n  font-weight: bold;background:white;color:black;text-decoration:none\">\nLEARN MORE\n<\/a>\n\n<\/div>\n<\/div>",
+        "color_scheme": "scheme-558943f0-6b40-49da-a8ec-6465189ec0ab",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "196411ff-9d36-4667-9088-c11bae43df30": {
+      "type": "testimonial",
+      "blocks": {
+        "bb563bf2-61c6-4651-be74-7aa2fc0b26fb": {
+          "type": "Testimonial",
+          "settings": {
+            "name": "Amanda M.",
+            "img": "shopify:\/\/shop_images\/Vector.png",
+            "title": "Glowing results in 2 months!",
+            "description": "<p>I've been taking this for about 2 months now. My nails are strong, white and growing like crazy.<\/p>"
+          }
+        },
+        "36029f00-d09e-4c26-ab07-fad751388894": {
+          "type": "Testimonial",
+          "settings": {
+            "name": "Olivia S.",
+            "img": "shopify:\/\/shop_images\/Vector.png",
+            "title": "Radiant skin within 90 days.",
+            "description": "<p>LIVING SILICA is my choice for beauty and strength. Hair's fuller, skin's radiant, joints are happier. It's been 90 days of goodness, and I'm exited for more!<\/p>"
+          }
+        },
+        "c2eb0f68-101c-4c50-aa77-8f4a4661eab5": {
+          "type": "Testimonial",
+          "settings": {
+            "name": "Lucy C.",
+            "img": "shopify:\/\/shop_images\/Vector.png",
+            "title": "Found what i was looking for!",
+            "description": "<p>My 30s needed a health upgrade. LIVING SILICA stepped in, and now my skin looks incredible, my hair's vibrant and my nails resilient.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "bb563bf2-61c6-4651-be74-7aa2fc0b26fb",
+        "36029f00-d09e-4c26-ab07-fad751388894",
+        "c2eb0f68-101c-4c50-aa77-8f4a4661eab5"
+      ],
+      "settings": {
+      }
+    },
+    "7e6980a8-fe7e-4e50-9657-1368a96475dd": {
+      "type": "image-slider",
+      "blocks": {
+        "2d0b69a6-edb5-4923-b6cf-17fbc417ef61": {
+          "type": "Slider",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Rectangle_13.png"
+          }
+        },
+        "702f01a4-11ff-4fb3-bd4e-6f0c5de650df": {
+          "type": "Slider",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Rectangle_13.png"
+          }
+        },
+        "b1d094eb-3fc5-4630-9e92-9ef5779b59f7": {
+          "type": "Slider",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Rectangle_15.png"
+          }
+        },
+        "779cff30-ce83-4230-be26-cad19da1d88b": {
+          "type": "Slider",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Rectangle_14.png"
+          }
+        },
+        "81559ec4-cd6e-4b31-b259-b296bd8ce9dd": {
+          "type": "Slider",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Rectangle_15_1119a4ff-376d-479f-b43b-37ac7e9f461f.png"
+          }
+        }
+      },
+      "block_order": [
+        "2d0b69a6-edb5-4923-b6cf-17fbc417ef61",
+        "702f01a4-11ff-4fb3-bd4e-6f0c5de650df",
+        "b1d094eb-3fc5-4630-9e92-9ef5779b59f7",
+        "779cff30-ce83-4230-be26-cad19da1d88b",
+        "81559ec4-cd6e-4b31-b259-b296bd8ce9dd"
+      ],
+      "settings": {
+      }
+    },
+    "e0b3cd67-0665-4273-85a9-63970513857b": {
+      "type": "rich-text",
+      "blocks": {
+        "2623a345-7e17-4f33-a357-d7242a319a76": {
+          "type": "caption",
+          "settings": {
+            "caption": "Learn About",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "template--21829931172147__e0b3cd67-0665-4273-85a9-63970513857b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "SILICA",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "2623a345-7e17-4f33-a357-d7242a319a76",
+        "template--21829931172147__e0b3cd67-0665-4273-85a9-63970513857b-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "fff74f20-d23e-48d4-a391-7d8cc40dab91": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "blog": "home",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-558943f0-6b40-49da-a8ec-6465189ec0ab",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "e7a7b885-eef1-4e1f-ac2d-593fb25070c1",
+    "0eaaffee-96aa-4ded-9044-ffed61cf0b29",
+    "featured_collection",
+    "77daf07f-5a44-4ffc-ae53-2ed95b01d8f3",
+    "89c8b823-4526-45ac-a110-fc3ef6ee9e91",
+    "e4d29394-e984-448a-981c-b02d73bc31c6",
+    "5ced6877-fe40-4b02-a905-0db91eb9375c",
+    "196411ff-9d36-4667-9088-c11bae43df30",
+    "7e6980a8-fe7e-4e50-9657-1368a96475dd",
+    "e0b3cd67-0665-4273-85a9-63970513857b",
+    "fff74f20-d23e-48d4-a391-7d8cc40dab91"
+  ]
+}

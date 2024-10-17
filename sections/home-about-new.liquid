@@ -1,0 +1,535 @@
+<style>
+  .sl_img_column {
+    width: 48%;
+    margin:auto;
+  }
+  .l_sl_container{{ section.id }} {
+    flex-wrap: wrap;
+    gap: 30px;
+    display: flex;
+
+  }
+  section.lsl_img_section {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding-top: {{ section.settings.p_t }}px;
+    padding-bottom: {{ section.settings.p_b }}px;
+  }
+  .sl_content_column {
+    justify-content: center;
+    width: 48%;
+    flex-direction: column;
+    display: flex;
+    margin:auto;
+  }
+  .percentage_row {
+    padding: 15px 0;
+    display: flex;
+  }
+  p.sltop_heading {
+    margin-bottom: 10px;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0.46em;
+    text-align: left;
+  }
+  h2.sl_omg_heading {
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.11em;
+    text-align: left;
+    margin: 0;
+  }
+  span.doctor_info {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #3C6683;
+    margin: 10px 0;
+  }
+  .doctor_info p {
+    margin: 0 !important;
+  }
+
+  p.other_text {
+    font-family: "Roboto Light";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-top: 0;
+  }
+  .percentage_box {
+    width: 23%;
+  }
+  .percentage_row {
+    gap: 10px;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  {% if section.settings.img_alignment == 'right' %}
+    .l_sl_container{{ section.id }} {
+      flex-direction: row-reverse;
+    }
+  {% endif %}
+  @media (max-width: 1200px) {
+
+    p.sltop_heading {
+      font-size: 14px;
+    }
+    h2.sl_omg_heading {
+      font-size: 34px;
+    }
+    span.doctor_info {
+      line-height: 25px;
+      font-size: 16px;
+    }
+    p.other_text {
+      font-size: 16px;
+    }
+    .percentage_box {
+
+      align-items: center;
+      flex-direction: column;
+      display: flex;
+    }
+    p.perc_text {
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 800px) {
+    .l_sl_container{{ section.id }} {
+      flex-direction: column;
+    }
+    .sl_img_column_small {
+      justify-content: center !Important;
+      flex-wrap: wrap;
+      flex-direction: row !Important;
+      width: 100% !Important;
+    }
+    .sl_content_column_large {
+      width: 100% !Important;
+    }
+
+
+    .sl_content_column {
+      width: 100%;
+    }
+    .percentage_box {
+      text-align: center;
+      width: 143px;
+    }
+    p.sltop_heading {
+      margin-top: 0;
+    }
+    h2.sl_omg_heading {
+      line-height: 17px;
+      font-size: 22px;
+    }
+
+  }
+  @media (max-width: 500px) {
+    p.perc_text {
+    text-align: center;
+    line-height: 26px;
+    font-size: 17px;
+}
+  p.other_text {
+    font-size: 17px;
+    line-height: 26px;
+  }
+    .l_sl_container{{ section.id }} {
+      flex-direction: column;
+    }
+    .sl_img_column {
+      width: 100%;
+    }
+    .sl_content_column {
+      width: 100%;
+    }
+    .percentage_row {
+         justify-content: center;
+    }
+  }
+  @media (max-width: 420px) {
+    .percentage_row {
+      gap: 0;
+    }
+    .sl_content_column_large p,
+    .sl_content_column_large h2 {
+    text-align: start;
+    }
+    .percentage_box {
+      text-align: center;
+      width: 50%;
+    }
+    .sl_content_column {
+      text-align: start;
+      width: 100%;
+    }
+        .sl_content_column {
+         align-items: self-start;
+      width: 100%;
+    }
+p.perc_text {
+    text-align: center;
+}
+
+  }
+  a.bl_btn {
+    padding: 5px 50px;
+    background: #1C2E3A;
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    border: 1px solid #1C2E3A;
+  }
+  a.wh_btn {
+    padding: 5px 50px;
+    background: white;
+    text-decoration: none;
+    color: #1C2E3A;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    border: 1px solid #1C2E3A;
+  }
+  .sl_btns {
+    padding: 10px 0;
+    gap: 8px;
+    display: flex;
+  }
+  p.perc_text {
+    margin-top: 7px;
+    margin-bottom: 0;
+  }
+  .progress_div {
+    margin: 10px 0;
+    border: 1px solid #1C2E3A;
+    width: 95%;
+    display: block;
+  }
+  .sl_content_column_large {
+    width: 55%;
+  }
+  .sl_img_column_small img {
+    object-fit: none !important;
+    object-position: top;
+  }
+  .sl_img_column_small {
+    align-items: flex-end;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: flex-start;
+    display: flex;
+    width: 30%;
+  }
+  .second_section {
+    place-content: space-between;
+  }
+  .sl_img_column_small img {
+    max-width: 227px;
+  }
+</style>
+
+<section class="lsl_img_section">
+  <div class="page-width">
+    <div class="l_sl_container{{ section.id }} second_section">
+      <div class="sl_img_column_small">
+        <img loading="lazy" src="{{ section.settings.img | img_url: '' }}" width="100%">
+        <img loading="lazy" src="{{ section.settings.img1 | img_url: '' }}" width="100%">
+        <img loading="lazy" src="{{ section.settings.img2 | img_url: '' }}" width="100%">
+      </div>
+      <div class="sl_content_column_large">
+        <p class="sltop_heading">{{ section.settings.t_heading }}</p>
+        <h2 class="sl_omg_heading">{{ section.settings.heading }}</h2>
+        {%- for block in section.blocks -%}
+          {% case block.type %}
+            {% when 'bl_text' %}
+              <span class="doctor_info bline{{ block.id }}">
+                {{ block.settings.bl_text }}
+              </span>
+              {% if block.settings.bl_line %}
+                <style>
+                  span.bline{{ block.id }} {
+                    padding-left: 15px;
+                    border-left: 4px solid #3C6683;
+                    display: flex;
+                  }
+                </style>
+              {% endif %}
+            {% when 'g_text' %}
+              <p class="other_text">{{ block.settings.g_texts }}</p>
+            {% when 'p_box' %}
+              <div class="percentage_row">
+                <div class="percentage_box">
+                  {% if block.settings.p_img != blank %}
+                    <img loading="lazy" src="{{ block.settings.p_img | img_url: '' }}">
+                  {% endif %}
+                  <p class="perc_text">{{ block.settings.p_text }}</p>
+                </div>
+                <div class="percentage_box">
+                  {% if block.settings.p_img1  %}
+                    <img loading="lazy" src="{{ block.settings.p_img1 | img_url: '' }}">
+                    {% else %}
+                    {{ block.settings.svg2 }}
+                  {% endif %}
+                  <p class="perc_text">{{ block.settings.p_text1 }}</p>
+                </div>
+                <div class="percentage_box">
+                  {% if block.settings.p_img2  %}
+                    <img loading="lazy" src="{{ block.settings.p_img2 | img_url: '' }}">
+                    {% else %}
+                    {{ block.settings.svg2 }}
+                  {% endif %}
+                  <p class="perc_text">{{ block.settings.p_text2 }}</p>
+                </div>
+                <div class="percentage_box">
+                  {% if block.settings.p_img3  %}
+                    <img loading="lazy" src="{{ block.settings.p_img3 | img_url: '' }}">
+                    {% else %}
+                    {{ block.settings.svg3 }}
+                  {% endif %}
+                  <p class="perc_text">{{ block.settings.p_text2 }}</p>
+                </div>
+              </div>
+            {% when 'bl_btn' %}
+              <div class="sl_btns">
+                <a href="{{ block.settings.b_url }}" class="bl_btn">{{ block.settings.bl_label }}</a>
+                <a href="{{ block.settings.w_url }}" class="wh_btn">{{ block.settings.w_label }}</a>
+              </div>
+            {% when 'progres_bar' %}
+              <div class="progress_div">
+                <span class="barr{{ block.id }}"></span>
+                <style>
+                  span.barr{{ block.id }} {
+                    display: block;
+                    height: 38px;
+                    background: #1C2E3A;
+                    width: {{ block.settings.width }}%;
+                  }
+                </style>
+              </div>
+          {% endcase %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Home Progress Images",
+    "settings": [
+      {
+        "type": "image_picker",
+        "label": "Image",
+        "id": "img"
+      },
+      {
+        "type": "image_picker",
+        "label": "Image",
+        "id": "img1"
+      },
+      {
+        "type": "image_picker",
+        "label": "Image",
+        "id": "img2"
+      },
+      {
+        "type": "text",
+        "label": "Top Heading",
+        "id": "t_heading"
+      }, {
+        "type": "text",
+        "label": "Heading",
+        "id": "heading"
+      }, {
+        "type": "select",
+        "id": "img_alignment",
+        "label": "Vertical alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          }, {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      }, {
+        "type": "range",
+        "label": "Padding Top",
+        "id": "p_t",
+        "min": 0,
+        "max": 100,
+        "default": 36,
+        "unit": "px"
+      }, {
+        "type": "range",
+        "label": "Padding bottom",
+        "id": "p_b",
+        "min": 0,
+        "max": 100,
+        "default": 36,
+        "unit": "px"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "bl_text",
+        "name": "Blue Text",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "bl_text",
+            "label": "Text"
+          }, {
+            "type": "checkbox",
+            "id": "bl_line",
+            "label": "Left Line",
+            "default": true
+          }
+        ]
+      },
+      {
+        "type": "g_text",
+        "name": "Text",
+        "settings": [
+          {
+            "type": "textarea",
+            "label": "Text",
+            "id": "g_texts"
+          }
+        ]
+
+      },
+      {
+        "type": "p_box",
+        "name": "Percentage",
+
+        "settings": [
+          {
+            "type": "image_picker",
+            "label": "Percentage",
+            "id": "p_img"
+          },
+          {
+          "type": "html",
+          "id": "svg1",
+          "label": "SVG Image 1"
+        },
+          {
+            "type": "text",
+            "id": "p_text",
+            "label": "Text"
+          },
+          {
+            "type": "image_picker",
+            "label": "Percentage",
+            "id": "p_img1"
+          },
+                    {
+          "type": "html",
+          "id": "svg2",
+          "label": "SVG Image 2"
+        },
+          {
+            "type": "text",
+            "id": "p_text1",
+            "label": "Text"
+          }, {
+            "type": "image_picker",
+            "label": "Percentage",
+            "id": "p_img2"
+          }, 
+                    {
+          "type": "html",
+          "id": "svg3",
+          "label": "SVG Image 3"
+        },
+          {
+            "type": "text",
+            "id": "p_text2",
+            "label": "Text"
+          }, {
+            "type": "image_picker",
+            "label": "Percentage",
+            "id": "p_img3"
+          }, 
+          {
+          "type": "html",
+          "id": "svg4",
+          "label": "SVG Image 4"
+        },
+          {
+            "type": "text",
+            "id": "p_text3",
+            "label": "Text"
+          }
+        ]
+      },
+      {
+        "type": "bl_btn",
+        "name": "Buttons",
+        "settings": [
+          {
+            "type": "text",
+            "label": "Blue Button Label",
+            "id": "bl_label"
+          }, {
+            "type": "url",
+            "label": "Blue url",
+            "id": "b_url"
+          }, {
+            "type": "text",
+            "label": "White Button Label",
+            "id": "w_label"
+          }, {
+            "type": "url",
+            "label": "White url",
+            "id": "w_url"
+          }
+        ]
+      }, {
+        "type": "progres_bar",
+        "name": "Progress Bar",
+        "settings": [
+          {
+            "type": "range",
+            "id": "width",
+            "label": "Progress Percentage",
+            "min": 0,
+            "max": 100,
+            "unit": "%",
+            "default": 10
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Home Progress Multiple Images"
+      }
+    ]
+  }
+{% endschema %}

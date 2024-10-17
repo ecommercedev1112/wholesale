@@ -1,0 +1,46 @@
+{{ 'custom_popup_module.aio.min.css' | asset_url | stylesheet_tag }}
+<section class="custom_popup_module">
+    {% render 'custom_popup' %}
+</section>
+{{ 'custom_popup_java.aio.min.js' | asset_url | script_tag }}
+
+{% schema %}
+    {
+      "name": "Custom Popup",
+      "settings": [
+        {
+          "type": "color",
+          "id": "popupBg",
+          "label": "Background Color",
+          "default": "#d81921"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "popup_text",
+          "label": "Text"
+        },
+        {
+          "type": "text",
+          "id": "form_posted",
+          "label": "After Popup Submit Text",
+          "default": "You Have Got 10% Discount"
+        }
+      ],
+      "presets": [
+        {
+          "name": "Custom Popup",
+          "category": "text"
+        }
+      ]
+    }
+    {% endschema %}

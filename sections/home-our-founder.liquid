@@ -1,0 +1,244 @@
+<style>
+    .founder-seaction-parent{
+        width: 100%;
+    }
+    .founder-top{
+        text-align: center;
+    }
+    .founder-top-text{
+        font-family: "Roboto",sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21.09px;
+        color: #1C2E3A;
+        margin: 0;
+    }
+
+    .founder-center-text{
+        font-family: "Gloock", serif;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 60px;
+        color: #1C2E3A;
+        margin: 0;
+        padding: 5px 0 15px 0;
+    }
+    .founder-bottom-text{
+        font-family: "Roboto",sans-serif;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 40px;
+        color: #1C2E3A;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    .rigth-top{
+        font-size: 20px;
+        font-family: "Roboto",sans-serif;
+        font-weight: 300;
+        line-height: 23.44px;
+        color: #1C2E3A;
+        margin: 0;
+
+    }
+    .rigth-center p{
+        font-size: 18px;
+        font-family: "Roboto Light",sans-serif;
+        font-weight: 300;
+      
+        line-height: 30px;
+        color: #5C5C5C;
+    }
+    .rigth-bottom p{
+        font-size: 18px;
+        font-family: "Roboto",sans-serif;
+        font-weight: 300;
+        line-height: 30px;
+        color: #5C5C5C;
+        margin: 0;
+    }
+    .founder-bottom{
+        display: flex;
+        gap: 39px;
+    }
+    .bottom-left{
+        width: 50%;
+    }
+    .bottom-rigth{
+        width: 50%;
+    }
+    .bottom-left img{
+        width: 100%;
+    }
+  .founder-seaction-parent {
+    padding: 40px 0px;
+}
+  .rigth-center p , .rigth-bottom p {
+    width: 100%;
+    max-width: 600px;
+}
+  .bottom-left {
+    display: flex;
+}
+  .bottom-rigth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  @media screen and (max-width:1053px){
+    .founder-bottom {
+    flex-direction: column;
+}
+    .bottom-left {
+    width: 100%;
+}
+    .bottom-rigth {
+    width: 100%;
+}
+    .rigth-center p, .rigth-bottom p{
+      max-width:unset;
+    }
+  }
+  h3.line-text-new {
+    padding: 7px;
+    border-left: 2px solid;
+}
+  .section-description h5 {
+    font-size: 18px;
+    text-align: start;
+    color: #1C2E3A;
+}
+@media screen and (max-width:700px) {
+    .founder-center-text{
+        font-size: 23px;
+        margin: 0;
+        line-height: 48px;
+    }
+    body.gradient.custom-Our.Story.custom-pro-- h3.sec-head {
+    margin-left: -2px;
+    }
+    body.gradient.custom-Our.Story.custom-pro-- .section-text {
+    margin-top: 10px;
+    }
+    h3.line-text-new {
+    margin-bottom: 10px;
+}
+
+}
+@media screen and (max-width:500px) {
+  .rigth-center p {
+    line-height: 26px !important;
+    margin-top: 15px;
+}
+    .founder-center-text {
+    font-size: 26px;
+    margin: 0;
+    line-height: 27px;
+    padding: 0;
+}
+.founder-seaction-parent{
+    padding: 15px 0px;
+
+}
+.rigth-center p, .rigth-bottom p{
+    font-size: 17px;
+    margin: 0;
+}
+.rigth-top{
+    font-size: 17px;
+    letter-spacing: 0;
+}
+  
+}
+</style>
+<div class="founder-seaction-parent" style="background-color: {{ section.settings.bg-color }};">
+    <div class="page-width">
+        <div class="founder-seaction">
+            <div class="founder-top">
+                <p class="founder-top-text">{{ section.settings.top-text }}</p>
+                <h1 class="founder-center-text">{{ section.settings.top-hed }}</h1>
+                <p class="founder-bottom-text">{{ section.settings.top-num }}</p>
+            </div>
+            <div class="founder-bottom">
+              {%  if  section.settings.imag-left != blank %}
+                <div class="bottom-left">
+                    <img loading="lazy" src="{{ section.settings.imag-left |  img_url : 'master' }}">
+                </div>
+                {%  endif %}
+                <div class="bottom-rigth">
+                    <p class="rigth-top">{{ section.settings.rigth-hed }}</p>
+                    <div class="rigth-center">
+                        <p>{{ section.settings.rigth-par1 }}</p>
+                    </div>
+                    <!-- <div class="rigth-bottom">
+                        <p>{{ section.settings.rigth-par1 }}</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% schema %}
+    {"name": "our founder",
+    "settings": [
+        {
+            "type": "color",
+            "id": "bg-color",
+            "label": "Background",
+            "default": "#000000"
+        },
+        {
+            "type": "text",
+            "id": "top-text",
+            "label": "text top"
+        },
+        {
+            "type": "text",
+            "id": "top-hed",
+            "label": "text hed"
+        },
+        {
+            "type": "text",
+            "id": "top-num",
+            "label": "text num"
+        },
+        {
+            "type": "image_picker",
+            "id": "imag-left",
+            "label": "image"
+        },
+        {
+            "type": "text",
+            "id": "rigth-hed",
+            "label": "hedding"
+        },
+        {
+            "type": "richtext",
+            "id": "rigth-par1",
+            "label": "par1"
+        },
+        {
+            "type": "richtext",
+            "id": "rigth-par2",
+            "label": "par2"
+        }
+    
+    ],
+    "blocks": [
+    {
+    "type": "image_picker",
+    "name" : "ADD-text",
+    "settings" :[
+   
+
+    ]
+    }
+    ],
+    "presets": [
+    {
+    "name": "our founder",
+    "category": "our founder"
+    }
+    ]
+    }
+    {% endschema %}

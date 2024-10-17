@@ -1,0 +1,287 @@
+<style>
+  .butn-for-mobile {
+    display: none;
+}
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .banner-homemain {
+    position: relative;
+  }
+  .new-abanner img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 700px;
+  }
+  .new-abanner {
+    display: flex;
+  }
+  .inner-acontent {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .discover_the_essential_mineral {
+    font-family: "Playfair Display"
+    , serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: 1px;
+    color: white;
+    width: 100%;
+    max-width: 700px;
+  }
+  .sun-sub_heading {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    color: white;
+    font-family: 'Roboto'
+    , sans-serif !important;
+    width: 100%;
+    max-width: 630px;
+    margin: 15px 0;
+  }
+  button.button_textinner {
+    margin: 15px 0;
+    padding: 12px 62px;
+    border: none;
+  }
+  button.button_textinner a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #223D58;
+    font-family: 'Roboto'
+    , sans-serif !important;
+  }
+
+  .main-logo_imagea img {
+    max-width: 80%;
+    height: auto;
+  }
+  @media screen and (max-width: 1034px) {
+    .discover_the_essential_mineral {
+      font-size: 53px;
+      line-height: 60px;
+      max-width: 545px;
+    }
+    .sun-sub_heading {
+      font-size: 18px;
+      line-height: 27px;
+      max-width: 500px;
+    }
+    .main-logo_imagea {
+      text-align: center;
+    }
+    .main-logo_imagea img {
+      width: 70%;
+    }
+    .cotent-slider-set {
+      padding-left: 75px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .discover_the_essential_mineral {
+      font-size: 35px;
+      line-height: 54px;
+      max-width: 342px;
+    }
+    .sun-sub_heading {
+      font-size: 17px;
+      line-height: 26px;
+      max-width: 400px;
+
+    }
+    .main-logo_imagea img {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .butn-for-mobile {
+    display: block;
+}
+    .butn-for-desctop {
+    display: none;
+}
+    .inner-acontent {
+      flex-direction: column;
+    }
+    .cotent-slider-set {
+      padding: 0;
+      text-align: center;
+      /* height: 100%; */
+      margin: 30px 0;
+      margin-left: 20px;
+      margin-bottom: 0;
+    }
+    .new-abanner img {
+      width: 100%;
+      object-fit: cover;
+      height: 800px;
+    }
+    .discover_the_essential_mineral {
+      width: 100%;
+      margin: auto;
+      max-height: 35px !important;
+      height: 100%;
+    }
+    .sun-sub_heading {
+    width: 100%;
+    padding: 25px 0;
+    text-align: left;
+    margin: 0 20px;
+    margin-left: 0;
+}    
+.discover_the_essential_mineral{
+      font-size: 30px;
+      line-height: 36px;
+      text-align: left;
+      margin: 20px;
+      margin-left: 0px;
+    }
+    .button_main {
+    text-align: left;
+    margin: 0 20px;
+    margin-left: 0;
+}
+        .sun-sub_heading {
+    max-height: 78px !important;
+    height: 100%;
+}
+  }
+  @media screen and (max-width: 391px) {
+    .sun-sub_heading {
+    max-height: 78px !important;
+    height: 100%;
+}
+.sun-sub_heading {
+    height: 100%;
+    max-height: 78px;
+}
+  }
+</style>
+<div class="swiper newmySwiper">
+  <div class="swiper-wrapper">
+    {%- for block in section.blocks -%}
+      <div class="swiper-slide">
+        <div class="banner-homemain">
+          {% if block.settings.background_image != blank %}
+            <div class="new-abanner">
+              <img loading="lazy" src="{{ block.settings.background_image | img_url : 'master' }}" />
+            </div>
+          {% endif %}
+          <div class="inner-acontent">
+            <div class="cotent-slider-set">
+              {% if block.settings.discover_the_essential_mineral != blank %}
+                <div class="discover_the_essential_mineral">
+                  {{ block.settings.discover_the_essential_mineral }}
+                </div>
+              {% endif %}
+              {% if block.settings.sub_heading != blank %}
+                <div class="sun-sub_heading">
+                  {{ block.settings.sub_heading }}
+                </div>
+              {% endif %}
+              {% if block.settings.button_text != blank %}
+                <div class="button_main butn-for-desctop">
+                  <button class="button_textinner">
+                    <a href="{{ block.settings.button_url }}">
+                      {{ block.settings.button_text }}
+                    </a>
+                  </button>
+
+                </div>
+              {% endif %}
+            </div>
+            {% if block.settings.logo_image != blank %}
+              <div class="main-logo_imagea">
+                <img loading="lazy" class="banner-desktop-image" src="{{ block.settings.logo_image | img_url : 'master' }}" />
+                  {% if block.settings.logo_image_mobile != blank %}
+                    <img loading="lazy" class="banner-mobile-image" src="{{ block.settings.logo_image_mobile | img_url : 'master' }}" />
+                {% endif %}
+              </div>
+              {% if block.settings.button_text != blank %}
+                <div class="button_main butn-for-mobile">
+                  <button class="button_textinner">
+                    <a href="{{ block.settings.button_url }}">
+                      {{ block.settings.button_text }}
+                    </a>
+                  </button>
+
+                </div>
+              {% endif %}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+<script src="{{ 'home-slider-banner.aio.min.js' | asset_url }}">
+
+</script>
+{% schema %}
+  {
+    "name": "Super banner slider",
+    "settings": [],
+    "blocks": [
+      {
+        "name": "Block 0",
+        "type": "block_0",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "background_image",
+            "label": "background image"
+          },
+          {
+            "type": "image_picker",
+            "id": "logo_image",
+            "label": "Logo image"
+          },
+          {
+            "type": "image_picker",
+            "id": "logo_image_mobile",
+            "label": "Mobile Logo image"
+          },
+          {
+            "type": "text",
+            "id": "discover_the_essential_mineral",
+            "label": "Discover the Essential Mineral",
+            "default": "Discover the Essential Mineral"
+          },
+          {
+            "type": "text",
+            "id": "sub_heading",
+            "label": "Sub heading",
+            "default": "The most effective form of silica to unleash the power of your own collagen."
+          }, {
+            "type": "url",
+            "id": "button_url",
+            "label": "Button url"
+          }, {
+            "type": "text",
+            "id": "button_text",
+            "label": "Button text",
+            "default": "SHOP NOW"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Super banner slider"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-login",
+      "custom_css": [
+        "h2.form__message {color: white !important; font-family: \"Roboto Light\", sans-serif !important;}",
+        "form#create_customer ul li {color: white !important; font-family: \"Roboto Light\", sans-serif !important;}"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

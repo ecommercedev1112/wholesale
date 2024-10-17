@@ -1,0 +1,153 @@
+<style>
+  div#shopify-section-homeaboutus {
+    width: 100% !important;
+}  
+  section.scienceabout-first-color {
+    width: 100%;
+}
+.sciencemain-backaboutimage {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-heading h3 {
+    border-left: 2px solid;
+}
+.scienceabout-first-text h3{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif !important;
+    line-height:48px;
+    color : {{ section.settings.text_color }};
+    font-style: normal;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin:0;
+}
+.scienceabout-first-text p{
+    font-size: 48px;
+    font-family: "Gloock", serif!important;
+    font-weight: 400 !important;
+    font-style: normal;
+    line-height:48px;
+    color : {{ section.settings.text_color }};
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin:0;
+}
+.scienceabout-first-text {
+    padding: {{ section.settings.paddingsetting }}px  0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .scienceabout-first-text{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width:500px) {
+    .scienceabout-first-text {
+    gap:20px;
+    font-size: 26px;
+    text-align: center;
+    padding: {{ section.settings.paddingsettingtwo }}px  10px;
+    line-height: 30px;
+    }
+      .scienceabout-first-text h3 {
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: 5px;
+    }
+      .scienceabout-first-text p {
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 5px;
+    }
+}
+</style>
+<section class="scienceabout-first-color" {% if section.settings.background_color != blank %} style="background-color: {{ section.settings.background_color }} ;" {% endif %}>
+<div class="scienceabout-hi">
+<div class="scienceabout-us-main">
+<div class="sciencemain-backaboutimage" {% if section.settings.backgound_image != blank %} style="background-image: url( {{ section.settings.backgound_image | img_url: 'master'}} );" {% endif %}>
+{% if section.settings.image_text  != blank %}
+<div class="scienceabout-first-text">
+    <h3>{{ section.settings.image_text }}</h3>
+    <p>{{ section.settings.image_texttwi }}</p>
+</div>
+<div class="new-textscience">
+
+</div>
+{% endif %}
+
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+
+{% schema %}
+  {
+  "name": "Home SCIENTIFIC STUDIES",
+  "class": "Home SCIENTIFIC STUDIES",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#8bb9d4"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#fff"
+    },
+    {
+      "type": "range",
+      "id": "paddingsetting",
+      "label": "Padding Top and  padding bottom",
+      "min": 5,
+      "max": 400,
+      "step": 5,
+      "default": 40,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "paddingsettingtwo",
+      "label": "Mobile Padding Top and  padding bottom",
+      "min": 5,
+      "max": 200,
+      "step": 5,
+      "default": 40,
+      "unit": "px"
+    },
+    {
+      "type": "image_picker",
+      "id": "backgound_image",
+      "label": "Backgound image"
+    },
+    {
+      "type": "textarea",
+      "id": "image_text",
+      "label": "image text",
+      "default": "We bow to you. And the environment."
+    },
+    {
+      "type": "textarea",
+      "id": "image_texttwi",
+      "label": "image text",
+      "default": "We bow to you. And the environment."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Home SCIENTIFIC STUDIES"
+    }
+  ]
+}  
+{% endschema %}

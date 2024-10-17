@@ -1,0 +1,75 @@
+{{ 'grid-layout.aio.min.css' | asset_url | stylesheet_tag }}
+{{ 'component-silica-natural-cycle.aio.min.css' | asset_url | stylesheet_tag }}
+<style>
+  @media screen and (min-width:768px){
+  .silica-natural-text-section .text_box .text-center div{
+        margin: auto !important;
+  }
+  }
+</style>
+
+{% for block in section.blocks %} 
+    <section class="sillca-natural">
+      <div class="silica-natural-text-section">
+         <div  class="text_box d-flex justify-content-center align-items-center">  
+             <div class="text-center heading">
+             <h1 class="upper-center-natural"> {{ block.settings.custom_text_title }} </h1>
+            <div class="natutal-center">{{ block.settings.custom_text_body }}</div>
+             </div>
+           
+         </div>
+        
+     <div class="upper_box">{{ block.settings.image_1 | img_url: '2048x' | img_tag }}</div>
+     <div class="bottom_box d-flex justify-content-center align-items-center">
+            <div class="line"></div>
+       
+     </div>
+</div>
+  </section>
+{% endfor %}
+{% schema %}
+  {
+    "name": "silica-natural-section",
+    "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "Multimedia collage",
+      "label": "test"
+     }
+    ],
+     "blocks": [
+    {
+      "type": "image",
+      "name": "banner section",
+      "settings": [
+     
+      {
+        "id": "custom_text_title",
+        "type": "text",
+        "label": "Heading",
+        "default": "Title"
+      },
+        {
+        "type": "image_picker",
+        "id": "image_1",
+        "label": "Image"    
+      },
+      {
+        "id": "custom_text_body",
+        "type": "richtext",
+        "label": "Description",
+        "default": "<p>Add your text here</p>"
+      }
+    ]
+    }
+  ],
+  
+    "presets": [
+      {
+        "name": "silica-natural-cycle",
+        "category": "Custom"
+      }
+    ]
+  }
+{% endschema %}

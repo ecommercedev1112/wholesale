@@ -1,0 +1,42 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "home_super_one_n9FQ9i": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 160,
+        "paddingsettingtwo": 40,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_231_5137274e-6d10-4c02-87ab-ff718e24cd74.png",
+        "image_text": "CONTACT US"
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "contact_image1": "shopify:\/\/shop_images\/phone_icon-01.png",
+        "contact_image2": "shopify:\/\/shop_images\/box_icon-01.png",
+        "contact_image3": "shopify:\/\/shop_images\/map_icon-01.png",
+        "contact_image4": "shopify:\/\/shop_images\/calender_icon-01.png",
+        "padding_top": 16,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "home_super_one_n9FQ9i",
+    "form"
+  ]
+}

@@ -1,0 +1,227 @@
+<style>
+  div#shopify-section-homeaboutus {
+    width: 100% !important;
+  }
+  section.about-first-color-custome {
+    width: 100%;
+  }
+  .main-backaboutimage-custome {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about-first-textxyz {
+    padding: {{ section.settings.paddingsetting }}px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gloock"
+    , serif;
+    font-weight: {{ section.settings.font_weight }};
+    font-style: normal;
+    font-size: {{ section.settings.font_size }}px;
+    color: {{ section.settings.text_color }};
+    width: 100%;
+    max-width: {{ section.settings.desktop_content_width }}%;
+    margin: 0 auto;
+    letter-spacing: {{ section.settings.letter_spacing }}px;
+    text-transform: {{ section.settings.text-transform }};
+  }
+  .about-first-textxyz p {
+    text-align: center;
+
+  }
+  @media screen and (max-width: 500px) {
+    .about-first-textxyz {
+      font-size: {{ section.settings.mobilefont_size }}px;
+      text-align: center;
+      padding: {{ section.settings.paddingsettingtwo }}px 0;
+      max-width: {{ section.settings.mobile_content_width }}%;
+    }
+.main-backaboutimage {
+    height: 100vh;
+    max-height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  }
+</style>
+<section
+  class="about-first-color-custome"
+  {% if section.settings.background_color != blank %}
+  style="background-color: {{ section.settings.background_color }} ;"
+  {% endif %}>
+  <div class="about-hi">
+    <div class="about-us-main">
+      <div
+        class="main-backaboutimage-custome"
+        {% if section.settings.backgound_image != blank %}
+        style="background-image: url( {{ section.settings.backgound_image | img_url: 'master'}} );"
+        {% endif %}>
+        {% if section.settings['set-txt'] != blank %}
+          <div class="about-first-textxyz">
+            {{ section.settings['set-txt'] }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Home Super bannertwo",
+    "class": "Home Super banner",
+    "settings": [
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background color",
+        "default": "#8bb9d4"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color",
+        "default": "#fff"
+      },
+      {
+        "type": "range",
+        "id": "paddingsetting",
+        "label": "Padding Top and  padding bottom",
+        "min": 5,
+        "max": 400,
+        "step": 5,
+        "default": 40,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "paddingsettingtwo",
+        "label": "Mobile Padding Top and  padding bottom",
+        "min": 5,
+        "max": 200,
+        "step": 5,
+        "default": 40,
+        "unit": "px"
+      }, {
+        "type": "image_picker",
+        "id": "backgound_image",
+        "label": "Backgound image"
+      }, {
+        "type": "richtext",
+        "id": "set-txt",
+        "label": "image text"
+      }, {
+        "type": "range",
+        "id": "letter_spacing",
+        "label": "Letter spacing",
+        "min": 1,
+        "max": 25,
+        "step": 1,
+        "default": 1,
+        "unit": "Px"
+      }, {
+        "type": "range",
+        "id": "desktop_content_width",
+        "label": "Desktop content width",
+        "min": 10,
+        "max": 100,
+        "step": 10,
+        "default": 60,
+        "unit": "%"
+      }, {
+        "type": "select",
+        "id": "font_weight",
+        "label": "Font weight",
+        "options": [
+          {
+            "value": "100",
+            "label": "100"
+          },
+          {
+            "value": "200",
+            "label": "200"
+          },
+          {
+            "value": "300",
+            "label": "300"
+          },
+          {
+            "value": "400",
+            "label": "400"
+          }, {
+            "value": "500",
+            "label": "500"
+          }, {
+            "value": "600",
+            "label": "600"
+          }, {
+            "value": "700",
+            "label": "700"
+          }, {
+            "value": "800",
+            "label": "800"
+          }, {
+            "value": "900",
+            "label": "900"
+          }
+        ],
+        "default": "400"
+      }, {
+        "type": "range",
+        "id": "font_size",
+        "label": "Font Size",
+        "min": 1,
+        "max": 50,
+        "step": 1,
+        "default": 36,
+        "unit": "px"
+      }, {
+        "type": "select",
+        "id": "text-transform",
+        "label": "text transform",
+        "options": [
+          {
+            "value": "uppercase",
+            "label": "uppercase"
+          }, {
+            "value": "capitalize",
+            "label": "capitalize"
+          }, {
+            "value": "lowercase",
+            "label": "lowercase"
+          }, {
+            "value": "math-auto",
+            "label": "math-auto"
+          }
+
+        ],
+        "default": "math-auto"
+      }, {
+        "type": "range",
+        "id": "mobilefont_size",
+        "label": "Mobile Font Size",
+        "min": 1,
+        "max": 50,
+        "step": 1,
+        "default": 16,
+        "unit": "px"
+      }, {
+        "type": "range",
+        "id": "mobile_content_width",
+        "label": "Mobile content width",
+        "min": 10,
+        "max": 100,
+        "step": 10,
+        "default": 60,
+        "unit": "%"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Home Super bannertwo"
+      }
+    ]
+  }
+{% endschema %}

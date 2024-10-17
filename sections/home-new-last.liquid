@@ -1,0 +1,103 @@
+<style>
+  .power-seaction {
+    text-align: center;
+  }
+
+  h5.video-one-text {
+    color: #1C2E3A;
+    font-size: 18px;
+    font-family: "Roboto"
+    , sans-serif !important;
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 40px;
+    letter-spacing: 8px;
+  }
+  h6.video-two-text {
+    font-family: "Gloock"
+    , serif !important;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 400 !important;
+    margin: 0;
+    text-transform: uppercase;
+    color: #1C2E3A;
+  }
+  p.video-three-text {
+    margin: 0 0 10px;
+    color: #5C5C5C;
+    font-size: 18px;
+    font-family: "Roboto"
+    , sans-serif !important;
+  }
+  a.video-tree-anger {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-top: 10px;
+    background: #1C2E3A;
+    padding: 9px 30px;
+    text-decoration: none;
+    font-family: "Roboto"
+    , sans-serif !important;
+    text-transform: uppercase;
+  }
+  .power-seaction {
+    padding: 40px;
+}
+@media screen and (max-width: 600px) {
+    h6.video-two-text {
+    font-size: 24px;
+}
+h5.video-one-text {
+    font-size: 16px;
+}
+.power-seaction {
+    padding: 0px;
+}
+}
+</style>
+<div class="power-seaction">
+  <div class="page-width">
+    <h5 class="video-one-text">{{ section.settings.top-text }}</h5>
+    <h6 class="video-two-text">{{ section.settings.heading }}</h6>
+    <p class="video-three-text">{{ section.settings.bottom-text }}</p>
+    <a class="video-tree-anger" href="{{ section.settings.butt-link }}">{{ section.settings.butt-text }}</a>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "home Video Text",
+    "settings": [
+      {
+        "type": "text",
+        "id": "top-text",
+        "label": "top text"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "heading"
+      },
+      {
+        "type": "text",
+        "id": "bottom-text",
+        "label": "bottom text"
+      },
+      {
+        "type": "text",
+        "id": "butt-text",
+        "label": "button"
+      }, {
+        "type": "url",
+        "id": "butt-link",
+        "label": "Button link"
+      }
+    ],
+    "presets": [
+      {
+        "name": "home Video Text",
+        "category": "home Video Text"
+      }
+    ]
+  }
+{% endschema %}

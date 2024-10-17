@@ -1,0 +1,120 @@
+<style>
+  .become-section-content {
+    flex-direction: column;
+    background: #F7F9FB;
+    padding: 30px 40px 30px 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    row-gap: 20px;
+  }
+
+.become-section-content p{
+    color: #5C5C5C;
+    font-size: 18px;
+    font-family: 'Roboto' !important;
+}
+  .become-button {
+    background: #1C2E3A;
+    color: white;
+    padding: 17px 25px;
+  }
+  .become-button a {
+  font-family: 'Roboto' !important;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.4em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+  .become-layout {
+
+    display: flex;
+    gap: 20px;
+  }
+  .btn-min2 {
+    max-width: 400px;
+  }
+  .btn-min {
+    max-width: 267px;
+  }
+    #shopify-section-template--16181603991638__home_super_two_77LQVP
+    button.btn-set-me {
+    width: 250px;
+    height: 50px;
+  }
+  @media screen and (min-width:700px) {
+    .become-layout {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+   
+  }
+  @media screen and (max-width: 993px) {
+    .become-layout {
+      flex-direction: column;
+    }
+
+  }
+  @media screen and (max-width: 600px) {
+    .become-section-content {
+      padding: 30px;
+    }
+    .become-button a {
+      font-size: 13px;
+    }
+    .become-layout {
+    margin: 30px 0px;
+    }
+  }
+</style>
+<div class="page-width">
+  <div class="become-layout">
+    {% for block in section.blocks %}
+      <div class="become-section-content">
+        {{ block.settings['button-section-content'] }}
+        <!-- <a href="{{ block.settings.become-url }}"> {{ block.settings['become-button-text'] }} </a> -->
+
+        <button class="become-button {% if forloop.index ==1 %} btn-min {% endif %} {% if forloop.index ==2 %} btn-min2 {% endif %} ">
+          <a href="{{ block.settings.become-url }}">
+            {{ block.settings['become-button-text'] }}
+          </a>
+        </button>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "become a partner buttons",
+    "settings": [],
+    "blocks": [
+      {
+        "name": "add button section",
+        "type": "add-button-section",
+        "settings": [
+          {
+            "type": "richtext",
+            "label": "section content",
+            "id": "button-section-content"
+          }, {
+            "type": "url",
+            "label": "button link",
+            "id": "become-url"
+          }, {
+            "type": "text",
+            "label": "button text",
+            "id": "become-button-text"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "become a partner buttons"
+      }
+    ]
+  }
+{% endschema %}

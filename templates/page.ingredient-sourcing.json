@@ -1,0 +1,229 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "home_super_one_CnPCme": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 145,
+        "paddingsettingtwo": 65,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_124_62fd80ee-5f0c-4a87-82bb-0bb6f1afd246.webp",
+        "image_text": "INGREDIENT SOURCING"
+      }
+    },
+    "super_rich_z69bwN": {
+      "type": "super-rich",
+      "settings": {
+        "background_color": "#ffffff",
+        "para": "",
+        "interesting_facts_about": "HOW WE OBTAIN OUR",
+        "the_safety_of_our_products": "RAW MATERIALS",
+        "text": "<p>LIVING SILICA’s raw materials are sourced from mineral and plantextracts of different origins, including:<\/p>"
+      }
+    },
+    "b418350a-ab2c-4ee4-bfa1-c462bfbfea71": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21744744857907__b418350a-ab2c-4ee4-bfa1-c462bfbfea71-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingredient_Sourcing_1.png",
+            "title": "Quartz",
+            "text": "<p>A multi-stage proprietary process ensures a 99% purity raw quartz. This is considered the most trusted and recognized silica source for worldwide manufacturers of consumer products.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--21744744857907__b418350a-ab2c-4ee4-bfa1-c462bfbfea71-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingredient_Sourcing_2.png",
+            "title": "Nettle",
+            "text": "<p>Nettle is a rich source of antioxidants. Antioxidants are important to protect the body from free radical damage. We isolate and reclaim silica in its exceptionally pure, natural state to develop our products.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--21744744857907__b418350a-ab2c-4ee4-bfa1-c462bfbfea71-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingredient_Sourcing_3.png",
+            "title": "Bamboo",
+            "text": "<p>Certain plants, such as horsetail and bamboo shoots, contain thiaminase, an enzyme that breaks down thiamine in the body. We meticulously process our ingredients to guarantee the safety of our products' raw materials.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "d810a075-57a8-4995-b8d4-c23b616bd5a3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingredient_Sourcing_4.png",
+            "title": "Horsetail",
+            "text": "<p>The extraction and purification of silica starts with raw horsetail. After the extraction process, silica is finally isolated and recovered in a highly pure natural form to create our products.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "d6b844cb-29b8-4240-80fa-8c4ed547353d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingredient_Sourcing_5.png",
+            "title": "Amethyst",
+            "text": "<p>Silica exhibits a pronounced affinity for various elements and structures, like amethyst. Employing our proprietary refinement process, we consistently attain exceptional purity levels in our raw ingredients.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "2d8e1fca-3766-42a3-b317-2dceb4098f86": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingredient_Sourcing_6.png",
+            "title": "Acacia Tree Gum",
+            "text": "<p>LIVING SILICA® powder includes Fibergum ™ – a non-GMO and all-natural source of soluble dietary fiber that comes from the Acacia tree, which boosts digestion and absorption.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21744744857907__b418350a-ab2c-4ee4-bfa1-c462bfbfea71-column-1",
+        "template--21744744857907__b418350a-ab2c-4ee4-bfa1-c462bfbfea71-column-2",
+        "template--21744744857907__b418350a-ab2c-4ee4-bfa1-c462bfbfea71-column-3",
+        "d810a075-57a8-4995-b8d4-c23b616bd5a3",
+        "d6b844cb-29b8-4240-80fa-8c4ed547353d",
+        "2d8e1fca-3766-42a3-b317-2dceb4098f86"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-558943f0-6b40-49da-a8ec-6465189ec0ab",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "home_superbanertwo_zJ3XCE": {
+      "type": "home-superbanertwo",
+      "custom_css": [
+        ".about-us-main {max-width: 1300px; margin: auto;}"
+      ],
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 10,
+        "paddingsettingtwo": 25,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_125_d3adabef-d82e-4c4f-8bdf-06578149f778.webp",
+        "set-txt": "<p>We use the most researched forms of silica to ensure the highest purity, potency, and effectiveness.<\/p>",
+        "letter_spacing": 1,
+        "desktop_content_width": 80,
+        "font_weight": "400",
+        "font_size": 38,
+        "text-transform": "math-auto",
+        "mobilefont_size": 26,
+        "mobile_content_width": 90
+      }
+    },
+    "home_super_two_3gGnPL": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_jiQPAW": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_129_1_048a8c53-395f-4849-a0f1-025bbd267801.png",
+            "step": "",
+            "section_heading": "MINERAL-BASED",
+            "section_subheading": "COLLAGEN BOOSTER",
+            "section_subheadingtwo": "",
+            "section_description": "<p>This product uses only pure mineral quartz extract. This patented formula is designed to maximize the bioavailability of silica, ensuring that your body can absorb and utilize it effectively.<\/p>",
+            "btntext": "Shop Now",
+            "btntexturl": "shopify:\/\/products\/mineral-based-collagen-booster",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_HhxzEM": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_130_1_e82fb195-152a-453c-95fd-673ca72369f9.png",
+            "step": "",
+            "section_heading": "PLant-Based",
+            "section_subheading": "Collagen Booster",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Developed by Le Ribault in 2003, this formula meets the preferences of plant-based supplement enthusiasts. It uses certified organic plant extracts, including horsetail, with thiaminase effectively removed during manufacturing.<\/p>",
+            "btntext": "Shop Now",
+            "btntexturl": "shopify:\/\/products\/plant-based-collagen-booster",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_gKqBmz": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_224_1.png",
+            "step": "",
+            "section_heading": "LIVING SILICA",
+            "section_subheading": "POWDER INGREDIENT",
+            "section_subheadingtwo": "",
+            "section_description": "<p>LIVING SILICA® is the only silica ingredient in the market reviewed and recognized by the United States FDA for its Generally Recngnized as Safe (GRAS) status. This ingredient is  produced using a patented microenrapsulation stabilization  technology ensuring greater stability and allowing for concentration without the risk of polymerization.<\/p>",
+            "btntext": "Shop Now",
+            "btntexturl": "https:\/\/siliciumlaboratories.com\/",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_jiQPAW",
+        "content_HhxzEM",
+        "content_gKqBmz"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "",
+        "main_paragraph": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "home_super_one_CnPCme",
+    "super_rich_z69bwN",
+    "b418350a-ab2c-4ee4-bfa1-c462bfbfea71",
+    "home_superbanertwo_zJ3XCE",
+    "home_super_two_3gGnPL"
+  ]
+}

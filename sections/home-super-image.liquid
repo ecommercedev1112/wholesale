@@ -1,0 +1,178 @@
+<style>
+  div#shopify-section-homeaboutus {
+    width: 100% !important;
+}  
+  section.about-first-color {
+    width: 100%;
+}
+.icns-_sigle {
+    width: 300px;
+    text-align: center;
+}
+.image-iconxx {
+    display: flex;
+}
+.icns-_sigle img {
+    max-width: 100%;
+    height: auto;
+}
+.image-iconxx {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.main-backaboutimage {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image_textonememe{
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif !important;
+}
+.about-first-texteee {
+    padding: {{ section.settings.paddingsetting }}px  0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gloock", serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 38px;
+    letter-spacing: 0.11em;
+    color : {{ section.settings.text_color }};
+    letter-spacing: 1px;
+    flex-direction: column;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .about-first-texteee{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width:500px) {
+    .about-first-texteee {
+    font-size: 16px;
+    text-align: center;
+    padding: {{ section.settings.paddingsettingtwo }}px  0px;
+}
+  .main-backaboutimage {
+    height: 100vh;
+    min-height: 280px;
+    max-height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+</style>
+<section class="about-first-color" {% if section.settings.background_color != blank %} style="background-color: {{ section.settings.background_color }} ;" {% endif %}>
+<div class="about-hi " >
+<div class="about-us-main">
+<div class="main-backaboutimage about-first-texteee" {% if section.settings.backgound_image != blank %} style="background-image: url( {{ section.settings.backgound_image | img_url: 'master'}} );" {% endif %}>
+  {% if section.settings.image_textone  != blank %}
+  <div class="image_textonememe">{{ section.settings.image_textone }} </div>
+{% endif %}
+  {% if section.settings.image_text  != blank %}
+<div class="about-first-texteee page-width">
+    {{ section.settings.image_text }} 
+</div>
+{% endif %}
+
+<div class="image-iconxx">
+    {%- for block in section.blocks -%}
+        {% if block.settings.icon_image != blank %}
+<div class="icns-_sigle">
+
+        <img loading="lazy" src="{{ block.settings.icon_image | img_url : 'master' }}">
+
+</div>
+{% endif %}
+{% endfor %}
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+
+{% schema %}
+  {
+  "name": "Home banner icons",
+  "class": "Home banner icons",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#8bb9d4"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#fff"
+    },
+    {
+      "type": "range",
+      "id": "paddingsetting",
+      "label": "Padding Top and  padding bottom",
+      "min": 5,
+      "max": 400,
+      "step": 5,
+      "default": 40,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "paddingsettingtwo",
+      "label": "Mobile Padding Top and  padding bottom",
+      "min": 5,
+      "max": 200,
+      "step": 5,
+      "default": 40,
+      "unit": "px"
+    },
+    {
+      "type": "image_picker",
+      "id": "backgound_image",
+      "label": "Backgound image"
+    },
+    {
+      "type": "textarea",
+      "id": "image_textone",
+      "label": "image text"
+    },
+    {
+      "type": "textarea",
+      "id": "image_text",
+      "label": "image text",
+      "default": "We bow to you. And the environment."
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Image ",
+      "type": "block_0",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "icon Image",
+          "id": "icon_image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Home banner icons"
+    }
+  ]
+}  
+{% endschema %}

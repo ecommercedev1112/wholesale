@@ -1,0 +1,202 @@
+<style>
+    .main-pingredients {
+    line-height: 60px;
+    color: #1c2e3a;
+    letter-spacing: 1px;
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    text-transform: {{ section.settings.text_transformation }};
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.new-living_silica_ {
+    font-size: 19px;
+    color: #1C2E3A;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    margin: 10px 0;
+}
+.product-description-short {
+    margin: 10px 0px;
+    width: 100%;
+    max-width: 330px;
+}
+.product-description-full {
+
+    width: 100%;
+    max-width: 360px;
+}
+a.readmore , a.readless {
+    display: block;
+    font-size: 14px;
+    color: #606060;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.product-description-short {
+    color: #797979;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+.ingredients-produucts {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 40px
+}
+.set-wi-less {
+    width: 100%;
+    max-width: 300px;
+}
+.new-block-incretden {
+    text-align: center;
+}
+.image-incrt-set {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 50%;
+}
+.image-incrt-set img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: contain;
+}
+@media screen and (max-width:600px){
+    .ingredients-produucts {
+    flex-direction: column;
+}
+.main-pingredients{
+    font-size: 35px;
+}
+}
+</style>
+<div class="page-width">
+  <div class="main-pingredients">
+    {{ section.settings.ingredients }}
+  </div>
+  <div class="ingredients-produucts">
+    {%- for block in section.blocks -%}
+      <div class="new-block-incretden">
+        {% if block.settings.image != blank %}
+          <div class="image-incrt-set">
+            <img loading="lazy" src={{ block.settings.image | img_url : 'master' }} />
+          </div>
+        {% endif %}
+        <div class="new-living_silica_">
+            {{ block.settings.living_silica_ }}
+          </div>
+        <div class="set-wi-less">
+          {%- if block.settings.text != blank -%}
+
+            {% if block.settings.text.size > 47 %}
+              <div class="product-description-short">
+                {{ block.settings.text | truncate: 47, ". . . " }}<a class="readmore" href="#">Show More
+                </a>
+              </div>
+              <div class="product-description-full" style="display:none;">
+                {{ block.settings.text }}
+                <br><a class="readless" href="#">
+                  Show Less</a>
+              </div>
+            {% else %}
+              {{ block.settings.text }}
+            {% endif %}
+          {%- endif -%}
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
+
+<script>
+  $("a.readmore").click(function(event) {
+    event.preventDefault();
+    var $shortDescription = $(this).closest('.product-description-short');
+    var $fullDescription = $shortDescription.next('.product-description-full');
+    
+    $shortDescription.hide();
+    $fullDescription.show();
+  });
+  
+  $("a.readless").click(function(event) {
+    event.preventDefault();
+    var $fullDescription = $(this).closest('.product-description-full');
+    var $shortDescription = $fullDescription.prev('.product-description-short');
+    
+    $fullDescription.hide();
+    $shortDescription.show();
+  });
+</script>
+{% schema %}
+  {
+    "name": "product ingredients 3",
+    "settings": [
+      {
+        "type": "text",
+        "id": "ingredients",
+        "label": "Ingredients",
+        "default": "Ingredients"
+      },
+      {
+      "type": "select",
+      "id": "text_transformation",
+      "label": "Text transformation",
+      "options": [
+        {
+          "value": "uppercase",
+          "label": "uppercase"
+        },
+        {
+          "value": "capitalize",
+          "label": "capitalize"
+        },
+        {
+          "value": "lowercase",
+          "label": "lowercase"
+        },
+        {
+          "value": "math-auto",
+          "label": "math-auto"
+        }
+      ],
+      "default": "capitalize"
+    }
+    ],
+    "blocks": [
+      {
+        "name": "Block 0",
+        "type": "block_0",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }, {
+            "type": "text",
+            "id": "living_silica_",
+            "label": "LIVING SILICA ®",
+            "default": "LIVING SILICA ®"
+          },
+          {
+            "type": "text",
+            "id": "text",
+            "label": "Text"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "product ingredients 3"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,32 @@
+<style>
+
+</style>
+<div style="background-color: {{ section.settings.backcolor }};">
+<div class="page-width">
+<div class="type0fslice">
+    {{ section.settings.Heading }}
+</div>
+</div>
+</div>
+{% schema %}
+    {
+    "name": "Type of Slica heading",
+    "settings": [
+      {
+        "type": "color",
+        "id": "backcolor",
+        "label": "backcolor"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Type of Slica heading"
+      }
+    ]
+  }  
+  {% endschema %}

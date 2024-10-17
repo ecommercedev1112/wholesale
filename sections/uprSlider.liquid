@@ -1,0 +1,195 @@
+<style>
+  .story-main-container {
+  position: relative;
+  }
+
+  img.background-img {
+  width: 100%;
+  height: auto;
+  }
+
+  .background-image {
+  display: flex;
+  }
+
+  .position-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  }
+
+  .story-text p {
+  margin: 0;
+  styleName: Pre-Title;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.33em;
+  text-align: center;
+  color: white;
+  }
+
+  .story-title p {
+  margin: 0;
+  styleName: Heading H2;
+  font-family: Gloock;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0.11em;
+  text-align: center;
+  color: white;
+  }
+
+  .story-title strong {
+  color: #464646;
+  font-weight: 600;
+  }
+
+  .story-text-year p {
+  margin: 0;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  }
+
+  .story-book-title p {
+  margin: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  }
+
+  .story-min-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  }
+
+  .story-min-sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .story-book-title {
+  padding-bottom: 25px;
+  }
+
+  .icon-image {
+  position: relative;
+  display: flex;
+  align-items: center;
+  }
+
+  .icon-image::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, -50%);
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  }
+
+  .story-min-sub:nth-child(4) .icon-image::after {
+  display: none;
+  }
+</style>
+<div class="story-main-container">
+  <div class="background-image">
+    <img loading="lazy" class="background-img" src="{{ section.settings.background_image | image_url }}">
+  </div>
+  <div class="position-container">
+    <div class="story-main-sub">
+      <div class="story-text">
+        {{ section.settings.story_text }}
+      </div>
+      <div class="story-title">
+        {{ section.settings.story_title }}
+      </div>
+    </div>
+    <div class="story-min-container">
+      {% for block in section.blocks %}
+        <div class="story-min-sub">
+          <div class="story-text-year">
+            {{ block.settings.story_text_year }}
+          </div>
+          <div class="story-book-title">{{ block.settings.story_book_title }}</div>
+          <div class="icon-image">
+            <img loading="lazy" class="icon-img" src="{{ block.settings.icon_image | image_url }}">
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+"name": "Story Section",
+"settings": [
+{
+"type": "image_picker",
+"id": "background_image",
+"label": "Image"
+},
+{
+"type": "text",
+"id": "story_text",
+"label": "Text"
+},
+{
+"type": "richtext",
+"id": "story_title",
+"label": "Title"
+}
+],
+"blocks": [
+{
+"name": "Book",
+"type": "content",
+"settings": [
+{
+"type": "text",
+"id": "story_text_year",
+"label": "Year"
+},
+{
+"type": "richtext",
+"id": "story_book_title",
+"label": "Story Title"
+},
+{
+"type": "image_picker",
+"id": "icon_image",
+"label": "Image"
+}
+]
+}
+],
+"presets": [
+{
+"name": "Story Section"
+}
+]
+}
+{% endschema %}

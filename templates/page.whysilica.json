@@ -1,0 +1,406 @@
+{
+  "sections": {
+    "home_super_one_awymjf": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 145,
+        "paddingsettingtwo": 65,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_124_3_ece08d23-c0e5-4966-bb22-2d2b5c861fb9.png",
+        "image_text": "WHY SILICA?"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "home_super_two_MpxfDL": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_4bXLdL": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/MicrosoftTeams-image_510_1.png",
+            "step": "",
+            "section_heading": "Crucial & Underestimated",
+            "section_subheading": "Mineral",
+            "section_subheadingtwo": "",
+            "section_description": "<p>While minerals such as magnesium, potassium, and iron are widely acknowledged for their roles in health, silica remains relatively less recognized and understood.<br\/><br\/>Accumulating evidence over the past 30 years strongly suggests that dietary silicon has been overlooked as a key trace mineral.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_JaLVza": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/2_41c25b7c-cd03-47ec-877f-0a5f3c3359ea.png",
+            "step": "",
+            "section_heading": "SILICA DEFICIENCY",
+            "section_subheading": "as we age",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Diets in Europe and North America are typically low in silicon, which correlates with a high consumption of processed foods. This deficiency is mainly attributed to the refining of grains and the filtration of drinking water. Ravin Jugdaohsingh, a former scientist at both the USDA and Cambridge University, dedicated much of his work to demonstrating the health benefits of increased dietary silicon intake, including its mechanisms of action in connective tissues.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_JEHpj3": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/3_6694d80f-c79a-4504-ae23-a0390ad18b15.png",
+            "step": "",
+            "section_heading": "",
+            "section_subheading": "",
+            "section_subheadingtwo": "",
+            "section_description": "<p>The challenge intensifies with age: we retain less silicon, and our intake tends to decrease. Gastrointestinal absorption of Si decreases with aging, as we have a reduced ability to metabolize dietary silica.<br\/><br\/>Consequently, the body attempts to offset this mineral deficiency by drawing from the healthy reserves in our bones and tissues, making us vulnerable to issues that exacerbate with age.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_p3YV4R": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/4.png",
+            "step": "",
+            "section_heading": "SILICA",
+            "section_subheading": "SUPPLEMENTS",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Incorporating highly bioavailable silica supplements into our diet can offer effective and sustained support, helping to replenish a good amount of the silica that our bodies can no longer efficiently absorb from natural sources. This proactive step not only aids in countering the natural decline but also empowers us to support the aging process.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_4bXLdL",
+        "content_JaLVza",
+        "content_JEHpj3",
+        "content_p3YV4R"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "",
+        "main_paragraph": ""
+      }
+    },
+    "home_super_two_jtUW9i": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_7cGJ9B": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/3_6694d80f-c79a-4504-ae23-a0390ad18b15.png",
+            "step": "",
+            "section_heading": "",
+            "section_subheading": "",
+            "section_subheadingtwo": "",
+            "section_description": "<p>The challenge intensifies with age: we retain less silicon, and our intake tends to decrease. Gastrointestinal absorption of Si decreases with aging, as we have a reduced ability to metabolize dietary silica.<br\/><br\/>Consequently, the body attempts to offset this mineral deficiency by drawing from the healthy reserves in our bones and tissues, making us vulnerable to issues that exacerbate with age.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_R7fLVa": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "change_direction": true,
+            "step": "",
+            "section_heading": "",
+            "section_subheading": "",
+            "section_subheadingtwo": "",
+            "section_description": "",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_9CH4LP": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "change_direction": true,
+            "step": "",
+            "section_heading": "",
+            "section_subheading": "",
+            "section_subheadingtwo": "",
+            "section_description": "",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_MdCmWn": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/4.png",
+            "step": "",
+            "section_heading": "SILICA",
+            "section_subheading": "SUPPLEMENTS",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Incorporating highly bioavailable silica supplements into our diet can offer effective and sustained support, helping to replenish a good amount of the silica that our bodies can no longer efficiently absorb from natural sources. This proactive step not only aids in countering the natural decline but also empowers us to support the aging process.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_7cGJ9B",
+        "content_R7fLVa",
+        "content_9CH4LP",
+        "content_MdCmWn"
+      ],
+      "disabled": true,
+      "settings": {
+        "backcolor": "",
+        "main_title": "",
+        "main_paragraph": ""
+      }
+    },
+    "80f809e7-df42-409d-8532-af9f5a808313": {
+      "type": "multirow",
+      "blocks": {
+        "template--21752750047539__80f809e7-df42-409d-8532-af9f5a808313-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_153_858515b2-3266-4508-a9d0-22a70971a68a.png",
+            "caption": "THE MULTIPLE benefits",
+            "heading": "OF SILICA",
+            "text": "<p>Silica, also known as silicon, is one of those elements whose lists of documented benefits just keeps growing as time passes and more research is conducted. Silica is one of the most abundant minerals on the planet, but there are very few foods that contain an adequate amount to supply the quantity your body needs.<\/p><p>The human body requires good nutrition to renew, repair and rejuvenate itself on a daily basis and silica has been found to have an absolute influence on the absorption and processes that the body requires to maintain good health. In today’s modern world, we are overtaxed by hectic lifestyles, pollution, overly processed food, and poor food choices that contribute to dietary deficiencies.<br\/><\/p><p><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "accordionone": "",
+            "accordiontwo": ""
+          }
+        },
+        "template--21752750047539__80f809e7-df42-409d-8532-af9f5a808313-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_154.png",
+            "caption": "tHE IMPACT OF SILICA Deficiency",
+            "heading": "AS WE AGE",
+            "text": "<p>Our bodies need silica regardless of our age, and even when the diet is not the primary factor in the cases of deficiencies, we often become deficient in this essential trace element simply through the aging process. In our youth, our tissues absorb and maintain high levels of silica — enabling our bodies to remain flexible, resilient, andenergetic — but as we age, our silica levels steadily decline until they become almost non-existent. In fact, 80% of all of our body’s silica is used up by the time we become adults.<\/p><p>The effect of this steady decrease in silica levels is a progressive decline in health, increasing fatigue and acceleration of the aging process. Silica supplementation can be an aid in supporting healthy bones, joints, cartilage and blood vessels, as well as skin, nails, hair, teeth, and gums. The result would be improved well-being.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "accordionone": "",
+            "accordiontwo": ""
+          }
+        },
+        "template--21752750047539__80f809e7-df42-409d-8532-af9f5a808313-row-3": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_132.png",
+            "caption": "FOUND ALL AROUND US",
+            "heading": "IN NATURE",
+            "text": "<p>Silica, also known as silicon dioxide (SiO2), is a naturally occurring compound and is one of the most abundant minerals on Earth. It is derived from natural sources and is present in various forms, including quartz, amorphous silica, and other silicate minerals.<br\/><br\/>As we grow older, our bodies naturally experience a decline in silica levels, which can impact the strength and elasticity of our skin, hair, nails, and bones. However, through supplementation and consuming silica-rich foods, we can help counteract this loss and provide our bodies with the necessary silica to support overall wellness.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "accordionone": "",
+            "accordiontwo": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21752750047539__80f809e7-df42-409d-8532-af9f5a808313-row-1",
+        "template--21752750047539__80f809e7-df42-409d-8532-af9f5a808313-row-2",
+        "template--21752750047539__80f809e7-df42-409d-8532-af9f5a808313-row-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 32,
+        "padding_bottom": 36
+      }
+    },
+    "45bbae6a-cf10-4830-93b9-feea4803217f": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "By harnessing the power of silica from nature,we can replenish our bodies with this essential mineral that tends to diminish as we age.",
+            "heading_size": "h1"
+          }
+        },
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-heading-1",
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-text-1",
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_230.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "super_rich_MRxR3Y": {
+      "type": "super-rich",
+      "settings": {
+        "background_color": "#ffffff",
+        "para": "",
+        "interesting_facts_about": "Learn More About",
+        "the_safety_of_our_products": "SILICA",
+        "text": ""
+      }
+    },
+    "blog_multicolumn_q6xQwf": {
+      "type": "blog-multicolumn",
+      "blocks": {
+        "column_9rrwpL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_42.png",
+            "title": "The Basics About Silica",
+            "text": "<p>What is silica, and what is its role in our bodies? Why is it important to consider this essential mineral?<\/p>",
+            "link_label": "Previous Article",
+            "link": "shopify:\/\/pages\/learn"
+          }
+        },
+        "column_LrUpAn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_42_3.png",
+            "title": "Types Of Silica",
+            "text": "<p>Silica supplements offer a diverse range of options. Explore their distinct compositions and benefits for your wellness journey.<\/p>",
+            "link_label": "Read Next",
+            "link": "shopify:\/\/pages\/types-of-silica"
+          }
+        }
+      },
+      "block_order": [
+        "column_9rrwpL",
+        "column_LrUpAn"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "home_super_one_awymjf",
+    "main",
+    "home_super_two_MpxfDL",
+    "home_super_two_jtUW9i",
+    "80f809e7-df42-409d-8532-af9f5a808313",
+    "45bbae6a-cf10-4830-93b9-feea4803217f",
+    "super_rich_MRxR3Y",
+    "blog_multicolumn_q6xQwf"
+  ]
+}

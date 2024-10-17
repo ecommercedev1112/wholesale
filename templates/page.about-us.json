@@ -1,0 +1,244 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "home_super_one_XGYAbY": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 145,
+        "paddingsettingtwo": 60,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_196_3b11b862-9831-472c-acc1-6746ff077904.png",
+        "image_text": "Our Company"
+      }
+    },
+    "home_super_two_9tYFXz": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_KdXjGU": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_126_4_a0cebaa5-1833-4145-946e-f5b3d0762df8.png",
+            "step": "",
+            "section_heading": "OUR",
+            "section_subheading": "COMPANY",
+            "section_subheadingtwo": "",
+            "section_description": "<p>LIVING SILICA® is the lifestyle brand of Silicium Laboratories. Silicium Laboratories specializes in the research and development of silica-based dietary supplements, topical use OTC aids, and functional ingredients for product development. Our expertise is trusted by leading brands in the Natural Products Industry, showcasing our commitment as a key supplier in this sector.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_xjpmf8": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_134_1_c6bf8f1c-5f50-45c4-9c1a-fe53fe165c1c.png",
+            "step": "",
+            "section_heading": "research & clinical",
+            "section_subheading": "STUDIES",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Silicium Laboratories is dedicated to producing science-backed, dietary silica ingredients. We explore their potential biochemical and physiological effects and validate their properties through independent research and clinical studies. Our commitment to innovation drives us to exceed limits and stay ahead of trends. <\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_yLMNpA": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_135_1_bbb4d0d7-6ada-4e9c-808f-4f409e98599a.png",
+            "step": "",
+            "section_heading": "PROPELLED BY THE HIGHEST",
+            "section_subheading": "QUALITY",
+            "section_subheadingtwo": "",
+            "section_description": "<p>We focus on the quality and excellence of our products. Our outstanding products are a result of our policies of continuous improvement which are backed by renowned universities and quality certificates.  <br\/> <br\/>Over the years, we´ve developed the best technologies and implemented the most exhaustive physicochemical control protocol. These protocols guarantee that our products are all of the highest quality.  <\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_KdXjGU",
+        "content_xjpmf8",
+        "content_yLMNpA"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "",
+        "main_paragraph": ""
+      }
+    },
+    "home_super_image_gY73FH": {
+      "type": "home-super-image",
+      "blocks": {
+        "block_0_TJjCpT": {
+          "type": "block_0",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/logo-pcb-final-old_1_a1bff27f-f3c9-4bd0-8335-085111094f0f.png"
+          }
+        },
+        "block_0_7UNLBT": {
+          "type": "block_0",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/ctns_1_e5eced95-64ec-4d07-8573-6bed2a11b000.png"
+          }
+        },
+        "block_0_7bcxhP": {
+          "type": "block_0",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/logo_ainia_1_25343bea-8230-4107-abce-ea6cb5c2e4ac.png"
+          }
+        }
+      },
+      "block_order": [
+        "block_0_TJjCpT",
+        "block_0_7UNLBT",
+        "block_0_7bcxhP"
+      ],
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 105,
+        "paddingsettingtwo": 40,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_260.png",
+        "image_textone": "",
+        "image_text": ""
+      }
+    },
+    "home_super_number_rNbXhU": {
+      "type": "home-super-number",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_53_79916439-a4fe-469c-a0e3-6e7ac143e751.jpg",
+        "first_heading": "WHAT",
+        "top_heading": "GUIDES US?",
+        "richt": "<p>Since 1994, when LIVING SILICA® was patented, studies from top research universities and institutions have demonstrated the powerful and effective nature of our formula in supporting optimum health. <br\/> <br\/>As a powerhouse vegan supplement, LIVING SILICA® is now the leading brand for vegan collagen-boosting, serving:<\/p>",
+        "tricht": "<p>over<\/p>",
+        "count1": "37",
+        "bricht": "<p>Countries<\/p>",
+        "btricht": "<p>over<\/p>",
+        "count2": "9,745",
+        "bbtricht": "<p>business<\/p>",
+        "bbbbtricht": "<p>over<\/p>",
+        "count3": "155,000",
+        "endofrich": "<p>people<\/p>",
+        "font_size_on_mobile": "26",
+        "letter_spacing_on_mobile": 2,
+        "font_weight_on_mobile": "400"
+      }
+    },
+    "home_super_two_9x3a7N": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_FbjY96": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/image_51_1.jpg",
+            "step": "",
+            "section_heading": "FAMILY-OWNED",
+            "section_subheading": "COMPANY",
+            "section_subheadingtwo": "",
+            "section_description": "<p>As a family-owned company, we assure the quality of our products by striving for excellence. Our focus is on ensuring the highest purity, potency, and effectiveness possible. This comprehensive commitment to excellence is reflected in all that we do for our team, society, and the environment. Our standards go beyond the finished product. The entire team shares a passion for quality, just like Sc.D. Loïc Le Ribault, the founder of Silicium Laboratories and creator of the authentic LIVING SILICA® formula. Our dedication is a trademark you can find in every bottle we distribute.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_FbjY96"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "",
+        "main_paragraph": ""
+      }
+    },
+    "super_rich_4jzHjW": {
+      "type": "super-rich",
+      "custom_css": [
+        ".text-seaction {padding: 0;}"
+      ],
+      "settings": {
+        "background_color": "#ffffff",
+        "para": "",
+        "interesting_facts_about": "unleash The Power Of Your",
+        "the_safety_of_our_products": "OWN COLLAGEN",
+        "text": ""
+      }
+    },
+    "44cdfb43-6fa5-4ff7-a3da-cd7ef9db1ce9": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "liquids",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "home_super_one_XGYAbY",
+    "home_super_two_9tYFXz",
+    "home_super_image_gY73FH",
+    "home_super_number_rNbXhU",
+    "home_super_two_9x3a7N",
+    "super_rich_4jzHjW",
+    "44cdfb43-6fa5-4ff7-a3da-cd7ef9db1ce9"
+  ]
+}

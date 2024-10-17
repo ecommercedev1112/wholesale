@@ -1,0 +1,213 @@
+<style>
+  .the-home-product-cstm {
+    gap: {{ section.settings.product_gap }}px;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  a.setmetaurl {
+    width: 33%;
+}
+
+  .the-cls-image img {
+    width: 100%;
+    height: auto;
+  }
+  .the-cls-pro-conts {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  h3.the-block-cls-head {
+    font-size: {{ section.settings.font_size_for_desktop}}px;
+    line-height: 30px;
+    color: #1C2E3A;
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 400;
+  }
+
+  p.the-block-cls-price {
+    font-size: 24px;
+    color: #6E6E6E;
+    line-height: normal;
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 400;
+  }
+  h2.section-cls-head {
+    font-size: 48px;
+    color: #1C2E3A;
+    text-align: center;
+    font-family: "Gloock", serif!important;
+    font-weight: 400 !important;
+  font-style: normal;
+  text-transform: {{ section.settings.text_transformation }};
+  letter-spacing: {{ section.settings.letter_spacing }}px;
+
+  }
+
+  @media screen and (max-width: 995px) {
+  .the-home-product-cstm {
+    flex-wrap: wrap;
+}
+a.setmetaurl {
+    width: 40%;
+}
+}
+@media only screen and (max-width: 900px) {
+    a.setmetaurl {
+        width: 45%;
+    }
+    h2.section-cls-head {
+      font-size: 32px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    a.setmetaurl {
+        width: calc(100% - 25px);
+        margin: auto;
+    }
+    h3.the-block-cls-head{
+      font-size:{{ section.settings.mobile_font }}px;
+    }
+    .the-home-product-cstm{
+      gap: 0;
+    }
+    h2.section-cls-head {
+    font-size: 26px;
+}
+  }
+  a.setmetaurl {
+    text-decoration: none;
+}
+
+</style>
+
+
+<div class="main-custom-product">
+  <div class="page-width">
+    <h2 class="section-cls-head">{{ section.settings.head }}</h2>
+    <div class="the-home-product-cstm">
+      {%- for block in section.blocks -%}
+        {%- assign feature_product = block.settings.feature_product -%}
+        {%- for product in feature_product -%}
+          <a class="setmetaurl" href="{{ product.url }}">
+        <div class="the-prodyct-cst">
+          <div class="the-cls-image">
+            <img loading="lazy" src="{{ product.featured_image | img_url: "master" }}">
+          </div>
+          <div class="the-cls-pro-conts">
+            <h3 class="the-block-cls-head">
+              {{ product.title }}
+            </h3>
+            <p class="the-block-cls-price">
+              {{ product.price | money }}
+            </p>
+          </div>
+        </div>
+        </a>
+      {%- endfor -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Metafield Product",
+    "settings": [
+    {
+          "type": "range",
+          "id": "font_size_for_desktop",
+          "label": "Font size for Desktop",
+          "min": 1,
+          "max": 50,
+          "step": 1,
+          "default": 24,
+          "unit": "px"
+    },
+    {
+          "type": "range",
+          "id": "mobile_font",
+          "label": "Font size for mobile",
+          "min": 1,
+          "max": 50,
+          "step": 1,
+          "default": 18,
+          "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "product_gap",
+      "label": "Product gap",
+      "min": 5,
+      "max": 80,
+      "step": 5,
+      "default": 60,
+      "unit": "px"
+    },
+      {
+        "type": "text",
+        "label": "Heading",
+        "id": "head",
+        "default": "This Kit Contains:"
+      },
+      {
+      "type": "select",
+      "id": "text_transformation",
+      "label": "Text transformation",
+      "options": [
+        {
+          "value": "capitalize",
+          "label": "capitalize"
+        },
+        {
+          "value": "lowercase",
+          "label": "lowercase"
+        },
+        {
+          "value": "math-auto",
+          "label": "math-auto"
+        },
+        {
+          "value": "uppercase",
+          "label": "uppercase"
+        }
+      ],
+      "default": "uppercase"
+    },
+    {
+      "type": "range",
+      "id": "letter_spacing",
+      "label": "Letter spacing",
+      "min": 1,
+      "max": 24,
+      "step": 1,
+      "default": 2,
+      "unit": "px"
+    }
+    ],
+    "blocks": [
+      {
+        "name": "Block",
+        "type": "block",
+        "settings": [
+          {
+          "type": "product_list",
+          "id": "feature_product",
+          "label": "Feature product"
+        }
+
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Metafield products",
+        "category": "Product"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,95 @@
+<div class="new-blog">
+    <div class="page-width">
+        {% if section.settings.learn_more_about  != blank %}
+        <div class="blog-first-text">
+            {{ section.settings.learn_more_about }}
+        </div>
+        {% endif %}
+        {% if section.settings.silica != blank %}
+        <div class="blog-second-text">
+            {{ section.settings.silica }}
+        </div>
+        {% endif %}
+        <div class="main-blog-block">
+            {%- for block in section.blocks -%}
+                    {%- assign feature_blog = block.settings.feature_blog -%}
+                    {%- assign feature_blog_articles = feature_blog.articles -%}
+                    {%- for article in feature_blog_articles -%}
+                    <div>
+                        <a href="{{ article.url | prepend: site.baseurl }}">
+                            <div class="blog-image">
+                                <img loading="lazy" src="{{ article.image | prepend: site.baseurl }}" alt="{{ article.title }}">
+                            </div>
+                         </a>
+                    </div>
+                    <div class="bolg-article-title">
+                      {{ article.title }}
+                      </div>
+                      <div class="blo-home-cotent">
+                      {{ article.content | replace: '<img', '<img loading="lazy"' | replace: '<iframe', '<iframe loading="lazy"' | replace: '<video', '<video preload="none"' }}
+                      </div>
+                      <div>
+                        {%- if section.settings.blog_show_previous_and_next_buttons or forloop.index < 2 -%}
+                            <ul>
+                              <li>
+                                <a href="{{ blog.previous_article }}">Previous post</a>
+                              </li>
+                              <li>
+                                <a href="{{ blog.next_article }}">Next post</a>
+                              </li>
+                            </ul>
+                          {%- endif -%}
+                      </div>
+                    {%- endfor -%}
+              {%- endfor -%}
+        </div>
+    </div>
+</div>
+
+  
+  {% schema %}
+    {
+    "name": "Home blog",
+    "class": "Home blog",
+    "max_blocks": 1,
+    "settings": [
+        {
+      "type": "text",
+      "id": "learn_more_about",
+      "label": "Learn More About",
+      "default": "Learn More About"
+    },
+    {
+      "type": "text",
+      "id": "silica",
+      "label": "Silica",
+      "default": "Silica"
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_previous_and_next_buttons",
+      "label": "Show next/ previous buttons",
+      "default": true
+    }
+    ],
+    "blocks": [
+      {
+        "name": "Home blog",
+        "type": "home_blog",
+        "settings": [
+          {
+            "type": "blog",
+            "id": "feature_blog",
+            "label": "Feature blog"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Home blog"
+      }
+    ]
+  }  
+  {% endschema %}
+  

@@ -1,0 +1,121 @@
+{
+  "sections": {
+    "aca2ae31-ffd7-404d-a2c7-08cbefce68b2": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21752750047539__aca2ae31-ffd7-404d-a2c7-08cbefce68b2-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "THE SCIENCE BEHIND THE SILICA",
+            "heading_size": "h1"
+          }
+        },
+        "template--21752750047539__aca2ae31-ffd7-404d-a2c7-08cbefce68b2-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Join us on a new journey to uncover the multiple benefits of silica for optimal health.",
+            "text_style": "body"
+          }
+        },
+        "html_7yHqUb": {
+          "type": "html",
+          "settings": {
+            "html": "<style>\n.hs-richtext h1, .hs-richtext p {color: #FFFFFF !important;}\n.login {margin-top: 20px; padding-top: 36px;\npadding-bottom: 36px;position: relative;padding-left: 100px!important;\npadding-right: 100px!important;}\nlabel {display: none !important}\n.customer:before {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: #233a45d6;\n  z-index: -1;\n  content: \"\";\n  left: 0;\n  top: 0;\n  opacity: 0.6;\n}\ndiv.input { width: 100%; }\ndiv.input::placeholder { color: #000; }\nh1, .hs-richtext p span {color: #FFFFFF !important}\n.hs-button {margin-top: 15px !important; text-align: center !important; background-color: #00C1D5 !important; color: #FFF !important; letter-spacing: 3px; font-family: \"Roboto Medium\", sans-serif !important; font-weight: 300; width: 50%; }\n<\/style>\n<div class=\"banner__text rte body\">\n              <p class=\"banner__text_p1\">Join us on an unparalleled journey to uncover<\/p>\n<p class=\"banner__text_p2\">the extraordinary power of LIVING SILICA<\/p>\n            <\/div>\n<div class=\"customer login hubspot\">\n<script charset=\"utf-8\" type=\"text\/javascript\" src=\"\/\/js.hsforms.net\/forms\/embed\/v2.js\"><\/script>\n<script>\n  hbspt.forms.create({\n    region: \"na1\",\n    portalId: \"7050579\",\n    formId: \"e13ff469-35de-4713-8d5c-4f57bf04aece\"\n  });\n<\/script>\n<\/div>"
+          }
+        },
+        "template--21752750047539__aca2ae31-ffd7-404d-a2c7-08cbefce68b2-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21752750047539__aca2ae31-ffd7-404d-a2c7-08cbefce68b2-heading-1",
+        "template--21752750047539__aca2ae31-ffd7-404d-a2c7-08cbefce68b2-text-1",
+        "html_7yHqUb",
+        "template--21752750047539__aca2ae31-ffd7-404d-a2c7-08cbefce68b2-buttons-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/register_back.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "d81d8d8e-def7-4a18-a588-56c6ecde1b88": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-heading-1",
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-text-1",
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "aca2ae31-ffd7-404d-a2c7-08cbefce68b2",
+    "d81d8d8e-def7-4a18-a588-56c6ecde1b88",
+    "main"
+  ]
+}

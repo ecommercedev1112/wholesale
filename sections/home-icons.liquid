@@ -1,0 +1,162 @@
+<style>
+  .silajeet-main {
+    background-color: #1C2E3A;
+    display: flex;
+    align-items: center;
+  }
+  .silajeet-main .swiper-slide {
+    background-color: unset !important;
+  }
+  .right-silajeet-slider {
+    width: 100%;
+    padding: 2px 0;
+  }
+  .slider-main h4 {
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    font-family: "Roboto"
+    , sans-serif;
+    font-style: normal;
+    margin: 12px 0;
+  }
+  .svg_set{
+    padding-right: 3px;
+  }
+  .svg_set svg {
+    width: 40px;
+    height: 40px;
+}
+  .slider-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media screen and (max-width: 768px) {
+    .slider-main h4 {
+      font-size: 14px;
+    }
+    .left-text-silajeet {
+      max-width: 100%;
+      text-align: center;
+    }
+    .right-silajeet-slider {
+      max-width: 100%;
+    }
+    .slider-main {
+      text-align: center;
+    }
+  }
+  .right-silajeet-slider .swiper-wrapper {
+    -webkit-transition-timing-function: linear !important;
+    -o-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+  }
+  .silajeet-main .slider-main img {
+    object-fit: contain;
+    height: 32px !important;
+    max-width: max-content;
+    padding-right: 21px;
+
+  }
+</style>
+
+<div class="silajeet-main">
+  <div class="right-silajeet-slider">
+    <div class="swiper silajeetswiper--{{ section.id }}">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="swiper-slide">
+            <div class="slider-main">
+              {% if block.settings.slide_image != blank %}
+              <div class="svg_set">
+                {{ block.settings.slide_image }}
+              </div>
+                <h4>{{ block.settings.slide_text }}</h4>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+
+  const silajeetswipernew = new Swiper('.silajeetswiper--{{ section.id }}', {
+   autoHeight: true,
+   speed: 4000,
+   loop: true,
+   autoplay: {
+     delay: 0,
+    },
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 1.5,
+        spaceBetween: 10,
+      },
+      // when window width is >= 480px
+      480: {
+        slidesPerView: 2.5,
+        spaceBetween: 10,
+      },
+      580: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+      },
+      // when window width is >= 640px
+      
+      745: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+      },
+      769: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+      },
+      
+      808: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+      },
+      1045: {
+        slidesPerView: 4,
+        spaceBetween: 10,
+      },
+      1274: {
+        slidesPerView: 6,
+        spaceBetween: 10,
+      }
+    },
+  });
+</script>
+{% schema %}
+  {
+    "name": "Home icons text slider",
+    "settings": [],
+    "blocks": [
+      {
+        "name": "Img text Slider",
+        "type": "slider",
+        "settings": [
+          {
+            "type": "text",
+            "id": "slide_text",
+            "label": "Logo Heading"
+          }, {
+            "type": "html",
+            "id": "slide_image",
+            "label": "logo image"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Home icons text slider"
+      }
+    ]
+  }
+{% endschema %}

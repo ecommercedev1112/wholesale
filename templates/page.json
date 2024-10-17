@@ -1,0 +1,371 @@
+{
+  "sections": {
+    "aca2ae31-ffd7-404d-a2c7-08cbefce68b2": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21752750047539__aca2ae31-ffd7-404d-a2c7-08cbefce68b2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE SCIENCE BEHIND THE SILICA",
+            "heading_size": "h1"
+          }
+        },
+        "template--21752750047539__aca2ae31-ffd7-404d-a2c7-08cbefce68b2-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--21752750047539__aca2ae31-ffd7-404d-a2c7-08cbefce68b2-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21752750047539__aca2ae31-ffd7-404d-a2c7-08cbefce68b2-heading-1",
+        "template--21752750047539__aca2ae31-ffd7-404d-a2c7-08cbefce68b2-text-1",
+        "template--21752750047539__aca2ae31-ffd7-404d-a2c7-08cbefce68b2-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_233_2d258ab6-b574-4fac-b240-271ef21f1a34.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "d81d8d8e-def7-4a18-a588-56c6ecde1b88": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-heading-1",
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-text-1",
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "80f809e7-df42-409d-8532-af9f5a808313": {
+      "type": "multirow",
+      "blocks": {
+        "template--21752750047539__80f809e7-df42-409d-8532-af9f5a808313-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_126.png",
+            "caption": "ALL ABOUT THIS ESSENTIAL MINERAL",
+            "heading": "WHAT IS SILICA?",
+            "text": "<p>Silica is an essential trace mineral in our body that is important in building and fortifying tissues damaged by poor diets. It is required to produce collagen and other molecules such as elastin, keratin, and glycosaminoglycans (GAGs). It also provides connective tissue with hydration, elasticity, and strength. It is crucial to have enough silica in the body for optimal health.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--21752750047539__80f809e7-df42-409d-8532-af9f5a808313-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_231_1.png",
+            "caption": "The role of silica",
+            "heading": "IN OUR BODIES",
+            "text": "<p>You can think of SILICA as the key to unlocking the regenerative and self-healing potential of your body. If you are deficient in this essential mineral, it can be noticeable in your appearance and how you feel. Deficiencies in silica are common because our diets used to contain 10 times more SILICA than they do today. This is also particularly prevalent after the age of 35, even if you follow a healthy diet and lifestyle. As we age, maintaining optimal levels of silica becomes increasingly challenging, requiring supplementation for most individuals.*<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--21752750047539__80f809e7-df42-409d-8532-af9f5a808313-row-3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_132.png",
+            "caption": "FOUND ALL AROUND US",
+            "heading": "IN NATURE",
+            "text": "<p>Silica, also known as silicon dioxide (SiO2), is a naturally occurring compound and is one of the most abundant minerals on Earth. It is derived from natural sources and is present in various forms, including quartz, amorphous silica, and other silicate minerals.<br\/><br\/>As we grow older, our bodies naturally experience a decline in silica levels, which can impact the strength and elasticity of our skin, hair, nails, and bones. However, through supplementation and consuming silica-rich foods, we can help counteract this loss and provide our bodies with the necessary silica to support overall wellness.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21752750047539__80f809e7-df42-409d-8532-af9f5a808313-row-1",
+        "template--21752750047539__80f809e7-df42-409d-8532-af9f5a808313-row-2",
+        "template--21752750047539__80f809e7-df42-409d-8532-af9f5a808313-row-3"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 32,
+        "padding_bottom": 36
+      }
+    },
+    "45bbae6a-cf10-4830-93b9-feea4803217f": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "By harnessing the power of silica from nature,we can replenish our bodies with this essential mineral that tends to diminish as we age.",
+            "heading_size": "h1"
+          }
+        },
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-heading-1",
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-text-1",
+        "template--21752750047539__45bbae6a-cf10-4830-93b9-feea4803217f-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_230.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "61758da8-84df-4ec2-96d2-7fec41a95a85": {
+      "type": "featured-blog",
+      "settings": {
+        "learn_more_about": "",
+        "silica": "",
+        "heading": "<div style=\"text-align:center\">\n<span style=\"font-size:18px;text-transform:uppercase;font-family:roboto,sans-serif;line-height:21.09px;LETTER-SPACING:3PX;\">Learn MORE About<\/span>\n<h2 style=\"text-transform:uppercase;font-size:40px;margin:0px\">Silica<\/h2>\n<\/div>",
+        "heading_size": "h1",
+        "blog": "silica",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2f50c666-a921-4f0d-919e-677a1663b9cd": {
+      "type": "scientific-studies",
+      "blocks": {
+        "0be5562e-b311-4a54-a1de-360b0edfdb8a": {
+          "type": "block",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/non-toxic_1.png",
+            "heading": "Non-Toxicity Studies",
+            "description": "<p>These studies demonstrates the safety & the non-toxicity of the product.<\/p>"
+          }
+        },
+        "d488dd31-ae64-43a5-bf7d-402a2d4c3e66": {
+          "type": "block",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/high-quality_1.png",
+            "heading": "Guarantee of Quality",
+            "description": "<p>All batches of our products are individually analyzed to guarantee the quality and safety of our products<\/p>"
+          }
+        },
+        "f4092fc6-2934-4917-b933-14c98fd5a21c": {
+          "type": "block",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/certificate_1.png",
+            "heading": "Patents",
+            "description": "<p>The development of our products is supported and protected by international patents.<\/p>"
+          }
+        },
+        "895682b7-a39e-4a6a-abf7-a524c89e2884": {
+          "type": "block",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/leaves_1.png",
+            "heading": "Efficiency Studies",
+            "description": "<p>LIVING SILICA® benefits are proven independent clinical studies conducted by leading European, American, and British university researchers. <\/p>"
+          }
+        },
+        "a44e9135-13fc-4e2c-b1e3-2326422260a7": {
+          "type": "block",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Union.png",
+            "heading": "Eliminating Preservatives",
+            "description": "<p>We have managed to eliminate preservatives and we treat our products with new natural processes.<\/p>"
+          }
+        },
+        "f3c2d93a-6ea5-4223-a0c2-46b5d16ea842": {
+          "type": "block",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/stability_1.png",
+            "heading": "Stability Studies",
+            "description": "<p>Stability studies confirmed the quality and safety of products throughout their shelf life.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0be5562e-b311-4a54-a1de-360b0edfdb8a",
+        "d488dd31-ae64-43a5-bf7d-402a2d4c3e66",
+        "f4092fc6-2934-4917-b933-14c98fd5a21c",
+        "895682b7-a39e-4a6a-abf7-a524c89e2884",
+        "a44e9135-13fc-4e2c-b1e3-2326422260a7",
+        "f3c2d93a-6ea5-4223-a0c2-46b5d16ea842"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "home_story_87XjAP": {
+      "type": "home-story",
+      "blocks": {
+        "content_Cc7wBi": {
+          "type": "content",
+          "settings": {
+            "story_text_year": "1972",
+            "story_book_title": "<p>DISCOVERING THERAPEUTIC POTENTIALIN QUARTZ CRYSTALS<\/p>",
+            "icon_image": "shopify:\/\/shop_images\/Group_53_30e6976c-106e-468a-8232-8efc69b1a837.png"
+          }
+        },
+        "content_HBaxpC": {
+          "type": "content",
+          "settings": {
+            "story_text_year": "1975",
+            "story_book_title": "<p>NEW PROCEDURE TO COLLECTSILICA DEPOSITS<\/p>",
+            "icon_image": "shopify:\/\/shop_images\/Group_53_30e6976c-106e-468a-8232-8efc69b1a837.png"
+          }
+        },
+        "content_pCUwiy": {
+          "type": "content",
+          "settings": {
+            "story_text_year": "1982",
+            "story_book_title": "<p>HARNESSING THE BENEFITS OF SILICA-ENRICHED SAND<\/p>",
+            "icon_image": "shopify:\/\/shop_images\/Group_53_30e6976c-106e-468a-8232-8efc69b1a837.png"
+          }
+        },
+        "content_RwbRTA": {
+          "type": "content",
+          "settings": {
+            "story_text_year": "1994",
+            "story_book_title": "<p>LE RIBAULT CREATES A NEWMOLECULE<\/p>",
+            "icon_image": "shopify:\/\/shop_images\/Group_53_30e6976c-106e-468a-8232-8efc69b1a837.png"
+          }
+        }
+      },
+      "block_order": [
+        "content_Cc7wBi",
+        "content_HBaxpC",
+        "content_pCUwiy",
+        "content_RwbRTA"
+      ],
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/Rectangle_233_fd47bbdf-31bf-4b9f-9dac-e755ca8cb2f8.png",
+        "story_text": "THE PASSIONATE STORY",
+        "story_title": "<p>OF LIVING SILICA<strong>®<\/strong><\/p>"
+      }
+    },
+    "home_slider_new_Hxkm3y": {
+      "type": "home-slider-new",
+      "blocks": {
+        "content_r948FM": {
+          "type": "content",
+          "settings": {
+            "books_image": "shopify:\/\/shop_images\/Rectangle_187_b55b9ded-0a87-4000-8d84-53cd21093fd9.png"
+          }
+        }
+      },
+      "block_order": [
+        "content_r948FM"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "aca2ae31-ffd7-404d-a2c7-08cbefce68b2",
+    "d81d8d8e-def7-4a18-a588-56c6ecde1b88",
+    "main",
+    "80f809e7-df42-409d-8532-af9f5a808313",
+    "45bbae6a-cf10-4830-93b9-feea4803217f",
+    "61758da8-84df-4ec2-96d2-7fec41a95a85",
+    "2f50c666-a921-4f0d-919e-677a1663b9cd",
+    "home_story_87XjAP",
+    "home_slider_new_Hxkm3y"
+  ]
+}

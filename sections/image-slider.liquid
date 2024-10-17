@@ -1,0 +1,55 @@
+<div class="page-width-desktops image-slider-cont">
+  <div class="image-slider">
+    {% for block in section.blocks %}
+      <div class="slider-item">
+        <img loading="lazy" style="width:100%" src="{{ block.settings.img | img_url:"master" }}">
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  .image-slider-cont{
+    background:#F7F9FB; 
+    padding-top:40px;
+    padding-bottom:40px;
+  }
+  .slider-item{
+    padding:10px
+  }
+  .slick-list{padding:0 5% 0 5%;}
+ 
+</style>
+<script src="{{ 'image-slider-just.aio.min.js' | asset_url }}">
+
+</script>
+{% schema %}
+  {
+    "name": "Image Slider",
+    "settings": [],
+    "blocks":[
+      {
+        "type":"Slider",
+        "name":"Slider",
+        "settings":[
+          {
+            "type":"image_picker",
+            "id":"img",
+            "label":"Image"
+          }
+        ]
+      }
+    ],
+    "presets":[
+      {
+        "name":"Image Slider"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

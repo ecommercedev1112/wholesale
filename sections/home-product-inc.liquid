@@ -1,0 +1,155 @@
+<style>
+  .use-main-title h3 {
+    font-family: "Gloock", serif!important;
+    font-weight: 400 !important;
+  font-style: normal;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.11em;
+    text-align: center;
+    color: rgba(28, 46, 58, 1);
+  }
+  .serum-details {
+    text-align: center;
+  }
+  .daily-usage-title h3 {
+    font-family: "Gloock", serif!important;
+    font-weight: 400 !important;
+  font-style: normal;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+  }
+
+  .serum-container,
+  .elixir-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .serum-text h3,
+  .elixir-text h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 0;
+  }
+
+  .serum-details p,
+  .elixir-details p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 0;
+  }
+
+  .use-min-container {
+    background-color: rgba(247, 249, 251, 1);
+    padding: 25px;
+  }
+
+  .use-main-container {
+    width: 100%;
+    max-width: 1180px;
+    margin: auto;
+  }
+
+  span.new-line {
+    display: block;
+    height: 1px;
+    background-color: grey;
+    width: 50%;
+  }
+
+  .line-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .usage-content {
+    width: 100%;
+    max-width: 910px;
+    margin: auto;
+    padding-top: 20px;
+  }
+
+  @media screen and (max-width: 910px) {
+    .serum-container,
+    .elixir-container {
+      flex-wrap: wrap;
+    }
+  }
+</style>
+<div class="use-main-container">
+  <div class="use-main-title">
+    <h3>{{ section.settings.use_title }}</h3>
+  </div>
+  <div class="use-min-container">
+    <div class="use-sub-container">
+      <div class="daily-usage-title">
+        <h3>{{ section.settings.usage_title }}</h3>
+      </div>
+      <div class="line-bottom">
+        <span class="new-line"></span>
+      </div>
+      <div class="usage-content">
+        <div class="serum-container">
+          <div class="serum-text">
+            <h3>{{ section.settings.serum_text }}</h3>
+          </div>
+          <div class="serum-details">
+            {{ section.settings.serum_details }}
+          </div>
+        </div>
+        <div class="elixir-container">
+          <div class="elixir-text">
+            <h3>{{ section.settings.elixir_text }}</h3>
+          </div>
+          <div class="elixir-details">
+            {{ section.settings.elixir_details }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "How To Use",
+    "settings": [
+      {
+        "type": "text",
+        "id": "use_title",
+        "label": "Title"
+      }, {
+        "type": "text",
+        "id": "usage_title",
+        "label": "Daily Usage"
+      }, {
+        "type": "richtext",
+        "id": "serum_details",
+        "label": "Details"
+      }
+
+
+    ],
+    "presets": [
+      {
+        "name": "Products How To Use"
+      }
+    ]
+  }
+{% endschema %}

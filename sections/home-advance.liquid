@@ -1,0 +1,251 @@
+<style>
+  p.guide-main-2p1 {
+    font-size: 18px;
+    color: #1C2E3A;
+    margin: 0;
+    font-family: "Roboto", sans-serif !important;
+  }
+  h2.guide-main-2h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #1C2E3A;
+  }
+  .guide-center {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+  }
+  .guide-center1 {
+    text-transform: {{ section.settings.text_transformation }} ;
+  }
+
+  .total-days-main {
+    text-align: center;
+  }
+
+  .days-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 30px 0;
+  }
+
+  .days-cards-1 {
+    width: 100%;
+    max-width: 580px;
+    text-align: left;
+    background: #F7F9FB;
+    padding: 30px;
+  }
+
+  .days-cards-1 h2 {
+    color: #1C2E3A;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+
+  .days-cards-1 p {
+    color: #1F1F1F;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .days-space {
+    height: 2px;
+    background: #1C2E3A;
+    display: block !important;
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .days-cards {
+      grid-template-columns: 1fr;
+      gap: 10px;
+      padding: 0;
+    }
+    .days-cards-1 {
+      margin: auto;
+    }
+    .days-cards-1{
+      padding: 18px 15px;
+    }
+    .new-cart h4{
+      font-size: 16px;
+    }
+    .new-cart  p{
+      font-size: 16px;
+    }
+  }
+  .new-cart {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.new-cart h3 {
+    margin: 0 !important;
+}
+.new-cart h4 {
+    margin: 0 !important;
+}
+.new-cart p {
+    margin: 0 !important;
+}
+
+.new-bor-car {
+    border-top: 2px solid #e5e6e8;
+    padding-top: 10px;
+}
+  @media screen and (max-width:400px){
+    .days-cards-1 h2{
+      font-size: 20px;
+    }
+    h2.guide-main-2h1{
+      font-size: 35px;
+      text-align: start;
+      margin: 10px;
+    }
+
+  }
+  @media screen and (max-width:500px){
+    h2.guide-main-2h1 {
+    color: #1C2E3A;
+    font-size: 23px !important;
+    margin: 40px 0;
+    text-transform: uppercase;
+    font-family: "Gloock", serif !important;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+  }
+</style>
+
+
+<div class="total-days">
+  <div class="page-width">
+    <div class="total-days-main">
+      <p class="guide-main-2p1 guide-center">{{ section.settings.first_heading }}</p>
+      <p class="quidosecond">{{ section.settings.scnd_heading }}</p>
+      <h2 class="guide-main-2h1 guide-center1 new-set">{{ section.settings.top_heading }}</h2>
+      <div class="days-cards">
+        <div class="days-cards-1">
+          <h2>{{ section.settings.ctop_heading }}</h2>
+          <div class="days-space"></div>
+ 
+          <p>{{ section.settings.richt1 }}</p>
+          {% if section.settings.carone != blank %}
+          <div class="new-bor-car">
+          <div class="new-cart">{{ section.settings.carone }}</div>
+          <div class="new-cart">{{ section.settings.caroneone }}</div>
+          </div>
+          {% endif %}
+        </div>
+        <div class="days-cards-1">
+          <h2>{{ section.settings.cltop_heading }}</h2>
+          <div class="days-space"></div>
+
+          <p>{{ section.settings.richt2 }}</p>
+          {% if section.settings.cartwo != blank %}
+          <div class="new-bor-car">
+          <div class="new-cart">{{ section.settings.cartwo }}</div>
+          <div class="new-cart">{{ section.settings.cartwotwo }}</div>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "home advance layout",
+    "settings": [
+      {
+      "type": "select",
+      "id": "text_transformation",
+      "label": "Text transformation",
+      "options": [
+        {
+          "value": "uppercase",
+          "label": "uppercase"
+        },
+        {
+          "value": "capitalize",
+          "label": "capitalize"
+        },
+        {
+          "value": "lowercase",
+          "label": "lowercase"
+        },
+        {
+          "value": "math-auto",
+          "label": "math-auto"
+        }
+      ],
+      "default": "capitalize"
+    },
+      {
+        "type": "text",
+        "id": "first_heading",
+        "label": "First Heading",
+        "default": "dosage guide for the"
+      },
+      {
+        "type": "text",
+        "id": "scnd_heading",
+        "label": "Second Heading"
+      },
+      {
+        "type": "text",
+        "id": "top_heading",
+        "label": "Bold Heading",
+        "default": "90-DayS"
+      },
+      {
+        "type": "text",
+        "id": "ctop_heading",
+        "label": "First Card Heading",
+        "default": "For the first 30 days"
+      },
+      {
+        "type": "richtext",
+        "id": "carone",
+        "label": "First Card Bottom text"
+      },
+      {
+        "type": "richtext",
+        "id": "caroneone",
+        "label": "First Card Bottom text"
+      }, {
+        "type": "richtext",
+        "id": "richt1",
+        "label": "First Card Paragraph"
+      }, {
+        "type": "text",
+        "id": "cltop_heading",
+        "label": "Second Card Heading",
+        "default": "For the next 60 days"
+      },
+      {
+        "type": "richtext",
+        "id": "cartwo",
+        "label": "First Card Bottom text"
+      },
+      {
+        "type": "richtext",
+        "id": "cartwotwo",
+        "label": "First Card Bottom text"
+      }, {
+        "type": "richtext",
+        "id": "richt2",
+        "label": "Second Card Paragraph"
+      }
+    ],
+    "presets": [
+      {
+        "name": "home advance layout",
+        "category": "home advance layout"
+      }
+    ]
+  }
+{% endschema %}

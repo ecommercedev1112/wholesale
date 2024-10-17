@@ -1,0 +1,213 @@
+{
+  "sections": {
+    "home_super_one_kBNqcE": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 145,
+        "paddingsettingtwo": 65,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_231_5137274e-6d10-4c02-87ab-ff718e24cd74.png",
+        "image_text": "The basics About Silica"
+      }
+    },
+    "home_super_two_RRT6W7": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_3P9r4Q": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/MicrosoftTeams-image_510_1.png",
+            "step": "",
+            "section_heading": "ALL you need to know",
+            "section_subheading": "about SILICA",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Silica is an essential trace mineral in our body that is important for building and fortifying tissues, including collagen, which can be compromised by suboptimal nutrition. Silica is required to produce collagen, as well as vital molecules such as elastin, keratin, and glycosaminoglycans (GAGs), critical proteins that are fundamental for the maintenance of connective tissues.<br\/><br\/>This includes enhancing the density and resilience of bones, boosting hair strength, improving skin elasticity, and reinforcing nail structure. <br\/><br\/>A fun insight from our customer feedback: our brand testimonials consistently report significant nail hardening, along with a marked reduction in brittleness—a change that our customers frequently emphasize in their reviews. <\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_dpyNNr": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/MicrosoftTeams-image_507_1.png",
+            "step": "",
+            "section_heading": "The Crucial role of silica",
+            "section_subheading": "IN OUR BODIES",
+            "section_subheadingtwo": "",
+            "section_description": "<p>You can think of silica as the key to unlocking the regenerative and self-healing potential of your body. A deficiency in this vital mineral often manifests through visible changes in appearance, affecting how you look and feel. Historically, our diets provided significantly more silica—up to ten times today's amounts—making deficiencies increasingly common.<br\/><br\/>Our bodies are in a constant state of renewal, shedding and regenerating tissues like skin and hair daily. Science has shown that this natural cycle leads to a gradual decrease in silica levels by about 1% each year, a trend that becomes more pronounced after the age of 35.<br\/><br\/>To counteract this decline, silica supplementation is often necessary to sustain optimal health. <\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_3BPWFR": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/MicrosoftTeams-image_508_3.png",
+            "step": "",
+            "section_heading": "FOUND ALL AROUND US",
+            "section_subheading": "IN NATURE",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Silica's role extends far beyond well-documented contributions to human tissue health, constituting 27.7% of the Earth's crust. This essential mineral, found in volcanic rocks and sands, is crucial for enriching water sources, and nourishing plant life.<br\/><br\/>Scientific evidence shows that as plants absorb silica, they become stronger and more resilient. Silica is an essential part of the plant diet, necessary for their growth, and subsequently serves as a dietary source of silica for animals and humans.<br\/><br\/>This natural cycle—from the earth and water to our cells—underscores silica's broader significance, emphasizing its essential role structural integrity of living organisms, deepening our connection with the natural world.<br\/><br\/>Ready to dive deeper into how increasing our daily silica intake might transform significantly our overall well-being? <\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_3P9r4Q",
+        "content_dpyNNr",
+        "content_3BPWFR"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "",
+        "main_paragraph": ""
+      }
+    },
+    "home_superbanertwo_DCd9Jr": {
+      "type": "home-superbanertwo",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 30,
+        "paddingsettingtwo": 30,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_231_5137274e-6d10-4c02-87ab-ff718e24cd74.png",
+        "set-txt": "<p>Science has shown the potential of replenishing our bodies with this essential mineral that tends to diminish as we age<\/p>",
+        "letter_spacing": 1,
+        "desktop_content_width": 50,
+        "font_weight": "400",
+        "font_size": 32,
+        "text-transform": "math-auto",
+        "mobilefont_size": 40,
+        "mobile_content_width": 80
+      }
+    },
+    "d81d8d8e-def7-4a18-a588-56c6ecde1b88": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-heading-1",
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-text-1",
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "home_super_two_CTMwAf": {
+      "type": "home-super-two",
+      "settings": {
+        "backcolor": "",
+        "main_title": "Learn More About",
+        "main_paragraph": "<p>SILICA<\/p>"
+      }
+    },
+    "blog_multicolumn_8fFgG4": {
+      "type": "blog-multicolumn",
+      "blocks": {
+        "column_Q9YGYY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_42_464e8b3f-020b-46d8-b0f5-473f14c1d514.png",
+            "title": "<strong>Why Silica?<\/strong>",
+            "text": "<p>Silica is one of those elements whose list of documented benefits keeps growing over time. Learn about its multiple benefits here.<\/p>",
+            "link_label": "Read Next",
+            "link": "shopify:\/\/pages\/why-silica"
+          }
+        }
+      },
+      "block_order": [
+        "column_Q9YGYY"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "home_super_one_kBNqcE",
+    "home_super_two_RRT6W7",
+    "home_superbanertwo_DCd9Jr",
+    "d81d8d8e-def7-4a18-a588-56c6ecde1b88",
+    "main",
+    "home_super_two_CTMwAf",
+    "blog_multicolumn_8fFgG4"
+  ]
+}

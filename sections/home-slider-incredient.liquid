@@ -1,0 +1,135 @@
+<style>
+  .silajeet-main {
+    background-color: #1C2E3A;
+    display: flex;
+    align-items: center;
+  }
+  .silajeet-main .swiper-slide {
+    background-color: unset !important;
+  }
+  .right-silajeet-slider {
+    width: 100%;
+    padding: 2px 0;
+  }
+  .slider-mainonlytext h4 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    font-family: "Roboto"
+    , sans-serif;
+    font-style: normal;
+    padding-left: 10px;
+    margin: 10px 0px;
+  }
+  .slider-mainonlytext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media screen and (max-width: 768px) {
+    .slider-mainonlytext h4 {
+      font-size: 14px;
+    }
+    .left-text-silajeet {
+      max-width: 100%;
+      text-align: center;
+    }
+    .right-silajeet-slider {
+      max-width: 100%;
+    }
+    .slider-mainonlytext {
+      text-align: center;
+    }
+  }
+  .right-silajeet-slider .swiper-wrapper {
+    -webkit-transition-timing-function: linear !important;
+    -o-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+  }
+
+</style>
+
+<div class="silajeet-main">
+  <div class="right-silajeet-slider">
+    <div class="swiper silajeetswiper--{{ section.id }}">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="swiper-slide">
+            <div class="slider-mainonlytext">
+                <svg width="8" height="8" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="4" cy="4" r="3" stroke="white" stroke-width="1" fill="white"></circle>
+                </svg>
+                <h4>{{ block.settings.slide_text }}</h4>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+
+  const silajeetswipernew = new Swiper('.silajeetswiper--{{ section.id }}', {
+   autoHeight: true,
+   speed: 4000,
+   loop: true,
+   autoplay: {
+     delay: 0,
+    },
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+      // when window width is >= 480px
+      480: {
+        slidesPerView: 2.5,
+        spaceBetween: 10,
+      },
+      580: {
+        slidesPerView: 2.5,
+        spaceBetween: 10,
+      },
+      // when window width is >= 640px
+      769: {
+        slidesPerView: 2.75,
+        spaceBetween: 10,
+      },
+      965: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+      },
+      1020: {
+        slidesPerView: 4,
+        spaceBetween: 10,
+      },
+    },
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "Home Ingredients slider",
+    "settings": [],
+    "blocks": [
+      {
+        "name": "Img text Slider",
+        "type": "slider",
+        "settings": [
+          {
+            "type": "text",
+            "id": "slide_text",
+            "label": "Text"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Home Ingredients slider"
+      }
+    ]
+  }
+{% endschema %}

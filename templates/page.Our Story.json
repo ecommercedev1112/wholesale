@@ -1,0 +1,360 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "home_super_one_V9H6X8": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 145,
+        "paddingsettingtwo": 65,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_232_7374c9e1-e281-421c-89b5-2a542851e3c5.png",
+        "image_text": "Our Story"
+      }
+    },
+    "home_super_two_TebhFa": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_h78fMq": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_126_5.png",
+            "step": "",
+            "section_heading": "honoring",
+            "section_subheading": "Loïc Le Ribault",
+            "section_subheadingtwo": "",
+            "section_description": "<p>We aim to inspire and encourage every person in need to become healthier and stronger from the inside out with the world´s most researched & effective silica supplement. We are a heritage brand, born in 1994. Our brand was developed by Sc. D. Loïc Le Ribault, a passionate Doctor of Science who overcame the most challenging obstacles to create a unique formula for treating the most vulnerable patients, both poor and rich.<br\/><br\/>From defending and supporting the studies to expanding the unknown therapeutic uses of dietary silica, LIVING SILICA continues its legacy by shaping a unique proprietary process now distributed worldwide. <br\/> <br\/>At Silicium Laboratories, we honor his name and his legacy formula, aspiring to expand the benefits of silica throughout the world. We take pride in his commitment and constant research to provide the most effective form of silica. <\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_h78fMq"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "",
+        "main_paragraph": ""
+      }
+    },
+    "home_our_founder_aMfnrW": {
+      "type": "home-our-founder",
+      "settings": {
+        "bg-color": "#f7f9fb",
+        "top-text": "OUR FOUNDER",
+        "top-hed": "SC. D. LOÏC LE RIBAULT",
+        "top-num": "(1947 – 2007)",
+        "imag-left": "shopify:\/\/shop_images\/Rectangle_185_fe309bb4-e642-412b-a686-a8ef86187dee.png",
+        "rigth-hed": "| THE ORIGINS",
+        "rigth-par1": "<p>Our story unfolds in France with Sc. D. Loïc Le Ribault, a nationally recognized figure and France's foremost forensic investigator. Le Ribault pioneered the science and technology enabling the analysis of sand grains found at crime scenes using an electron microscope, thus determining their origin. <br\/><br\/>His expertise led to collaborations with prestigious agencies like the FBI, CIA, and DEA, aiding in solving high-profile crimes such as the Enrique Camarena case. This case involved the kidnapping of a United States DEA narcotics agent by Mexican cartels during the war on drugs.<\/p>",
+        "rigth-par2": ""
+      }
+    },
+    "home_super_two_FR4kce": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_xxna3d": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_186_1.png",
+            "step": "",
+            "section_heading": "| The Research",
+            "section_subheading": "",
+            "section_subheadingtwo": "",
+            "section_description": "<p>In 1972, while analyzing samples rich in microorganisms, Sc.D. Loïc Le Ribault accidentally discovered the healing properties of organic silica. While working on the organic silica deposits he had found, he immersed his hands in an organic silica solution and observed the cure of his psoriasis.<\/p><p>This discovery encouraged him to initiate research and analysis on how silica could contribute to health benefits. It led Sc. D. Loïc Le Ribault to partner with another highly acclaimed research chemist, Professor Norbert Duffaut from the University of Bordeaux, to confirm his findings and initiate a race to discover a potent and effective silica-based formula.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_krYpWU": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_187_1_14599cae-b70f-4fc5-a412-074fee8e79be.png",
+            "step": "",
+            "section_heading": "|The Discovery",
+            "section_subheading": "",
+            "section_subheadingtwo": "",
+            "section_description": "<p>After 12 years of working together with the goal of discovering the wide range of therapeutic uses of silica, and after formulating five different generations of formulas, Sc. D. Loïc Le Ribault continued his research independently until he discovered that silica could also be stabilized in water using carbon atoms.<\/p><p>This discovery led to the development of the breakthrough LIVING SILICA® in 1994. Even the French government agreed and publicly stated that OS5, the first version of LIVING SILICA®, was a completely natural and non-toxic substance to support well-being. <\/p><p>Today, we sell and distribute a patented and GRAS-approved ingredient, designed and formulated to unleash the power of your own collagen under the brand ORGONO LIVING SILICA®. <\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "16",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_4kD4L8": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/image_51_2.jpg",
+            "step": "",
+            "section_heading": "WHY ORGONO®",
+            "section_subheading": "LIVING SILICA?",
+            "section_subheadingtwo": "",
+            "section_description": "<p>ORGONO’s name comes from the concept of metaphysical life energy. Ancient teachings have emphasized the idea of subtle energies that are found everywhere. They are the life force that flows through all living things – the building blocks of all life on Earth<\/p><p>In Ayurveda, it’s called Prana. In Chinese, it’s called Chi. In Japanese, it’s called Ki.<\/p><p>ORGONO® empowers you to lead the transformation of your inner self to achieve optimum health and well-being.<\/p><h5>Thus, the brand ORGONO® was born.<\/h5>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_xxna3d",
+        "content_krYpWU",
+        "content_4kD4L8"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "",
+        "main_paragraph": ""
+      }
+    },
+    "home_story_87XjAP": {
+      "type": "home-story",
+      "blocks": {
+        "content_Cc7wBi": {
+          "type": "content",
+          "settings": {
+            "story_text_year": "1972",
+            "story_book_title": "<p>DISCOVERING THERAPEUTIC POTENTIALIN QUARTZ CRYSTALS<\/p>",
+            "icon_image": "shopify:\/\/shop_images\/Ellipse_130_6f7da482-4640-4beb-89cf-4ddffd9e1423.png"
+          }
+        },
+        "content_HBaxpC": {
+          "type": "content",
+          "settings": {
+            "story_text_year": "1975",
+            "story_book_title": "<p>NEW PROCEDURE TO COLLECTSILICA DEPOSITS<\/p>",
+            "icon_image": "shopify:\/\/shop_images\/Group_53_30e6976c-106e-468a-8232-8efc69b1a837.png"
+          }
+        },
+        "content_pCUwiy": {
+          "type": "content",
+          "settings": {
+            "story_text_year": "1982",
+            "story_book_title": "<p>HARNESSING THE BENEFITS OF SILICA-ENRICHED SAND<\/p>",
+            "icon_image": "shopify:\/\/shop_images\/Group_53_30e6976c-106e-468a-8232-8efc69b1a837.png"
+          }
+        },
+        "content_RwbRTA": {
+          "type": "content",
+          "settings": {
+            "story_text_year": "1994",
+            "story_book_title": "<p>LE RIBAULT CREATES A NEWMOLECULE<\/p>",
+            "icon_image": "shopify:\/\/shop_images\/Group_53_30e6976c-106e-468a-8232-8efc69b1a837.png"
+          }
+        }
+      },
+      "block_order": [
+        "content_Cc7wBi",
+        "content_HBaxpC",
+        "content_pCUwiy",
+        "content_RwbRTA"
+      ],
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/Rectangle_233_fd47bbdf-31bf-4b9f-9dac-e755ca8cb2f8.png",
+        "story_text": "THE PASSIONATE STORY",
+        "story_title": "<p>OF LIVING SILICA<strong>®<\/strong><\/p>"
+      }
+    },
+    "home_slider_new_Hxkm3y": {
+      "type": "home-slider-new",
+      "blocks": {
+        "content_FYixwT": {
+          "type": "content",
+          "settings": {
+            "year_text": "Year 1994",
+            "main_title": "A NEW MOLECULE ",
+            "description_text": "<p>After Duffaut's death, his partner, Le Ribault, continued the work alone. Until then, the silica solutions were exclusively formulated for external topical use. To activate them, small quantities of chemical medicines needed to be added. These medicines were carefully selected based on the specific disease being treated. Initially, creating a single solution posed a challenge as they tended to become unstable. In 1994, Le Ribault achieved his dream of creating a pure molecule that had a distinct advantage: it did not require additional drugs to enhance its effect or maintain stability. This molecule proved to be more effective than previous iterations and remained completely stable over time. <\/p>",
+            "books_image": "shopify:\/\/shop_images\/Group_286.png"
+          }
+        },
+        "content_KJ99Ek": {
+          "type": "content",
+          "settings": {
+            "year_text": "Year 1982",
+            "main_title": "THE BENEFITS OF SILICA-ENRICHED SAND ",
+            "description_text": "<p>Le Ribault suffered from psoriasis, a condition deemed incurable, which affected his hands and nails. Upon studying grains of silica-rich sand under an electronic microscope, he was surprised to find that his psoriasis disappeared from his right hand after a few days. This led him to investigate further, applying the same technique to his left hand with similar results. Consequently, Le Ribault delved into analyzing the role of silica in treating skin conditions, collaborating with other doctors, and advancing his investigation.<\/p>",
+            "books_image": "shopify:\/\/shop_images\/Group_278.png"
+          }
+        },
+        "content_A9rNQY": {
+          "type": "content",
+          "settings": {
+            "year_text": "Year 1975",
+            "main_title": "NEW PROCEDURE TO COLLECT SILICA DEPOSITS ",
+            "description_text": "<p>In 1975, Le Ribault developed a method to collect silica deposits created by the action of microorganisms, aiming to further investigate their role in the biological silica cycle. Through this procedure, he successfully obtained solutions containing a substantial percentage of silica. During these experiments, he also discovered the therapeutic effects of silica on himself.<\/p>",
+            "books_image": "shopify:\/\/shop_images\/Group_280.png"
+          }
+        },
+        "content_q4kCN7": {
+          "type": "content",
+          "settings": {
+            "year_text": "Since 1994",
+            "main_title": "THE FIFTH GENERATION SILICA",
+            "description_text": "<p>Le Ribault demonstrated that the molecule maintained its stability for years and could be used orally for extended periods without adverse effects. The successful stabilization of such an initially unstable molecule marked a significant achievement for this formula. Le Ribault obtained a 100% pure molecule without any of the contaminations found in previous solutions. This product was termed \"fifth generation silica\" due to its advancement beyond the four previous generations of silica formulations.<\/p>",
+            "books_image": "shopify:\/\/shop_images\/Group_284.png"
+          }
+        },
+        "content_r948FM": {
+          "type": "content",
+          "settings": {
+            "year_text": "Year 1972",
+            "main_title": "THERAPEUTIC EFFECTS IN QUARTZ CRYSTALS",
+            "description_text": "<p>Loïc le Ribault studied silica in all its scientific facets for more than 30 years. In two articles published in 1972 by the Academy of Sciences, Le Ribault demonstrated that certain quartz crystals contain an amorphous layer of silica on their surface, which is soluble in water. After studying thousands of samples, he established the frequent presence of microorganisms, such as bacteria and diatoms, on the surface of specific sand grains.<\/p>",
+            "books_image": "shopify:\/\/shop_images\/Group_276_5b717500-fe99-4609-8f63-fc55eb0094e3.png"
+          }
+        }
+      },
+      "block_order": [
+        "content_FYixwT",
+        "content_KJ99Ek",
+        "content_A9rNQY",
+        "content_q4kCN7",
+        "content_r948FM"
+      ],
+      "settings": {
+      }
+    },
+    "home_faq_aLbjFd": {
+      "type": "home-faq",
+      "blocks": {
+        "qa_y8QCHF": {
+          "type": "qa",
+          "settings": {
+            "ques": "DIPLOMAS AND DEGREES",
+            "ans": "<ul><li>Paris, 1970,Licence ès Lettres, Sorbonne.<\/li><li>Paris, 1971,Certificats d’Océanographie, Ecologie et Pédologie.<\/li><li>Paris, 1971,<br\/>Maîtrise de Géographie Physique.<\/li><li>Orsay, 1973. Doctorat de Troisième Cycle en Sédimentologie.<\/li><li>Orsay, 1980,<br\/>Doctorat d’Etat ès Sciences.<\/li><li>1984-1991.Expert in Microanalyse près la Cour d’Appel de Bordeaux.<\/li><\/ul>"
+          }
+        },
+        "qa_w8QbwL": {
+          "type": "qa",
+          "settings": {
+            "ques": "VARIOUS DISTINCTIONS",
+            "ans": "<ul><li>1972,Lauréat de la Fondation de la Vocation (Recherche scientifique)<\/li><li>1983, Premier Prix National de la Création d’Entreprise Innovante,<\/li><li>1984, Lauréat du Forum Européen des Créateurs d'Entreprises,<\/li><li>1987, Aquitain de l’Année<\/li><\/ul>"
+          }
+        },
+        "qa_Bgdb4M": {
+          "type": "qa",
+          "settings": {
+            "ques": "CAREER",
+            "ans": "<ul><li>1970-1973 : Researcher at the Laboratory of Oceanography at The collaboration Duffaut - Le Ribault<\/li><li>1973-1981 : Head of Department of Electronic Microscopy at the official headquarter of the Central Laboratory TOTAL.<\/li><li>1982: the chemist Duffaut and the Dr. le Ribault met during a scientific event in Bordeaux. Duffaut was for several years analyzing a synthetic molecule of organic silica. Le Ribault was heading a very sophisticated microanalysis material, as he created the famous microanalysis laboratory CARME.<\/li><li>Immediately, both scientists initiated their collaboration on the therapeutic application of organic silica. The next year, the collaboration of the scientists led to the synthesis of a very efficient molecule in the treatment of viral diseases: G4, called DNV, obtained by adding sodium hyposulphite. During almost a decade, Duffaut and Le Ribault accumulated evidence of the high efficiency of the organic components in treating a high number of diseases.<\/li><li>1981-1990 :<br\/>Founder and General Director of CARME Laboratory (Centre d’Applications et de Recherches en Microscopie Electronique).<\/li><li>1990-1993 : International expert in criminalistics, founder of the LE RIBAULT EXPERTISES society.<\/li><li>1993-2004 :<br\/>Independent Researcher in different fields and projects with molecules of therapeutic interest. The launching of the G5. The foundation of the company in Ireland..<\/li><li>2004-2007 : In Spain is established the definitive quarter will serve as a base for the future international retail of G5. With the funding of the Spanish company Silicium, it is initiated a successful collaboration that put into practice several projects that were not finished. The most notorious project is the stabilization of silicic acid through an organic complex called Siliplant (known as Plant-Based Collagen Booster).<\/li><li>06\/06\/2007 :<br\/>Death of Dr. Loïc LE RIBAULT.<\/li><\/ul>"
+          }
+        },
+        "qa_DKtbKP": {
+          "type": "qa",
+          "settings": {
+            "ques": "PUBLICATIONS AND CONFERENCES",
+            "ans": "<p>Eleven books and a hundred scientific publications (especially in the French Academy of Sciences) dedicated to sedimentology, exoscopy of quartz, and microanalysis applied to criminalistics. Around 300 conferences in Europe, the United States, Canada and Africa, in universities, police and gendarmerie units, courts of law, scientific associations, etc.<\/p>"
+          }
+        },
+        "qa_mxdGwx": {
+          "type": "qa",
+          "settings": {
+            "ques": "PUBLISHED SCIENTIFIC STUDIES",
+            "ans": "<p><strong>1. LE RIBAULT L. (1970).-<\/strong>Influence des facteurs évolutifs sur l’aspect de surface des grains de quartz. Note préliminaire. Archives originales du Centre de Documentation du C.N.R.S., n° 485, 21 décembre 1970, In-4°, 5 pages<\/p><p><strong>2. LE RIBAULT L. (1971).-<\/strong>Présence d’une pellicule de silice amorphe à la surface des cristaux de quartz des formations sableuses. Comptes rendus de l’Académie des Sciences, Paris, 272, D, pp. 1933-1936<\/p><p><strong>3. LE RIBAULT L. (1971).-<\/strong>Comportement de la pellicule de silice amorphe sur les cristaux de quartz en fonction des différents milieux évolutifs. Comptes rendus de l’Académie des Sciences, Paris, 272, D, pp. 2649-2652.<\/p><p><strong>4. BALTZER F. & LE RIBAULT L.<\/strong>(1971).- Néogenèse de quartz dans les bancs sédimentaires d’un delta tropical : aspect des grains en microscopies électronique et optique. Comptes rendus de l’Académie des Sciences, Paris, 273, D, pp. 1083-1086<\/p><p><strong>5. LE RIBAULT L. & TOURENQ J. (1972).-<\/strong>Mise en évidence de trois types d’apports détritiques dans les Sables et Argiles du Bourbonnais d’après l’examen de la surface des grains de quartz au microscope électronique à balayage. Comptes rendus de l’Académie des Sciences, Paris<\/p><p><strong>6. LE RIBAULT L. (1972).-<\/strong>Exoscopie : caractères distinctifs des quartz à évolution fluviatile. Comptes rendus de l’Académie des Sciences, Paris, 274, D, pp. 3190-3<\/p><p><strong>7. LE RIBAULT L. (1972).-<\/strong>Exoscopie : caractères distinctifs des quartz à évolution marine. Comptes rendus de l’Académie des Sciences, Paris, 275, D, pp. 735-738<\/p><p><strong>8. HUBSCHMAN J. & LE RIBAULT L. (1972).-<\/strong>Détermination, par exoscopiedes quartz, de l’origine des limons quaternaires dans le Sud-Est du Bassin Aquitain. Comptes rendus de l’Académie des Sciences, Paris, 275, D, pp. 1477-1480<\/p><p><strong>9. LE RIBAULT L. (1972).-<\/strong>La mémoire des grains de sable. La Recherche, n° 28, novembre, pp. 985-987.<\/p><p><strong>10. LE RIBAULT L. (1973).-<\/strong>L’EXOSCOPIE, méthode de détermination des évolutions subies par les grains de quartz au cours de leur histoire géologique, par l’étude de leurs aspects de surface au microscope électronique à balayage. Thèse de doctorat de Troisième Cycle<\/p><p><strong>11. LE RIBAULT L. (1974).-<\/strong>Exoscopie et endoscopie des quartz d’origine détritique. Società Italiana de Mineralogia e Petrologia, Milan (Italie), vol. XXX, pp. 373-416<\/p><p><strong>12. BARBEY C., CARBONNEL J.-P., LE RIBAULT L. & YOURENQ J. (1974).-<\/strong>Mise en évidence par exoscopie des quartz de plusieurs épisodes éoliens au cours du Quaternaire mauritanien. Comptes rendus de l’Académie des Sciences, Paris, 278, D, pp. 1163-1166<\/p><p><strong>13. LE RIBAULT L. (1974).-<\/strong>L’exoscopie, méthode de détermination de l’histoire géologique des quartz détritiques. Revue de Géographie Physique et de Géologie Dynamique, (2), vol. XVI, fasc. 1, pp. 119-130.<\/p><p><strong>14. LEGIGAN Ph. & LE RIBAULT L. (1974).-<\/strong>Evolution des quartz dans un podzol humo-ferrugineux développé sur le Sable des Landes. Comptes rendus de l’Académie des Sciences, Paris, 279, D, pp. 799-802<\/p><p><strong>15. LE RIBAULT L. (1974).-<\/strong>L’histoire d’un grain de sable révélée par l’exoscopie au microscope électronique à balayage. Bulletin de l’Association szq Professeurs de Biologie et Géologie, n° 3, fasc. 214, pp. 375-385<\/p><p><strong>16. LE RIBAULT L. (1975).-<\/strong>Application de l’exoscopiedes quartz à quelques échantillons prélevés en Manche Orientale. Phil. Trans. Royal Society of London A., 277, pp. 277-286<\/p><p><strong>17.<\/strong>L’exoscopiedes quartz détritiques au microscope électronique à balayage. Volume des communications du IX ème Congrès International de Sédimentologie (Nice), thème 3, pp. 61-68<\/p><p><strong>18. AUBERT D. & LE RIBAULT L. (1975).-<\/strong>Quartz du pied du Jura. Bulletin de la Société Vaudoise de Sciences Naturelles, Lausanne (Suisse), n° 348, vol. 72, pp. 231-240<\/p><p><strong>19. BARBEY C., CARBONNEL J.-P., DUPLAIX S., LE RIBAULT L. & TOURENQ J. (1975).-<\/strong>Etude sédimentologique de formations dunaires en Mauritanie Occidentale. Bulletin de l’Institut Fondamental d’Afrique Noire, Dakar (Sénégal), t. 37, sér. A, n° 2, pp. 255-281<\/p><p><strong>20. LE RIBAULT L. (1975).-<\/strong>L’exoscopie, méthode et applications. Notes et Mémoires de la Compagnie Française des Pétroles, n° 12, 230 pages, 450 photographies (Epuisé)<\/p><p><strong>21. ALOISI J.-C., CHARLET J.-M., LE RIBAULT L. & WIBER M. (1976).-<\/strong>Données nouvelles sur la thermoluminescence des grains de quartz détritiques ; comparaison avec leur examen au M.E.B. et à la microsonde. Volume de résumés des communications de la 4 ème Réunion.<\/p><p><strong>22. LEGIGAN Ph. & LE RIBAULT L. (1976).-<\/strong>Sur les mécanismes de sédimentation du complexe détritique continental plio-quaternaire des Landes de Gascogne révélés par l’exoscopie des quartz. Bulletin de l’Institut de Géologie du Bassin d’Aquitaine, n° 20, pp. 3-23<\/p><p><strong>23. HOYEZ B. & LE RIBAULT L. (1976).-<\/strong>Caractères exoscopiques de quartz provenant de grès numidiens tyrrhéniens et de grès glauconieux de Sicile Centro-Occidentale. Annales de la Société Géologique du Nord, t. XCVI, pp. 193-197<\/p><p><strong>24. LERIBAULTL. (1977).-<\/strong>Egzoskopia : metoda okreslania geologicznej preszloscik warcow detrytycznych (en polonais). Kwartalnik Geologiczny, Varsovie (Pologne), t. 21, n° 1, pp. 175-193.<\/p><p><strong>25. LE RIBAULT L. (1977).-<\/strong>L’exoscopie des quartz, Editions Masson, Paris, 200 pages, 170 photographies (Epuisé)<\/p><p><strong>26. M’RABET A. & LE RIBAULT L. (1978).-<\/strong>Analyse exoscopique des séquences sableuses du Barrémien (formation Boudinar) de la Tunisie Centrale. Comptes rendus de l’Académie des Sciences, Paris, 286, D, pp. 399-402<\/p><p><strong>27. CLOCCHIATTI R., RODRIGO L. A. & LE RIBAULT L. (1978).-<\/strong>Endoscopie et exoscopie de grains de quartz des formations du Pliocène et du Quaternaire de La Paz (Bolivie). Cahiers O.R.S.T.O.M., série Géologie, vol. X, n° 1, pp. 127-143.<\/p><p><strong>28. LE RIBAULT L. (1978).-<\/strong>The exoscopy of quartz sand grains. Scanning Electron Microscopy in the Study of Sediments, Swansea (Grande-Bretagne), pp. 319-328.<\/p><p><strong>29. HOUTMANN A. & LE RIBAULT L. (1979).-<\/strong>Evolution des quartz – Exoscopie. In “La Mer Pélagienne”, Annales de l’Université de Provence, tome VI, n° 1, pp. 130-138<\/p><p><strong>30. LE RIBAULT L. & TASTET J.-P. (1979).-<\/strong>Apports de l’exoscopie des quartz à la détermination de l’origine des dépôts quaternaires littoraux de Côte d’Ivoire. Comptes rendus du 1978 International Symposium on Coastal Evolution in the Quaternary, e I.G.C.P., Project 61, Sao-Paulo<\/p><p><strong>31. LE RIBAULT L. & VILLAIN J.-M. (1979).-<\/strong>Essai sur l’écologie des Foraminifères dans les milieux intertidaux actuels de la côte Nord-Aquitaine (France). Comptes rendus du 104 ème Congrès National des Sociétés Savantes, Bordeaux, fasc. III, pp. 51-62<\/p><p><strong>32. LE RIBAULT L. (1980).-<\/strong>Exoscopiedes quartz : fiches signalétiques et interprétation des principaux caractères phénomorphiques. Thèse de doctorat d’Etat ès Sciences, Université Paris-Sud (Centre d’Orsay), 7 juin, 427 pages<\/p><p><strong>33. LIZON-SUREAU B., CLOCCHIATTI R. & LE RIBAULT L. (1980).-<\/strong>Paléoenvironnementvolcano-sédimentaire du Pithécantrope de Java au Pléistocène moyen dans la région de Sangiran (Java Central). Vol. rés. Comm. de la 8 ème Réunion Annuelle des Sciences de la Terre, Marseille.<\/p><p><strong>34. GIRESSE P. & LE RIBAULT L. (1981).-<\/strong>Contribution de l’étude exoscopiquedes quartz à la reconstitution paléogéographique des derniers épisodes du Quaternaire littoral du Congo. QuaternaryResearch, 15, pp. 86-100<\/p><p><strong>35. PELRAS M. & LE RIBAULT L. (1981).-<\/strong>Certains microbes jouent-ils un rôle dans les phénomènes de silicification ? Rev. de Géographie Physique et de Géologie Dynamique, vol. 23, fasc. 2, pp. 151-160.<\/p><p><strong>36. HAMOUMI N., LE RIBAULT L. & PELHATE A. (1981).-<\/strong>Les Schistes du Cosquer (Ordovicien supérieur, Massif armoricain occidental) : une formation glacio-marine à la périphérie d’un inlandsis ordovicien. Bulletin de la Société géologique de France, (7), t. XXIII, n° 3, pp. 279-286<\/p><p><strong>37. LE RIBAULT L. (1984).-<\/strong>L’exoscopiedes quartz : une méthode pour déterminer l’histoire des grains de sable. Bulletin de la société d’Anthropologie du Sud-Ouest, Tome XIX, n° 2, pp. 123-137<\/p><p><strong>38. LEGIGAN Ph. & LE RIBAULT L. (1987).-<\/strong>Exoscopiedes quartz : application à la reconstitution des environnements sédimentaires. Géologie de la Préhistoire, éditions Géopré, pp. 499-517.<\/p><p><strong>39. LEGIGAN Ph., LE RIBAULT L & MONTRON S. (1989).-<\/strong>Exoscopiedes quartz fluviatiles. Délai d’acquisition des caractères de la surface des grains au long du cours d’une rivière. Comptes rendus de l’Académie des Sciences, Paris, 309, Série II, pp. 575-581<\/p><p><strong>40. LEGIGAN Ph., LE RIBAULT L. & MISKOVSKY (1989).-<\/strong>L’histoire des grains de sable, Association pour l’étude de l’environnement géologique de la préhistoire et des interactions entre l’Homme et son cadre de vie, éditions Géopré, 20 diapositives avec fascicule-commentaire illustré<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "qa_y8QCHF",
+        "qa_w8QbwL",
+        "qa_Bgdb4M",
+        "qa_DKtbKP",
+        "qa_mxdGwx"
+      ],
+      "settings": {
+        "headingmain": "Resources",
+        "heading": "",
+        "p_t": 15,
+        "p_b": 15,
+        "p_tx": 1,
+        "p_bx": 5
+      }
+    },
+    "super_rich_4gjjX3": {
+      "type": "super-rich",
+      "settings": {
+        "background_color": "#ffffff",
+        "para": "",
+        "interesting_facts_about": "unelash The Power Of Your",
+        "the_safety_of_our_products": "OWN COLLAGEN",
+        "text": ""
+      }
+    },
+    "featured_collection_YiTpVn": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "liquids",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "home_super_one_V9H6X8",
+    "home_super_two_TebhFa",
+    "home_our_founder_aMfnrW",
+    "home_super_two_FR4kce",
+    "home_story_87XjAP",
+    "home_slider_new_Hxkm3y",
+    "home_faq_aLbjFd",
+    "super_rich_4gjjX3",
+    "featured_collection_YiTpVn"
+  ]
+}

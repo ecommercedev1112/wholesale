@@ -1,0 +1,146 @@
+<style>
+  .seaction {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    {% if section.settings.backimage != blank %}
+      background-image: url('{{ section.settings.backimage | img_url: 'master'}}');
+    {% endif %}
+  }
+  .seaction-in{
+    text-align: center;
+    padding: 50px;
+    max-width: 950px;
+    margin: auto;
+  }
+  .seaction-in h2{
+    font-size:48px;
+    margin-bottom;-70px;
+    color:white;
+    letter-spacing: 5px;
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  img.heritage-logo{
+    max-width: 100%;
+    height: auto;
+  }
+  .seaction-in p{
+    margin-bottom:40px;
+    color:white;
+    font-size:18px;
+    font-family: "Roboto Light", sans-serif !important;
+  }
+  .seaction-in a{
+    margin-top: 50px;
+    padding: 12px 58px !important;
+    font-weight: 300;
+    background: white;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 3px;
+    
+  }
+  .seaction-in a:hover{
+    background-color:  #00C1D5;
+    color: white;
+    border: none;
+  }
+  #shopify-section-template--16181603860566__home_five_new_DXQVGH .seaction-in h2 {
+    margin: 0;
+  }
+  @media screen and (max-width:525px) {
+  .seaction-in h2{
+    font-size: 26px;
+    letter-spacing: 2px;
+    }
+    .seaction-in{
+        padding: 0;
+    }
+    .seaction {
+      height: 780px;
+    }
+    img.heritage-logo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+    .seaction {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.seaction.new-sec-pdp{
+  height: 100%;
+}
+    .seaction-in p {
+    margin-bottom: 40px;
+    color: white;
+    font-size: 17px;
+    line-height: 26px;
+}
+  }
+
+</style>
+<div class="seaction new-sec-pdp">
+  <div class="page-width">
+    <div class="seaction-in ">
+      {% if section.settings.seaction-pic != blank %}
+        <div>
+          <img loading="lazy" class="heritage-logo" src="{{ section.settings.seaction-pic |  img_url : 'master' }}">
+        </div>
+      {% endif %}
+      {% if section.settings.seaction-heading != blank %}
+      <h2>{{ section.settings.seaction-heading }}</h2>
+    {% endif %}
+    {% if section.settings.seaction-para != blank %}
+      <p">{{ section.settings.seaction-para }}</p>
+    {% endif %}
+      {% if section.settings.seaction-butt != blank %}
+      <a href="{{ section.settings.button_link }}">{{ section.settings.seaction-butt }}</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "heritage",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "backimage",
+        "label": "Background image"
+      },
+      {
+        "type": "image_picker",
+        "id": "seaction-pic",
+        "label": "image"
+      },
+      {
+        "type": "text",
+        "id": "seaction-heading",
+        "label": "heading"
+      },
+      {
+        "type": "richtext",
+        "id": "seaction-para",
+        "label": "para"
+      }, {
+        "type": "text",
+        "id": "seaction-butt",
+        "label": "button"
+      },
+      {
+  "type": "url",
+  "id": "button_link",
+  "label": "Button link"
+}
+    ],
+    "presets": [
+      {
+        "name": "heritage",
+        "category": "Home Hero"
+      }
+    ]
+  }
+{% endschema %}

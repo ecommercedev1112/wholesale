@@ -1,0 +1,168 @@
+{
+  "sections": {
+    "home_super_one_8ixCGd": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 145,
+        "paddingsettingtwo": 65,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_231_5137274e-6d10-4c02-87ab-ff718e24cd74.png",
+        "image_text": "Our Values"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "home_super_two_dGtHjG": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_TMCdAq": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_126_6.png",
+            "step": "",
+            "section_heading": "strive for a better",
+            "section_subheading": "FUTURE",
+            "section_subheadingtwo": "",
+            "section_description": "<p>The journey initiated by our founder, Sc.D. Loïc Le Ribault, has today blossomed into the renowned brand of LIVING SILICA, transforming the lives of over 155,000 individuals. Through more than 5 generations of formulas, this brand has not only helped people rediscover their youthfulness but has also revitalized their overall well-being. The story and legacy of LIVING SILICA® is not just about the past; it's a proof of our ongoing commitment to strive for a better future for those seeking alternatives for health and vitality.   <\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_jB66Hi": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_134_2.png",
+            "step": "",
+            "section_heading": "responsIble",
+            "section_subheading": "FORMULATION",
+            "section_subheadingtwo": "",
+            "section_description": "<p>We create products using ingredients selected for quality, safety & efficacy. We go beyond animal collagen and develop mineral & plant -based collagen-boosting supplements from the wisdom and principles of ancient teachings and acclaimed scientists. Our products are more than just formulations; they represent the culmination of decades of research and studies, placing people at the center stage, to bring you the very best in health and well-being. <\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_jYgAbh": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/image_51_2_cf0b3409-aefa-4346-8648-6618b0e24675.jpg",
+            "step": "",
+            "section_heading": "DEVELOPED",
+            "section_subheading": "FOR IMPACT",
+            "section_subheadingtwo": "",
+            "section_description": "<p>With silica, an essential mineral at the center of our formulations, we are not just providing a product – we're fostering consumer education to enhance nutritional knowledge. Among the minerals crucial for maintaining good health, silica is perhaps the least known and understood. Our goal is to highlight the key role silica plays in promoting overall well-being and underscore the benefits of maintaining optimal silica levels to strive for our best.  <br\/> <br\/>Since the discovery of LIVING SILICA® in 1994, our team has conducted rigorous research studies to affirm the impact of silica on our health, and we constantly reinvest a percentage of our profit into further research.  <\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_TMCdAq",
+        "content_jB66Hi",
+        "content_jYgAbh"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "",
+        "main_paragraph": ""
+      }
+    },
+    "home_superbanertwo_a7bUjT": {
+      "type": "home-superbanertwo",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 30,
+        "paddingsettingtwo": 35,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_232_7374c9e1-e281-421c-89b5-2a542851e3c5.png",
+        "set-txt": "<p>OUR PURITY,  PROMISE <br\/> The purest and most bioavailable silica you can find anywhere. It’s what put us on the map.<\/p>",
+        "letter_spacing": 1,
+        "desktop_content_width": 80,
+        "font_weight": "400",
+        "font_size": 28,
+        "text-transform": "math-auto",
+        "mobilefont_size": 24,
+        "mobile_content_width": 80
+      }
+    },
+    "super_rich_KmjxJe": {
+      "type": "super-rich",
+      "custom_css": [
+        ".text-seaction {padding: 0; }"
+      ],
+      "settings": {
+        "background_color": "#ffffff",
+        "para": "",
+        "interesting_facts_about": "Boost The Power Of Your",
+        "the_safety_of_our_products": "OWN COLLAGEN",
+        "text": ""
+      }
+    },
+    "4957fb72-d493-4005-8063-821c975fa011": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "liquids",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "home_super_one_8ixCGd",
+    "main",
+    "home_super_two_dGtHjG",
+    "home_superbanertwo_a7bUjT",
+    "super_rich_KmjxJe",
+    "4957fb72-d493-4005-8063-821c975fa011"
+  ]
+}

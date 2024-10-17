@@ -1,0 +1,289 @@
+<style>
+  button.accordion_btn {
+    padding: 20px 10px;
+    border: 0;
+    border-top: 1px solid black;
+    background: none;
+    align-items: center;
+    place-content: space-between;
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+  }
+
+  .panel_css {
+    display: none;
+    padding: 0 10px;
+  }
+
+  button.accordion_btn.active svg {
+    transform: rotate(90deg);
+  }
+
+  button.accordion_btn.active svg {
+    transform: rotate(180deg);
+  }
+
+  h4.accordion_title {
+    margin: 0;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  div.answer_faq p {
+    margin-bottom: 10px !important;
+    margin: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 100%;
+  }
+
+  h2.f_head {
+    color: #1C2E3A;
+    margin-top: 0;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 42px;
+    letter-spacing: 0.01em;
+    text-align: left;
+  }
+
+  .faq_heading {
+    padding-top: 10px;
+  }
+
+  .faq_qa{{section.id}} {
+    width: 90%;
+  }
+
+  .faq_container {
+    justify-content: center;
+    display: flex;
+  }
+.faq-section-title {
+    text-align: center;
+    color: #1C2E3A;
+    font-size: 48px;
+    font-weight: 400;
+  font-family: "Gloock", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  .last {
+    margin-bottom: 0px;
+  }
+  .panelqa_6nxAHy.panel_css {
+    border-bottom: 1px solid black;
+}
+
+
+  .faq_main_section {
+    padding-top: {{section.settings.p_t}}px;
+    padding-bottom: {{section.settings.p_b}}px;
+  }
+
+  div.answer_faq p {
+    margin-bottom: 10px !important;
+    margin: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 100%;
+  }
+
+  @media (max-width: 800px) {
+    h4.accordion_title {
+      font-size: 16px;
+    }
+.faq-section-title{
+      font-size: 30px;
+}
+    div.answer_faq p {
+      line-height: 23px;
+      font-size: 14px;
+    }
+
+    h2.f_head {
+      margin-bottom: 15px;
+      font-size: 26px;
+    }
+
+    .last {
+      margin-bottom: 10px;
+    }
+  }
+  button.accordionqa_6nxAHy.accordion_btn.last_checktemplate--21845503541555__home_faq_7rbyjY.last {
+    border-bottom: 1px solid;
+}
+
+button.accordionqa_6nxAHy.accordion_btn.last_checktemplate--21845503541555__home_faq_7rbyjY.last.active {
+    border-bottom: 0;
+}
+@media screen and (max-width:500px) {
+  .faq_main_section {
+    padding-top: {{ section.settings.p_tx }}px;
+    padding-bottom: {{ section.settings.p_bx }}px;
+  }
+}
+</style>
+
+<section class="faq_main_section">
+  <div class="page-width">
+    {%  if section.settings.headingmain != blank %}
+    <div class="faq-section-title">{{ section.settings.headingmain }}</div>
+    {%  endif %}
+    <div class="faq_border">
+      <div class="faq_heading">
+        <h2 class="f_head">{{ section.settings.heading }}</h2>
+      </div>
+      <div class="faq_container">
+        <div class="faq_qa{{section.id}}">
+          {% for block in section.blocks %}
+            {% if 'qa' %}
+              <button class="accordion{{ block.id }} accordion_btn last_check{{section.id}}">
+                <span>
+                  <h4 class="accordion_title">
+                    {{ block.settings.ques }}
+                  </h4>
+                </span>
+                <span id="accordion_caret_icon" class="accordion_caret_icon">
+                  <i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0.890928 1.25952C0.431266 1.7387 0.432328 2.5145 0.893299 2.99231L6.44117 8.74292C6.90122 9.21978 7.64571 9.21977 8.10576 8.74291L13.6536 2.99231C14.1145 2.51449 14.1156 1.73869 13.6559 1.25952C13.1963 0.780342 12.45 0.779241 11.989 1.25706L7.27346 6.14495L2.55788 1.25706C2.09691 0.779239 1.35059 0.780343 0.890928 1.25952Z" fill="#292D32"/>
+                    </svg>
+                  </i>
+                </span>
+              </button>
+              <div class="panel{{block.id}} panel_css">
+                <div class="answer_faq">
+                  {{ block.settings.ans }}
+                </div>
+              </div>
+            {% endif %}
+            <script>
+              var acc = document.getElementsByClassName("accordion{{ block.id }}");
+              var i;
+              for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                  this.classList.toggle("active");
+                  var panel = this.nextElementSibling;
+                  if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                  } else {
+                    panel.style.display = "block";
+                  }
+                });
+              }
+            </script>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Faq Main",
+  "settings": [
+        {
+      "type":"text",
+      "label":"Section heading",
+      "id":"headingmain"
+    },
+    {
+      "type":"text",
+      "label":"Heading",
+      "id":"heading"
+    },
+    {
+      "type":"range",
+      "label":"Padding Top",
+      "id":"p_t",
+      "unit":"px",
+      "min":0,
+      "max":100,
+      "default":36
+    },
+    {
+      "type":"range",
+      "label":"Padding Bottom",
+      "id":"p_b",
+      "unit":"px",
+      "min":0,
+      "max":100,
+      "default":36
+    },
+    {
+      "type":"range",
+      "label":"Padding Top mobile",
+      "id":"p_tx",
+      "unit":"px",
+      "min":0,
+      "max":100,
+      "default":36
+    },
+    {
+      "type":"range",
+      "label":"Padding Bottom Mobile",
+      "id":"p_bx",
+      "unit":"px",
+      "min":0,
+      "max":100,
+      "default":36
+    }
+  ],
+  "blocks":[
+    {
+      "type":"qa",
+      "name":"Question",
+      "settings":[
+        {
+          "type":"textarea",
+          "label":"Question",
+          "id":"ques"
+        },
+        {
+          "type":"richtext",
+          "label":"Answer",
+          "id":"ans"
+        }
+      ]
+    }
+  ],
+  "presets":[
+    {
+      "name":"Faq Main"
+    }
+  ]
+}
+{% endschema %}
+<script>
+  // Wait for the DOM content to be fully loaded
+  document.addEventListener("DOMContentLoaded", function() {
+    // Get all elements with the class faq_qa{{section.id}}
+    var faqContainers = document.querySelectorAll('.faq_qa{{section.id}}');
+
+    // Loop through each faq_qa{{section.id}} container
+    faqContainers.forEach(function(container) {
+      // Get all accordion_btn elements within the current container
+      var accordionButtons = container.querySelectorAll('.last_check{{section.id}}');
+
+      // Get the last accordion_btn element and add a class
+      var lastAccordionButton = accordionButtons[accordionButtons.length - 1];
+      lastAccordionButton.classList.add('last');
+    });
+  });
+</script>

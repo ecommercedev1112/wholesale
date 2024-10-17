@@ -1,0 +1,383 @@
+<style>
+      p.guide-main-2p1 {
+    font-size: 18px;
+    color: #1C2E3A;
+    margin: 0;
+    font-family: "Gloock", serif;
+}
+  h2.guide-main-2h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #1C2E3A;
+    font-family: "Gloock", serif;
+}
+  .guide-center {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+  .guide-center1 {
+    text-transform: uppercase;
+}
+  .fixed-width {
+    max-width: 780px;
+    margin: auto;
+    text-align: center;
+}
+
+p.result_p {
+    font-size: 18px;
+    color: #5C5C5C;
+}
+  .saftey {
+    margin: 40px 0;
+}
+  .safety-blocks {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.safety-b2 {
+    margin: auto;
+}
+.safety-b1 {
+    text-align: right;
+}
+.block-safety1 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.safety-b3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.safety-b1 h2 {
+    max-width: 275px;
+    margin-top: 0;
+}
+
+.safety-b1 p {
+    max-width: 275px;
+}
+.block-safety3 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.safety-b3 h2 {
+    max-width: 275px;
+    width: 100%;
+    margin-top: 0;
+}
+.safety-blocks h2 {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.safety-blocks p {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.safety-b3 p {
+    max-width: 275px;
+}
+  .safety-b1::before {
+    content: "|";
+    position: relative;
+    top: 20%;
+    font-size:40px;
+    color: black;
+    right: 55px;
+}
+  .safety-b3::before {
+    content: "|";
+    position: relative;
+    top: 20%;
+    font-size: 40px;
+    color: black;
+    right: 160px;
+}
+      @media only screen and (max-width: 1100px){
+        .safety-b2 img {
+    object-fit: cover;
+    width: 100%;
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.safety-b2 {
+    width: 36%;
+}
+      }
+  @media only screen and (max-width: 980px){
+    .safety-blocks {
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-safety1 {
+    width: 100%;
+}
+
+.safety-b1 p {
+    max-width: 100%;
+}
+
+.safety-b1 h2 {
+    max-width: 100%;
+}
+
+.safety-b1 {
+    text-align: center;
+}
+
+.safety-b1::before {left: 44%;}
+
+.block-safety3 {
+    width: 100%;
+}
+
+.safety-b3 p {
+    max-width: 100%;
+}
+
+.safety-b3 h2 {
+    max-width: 100%;
+}
+
+.safety-b3 {
+    text-align: center;
+}
+
+.safety-b3::before {
+    right: 44%;
+}
+    .safety-b2 img {
+    max-width: 100%;
+}
+  }
+    @media only screen and (max-width: 500px){
+      .safety-b3 p {
+        margin:0;
+        font-size:17px;
+        line-height:26px;
+      }
+      h2.guide-main-2h1 {
+    font-size: 32px;
+}
+.safety-b1::before {
+    left: 0%;
+}
+p.guide-main-2p1 {
+    font-size: 14px;
+}
+.safety-b3::before {
+    right: 0%;
+}
+p.result_p {
+    font-size: 14px;
+}
+.tabcontent {
+    margin: auto;
+}
+
+.tabcontent img {
+    width: 100%;
+    max-width: 100px !important;
+}
+
+.percentage_row {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.percentage_row img {
+    width: 100%;
+    max-width: 100px;
+}
+    }
+</style>
+
+
+<div class="saftey">
+  <div class="page-width">
+    <div class="safety-main">
+        <div class="fixed-width">
+          <p class="guide-main-2p1 guide-center">{{ section.settings.first_heading }}</p>
+          <h2 class="guide-main-2h1 guide-center1">{{ section.settings.top_heading }}</h2>
+          <p class="result_p">{{ section.settings.bottom_p }}</p>
+        </div>
+    </div>
+      <div class="safety-blocks">
+        <div class="block-safety1">
+            <div class="safety-b1"> 
+              <h2>{{ section.settings.f1h }}</h2>
+              <p>{{ section.settings.f1p }}</p>
+            </div>
+            <div class="safety-b1"> 
+              <h2>{{ section.settings.f2h }}</h2>
+              <p>{{ section.settings.f2p }}</p>
+            </div>
+            <div class="safety-b1"> 
+              <h2>{{ section.settings.f3h }}</h2>
+              <p>{{ section.settings.f3p }}</p>
+            </div>
+          </div>
+          {%  if section.settings.image != blank %}
+          <div class="safety-b2">
+            <img loading="lazy" src="{{ section.settings.image | img_url : 'master' }}" >
+          </div>
+            {%  endif %}
+        <div class="block-safety3">
+            <div class="safety-b3"> 
+              <h2>{{ section.settings.f4h }}</h2>
+              <p>{{ section.settings.f4p }}</p>
+            </div>
+            <div class="safety-b3"> 
+              <h2>{{ section.settings.f5h }}</h2>
+              <p>{{ section.settings.f5p }}</p>
+            </div>
+            <div class="safety-b3"> 
+              <h2>{{ section.settings.f6h }}</h2>
+              <p>{{ section.settings.f6p }}</p>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+{% schema %}
+{
+"name": "home Scientific Studies",
+"settings": [
+{
+  "type": "text",
+  "id": "first_heading",
+  "label": "First Heading",
+  "default": "INTERESTING FACTS ABOUT"
+},
+  {
+  "type": "text",
+  "id": "top_heading",
+  "label": "Bold Heading",
+  "default": "THE SAFETY OF our products"
+},
+  {
+  "type": "text",
+  "id": "bottom_p",
+  "label": "Paragraph"
+},
+  {
+  "type": "image_picker",
+  "label": "Image",
+  "id": "image"
+},
+    {
+  "type": "text",
+  "id": "f1h",
+  "label": "Block First Heading",
+  "default": "Non-Toxicity Studies"
+},
+    {
+  "type": "text",
+  "id": "f1p",
+  "label": "Block First Paragraph",
+  "default": "These studies demonstrates the safety & the non-toxicity of the product."
+},
+    {
+  "type": "text",
+  "id": "f2h",
+  "label": "Block Second Heading",
+  "default": "Guarantee of Quality"
+},
+    {
+  "type": "text",
+  "id": "f2p",
+  "label": "Block Second Paragraph",
+  "default": "All batches of our products are individually analyzed to guarantee the quality and safety of our products"
+},
+    {
+  "type": "text",
+  "id": "f3h",
+  "label": "Block Third Heading",
+  "default": "Patents"
+},
+    {
+  "type": "text",
+  "id": "f3p",
+  "label": "Block Third Paragraph",
+  "default": "The development of our products is supported and protected by international patents."
+},
+    {
+  "type": "text",
+  "id": "f4h",
+  "label": "Block Foruth Heading",
+  "default": "Efficiency Studies"
+},
+    {
+  "type": "text",
+  "id": "f4p",
+  "label": "Block Foruth Paragraph",
+  "default": "LIVING SILICA® benefits are proven independent clinical studies conducted by leading European, American, and British university researchers."
+},
+    {
+  "type": "text",
+  "id": "f5h",
+  "label": "Block Fifth Heading",
+  "default": "Eliminating Preservatives"
+},
+    {
+  "type": "text",
+  "id": "f5p",
+  "label": "Block Fifth Paragraph",
+  "default": "We have managed to eliminate preservatives and we treat our products with new natural processes"
+},
+    {
+  "type": "text",
+  "id": "f6h",
+  "label": "Block Sixth Heading",
+  "default": "Stability Studies"
+},
+    {
+  "type": "text",
+  "id": "f6p",
+  "label": "Block Sixth Paragraph",
+  "default": "Stability studies confirmed the quality and safety of products throughout their shelf life."
+}
+],
+     "blocks": [
+    {
+      "name": "Block",
+      "type": "block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Image",
+          "id": "image"
+        },
+        {
+          "type": "text",
+          "id": "para",
+          "label": "Block Paragraph",
+          "default": "Healthy Hair result within 2-3 months. *"
+        }
+      ]
+    }
+  ],
+"presets": [
+{
+"name": "home Scientific Studies",
+"category": "home Scientific Studies"
+}
+]
+}
+{% endschema %}

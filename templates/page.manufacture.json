@@ -1,0 +1,103 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "home_super_one_E4eUx4": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 165,
+        "paddingsettingtwo": 45,
+        "backgound_image": "shopify:\/\/shop_images\/TINT_3eeef30d-8ff2-4c37-a577-235b0e9f8acc.png",
+        "image_text": "MANUFACTURING PROCESS"
+      }
+    },
+    "home_super_two_HD7VrR": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_dpL9AA": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_129_9ed14621-f8aa-4eca-a955-bdb649962c91.png",
+            "step": "",
+            "section_heading": "|Step 1",
+            "section_subheading": "FORMULATION PROCESS",
+            "section_subheadingtwo": "",
+            "section_description": "<p>From Le Ribault’s original molecule formulation steps, we achieved an improved world-class process to obtain the purest, safest, and most consistent quality silica in the world, recognized by chemical engineers and industry experts as the superior method. With our unique proprietary process, we have been able to duplicate nature’s natural way of producing silica.From Le Ribault’s original molecule formulation steps, we achieved an improved world-class process to obtain the purest, safest, and most consistent quality silica in the world, recognized by chemical engineers and industry experts as the superior method. With our unique proprietary process, we have been able to duplicate nature’s natural way of producing silica.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "700",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_zrRaEe": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_130_29c62ec7-1a82-4e07-b995-a5e574eaf0cd.png",
+            "step": "",
+            "section_heading": "|Step 2",
+            "section_subheading": "LABORATORY MANUFACTURING",
+            "section_subheadingtwo": "",
+            "section_description": "<p>LIVING SILICA® is manufactured in a dedicated, single-purpose facility. Our unique yet simple process enables us to stabilize the most effective, bioavailable, and high-quality vegan collagen supplement in the market. We don’t use any radiation sanitizing methods. Instead, we use high-pressure processing technology (HPP). This guarantees the safety and purity of our formula. <\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "700",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_mPf6cJ": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_131_1.png",
+            "step": "",
+            "section_heading": "|Step 3",
+            "section_subheading": "QUALITY CONTROL",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Once our ingredients have been checked, we initiate the production run, closely monitoring it from start to finish. It undergoes a stage of inspection to assess efficacy, microbial limits, and heavy metal control, ensuring stringent quality standards throughout the manufacturing process in accordance with specifications and complying with FDA Food Supplements cGMP regulations. We are affirmed as Generally Recognized as Safe (GRAS) for LIVING SILICA’s use in food and beverages by the FDA. Our commitment to excellence guarantees a formula that is both safe, pure, and highly effective.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "700",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_dpL9AA",
+        "content_zrRaEe",
+        "content_mPf6cJ"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "Our THREE",
+        "main_paragraph": "<p>Step PROCESS<\/p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "home_super_one_E4eUx4",
+    "home_super_two_HD7VrR"
+  ]
+}

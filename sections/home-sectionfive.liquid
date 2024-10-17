@@ -1,0 +1,205 @@
+<style>
+  .in-side-seaction {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 60px 0px;
+  }
+  .in-side-image {
+    display: flex;
+}
+  .inside-butt {
+    background: #1C2E3A;
+    padding: 13px 25px;
+    color: #fff;
+    font-family: "Roboto"
+    , sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.85px;
+    text-align: left;
+    text-decoration: none;
+    border: none;
+    margin-top: 10px;
+    letter-spacing: 3px;
+  }
+a.inside-butt:hover {
+    background: #00C1D5;
+    color: #fff;
+}
+  .in-side-image {
+    text-align: center;
+  }
+  .in-side-image img {
+    width: 100%;
+  }
+  .inside-text {
+    padding: 42px 15px;
+  }
+  .inside-heading h2 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+    font-family: "Gloock", serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+  .in-side-para {
+    min-height: 160px;
+  }
+  .in-side-para p {
+    font-family: "Roboto Light"
+    , sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 25px 0 0;
+    margin: 0;
+    color: #5C5C5C;
+  }
+  @media screen and (max-width:1064px) {
+    .inside-heading h2{
+      font-size: 20px;
+    }
+    .in-side-para p {
+    font-size: 18px;
+    padding: 15px 0 0;
+  }
+  .in-side-para {
+    min-height: 190px;
+  }
+  }
+
+  @media screen and (max-width:1274px) {
+    .in-side-dox {
+
+}
+.in-side-seaction {
+    justify-content: center;
+}
+
+    }
+    @media screen and (max-width:944px) {
+      .in-side-seaction{
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+      }
+    }
+  @media screen and (max-width: 768px) {
+    .in-side-para {
+      min-height: unset;
+    }
+    .in-side-para p {
+      padding: 13px 0;
+      line-height: 30px;
+    }
+    .in-side-seaction {
+    grid-template-columns: 1fr;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .inside-heading h2 {
+      font-size: 24px;
+    }
+    .in-side-para p {
+      font-size: 17px;
+      margin-bottom: 20px;
+    }
+      .inside-text {
+    padding: 26px 15px;
+  }
+        .in-side-para p {
+      padding: 5px 0;
+      line-height: 26px;
+    }
+    .in-side-para {
+    padding-top: 20px;
+    margin-bottom: 12px !important;
+}
+    .in-side-seaction {
+    row-gap: 40px;
+}
+  }
+</style>
+<div class="page-width">
+  <div class="in-side-seaction">
+    {% for block in section.blocks %}
+      <div class="in-side-dox" style="background-color: {{block.settings.bb-color }};">
+        {% if block.settings.image != blank %}
+          <div class="in-side-image">
+            <img loading="lazy" src="{{ block.settings.image |  img_url : 'master' }}">
+          </div>
+        {% endif %}
+        <div class="inside-text">
+          <div class="inside-heading">
+            {% if block.settings.head != blank %}
+              <h2>{{ block.settings.head }}</h2>
+            {% endif %}
+          </div>
+          <div class="in-side-para">
+            {% if block.settings.par != blank %}
+              {{ block.settings.par }}
+            {% endif %}
+          </div>
+          {% if block.settings.butt != blank %}
+            <a class="inside-butt" href="{{ block.settings.butt_link }}">{{ block.settings.butt }}</a>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Home Main Page",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "image_picker",
+        "name": "ADD-text",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "image"
+          },
+          {
+            "type": "text",
+            "id": "head",
+            "label": "heading"
+          },
+          {
+            "type": "richtext",
+            "id": "par",
+            "label": "para"
+          },
+          {
+            "type": "color",
+            "id": "bb-color",
+            "label": "Background",
+            "default": "#000000"
+          }, {
+            "type": "text",
+            "id": "butt",
+            "label": "button"
+          }, {
+            "type": "url",
+            "id": "butt_link",
+            "label": "Button link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Home Main Page",
+        "category": "Home Main Page"
+      }
+    ]
+  }
+{% endschema %}

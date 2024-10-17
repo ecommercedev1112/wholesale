@@ -1,0 +1,183 @@
+<style>
+  .back-color{
+    background-color:{{ section.settings.background_color }};
+  }
+  .text-seaction {
+    position: relative;
+    padding: 40px;
+  }
+  .text-seaction div p {
+    font-family: "Roboto Light"
+    , sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #1C2E3A;
+
+  }
+  .text-imageonly img{
+    max-width: 100%;
+    height: auto;
+  }
+  .ver-line p:first-child:before {
+    content: '|';
+    position: absolute;
+    left: 0;
+    transform: translate(10px, 10px);
+    font-size: 64px;
+  }
+  .bottom-main-one {
+    font-family: "Roboto"
+    , sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0.46em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1C2E3A;
+}
+
+.bottom-main-two {
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.11em;
+    text-align: center;
+    color: #1C2E3A;
+    text-transform: uppercase;
+}
+.bottom-main-three {
+    width: 100%;
+    max-width: 709px;
+    margin: auto;
+}
+.bottom-main-three p {
+    font-family: "Roboto"
+    , sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.bottominner-main {
+    margin: 25px 0px;
+}
+@media screen and (max-width: 768px) {
+    .bottom-main-two {
+    font-size: 31px;
+}
+}
+  @media screen and (max-width: 500px) {
+    .text-seaction div p {
+      font-size: 17px;
+      text-align: left !important;
+      line-height: 25px !important;
+    }
+    .text-seaction {
+      padding: 0;
+    }
+    .ver-line p:first-child:before {
+      all: unset;
+    }
+    .bottom-main-two {
+    font-size: 30px;
+    line-height: 28px;
+    padding: 0px 0px;
+    text-align: start;
+    }
+    .bottom-main-three p {
+    font-size: 16px;
+    }
+    .bottom-main-one{
+      font-size: 17px;
+      padding-top: 20px;
+      text-align: start;
+      letter-spacing: 0px;
+    }
+    
+  }
+</style>
+
+<div class="back-color bg-light-blue">
+<div class="page-width">
+  <div class="text-seaction">
+    {% if section.settings.para != blank %}
+      <div class="ver-line">{{ section.settings.para }}</div>
+    {% endif %}
+  </div>
+  {% if section.settings.section_image != blank %}
+  <div class="text-imageonly">
+    <img loading="lazy" src="{{ section.settings.section_image | image_url }}">
+  </div>
+  {% endif %}
+  <div class="bottominner-main">
+    {% if section.settings.interesting_facts_about != blank %}
+    <div class="bottom-main-one">
+        {{ section.settings.interesting_facts_about }} 
+    </div>
+    {% endif %}
+
+    {% if section.settings.the_safety_of_our_products != blank %}
+    <div class="bottom-main-two">
+        {{ section.settings.the_safety_of_our_products }} 
+    </div>
+    {% endif %}
+    {% if section.settings.text != blank %}
+    <div class="bottom-main-three">
+        {{ section.settings.text }} 
+    </div>
+    {% endif %}
+  </div>
+</div>
+  </div>
+{% schema %}
+  {
+    "name": "Home super richtext",
+    "settings": [
+
+ {
+      "type": "color",
+      "id": "background_color",
+      "label": "background color",
+      "default": "#ffffff"
+    },
+      {
+        "type": "richtext",
+        "id": "para",
+        "label": "Text"
+      }, {
+        "type": "image_picker",
+        "id": "section_image",
+        "label": "Image"
+      },
+      {
+      "type": "text",
+      "id": "interesting_facts_about",
+      "label": "INTERESTING FACTS ABOUT"
+    },
+    {
+      "type": "text",
+      "id": "the_safety_of_our_products",
+      "label": "THE SAFETY OF our products"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text"
+    }
+    ],
+    "presets": [
+      {
+        "name": "Home super richtext",
+        "category": "Home Hero"
+      }
+    ]
+  }
+{% endschema %}

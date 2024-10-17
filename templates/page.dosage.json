@@ -1,0 +1,341 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "home_super_one_MRWDmd": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 145,
+        "paddingsettingtwo": 65,
+        "backgound_image": "shopify:\/\/shop_images\/Group_417.png",
+        "image_text": "DOSAGE protocol"
+      }
+    },
+    "home_super_two_GYrJUA": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_84fji9": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/pexels-cartist-3606871_1.png",
+            "step": "",
+            "section_heading": "YOUR DAILY",
+            "section_subheading": "DOSAGE",
+            "section_subheadingtwo": "",
+            "section_description": "<p>Silica supplements are increasingly accessible, but determining the appropriate dosage can be challenging. It's crucial to recognize that everyone's needs are unique, emphasizing the importance of consulting with a doctor or nutritionist.<\/p><p>With LIVING SILICA Collagen Boosters Liquid and Capsules, you can rest assured that you won’t need to consume large quantities of silica. Our products demonstrate higher bioavailability, ensuring superior absorption compared to many unformulated silica supplements.<\/p><p>Generally, a daily intake of one tablespoon (15 mL) has proven effective in delivering its full range of benefits. Your specific dosage may vary depending on whether you require regular maintenance or additional support.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_cPPqEm": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/pexels-lorenzo-mascaro-florit-10518461_1.png",
+            "step": "",
+            "section_heading": "consistency is key",
+            "section_subheading": "90-DAY PROTOCOL",
+            "section_subheadingtwo": "",
+            "section_description": "<p>With a three-decade history of demonstrable efficacy and genuine customer endorsements, we stress the critical importance of consistency when integrating our products into your routine.<br\/><br\/>Whether you're starting today or are a seasoned user, we are here to guide you in getting the most out of your journey toward a better you.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_84fji9",
+        "content_cPPqEm"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "",
+        "main_paragraph": ""
+      }
+    },
+    "home_advance_Yi97YB": {
+      "type": "home-advance",
+      "settings": {
+        "text_transformation": "capitalize",
+        "first_heading": "dosage guide for the",
+        "scnd_heading": "",
+        "top_heading": "90-DayS",
+        "ctop_heading": "For the first 30 days",
+        "carone": "",
+        "caroneone": "",
+        "richt1": "<p>INTENSIVE APPROACH: During the intensive approach, consider taking 60 mL per day, divided into two shots of 30 ml each, to be taken 15 minutes before each meal.<\/p><p>*Holding the product under the tongue for a minute or two can improve its absorption. <\/p>",
+        "cltop_heading": "For the next 60 days",
+        "cartwo": "",
+        "cartwotwo": "",
+        "richt2": "<p>MANTENAINCE APPROACH: For the maintenance approach, we recommend taking 30 mL per day, 15 minutes before a meal.<br\/>                                                            <\/p><p>*Holding the product under the tongue for a minute or two can improve its absorption. <\/p>"
+      }
+    },
+    "b574104c-c86f-44fb-a844-ae542a80f536": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21836600574259__b574104c-c86f-44fb-a844-ae542a80f536-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our mission is to accomplish Le Ribault’ s dream of making LIVING SILICA® available to every human being around the world.",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--21836600574259__b574104c-c86f-44fb-a844-ae542a80f536-heading-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_230_426263cf-8f07-49c7-b789-c8c913961fbf.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "4f4be3e3-5cc6-46e3-a362-570b0e012b1e": {
+      "type": "collection-list",
+      "blocks": {
+        "template--21836600574259__4f4be3e3-5cc6-46e3-a362-570b0e012b1e-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "liquids"
+          }
+        },
+        "template--21836600574259__4f4be3e3-5cc6-46e3-a362-570b0e012b1e-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "liquids"
+          }
+        },
+        "template--21836600574259__4f4be3e3-5cc6-46e3-a362-570b0e012b1e-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "capsules"
+          }
+        }
+      },
+      "block_order": [
+        "template--21836600574259__4f4be3e3-5cc6-46e3-a362-570b0e012b1e-featured_collection-1",
+        "template--21836600574259__4f4be3e3-5cc6-46e3-a362-570b0e012b1e-featured_collection-2",
+        "template--21836600574259__4f4be3e3-5cc6-46e3-a362-570b0e012b1e-featured_collection-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "76db4bff-6b0c-41e5-b19d-39c1f0462841": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".card__media {border-radius: unset !important;}"
+      ],
+      "settings": {
+        "title": "SELECT YOUR KIT",
+        "heading_size": "h1",
+        "description": "<h1><strong>90-DAY BUNDLE<\/strong><\/h1>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "dosage",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 4,
+        "padding_bottom": 36
+      }
+    },
+    "super_rich_FmthCy": {
+      "type": "super-rich",
+      "custom_css": [
+        ".text-seaction {padding: 0;}"
+      ],
+      "settings": {
+        "background_color": "#ffffff",
+        "para": "",
+        "interesting_facts_about": "OPTIMUM DOSAGE",
+        "the_safety_of_our_products": "AFTER THE PROTOCOL",
+        "text": "<p>If you have already completed the 90-day protocol and incorporated LIVING SILICA® as part of your routine, you can either choose to continue with a maintenance or intensive dosage depending on your goals and needs.<\/p>"
+      }
+    },
+    "home_advance_6M3FWa": {
+      "type": "home-advance",
+      "settings": {
+        "text_transformation": "capitalize",
+        "first_heading": "",
+        "scnd_heading": "",
+        "top_heading": "",
+        "ctop_heading": "Maintenance",
+        "carone": "",
+        "caroneone": "",
+        "richt1": "<p>For general wellness, you can take 15mL about 15 minutes before a meal. For the full, clinically proven results, you should build a routine for a year.<\/p>",
+        "cltop_heading": "Intensive",
+        "cartwo": "",
+        "cartwotwo": "",
+        "richt2": "<p>Depending on your goals (i.e., supporting active, healthy joints and bones), you can take 30–60 mL per day about 15 minutes before a meal.<\/p>"
+      }
+    },
+    "home_super_two_kq7nwN": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_jbYNhk": {
+          "type": "content",
+          "settings": {
+            "change_direction": true,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_186_d9384617-5e3c-4234-a3f5-4cb5b9b44743.png",
+            "step": "",
+            "section_heading": "ABOUT SUBLINGUAL",
+            "section_subheading": "ABSORPTION",
+            "section_subheadingtwo": "",
+            "section_description": "<p>It is advisable to keep the product in the mouth for at least one minute before swallowing to enhance the sublingual absorption. The sublingual administration is the fastest absorption way, since the substances in our supplements are absorbed immediately under the tongue and get into the bloodstream without having to go through the gastrointestinal tract.<\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        },
+        "content_yJ6FiC": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_187_51e69dae-d61b-4a7e-be66-b6102b119c3d.png",
+            "step": "",
+            "section_heading": "OUR",
+            "section_subheading": "RECOMMENDATIONS",
+            "section_subheadingtwo": "",
+            "section_description": "<p>It is recommended to start with 15 mL per day and increase the dosage after the first week. This is a great way you can avoid experiencing a “depurative crisis”, an inconvenience you can feel when your body is detoxifying. By the end of the first month, you should be able to decide whether to maintain, increase, or decrease the dosage. Generally, consumers start taking higher doses until they see the desired results and then move to maintenance doses. <br\/><br\/>In most cases, taking the recommended 15 mL per day can benefit you in many ways. As a general rule, if you haven’t noticed any improvement, we recommend increasing your dosage. As a reference, our clients usually consume 6 to 12 bottles a year in order to receive and maintain the important health benefits year after year. <br\/><br\/>After daily supplementation, they maintain their skin with a noticeable glow, significant support for their hair follicles, and overall healthy hair, and promotes healthy, strong nails. <\/p>",
+            "btntext": "",
+            "btntexturl": "",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_jbYNhk",
+        "content_yJ6FiC"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "",
+        "main_paragraph": ""
+      }
+    },
+    "home_doge_RY4FKg": {
+      "type": "home-doge",
+      "blocks": {
+        "block_pkyPzk": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hair_skin_nails_icon_dark_blue_2.svg",
+            "maintitle": "",
+            "para": "Healthy Hair result within 2-3 months. *",
+            "btntext": "",
+            "myurl": ""
+          }
+        },
+        "block_HqX4UQ": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collagen_boost_icon_dark_blue-01.svg",
+            "maintitle": "",
+            "para": "Glowing Skin within 2-3 months.*",
+            "btntext": "",
+            "myurl": ""
+          }
+        },
+        "block_i9BqT6": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nail_s_dark_blue_1.svg",
+            "maintitle": "",
+            "para": "Strong Nails within 2-3 months.*",
+            "btntext": "",
+            "myurl": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_pkyPzk",
+        "block_HqX4UQ",
+        "block_i9BqT6"
+      ],
+      "settings": {
+        "first_heading": "visible",
+        "top_heading": "RESULTS",
+        "bottom_p": "The most common effects that are noticed after taking LIVING SILICA® daily is within the hair, skin, and nails. Most people notice a difference within the first 2-3 months of daily supplementation,with additional benefits noted within 3-4+ months."
+      }
+    }
+  },
+  "order": [
+    "main",
+    "home_super_one_MRWDmd",
+    "home_super_two_GYrJUA",
+    "home_advance_Yi97YB",
+    "b574104c-c86f-44fb-a844-ae542a80f536",
+    "4f4be3e3-5cc6-46e3-a362-570b0e012b1e",
+    "76db4bff-6b0c-41e5-b19d-39c1f0462841",
+    "super_rich_FmthCy",
+    "home_advance_6M3FWa",
+    "home_super_two_kq7nwN",
+    "home_doge_RY4FKg"
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "home_super_one_4jxDQ3": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 155,
+        "paddingsettingtwo": 40,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_231_5137274e-6d10-4c02-87ab-ff718e24cd74.png",
+        "image_text": "FAQs"
+      }
+    },
+    "home_faq_3N4Br8": {
+      "type": "home-faq",
+      "blocks": {
+        "qa_VDJzF4": {
+          "type": "qa",
+          "settings": {
+            "ques": "What makes monomethylsilanetriol different from other silicas on the market?",
+            "ans": "<p>Monomethylsilanetriol has the highest absorption value as per exhaustive clinical trials conducted by an independent research project in the UK the world reowned silica expert, Ravin Jugdaohsingh. It is safe, non-toxic and without restrictions in terms of consumption with other products including prescription pharmaceuticals. <\/p><p>Monomethylsilanetriol is a molecular bonding of silicon and carbon molecules with water and not a colloidal suspension of silica within a liquid or gel. The only true organic, living silica on the market. This important absorbable organic-type silica, monomethylsilanetriol, CH3 (Si OH)3, is the best silica carrier, and also a molecule enhancer. <\/p><p>They have been conducting clinical trials in the best traditions of science and although testimonials are appreciated it is the hard science which tells us how capable it is. It is not catchphrase marketing, 50 years of research ensures the superiority of monomethylsilanetriol. <\/p>"
+          }
+        },
+        "qa_awfYQE": {
+          "type": "qa",
+          "settings": {
+            "ques": "What sets LIVING SILICA® apart from other supplements on the market?",
+            "ans": "<p>The active component of LIVING SILICA® is supported and protected by international patents. <\/p><p>In terms of bioavailability, LIVING SILICA®️ is considered 10x more bioavailable than standard silicon forms. With an ingredient that has been independently tested and shown to have an absorption rate of 64%, you can trust you are getting a premier grade of silicon supplement. No other colloidal silicon, silicic acid, or plant extract-based silica provides higher bioavailability than this patented formula developed by the research company Silicium Laboratories.  <\/p><p>Our uniqueness lies in the concentration factor, a characteristic typically exclusively found in natural waters with high levels of silica and specific microorganisms. In LIVING SILICA® , we have bottled this unique natural so you have it available in every drop for your convenience and well-being.   <\/p><p>LIVING SILICA® sets itself apart from competing products through its ability to maintain stability at higher concentrations, ensuring a monomeric structure that allows for easy absorption.  <\/p>"
+          }
+        },
+        "qa_nLaUDe": {
+          "type": "qa",
+          "settings": {
+            "ques": "What is the difference between LIVING SILICA® capsules and liquids?",
+            "ans": "<p>LIVING SILICA® Capsules and LIVING SILICA® Liquidswillyieldidenticalresults as the active complex in eachproductisidentical. The sole distinctionbetween LIVING SILICA® Capsules and LIVING SILICA® Liquidslies in their respective forms.<\/p>"
+          }
+        },
+        "qa_mdJtjT": {
+          "type": "qa",
+          "settings": {
+            "ques": "What is the difference between LIVING SILICA® Mineral and Plant-Based Collagen Booster?",
+            "ans": "<p>LIVING SILICA® Mineral and Plant-Based Collagen Boosters are both formulated with the safest and highest bioavailable form of silica. Both products have the same amount of silica per serving. <\/p><p>LIVING SILICA® Plant-Based Collagen Booster has reverse osmosis water, our LIVING SILICA® formula, rosemary leaves, and horsetail extract. In this case, the silica is obtained from the horsetail, which is a plant-based raw silica source of silicic acid.  <\/p><p>LIVING SILICA® Mineral-Based Collagen Booster is formulated with reverse osmosis water and silica is obtained from quartz stones. <\/p><p> Whether you choose LIVING SILICA® Mineral or Plant-Based Collagen Boosters, you will experience the same benefits. <\/p>"
+          }
+        },
+        "qa_cyQFnH": {
+          "type": "qa",
+          "settings": {
+            "ques": "What is the difference between LIVING SILICA® Plant-Based and G5 SILIPLANT?",
+            "ans": "<p>LIVING SILICA Plant-Based Collagen Booster contains the sametrusted formula than G5 Siliplant. Enriched with Horsetail and Rosemary Leaves,as G5 Siliplant, rest assure you will get same ingredients, same results!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "qa_VDJzF4",
+        "qa_awfYQE",
+        "qa_nLaUDe",
+        "qa_mdJtjT",
+        "qa_cyQFnH"
+      ],
+      "settings": {
+        "headingmain": "",
+        "heading": "Product Facts",
+        "p_t": 36,
+        "p_b": 36,
+        "p_tx": 36,
+        "p_bx": 36
+      }
+    },
+    "home_faq_yHNwDX": {
+      "type": "home-faq",
+      "blocks": {
+        "qa_xRXYEm": {
+          "type": "qa",
+          "settings": {
+            "ques": "Where can I buy G5 SILIPLANT?",
+            "ans": "<p>G5 Siliplant has been rebranded as LIVING SILICA Plant-Based Collagen Booster, offering the same trusted formula with a refreshed appearance. To continue experiencing the familiar benefits you enjoyed with G5 Siliplant, we recommend purchasing LIVING SILICA Plant-Based Collagen Booster directly from our Shop page. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "qa_xRXYEm"
+      ],
+      "settings": {
+        "headingmain": "",
+        "heading": "G5 SILIPLANT",
+        "p_t": 36,
+        "p_b": 36,
+        "p_tx": 36,
+        "p_bx": 36
+      }
+    },
+    "home_faq_mwNT7h": {
+      "type": "home-faq",
+      "blocks": {
+        "qa_AxT6fW": {
+          "type": "qa",
+          "settings": {
+            "ques": "What ingredients are in LIVING SILICA ®",
+            "ans": "<p>LIVING SILICA ®'s<br\/>main ingredient is LIVING SILICA® is formulated with the best form of absorbable silica. Backed by research, it effectively supports your collagen and connective tissues. <\/p><p>LIVING SILICA’s®<br\/>raw materials are sourced from mineral and plant extracts of different origins,including: <\/p><p>QUARTZ <\/p><p>NETTLE <\/p><p>BAMBOO <\/p><p>HORSETAIL <\/p><p>AMETHYST <\/p>"
+          }
+        },
+        "qa_3fzgyK": {
+          "type": "qa",
+          "settings": {
+            "ques": "LIVING SILICA® Proprietary Process",
+            "ans": "<p>Dr. Sc. Loïc Le Ribault, pioneered a proprietary process known as Heritage Concentrate ™ that enhances the solubility of silica and maintains it in a small, monomeric, and highly absorbable form for optimal intestinal absorption.<\/p><p>This unique process ensures that you get the most out of every dose of LIVING SILICA®, making it the perfect addition to your daily health routine. <\/p>"
+          }
+        },
+        "qa_HMHaGV": {
+          "type": "qa",
+          "settings": {
+            "ques": "LIVING SILICA® Pregnancy | Breastfeeding",
+            "ans": "<p>There are no contraindications for taking silica during pregnancy or while breastfeeding. Nevertheless, it is advisable to consult with your healthcare professional before introducing any new supplements into your routine. With their guidance, both LIVING SILICA® Collagen Booster in Liquid and Capsules can be considered for use during pregnancy. We have received positive feedback from women who have taken LIVING SILICA® during pregnancy and the postpartum period. They reported various benefits, including preventing hair loss, improving skin radiance, ensuring strong bones and joints, and promoting natural collagen for overall health. <\/p>"
+          }
+        },
+        "qa_zxVBYi": {
+          "type": "qa",
+          "settings": {
+            "ques": "Is LIVING SILICA® safe to consume during early weeks of conception, first trimester and further pregnancy phases?",
+            "ans": "<p>There are no contraindications for taking silica during the early weeks of conception, the first trimester, and further pregnancy phases. However, it is advisable to consult with your healthcare professional before introducing any new supplements into your routine. With their guidance, both LIVING SILICA® Collagen Booster in Liquid and Capsules can be considered for use during these stages.<\/p>"
+          }
+        },
+        "qa_iecRr9": {
+          "type": "qa",
+          "settings": {
+            "ques": "Does the product have a strong taste?",
+            "ans": "<p>Our formulas are almost tasteless. To enhance your experience with our products, we recommend refrigerating the bottle before consumption. This tends to soften the flavor and diminish any noticeable odors or strong tastes. If you still findt he taste a bit strong, we suggest diluting it with water for more comfortable consumption.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "qa_AxT6fW",
+        "qa_3fzgyK",
+        "qa_HMHaGV",
+        "qa_zxVBYi",
+        "qa_iecRr9"
+      ],
+      "settings": {
+        "headingmain": "",
+        "heading": "LIVING SILICA ® GENERAL",
+        "p_t": 36,
+        "p_b": 36,
+        "p_tx": 36,
+        "p_bx": 36
+      }
+    },
+    "home_faq_D3GRJJ": {
+      "type": "home-faq",
+      "blocks": {
+        "qa_k9e4My": {
+          "type": "qa",
+          "settings": {
+            "ques": "What are the Benetifs of LIVING SILICA®?",
+            "ans": "<p>LIVING SILICA's collagen boosters can contribute to multiple health benefits, including supporting healthy skin, hair, and nails, promoting the body's healthy collagen production, supporting healthy joints, and maintaining healthy cartilage.<\/p>"
+          }
+        },
+        "qa_QwzHwb": {
+          "type": "qa",
+          "settings": {
+            "ques": "What time of the day should I take LIVING SILICA®?",
+            "ans": "<p>We suggest taking your dosage 15 minutes before meal. It is advisable to keep the product in the mouth for at least one minute before swallowing to enhance the sublingual absorption.  <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "qa_k9e4My",
+        "qa_QwzHwb"
+      ],
+      "settings": {
+        "headingmain": "",
+        "heading": "BENEFITS",
+        "p_t": 36,
+        "p_b": 36,
+        "p_tx": 36,
+        "p_bx": 36
+      }
+    },
+    "home_faq_mUbaHU": {
+      "type": "home-faq",
+      "blocks": {
+        "qa_zEC9dB": {
+          "type": "qa",
+          "settings": {
+            "ques": "What is the recommended dosage for starting to take LIVING SILICA®?",
+            "ans": "<p>With LIVING SILICA® Collagen Boosters Liquid & Capsules,<br\/>you don’t need to worry about taking large amounts of silica.<\/p><p>Our products showed to have a higher bioavailability with an absorption that is greater than<br\/>many unformulated silica products. Silica supplements are now widely available<br\/>but knowing how much to take can be confusing. <\/p><p>It is recommended<br\/>to start with a daily dosage of 15 mL and consider increasing the dosage after the first week. This approach helps you avoid experiencing a 'depurative crisis,' which can occur when your body is undergoing detoxification. <\/p><p>By the end of the first month, you should be able to assess whether to maintain, increase, or decrease the dosage based on your individual needs. <\/p><p>In general,consumers begin with intensive doses until they achieve the desired results and<br\/>then transition to maintenance doses. <\/p>"
+          }
+        },
+        "qa_zwJik6": {
+          "type": "qa",
+          "settings": {
+            "ques": "What is the 90-day LIVING SILICA® Protocol",
+            "ans": "<p>By incorporating LIVING SILICA® into your daily routine, you can ensure you get the silica your<br\/>body needs.  <\/p><p>LIVING SILICA® starts working the moment you take it, but for clinically proven results, you<br\/>need to build at least a 90-day routine that helps you create a habit & long-lasting results. <\/p><p>The 90-day LIVING SILICA® Protocol is designed to help you build your own habit and maximize benefits. Building a new routine can be challenging. You can incorporate the ritual of taking LIVING SILICA® into an already firmly established habit. <br\/><br\/> <br\/><br\/>To follow the 90-day LIVING SILICA® Protocol: take an intensive approach for the first 30 days, followed by<br\/>a maintenance approach for the next 60 days. <\/p><p>Intensive Approach: During the intensive approach, take 60 ml of LIVING SILICA® per day,<br\/>divided into two shots of 30 ml each, to be taken 15 minutes before each meal. <\/p><p>Maintenance Approach: For the maintenance approach, we recommend taking 30 ml of LIVING SILICA® per day, 15 minutes before a meal.<\/p><p>*Holding the product under thetongue for a minute or two can improve absorption. <\/p><p>Keep LIVING SILICA® within reach during this routine to ensure consistency and long-term results. <\/p><p>Begin the 90-day LIVING SILICA® Protocol and get readty to boost maximum well-being and health. <\/p>"
+          }
+        },
+        "qa_RPfNc6": {
+          "type": "qa",
+          "settings": {
+            "ques": "What happens if I skip LIVING SILICA® for a day?",
+            "ans": "<p>LIVING SILICA® promotes the production of healthy collagen in your body. When you discontinue taking LIVING SILICA®, your cells will gradually return to their previous levels of collagen production.<\/p><p>It may take some time to observe noticeable results when you begin using LIVING SILICA®, and similarly, it may take time to witness any changes when you stop. However, after a period of consistent supplementation, missing a dose should not cause concern. Upon returning to your regular LIVING SILICA® routine, your body's collagen production will swiftly rebound within a matter of days.<\/p>"
+          }
+        },
+        "qa_cmCLki": {
+          "type": "qa",
+          "settings": {
+            "ques": "After completing the 90-day Protocol, how should I continue my dosage?",
+            "ans": "<p>There are two standard ways of using LIVING SILICA® silica that can be adjusted to each<br\/>specific case, especially if you have already completed the 90-day protocol. <\/p><p>MAINTENANCE <\/p><p>The standard,maintenance serving size is based on well‐studied science.  <\/p><p>FOR MAINTENANCE<br\/>OF GENERAL WELLNESS, TAKE 1 TABLESPOON (OR 15 ml) ABOUT 15 MINUTES BEFORE A MEAL.  <\/p><p>INTENSIVE  <\/p><p>Depending on your individual goals (i.e., supporting active healthy joints and bones,) an<br\/>intensive approach may be helpful and stepping up to 30 – 60 mL per day is recommended. <\/p><p>YOU MAY INCREASE<br\/>TO 2 OR 3 SERVINGS PER DAY. TAKE EACH 15 mL SERVING ABOUT 15 MINUTES BEFORE A<br\/>MEAL. <\/p>"
+          }
+        },
+        "qa_EkREU9": {
+          "type": "qa",
+          "settings": {
+            "ques": "How long does it take to see results?",
+            "ans": "<p>Consistency is key. For visible results commit to taking LIVING SILICA® for at least 90<br\/>days.  <\/p><p>As a general rule, if you haven’t noticed any improvement, we recommend increasing your<br\/>dosage. <\/p><p>As a reference, our clients usually consume 6 to 12 bottles a year in order to receive and maintain the important health benefits year after year. After daily<br\/>supplementation, they maintain their skin with a noticeable glow, significant<br\/>support for their hair follicles, and overall healthy hair, and promote healthy, strong nails.<\/p><p>With proven results over the course of three decades, our LIVING SILICA® protocols have<br\/>stood the test of time. The positive experiences and feedback from our vast<br\/>customer base are a testament to the efficacy and reliability of our approach. <\/p><p> <\/p><p>The 90-day journey is inspired by promoting the LIVING SILICA® Protocol developed by Sc. D. Loïc Le Ribault. We offer 3 different 90-day Bundles: each kit contains the exact dosage for the 90-day supply. Each kit includes 4 Mineral-Based or Plant-Based Collagen Booster 1000ml, or if you prefer capsules, you can choose the kit providing 4 Mineral-Based Collagen Booster 120 cc. All three kits<br\/>include 1 Free Gel to promote healthy skin and joints. Get yours by visiting our kits section at <a href=\"https:\/\/livingsilica.com\/\" target=\"_blank\">https:\/\/livingsilica.com<\/a>. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "qa_zEC9dB",
+        "qa_zwJik6",
+        "qa_RPfNc6",
+        "qa_cmCLki",
+        "qa_EkREU9"
+      ],
+      "settings": {
+        "headingmain": "",
+        "heading": "DOSAGE",
+        "p_t": 36,
+        "p_b": 36,
+        "p_tx": 36,
+        "p_bx": 36
+      }
+    },
+    "home_faq_BTGFPp": {
+      "type": "home-faq",
+      "blocks": {
+        "qa_VAjiFR": {
+          "type": "qa",
+          "settings": {
+            "ques": "How do I Store it?",
+            "ans": "<p>All bottles have a lot number and expiration date for an unopened product. The bottles are BPA free and amber to protect against UV light damage. A bottle can remain unopened through the expiration date. There is no preservative and a bottle requires refrigeration after opening to avoid culturing. A bottle can remain in the refrigerator up to 6 months after opening. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "qa_VAjiFR"
+      ],
+      "settings": {
+        "headingmain": "",
+        "heading": "STORAGE",
+        "p_t": 36,
+        "p_b": 36,
+        "p_tx": 36,
+        "p_bx": 36
+      }
+    },
+    "home_faq_QV8rtW": {
+      "type": "home-faq",
+      "blocks": {
+        "qa_JnXXpx": {
+          "type": "qa",
+          "settings": {
+            "ques": "How do I add a promo code?",
+            "ans": "<p>To apply your promo code, simply enter it in the designated field during the check-out process. Once you've entered the promo code, the price will be updated accordingly, reflecting any applicable discounts or offers. <\/p>"
+          }
+        },
+        "qa_LWDNNP": {
+          "type": "qa",
+          "settings": {
+            "ques": "Can I use more than one promotion code?",
+            "ans": "<p>Promotions may not be combined with other promotions . You can only use one promotion code per<br\/>transaction. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "qa_JnXXpx",
+        "qa_LWDNNP"
+      ],
+      "settings": {
+        "headingmain": "",
+        "heading": "DISCOUNT, PROMO & GIFT CARDS",
+        "p_t": 36,
+        "p_b": 36,
+        "p_tx": 36,
+        "p_bx": 36
+      }
+    },
+    "home_faq_9a7X49": {
+      "type": "home-faq",
+      "blocks": {
+        "qa_tzDUWW": {
+          "type": "qa",
+          "settings": {
+            "ques": "What are the conditions for returns?",
+            "ans": "<p>Within 60 days of receiving a shipment from LIVING SILICA® SILICIUM LABORATORIES LLC, you may return any unused or used product for a full refund less shipping and handling. <\/p><p>Our products are 100% guaranteed so that if you are not satisfied with their efficacy, you may return the product for a full refund less shipping and handling. <\/p><p>Upon receipt of the returned item, we will thoroughly examine it and notify you via email, within a reasonable period, whether you are entitled to a return. If you are<br\/>entitled to a return, we will refund your purchase price and a credit will automatically be applied to your original method of payment. <\/p>"
+          }
+        },
+        "qa_DaHCEa": {
+          "type": "qa",
+          "settings": {
+            "ques": "What are the conditions for exchanges?",
+            "ans": "<p>We only exchange goods if they are defective or damaged. In circumstances where you consider that a product is broken, you should promptly contact us at SILICIUM LABORATORIES.<\/p><p><br\/>Please call our Customer Service department at (305) 779-0171 or send us a message HERE, with details of the product and the defect, you will need to provide pictures as proof and from them, we will decide that you need to send the product back. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "qa_tzDUWW",
+        "qa_DaHCEa"
+      ],
+      "settings": {
+        "headingmain": "",
+        "heading": "RETURNS & REFUNDS",
+        "p_t": 36,
+        "p_b": 36,
+        "p_tx": 36,
+        "p_bx": 36
+      }
+    },
+    "home_faq_qwj64J": {
+      "type": "home-faq",
+      "blocks": {
+        "qa_iPDR8q": {
+          "type": "qa",
+          "settings": {
+            "ques": "How do I track my package?",
+            "ans": "<p>You'll receive regular email updates regarding your order status. Once your order has shipped,<br\/>you'll also receive a tracking number, so that you can track your package with our delivery partners. <\/p>"
+          }
+        },
+        "qa_EGwJeT": {
+          "type": "qa",
+          "settings": {
+            "ques": "How long will my order take to get here?",
+            "ans": "<p>Our delivery time goes from 5 to 10 Business Days (Monday – Friday). <\/p>"
+          }
+        },
+        "qa_q7UBmr": {
+          "type": "qa",
+          "settings": {
+            "ques": "Do you ship outside the US?",
+            "ans": "<p>We only sell LIVING SILICA within the USA. However, our team in Spain can assist you in sending our products to any part of the world. You can contact SILICIUM LABORATORIES S.L. by emailing them at info@siliciumg5.com or visiting their website: https:\/\/siliciumg5.com\/en.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "qa_iPDR8q",
+        "qa_EGwJeT",
+        "qa_q7UBmr"
+      ],
+      "settings": {
+        "headingmain": "",
+        "heading": "SHIPPING & DELIVERY",
+        "p_t": 36,
+        "p_b": 36,
+        "p_tx": 36,
+        "p_bx": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "home_super_one_4jxDQ3",
+    "home_faq_3N4Br8",
+    "home_faq_yHNwDX",
+    "home_faq_mwNT7h",
+    "home_faq_D3GRJJ",
+    "home_faq_mUbaHU",
+    "home_faq_BTGFPp",
+    "home_faq_QV8rtW",
+    "home_faq_9a7X49",
+    "home_faq_qwj64J"
+  ]
+}

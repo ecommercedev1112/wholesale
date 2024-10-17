@@ -1,0 +1,146 @@
+{
+  "sections": {
+    "home_super_one_XaJqwk": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 145,
+        "paddingsettingtwo": 65,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_231_5137274e-6d10-4c02-87ab-ff718e24cd74.png",
+        "image_text": "TERMS OF USE"
+      }
+    },
+    "d81d8d8e-def7-4a18-a588-56c6ecde1b88": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "DISCLAIMER",
+            "heading_size": "h1"
+          }
+        },
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please read and review the following Terms of Use Agreement carefully before using this website, which is operated by Silicium Laboratories, LLC.By using this website, you agree to this Terms of Use Agreement. If you do not agree, please exit and disregard the information contained herein. This website is owned and operated by Silicium Laboratories, LLC, in Miami, FL, USA (referred to as 'Silicium Laboratories'). This website and its contents are designed to comply with U.S. laws and regulations.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-heading-1",
+        "template--21752750047539__d81d8d8e-def7-4a18-a588-56c6ecde1b88-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "home_faq_7tEgDK": {
+      "type": "home-faq",
+      "blocks": {
+        "qa_rAwrHm": {
+          "type": "qa",
+          "settings": {
+            "ques": "Acceptence",
+            "ans": "<p>By using this Website, you agree to be bound by and to comply with this Termsof Use Agreement.<\/p><p>Silicium Laboratories reserves the right to change these terms from time to time, as it deems to be necessary.<\/p>"
+          }
+        },
+        "qa_FJQQgY": {
+          "type": "qa",
+          "settings": {
+            "ques": "Health Information - Conditions",
+            "ans": "<p>While there may be information on this Web site related to certain medical conditions or nutritional deficiencies and their possible treatment, should a medical condition exist, promptly see your own physician or health care provider. We do not offer any personalized medical diagnosis or patient-specific treatment advice. Only your doctor or other health care professional, as a learned intermediary, can determine if a product described in this, or any, Website is appropriate for you. <\/p><p>Please consult with your doctor or other qualified health care professional before using any product discussed within this, or any other, web site. <\/p>"
+          }
+        },
+        "qa_TU3mNN": {
+          "type": "qa",
+          "settings": {
+            "ques": "Scope",
+            "ans": "<p>Thetermsof use set forth in this agreement apply only to your use of this Web site.<\/p>"
+          }
+        },
+        "qa_JQc6YG": {
+          "type": "qa",
+          "settings": {
+            "ques": "Description of Service",
+            "ans": "<p>This Website contains material about Silicium Laboratories and its various products. Certain sections of this Web site are intended for particular audiences including Silicium Laboratories’s employees, customers and distributors, as well as to members of the health care community and the general public. Please feel free to browse this Web site, as appropriate. Your access to and use ofthe information contained here in is subject to this Terms of Use Agreement and allapplicable laws. By accessing and browsing this Website, you accept, without limitation or qualification, this Termsof Use Agreement and acknowledge that it supersedes any other agreement between you and Silicium Laboratories.<\/p>"
+          }
+        },
+        "qa_BV7nX3": {
+          "type": "qa",
+          "settings": {
+            "ques": "Representation",
+            "ans": "<p>As a user of this Website, you are liable for the accuracy of the information that you provide to us, including, but not limited to, your state license number and your professional representation. Should you respond with information including feedback or data such as questions, comments, suggestions, or the like regarding the content of this Website. Such information shall be deemed to be non-confidential and Silicium Laboratories shall have no obligation of any kind concerning such information and shall be free to reproduce, use, disclose, and distribute the information to others with outlimitation. Silicium Laboratories shall be free to use any ideas, concepts, know-how or techniques contained in such information for any purpose whatsoever including but not limited to developing, manufacturing and marketing products incorporating such information.<\/p>"
+          }
+        },
+        "qa_KjMJfn": {
+          "type": "qa",
+          "settings": {
+            "ques": "Disclaimer of warranties",
+            "ans": "<p>Silicium Laboratories has taken reasonable measures to ensure the reliability of the information contained within this website. Nevertheless, by using this website, you acknowledge and accept that the information, products, and services provided herein are offered 'AS IS.' Silicium Laboratories makes no express or implied warranty regarding the accuracy, content, completeness, reliability, operability, or legality of the information on this website, including, but not limited to, the warranties of merchantability, fitness for a particular purpose, and non-infringement of proprietary rights.<\/p>"
+          }
+        },
+        "qa_9Kk3wH": {
+          "type": "qa",
+          "settings": {
+            "ques": "Consequence",
+            "ans": "<p>Silicium Laboratories reserves the right to suspend or terminate your account if you violate the Terms of Use Agreement. In the event that your violation causes harm to others, you agree to indemnify and hold Silicium Laboratories harmless from any and all loss, damage, or expense.<\/p><p>If any dispute arises between us regarding this Agreement or your use of this Website, it shall be resolved through good faith negotiations between the parties. If such efforts prove unsuccessful, all controversies, claims, or disputes shall be submitted to binding arbitration pursuant to the Federal Arbitration Act, 9 U.S.C., §1 et seq. The arbitration shall be conducted in accordance with the rules of the American Arbitration Association.<\/p><p>The arbitration award shall be final and binding, and it may be confirmed and enforced in any court of competent jurisdiction. Each party shall be responsible for all attorney fees incurred in connection with the arbitration and shall share equally in the costs of the arbitration. The venue for any arbitration shall be Florida.<\/p>"
+          }
+        },
+        "qa_FMG7ML": {
+          "type": "qa",
+          "settings": {
+            "ques": "Communication",
+            "ans": "<p>By providing your information and completing forms or surveys on our website, you consent to receive marketing and promotional communication from our company. This includes emails, SMS messages, and other channels deemed appropriate by our company. The marketing communication may contain updates, information about products and services, special offers, and other relevant content. You have the option to unsubscribe from these communications at any time by following the instructions provided in the emails or SMS messages. Please note that standard messaging rates may apply for SMS messages. By agreeing to our terms and conditions, you consent to receive recurring automated promotional and personalized marketing emails and text messages from <strong>LIVING SILICA<\/strong> at the cell number used when signing up. Consent is not a condition for any purchase. Reply, HEY, for help, and STOP, to cancel. Message frequency varies. Message and data rates may apply.<\/p>"
+          }
+        },
+        "qa_JXqrm4": {
+          "type": "qa",
+          "settings": {
+            "ques": "Promotions and promo codes",
+            "ans": "<p>Promotions and promo codes offered on our website or any official brand channels are subject to the following terms and conditions. Unless stated otherwise, promotions and promo codes last for 1 day and cannot be combined with other promotions. They are valid only for online purchases. The company reserves the right to specify exceptions on a case-by-case basis. All promotions and discounts are subject to change or termination without prior notice. Promo codes are non-transferable, cannot be redeemed for cash, and may be invalidated due to technical issues. Violation of the promotion terms may result in order cancellation. By participating in promotions or using promo codes, customers agree to comply with the terms and conditions. Promo code validity will be verified, and any fraudulent or unauthorized use will be dealt with accordingly. Personal information collected during promotions is handled in accordance with our privacy policy. The terms and conditions are subject to change without notice, and it is the customer’s responsibility to review them regularly. Disputes will be resolved based on the company’s final and binding decision.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "qa_rAwrHm",
+        "qa_FJQQgY",
+        "qa_TU3mNN",
+        "qa_JQc6YG",
+        "qa_BV7nX3",
+        "qa_KjMJfn",
+        "qa_9Kk3wH",
+        "qa_FMG7ML",
+        "qa_JXqrm4"
+      ],
+      "settings": {
+        "headingmain": "",
+        "heading": "",
+        "p_t": 36,
+        "p_b": 36,
+        "p_tx": 36,
+        "p_bx": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "home_super_one_XaJqwk",
+    "d81d8d8e-def7-4a18-a588-56c6ecde1b88",
+    "home_faq_7tEgDK",
+    "main"
+  ]
+}

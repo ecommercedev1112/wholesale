@@ -1,0 +1,847 @@
+<style>
+section.lsl_img_section .page-width {
+    width: 100%;
+}
+  .sl_img_column {
+    width: 48%;
+  }
+  .l_sl_container{{ section.id }} {
+    flex-wrap: wrap;
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  section.lsl_img_section {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding-top: {{ section.settings.p_t }}px;
+    padding-bottom: {{ section.settings.p_b }}px;
+  }
+  .sl_content_column {
+    justify-content: center;
+    width: 48%;
+    flex-direction: column;
+    display: flex;
+  }
+  .percentage_row {
+    padding: 15px 0;
+    display: flex;
+  }
+  p.sltop_heading {
+    margin-bottom: 10px;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0.46em;
+    text-align: left;
+  }
+  .sl_img_column {
+    display: flex;
+}
+  h2.sl_omg_heading {
+    font-family: 'Gloock',serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.11em;
+    text-align: left;
+    margin: 0;
+  }
+  span.doctor_info {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #3C6683;
+    margin: 10px 0;
+  }
+  .doctor_info p {
+    margin: 0 !important;
+  }
+
+  p.other_text {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-top: 0;
+  }
+  .percentage_box {
+    width: 23%;
+  }
+  .percentage_row {
+    gap: 10px;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  {% if section.settings.img_alignment == 'right' %}
+    .l_sl_container{{ section.id }} {
+      flex-direction: row-reverse;
+    }
+  {% endif %}
+  @media (max-width: 1200px) {
+
+    p.sltop_heading {
+      font-size: 14px;
+    }
+    h2.sl_omg_heading {
+      font-size: 34px;
+    }
+    span.doctor_info {
+      line-height: 25px;
+      font-size: 16px;
+    }
+    p.other_text {
+      font-size: 16px;
+    }
+    .percentage_box {
+
+      align-items: center;
+      flex-direction: column;
+      display: flex;
+    }
+    p.perc_text {
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 800px) {
+        .tab {
+    margin-top: 10px;
+}
+    .l_sl_container{{ section.id }} {
+      flex-direction: column;
+    }
+    .sl_img_column {
+      WIDTH: 100%;
+    }
+    .sl_content_column {
+      width: 100%;
+    }
+    .sl_img_column {
+    width: 100% !important;
+}
+    .percentage_box {
+      text-align: center;
+      width: 143px;
+    }
+    p.sltop_heading {
+      margin-top: 0;
+    }
+    h2.sl_omg_heading {
+      line-height: 40px;
+      font-size: 34px;
+    }
+
+  }
+  @media (max-width: 500px) {
+    .l_sl_container{{ section.id }} {
+      flex-direction: column;
+    }
+    .sl_img_column {
+      width: 100%;
+    }
+    .sl_content_column {
+      width: 100%;
+    }
+    .percentage_row {
+      justify-content: center;
+    }
+    .percentage_box img {
+    max-width: 100px;
+    height: auto;
+          width: 100%;
+}
+  }
+  @media (max-width: 420px) {
+    .percentage_row {
+      gap: 0;
+    }
+    .sl_content_column p,
+    .sl_content_column h2 {
+      text-align: start;
+    }
+    .percentage_box {
+    text-align: center;
+      width: 50%;
+    }
+    .sl_content_column {
+         align-items: self-start;
+      width: 100%;
+    }
+
+
+  }
+  a.bl_btn {
+    padding: 5px 50px;
+    background: #1C2E3A;
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    border: 1px solid #1C2E3A;
+  }
+  a.wh_btn {
+    padding: 5px 50px;
+    background: white;
+    text-decoration: none;
+    color: #1C2E3A;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    border: 1px solid #1C2E3A;
+  }
+  .sl_btns {
+    padding: 10px 0;
+    gap: 8px;
+    display: flex;
+  }
+  p.perc_text {
+    margin-top: 7px;
+    margin-bottom: 0;
+  }
+  .progress_div {
+    margin: 10px 0;
+    border: 1px solid #1C2E3A;
+    width: 95%;
+    display: block;
+  }
+</style>
+<section class="lsl_img_section">
+  <div class="page-width">
+    <div class="shujaxxx l_sl_container{{ section.id }}">
+      <div class="sl_img_column">
+        <img loading="lazy" src="{{ section.settings.img | img_url: '' }}" width="100%">
+      </div>
+      <div class="sl_content_column">
+        <p class="sltop_heading">{{ section.settings.t_heading }}</p>
+        <h2 class="sl_omg_heading">{{ section.settings.heading }}</h2>
+        {%- for block in section.blocks -%}
+          {% case block.type %}
+            {% when 'bl_text' %}
+              <span class="doctor_info bline{{ block.id }}">
+                {{ block.settings.bl_text }}
+              </span>
+              {% if block.settings.bl_line %}
+                <style>
+                  span.bline{{ block.id }} {
+                    padding-left: 15px;
+                    border-left: 4px solid #3C6683;
+                  }
+                </style>
+              {% endif %}
+            {% when 'g_text' %}
+              <p class="other_text">{{ block.settings.g_texts }}</p>
+            {% when 'p_box' %}
+              <div class="percentage_row">
+                <div class="percentage_box">
+                  {% if block.settings.p_img %}
+                    <img loading="lazy" src="{{ block.settings.p_img | img_url: '' }}">
+                      {% else %}
+                    {{ block.settings.svg1 }}
+                  {% endif %}
+                  <p class="perc_text">{{ block.settings.p_text }}</p>
+                </div>
+                <div class="percentage_box">
+                  {% if block.settings.p_img1 %}
+                    <img loading="lazy" src="{{ block.settings.p_img1 | img_url: '' }}">
+                    {% else %}
+                    {{ block.settings.svg2 }}
+                  {% endif %}
+                  <p class="perc_text">{{ block.settings.p_text1 }}</p>
+                </div>
+                <div class="percentage_box">
+                  {% if block.settings.p_img2  %}
+                    <img loading="lazy" src="{{ block.settings.p_img2 | img_url: '' }}">
+                    {% else %}
+                    {{ block.settings.svg3 }}
+                  {% endif %}
+                  <p class="perc_text">{{ block.settings.p_text2 }}</p>
+                </div>
+                <div class="percentage_box">
+                  {% if block.settings.p_img3 %}
+                    <img loading="lazy" src="{{ block.settings.p_img3 | img_url: '' }}">
+                    {% else %}
+                    {{ block.settings.svg4 }}
+                  {% endif %}
+                  <p class="perc_text">{{ block.settings.p_text3 }}</p>
+                </div>
+              </div>
+            {% when 'bl_btn' %}
+              <div class="sl_btns">
+                <a href="{{ block.settings.b_url }}" class="bl_btn">{{ block.settings.bl_label }}</a>
+                <a href="{{ block.settings.w_url }}" class="wh_btn">{{ block.settings.w_label }}</a>
+              </div>
+              {% when 'tabwithimage' %}
+  <style>
+    .perc_textnew {
+  min-height: 57px;
+  text-align: center;
+  line-height: 20px;
+}
+    .tab {
+      overflow: hidden;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab button {
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transition: 0.3s;
+      padding: 5px 50px;
+      background: transparent;
+      text-decoration: none;
+      font-family: "Roboto", sans-serif !important;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 16px;
+      letter-spacing: 0.05em;
+      text-align: center;
+      border: 1px solid #1C2E3A;
+    }
+      button.tablinks.paris{
+        background: white ;
+        color: #1C2E3A; 
+      }
+      div#London {
+          display: block;
+      }
+      button.tablinks.active{
+        background-color: #1C2E3A;
+        color: white;
+      }
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      border-top: none;
+    }
+    .tab {
+      overflow: hidden;
+      display: flex;
+      gap: 10px;  
+    }
+    .percentage_boxnew img {
+      width: 100%;
+      max-width:132px;
+      height: auto;
+  }
+  .londonall , .parisall {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+  }
+  .perc_textnew{
+    color: #5C5C5C;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+  }
+  .percentage_boxnew {
+      text-align: center;
+  }
+  @media screen and (max-width:600px) {
+        .londonall {
+    width: 100%;
+    max-width: 100%;
+}
+
+.tabcontent {
+    width: 100% !important;
+}
+    .percentage_row {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    justify-content: center !important;
+}
+
+.percentage_box {
+    width: 100% !important;
+}
+.percentage_box img{
+    width: 100% !important;
+    max-width: 100px !important;
+}
+    .parisall {
+          width: 100%;
+          max-width: 282px;
+      }
+    .londonall, .parisall{
+      grid-template-columns: 1fr 1fr;
+      gap: 0px;
+      place-items: center;
+      place-content: center;
+    }
+    .parisall {
+    width: 100%;
+    max-width: 100%;
+}
+
+.parisall img {
+max-width: 100px;
+width: 100%;
+}
+.londonall .percentage_boxnew {
+      width: 100%;
+  }
+  
+  .londonall .percentage_boxnew img {
+      max-width: 143px;
+  }
+    .perc_textnew {
+  min-height: 40px !important;
+}
+    .percentage_row {
+    row-gap: 10px !important;
+}
+    p.perc_text {
+    line-height: 30px;
+}
+    .percentage_row {
+    gap: 20px;
+}
+    .percentage_boxnew p {
+    text-align: center !important;
+}
+  }
+      @media screen and (max-width:500px) {
+    section.lsl_img_section {
+    padding: 10px 0 !important;
+}
+        p.perc_text {
+    width: 100%;
+    max-width: 80%;
+}
+  }
+  </style>
+                <div class="tab">
+              <button class="tablinks active" onclick="openCity(event, 'London')">{{ block.settings.tabone }}</button>
+              <button class="tablinks paris" onclick="openCity(event, 'Paris')">{{ block.settings.tabtwo }}</button>
+            </div>
+
+          <div id="London" class="tabcontent">
+            <div class="londonall">
+            <div class="percentage_boxnew">
+              {% if block.settings.image_picker_1 %}
+                <img loading="lazy" src="{{ block.settings.image_picker_1 | img_url: '' }}">
+                {% else %}
+                {{ block.settings.imagesvg1 }}
+              {% endif %}
+              <p class="perc_textnew">{{ block.settings.text_1 }}</p>
+            </div>
+            <div class="percentage_boxnew">
+              {% if block.settings.image_picker_2 %}
+                <img loading="lazy" src="{{ block.settings.image_picker_2 | img_url: '' }}">
+                {% else %}
+                {{ block.settings.imagesvg2 }}
+              {% endif %}
+              <p class="perc_textnew">{{ block.settings.text_2 }}</p>
+            </div>
+            <div class="percentage_boxnew">
+              {% if block.settings.image_picker_3  %}
+                <img loading="lazy" src="{{ block.settings.image_picker_3 | img_url: '' }}">
+                {% else %}
+                {{ block.settings.imagesvg3 }}
+              {% endif %}
+              <p class="perc_textnew">{{ block.settings.text_3 }}</p>
+            </div>
+            <div class="percentage_boxnew">
+              {% if block.settings.image_picker_4  %}
+                <img loading="lazy" src="{{ block.settings.image_picker_4 | img_url: '' }}">
+                {% else %}
+                {{ block.settings.imagesvg4 }}
+              {% endif %}
+              <p class="perc_textnew">{{ block.settings.text_4 }}</p>
+            </div>
+            </div>
+          </div>
+
+          <div id="Paris" class="tabcontent">
+            <div class="parisall">
+              <div class="percentage_boxnew">
+                {% if block.settings.image_picker_11 != blank %}
+                  <img src="{{ block.settings.image_picker_1 | img_url: '' }}">
+                {% endif %}
+                <p class="perc_textnew">{{ block.settings.text_11 }}</p>
+              </div>
+              <div class="percentage_boxnew">
+                {% if block.settings.image_picker_22 != blank %}
+                  <img loading="lazy" src="{{ block.settings.image_picker_22 | img_url: '' }}">
+                {% endif %}
+                <p class="perc_textnew">{{ block.settings.text_22 }}</p>
+              </div>
+              <div class="percentage_boxnew">
+                {% if block.settings.image_picker_33 != blank %}
+                  <img loading="lazy" src="{{ block.settings.image_picker_33 | img_url: '' }}">
+                {% endif %}
+                <p class="perc_textnew">{{ block.settings.text_33 }}</p>
+              </div>
+              <div class="percentage_boxnew">
+                {% if block.settings.image_picker_44 != blank %}
+                  <img src="{{ block.settings.image_picker_4 | img_url: '' }}">
+                {% endif %}
+                <p class="perc_textnew">{{ block.settings.text_44 }}</p>
+              </div>
+              </div>
+          </div>
+
+          <script>
+            function openCity(evt, cityName) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablinks");
+              for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+              }
+              document.getElementById(cityName).style.display = "block";
+              evt.currentTarget.className += " active";
+            }
+            </script>
+            {% when 'progres_bar' %}
+              <div class="progress_div">
+                <span class="barr{{ block.id }}"></span>
+                <style>
+                  span.barr{{ block.id }} {
+                    display: block;
+                    height: 38px;
+                    background: #1C2E3A;
+                    width: {{ block.settings.width }}%;
+                  }
+                </style>
+              </div>
+          {% endcase %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Home progress",
+    "settings": [
+      {
+        "type": "image_picker",
+        "label": "Image",
+        "id": "img"
+      },
+      {
+      "type": "color_background",
+      "label": "Color Background 0",
+      "id": "color_background_0"
+    },
+      {
+        "type": "text",
+        "label": "Top Heading",
+        "id": "t_heading"
+      },
+      {
+        "type": "text",
+        "label": "Heading",
+        "id": "heading"
+      },
+      {
+        "type": "select",
+        "id": "img_alignment",
+        "label": "Vertical alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          }, {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      }, {
+        "type": "range",
+        "label": "Padding Top",
+        "id": "p_t",
+        "min": 0,
+        "max": 100,
+        "default": 36,
+        "unit": "px"
+      }, {
+        "type": "range",
+        "label": "Padding bottom",
+        "id": "p_b",
+        "min": 0,
+        "max": 100,
+        "default": 36,
+        "unit": "px"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "bl_text",
+        "name": "Blue Text",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "bl_text",
+            "label": "Text"
+          }, {
+            "type": "checkbox",
+            "id": "bl_line",
+            "label": "Left Line",
+            "default": true
+          }
+        ]
+      },
+      {
+        "type": "g_text",
+        "name": "Text",
+        "settings": [
+          {
+            "type": "textarea",
+            "label": "Text",
+            "id": "g_texts"
+          }
+        ]
+
+      },
+      {
+        "type": "p_box",
+        "name": "Percentage",
+
+        "settings": [
+          {
+            "type": "image_picker",
+            "label": "Percentage",
+            "id": "p_img"
+          },
+          {
+          "type": "html",
+          "id": "svg1",
+          "label": "SVG Image 1"
+        },
+          {
+            "type": "text",
+            "id": "p_text",
+            "label": "Text"
+          },
+          {
+            "type": "image_picker",
+            "label": "Percentage",
+            "id": "p_img1"
+          },
+          {
+          "type": "html",
+          "id": "svg2",
+          "label": "SVG Image 2"
+        },   
+          {
+            "type": "text",
+            "id": "p_text1",
+            "label": "Text"
+          }, {
+            "type": "image_picker",
+            "label": "Percentage",
+            "id": "p_img2"
+          }, 
+                              {
+          "type": "html",
+          "id": "svg3",
+          "label": "SVG Image 3"
+        },
+          {
+            "type": "text",
+            "id": "p_text2",
+            "label": "Text"
+          }, {
+            "type": "image_picker",
+            "label": "Percentage",
+            "id": "p_img3"
+          }, 
+                              {
+          "type": "html",
+          "id": "svg4",
+          "label": "SVG Image 4"
+        },
+          {
+            "type": "text",
+            "id": "p_text3",
+            "label": "Text"
+          }
+        ]
+      },
+      {
+        "type": "bl_btn",
+        "name": "Buttons",
+        "settings":[
+    {
+      "type":"text",
+      "label":"Blue Button Label",
+      "id":"bl_label"
+    },
+    {
+      "type":"url",
+      "label":"Blue url",
+      "id":"b_url"
+    },
+    {
+      "type":"text",
+      "label":"White Button Label",
+      "id":"w_label"
+    },
+    {
+      "type":"url",
+      "label":"White url",
+      "id":"w_url"
+    }
+  ]
+      }, {
+        "type": "progres_bar",
+        "name": "Progress Bar",
+        "settings": [
+          {
+            "type": "range",
+            "id": "width",
+            "label": "Progress Percentage",
+            "min": 0,
+            "max": 100,
+            "unit": "%",
+            "default": 10
+          }
+        ]
+      },
+      {
+        "type": "tabwithimage",
+        "name": "tabwith image",
+        "settings": [
+          {
+      "type": "text",
+      "label": "First tab text",
+      "id": "tabone"
+    },
+    {
+      "type": "text",
+      "label": "Second tab text",
+      "id": "tabtwo"
+    },
+          {
+      "type": "image_picker",
+      "label": "Image",
+      "id": "image_picker_1"
+    },
+              {
+    "type": "html",
+    "id": "imagesvg1",
+    "label": "SVG Image 1"
+  },
+    {
+      "type": "text",
+      "label": "Text",
+      "id": "text_1"
+    },
+    {
+      "type": "image_picker",
+      "label": "Image",
+      "id": "image_picker_2"
+    },
+                        {
+    "type": "html",
+    "id": "imagesvg2",
+    "label": "SVG Image 2"
+  },
+    {
+      "type": "text",
+      "label": "Text",
+      "id": "text_2"
+    },
+    {
+      "type": "image_picker",
+      "label": "Image ",
+      "id": "image_picker_3"
+    },
+                        {
+    "type": "html",
+    "id": "imagesvg3",
+    "label": "SVG Image 3"
+  },
+    {
+      "type": "text",
+      "label": "Text",
+      "id": "text_3"
+    },
+    {
+      "type": "image_picker",
+      "label": "Image",
+      "id": "image_picker_4"
+    },
+                        {
+    "type": "html",
+    "id": "imagesvg4",
+    "label": "SVG Image 4"
+  },
+    {
+      "type": "text",
+      "label": "Text",
+      "id": "text_4"
+    },
+
+    {
+      "type": "image_picker",
+      "label": "Second tab Image",
+      "id": "image_picker_11"
+    },
+    {
+      "type": "text",
+      "label": "Second tab Text",
+      "id": "text_11"
+    },
+    {
+      "type": "image_picker",
+      "label": "Second tab  Image",
+      "id": "image_picker_22"
+    },
+    {
+      "type": "text",
+      "label": "Second tab Text",
+      "id": "text_22"
+    },
+    {
+      "type": "image_picker",
+      "label": "Second tab  Image ",
+      "id": "image_picker_33"
+    },
+    {
+      "type": "text",
+      "label": "Second tab Text",
+      "id": "text_33"
+    },
+    {
+      "type": "image_picker",
+      "label": "Second tab  Image",
+      "id": "image_picker_44"
+    },
+    {
+      "type": "text",
+      "label": "Second tab Text",
+      "id": "text_44"
+    }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Home progress"
+      }
+    ]
+  }
+{% endschema %}

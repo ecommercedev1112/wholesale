@@ -1,0 +1,366 @@
+{{ 'grid-layout.aio.min.css' | asset_url | stylesheet_tag }}
+{{ 'section-contact-form.aio.min.css' | asset_url | stylesheet_tag }}
+
+<style>
+  #hsForm_1fa093df-0e10-44aa-87d5-578f74cbaf04 .hs-error-msg {
+    color: black !important;
+  }
+  .contact_details .list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .contact_details .list p {
+    margin: unset !important;
+  }
+  .contact_details .list .dtls_head {
+    font-size: 14px;
+    font-weight: 700 !important;
+    font-family: Roboto, sans-serif !important;
+    color: black;
+  }
+  .contact_details .list .number {
+    font-size: 16px;
+    font-weight: 400 !important;
+  }
+  #hsForm_1fa093df-0e10-44aa-87d5-578f74cbaf04 .hs-form-field {
+    width: 100% !important;
+  }
+  #hsForm_1fa093df-0e10-44aa-87d5-578f74cbaf04 fieldset {
+    max-width: 600px;
+  }
+  #hsForm_1fa093df-0e10-44aa-87d5-578f74cbaf04 .cookie-reset-container {
+    display: none;
+  }
+#hsForm_1fa093df-0e10-44aa-87d5-578f74cbaf04 input[type="submit"] {
+    font-size: 12px;
+    letter-spacing: 4px;
+    background-color: #021624 !important;
+    color: white !important; 
+    border: 2px solid black !important;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  #hsForm_1fa093df-0e10-44aa-87d5-578f74cbaf04 input[type="submit"]:hover {
+    background-color: white !important;
+    color: black !important;
+  }
+  @media screen and (min-width: 769px) {
+    .contact_details .list .icon {
+      padding: 5px 33px;
+    }
+  }
+   .contact__button {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+    }
+    .contact__button .hs-button {
+      width: 100%;
+      margin-top: 10px;
+    }
+  .contact .field {
+    border-bottom: 2px solid black;
+    display: felx;
+    flex-direction: column;
+  }
+  .contact .hs-input {
+    width: 100%;
+    border: none;
+  }
+  .contact .field__input:focus {
+    outline: none !important;
+  }
+  .contact .field__input::placeholder {
+    color: black;
+  }
+  .form_heading {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000; 
+  }
+  .left-form {
+    display: flex;
+    align-items: center;
+  }
+  #avatar {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    height: 57px;
+    width: 57px;
+  }
+  .files {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 29px;
+  }
+  .contact img {
+    max-width: 75% !important;
+  }
+  .field:after {
+    box-shadow: unset !important;
+  }
+  @media screen and (max-width: 400px) {
+    .contact_details .list .icon {
+      padding: 5px 0px !important;
+    }
+    .list {
+      flex-direction: column;
+      justify-content: start;
+      align-items: flex-start !important;
+    }
+    .list {
+      padding: 2px !important;
+    }
+
+    .files {
+      width: 100%;
+      justify-content: space-around;
+    }
+  }
+  .field input::placeholder,
+  .your--messag {
+    color: #1c2e3a !important;
+    font-family: Roboto, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+  }
+  .your--messag {
+    padding-left: 20px;
+  }
+  .field--with-error .field__input {
+    border-color: red !important; 
+  }
+  
+
+</style>
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="contact page-width section-{{ section.id }}-padding">
+    {%- if section.settings.heading != blank -%}
+      <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        {{ section.settings.heading }}
+      </h2>
+    {%- else -%}
+      <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
+    {%- endif -%}
+    {%- liquid
+      assign contact_form_class = 'isolate'
+      if settings.animations_reveal_on_scroll
+        assign contact_form_class = 'isolate scroll-trigger animate--slide-in'
+      endif
+    -%}
+
+
+    <!-- Start Grid  -->
+    <div class="row">
+
+      <div class="col-lg-6 left-form">
+        <div class="contact_details">
+
+          <style>
+            .icon img {
+              width: 50px;
+              height: auto;
+            }
+          </style>
+          
+          <div class="list">
+            <div class="icon"><img src="{{ section.settings.contact_image1 | image_url }}"></div>
+            <div class="detsils">
+                <p class="dtls_head">SALES SUPPORT</p>
+                <p class="number">+1 (305) 779-0171</p>
+              </div>
+             </div>
+             <div class="list">
+            <div class="icon"><img src="{{ section.settings.contact_image2 | image_url }}"></div>
+            <div class="detsils">
+              <p class="dtls_head">PRODUCT AND WEB SUPPORT</p>
+              <p class="number">+1 (877) 454-2486</p>
+            </div>
+          </div>
+
+
+      <div class="list myemailsetone">
+            <div class="icon"><img src="{{ section.settings.contact_image3 | image_url }}"></div>
+            <div class="detsils meemail">
+              <p class="dtls_head">Address</p>
+              <p class="number">3325 NW 70th Ave, Miami, FL 33122.</p>
+            </div>
+          </div>
+
+          <div class="list">
+            <div class="icon"><img src="{{ section.settings.contact_image4 | image_url }}"></div>
+            <div class="detsils">
+              <p class="dtls_head">MONDAY – FRIDAY</p>
+              <p class="number">8:30AM TO 5:00PM EST</p>
+            </div>
+          </div>
+          
+          
+          
+        </div>
+        
+      </div>
+<div class="col-lg-6">
+  <p class="form_heading">Please fill the form to contact us</p>
+  <div id="hubspot-form-container" class="contact__fields"></div>
+  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+  <script>
+    hbspt.forms.create({
+      region: "na1",
+      portalId: "7050579",
+      formId: "1fa093df-0e10-44aa-87d5-578f74cbaf04",
+      target: "#hubspot-form-container",
+      onFormReady: function() {
+        var formContainer = document.querySelector('#hubspot-form-container');
+        var inputs = formContainer.querySelectorAll('input, textarea, button');
+        
+        inputs.forEach(function(input) {
+          input.classList.add('field__input');
+        });
+
+        var textAreas = formContainer.querySelectorAll('textarea');
+        textAreas.forEach(function(textarea) {
+          textarea.classList.add('text-area');
+        });
+
+        var buttons = formContainer.querySelectorAll('button');
+        buttons.forEach(function(button) {
+          button.classList.add('button');
+        });
+
+        var submitButton = formContainer.querySelector('.hs-button');
+        submitButton.classList.add('hs-button');
+
+        var errorFields = formContainer.querySelectorAll('.hs-error-msg');
+        errorFields.forEach(function(errorField) {
+          errorField.closest('.field').classList.add('field--with-error');
+        });
+      }
+    });
+  </script>
+</div>
+</div>
+
+<!-- End Grid  -->
+
+          
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.contact-form.name",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "Contact form",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "background-1"
+    },
+    {
+      "type": "image_picker",
+      "id": "contact_image1",
+      "label": "SALES SUPPORT"
+    },
+     {
+      "type": "image_picker",
+      "id": "contact_image2",
+      "label": "PRODUCT AND WEB SUPPORT"
+    },
+     {
+      "type": "image_picker",
+      "id": "contact_image3",
+      "label": "Address"
+    },
+     {
+      "type": "image_picker",
+      "id": "contact_image4",
+      "label": "Time"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.contact-form.presets.name"
+    }
+  ]
+}
+{% endschema %}

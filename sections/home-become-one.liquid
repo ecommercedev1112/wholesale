@@ -1,0 +1,185 @@
+<style>
+  .iconsText {
+    padding: 50px 0;
+}
+
+.iconsText-main {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    text-align: center;
+}
+.iconsText-textarea {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+p.icon-textd-p {
+    font-size: 18px;
+    color: #1C2E3A;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h2.icon-textd-h2 {
+    font-size: 42px;
+    color: #1C2E3A;
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+p.icon-textd-p1 {
+    margin: 0;
+    font-size: 18px;
+    color: #5C5C5C;
+}
+.icontext-image {
+    width: 100%;
+    max-width: 160px;
+    margin: auto;
+    background-color: #F7F9FB;
+    border-radius: 50%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2.iconsText-heading {
+    color: #1C2E3A;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+    height: 100%;
+    max-height: 40px;
+}
+  .iconsText-width {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  .iconsText-width a {
+    color: #606060;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.icontext-para p {
+    color: #1C2E3A;
+    font-size: 18px;
+    margin-top: 25px;
+}
+    @media only screen and (max-width: 768px){
+        .iconsText-main {
+    grid-template-columns: 80%;
+    margin: auto;
+    justify-content: center;
+}
+      .iconsText-main {
+    row-gap: 60px;
+}
+    }
+    @media only screen and (max-width: 500px){
+h2.icon-textd-h2 {
+    font-size: 35px;
+}
+
+.iconsText-textarea p {
+    font-size: 16px;
+}
+    }
+</style>
+
+
+<div class="iconsText">
+  <div class="page-width">
+    <div class="iconsText-textarea">
+      <p class="icon-textd-p">{{ section.settings.contpara }}</p>
+      <h2 class="icon-textd-h2">{{ section.settings.cont_h }}</h2>
+      <p class="icon-textd-p1">{{ section.settings.cont_p1 }}</p>
+    </div>
+    <div class="iconsText-main">
+      {%- for block in section.blocks -%}  
+        <div class="iconsText-width">
+          <div class="icontext-image-p">
+            <img loading="lazy" src={{ block.settings.image | img_url : 'master' }} >
+          </div>
+          <div class="icontext-para">
+            <h2 class="iconsText-heading">{{ block.settings.heading }}</h2>
+            <p class="iconsText-text">{{ block.settings.para }}</p>
+          </div>
+            <a href="{{ block.settings.url }}">{{ block.settings.link }}</a>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+"name": "Create Account",
+"settings": [
+          {
+            "type": "text",
+            "id": "contpara",
+            "label": "Text",
+            "default": "first step to become a partner"
+          },
+          {
+            "type": "text",
+            "id": "cont_h",
+            "label": "Heading",
+            "default": "CREATE AN ACCOUNT"
+          },
+        {
+            "type": "text",
+            "id": "cont_p1",
+            "label": "Text",
+            "default": "Please Select The Profile That Best Applies To You And Complete The Application Form:"
+          }
+],
+   "blocks": [
+    {
+      "name": "Block",
+      "type": "block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Image",
+          "id": "image"
+        },
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading"
+          },
+          {
+            "type": "text",
+            "id": "para",
+            "label": "Text"
+          },
+          {
+            "type": "text",
+            "id": "link",
+            "label": "Link Text"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "Link"
+          }
+      ]
+    }
+  ],
+"presets": [
+{
+"name": "Become a partner 2",
+"category": "Become a partner 2"
+}
+]
+}
+{% endschema %}

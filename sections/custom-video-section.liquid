@@ -1,0 +1,149 @@
+<style>
+    .v-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 40px;
+        gap: 40px;
+    }
+    
+    .shoe-title h3 {
+        font-family: "Gloock", serif;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #003B56;
+        margin: 0 0 20px;
+    }
+    
+    .shoe-text p {
+        font-family: "Roboto Light", sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: left;
+        color: #000000;
+        margin: 0;
+    }
+    .v-content {
+        padding: 24px 0 8px;
+        text-align: left;
+    }
+    .v-movie {
+        display: flex;
+    }
+    button.btn-video-me {
+      font-size: 14px;
+      padding: 10px 35px;
+      background: #1c2e3a;
+      border: none;
+    }
+    button.btn-video-me a {
+      list-style: none;
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+  }
+    .btn-video {
+      text-align: start;
+      margin-top: 20px;
+  }
+    @media (max-width:750px){
+        .v-main{
+            grid-template-columns: 1fr;
+            gap: 50px;
+            padding: 20px;
+        }
+      .shoe-title h3 {
+          font-size: 18px;
+      }
+      .shoe-text p {
+        font-size: 14px;
+      }
+      .v-movie iframe {
+          height: 300px !important;
+      }
+    }
+</style>
+<div class="v-main">
+  {% for block in section.blocks %}
+    <div class="v-one">
+      <div class="v-movie">
+        {% if block.settings['shoe_movieone'] != blank %}
+          <iframe
+              src="https://www.youtube.com/embed/{{ block.settings.shoe_movieone }}?enablejsapi=1"
+              class="js-youtube"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+              style="height: 400px; width: 100%; border: none;"
+            ></iframe>
+        {% endif %}
+      </div>
+    <div class="v-content">
+      <div class="shoe-title">
+        <h3>{{ block.settings['shoe-titleone'] }}</h3>
+      </div>
+      <div class="shoe-text">
+        {{ block.settings['shoe-textone'] }}
+    </div>
+       {% if block.settings.videobtntext != blank %}
+        <div class="btn-video">
+          <button class="btn-video-me">
+            <a href="{{ block.settings.videobtntexturl}}">
+              {{ block.settings.videobtntext }}
+               </a>
+          </button>
+        </div>
+        {% endif %}
+</div>
+    </div>
+    {% endfor %}
+  </div>
+  
+  {% schema %}
+  {
+    "name": "custom-video-section",
+    "settings": [],
+    "blocks": [
+       {
+        "name": "video",
+        "type": "content",
+        "settings": [
+          {
+        "type": "text",
+        "id": "shoe_movieone",
+        "label": "Youtube URL",
+        "info": "Insert Youtube Embed URL eg:- ZY6RfVY-Zl0"
+        
+      },
+      {
+        "type": "text",
+        "label": "Title",
+        "id": "shoe-titleone"
+      },
+      {
+        "type": "richtext",
+        "label": "Text",
+        "id": "shoe-textone"
+      },
+      {
+            "type": "text",
+            "id": "videobtntext",
+            "label": "Button text"
+      },
+      {
+            "type": "url",
+            "id": "videobtntexturl",
+            "label": "Button url"
+      }
+        ]
+       }
+    ],
+    "presets": [
+      {
+        "name": "custom-video-section"
+      }
+    ]
+  }
+  {% endschema %}
+  

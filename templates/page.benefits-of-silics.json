@@ -1,0 +1,299 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "home_super_one_RcrX3d": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 145,
+        "paddingsettingtwo": 65,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_124_4_e25299d4-5515-4a5c-ae97-7df8f916fa41.png",
+        "image_text": "Benefits of Silica"
+      }
+    },
+    "super_rich_kbahan": {
+      "type": "super-rich",
+      "settings": {
+        "background_color": "#ffffff",
+        "para": "",
+        "interesting_facts_about": "WHY IS IT IMPORTANT TO MAINTAIN optimal levels",
+        "the_safety_of_our_products": "OF SILICA IN THE BODY?",
+        "text": ""
+      }
+    },
+    "super_rich_iwUaB9": {
+      "type": "super-rich",
+      "settings": {
+        "background_color": "#ffffff",
+        "para": "<p>While not exhaustive, the following sections distill three decades of our company’s expertise summarizing key findings behind this essential element. We encourage you to explore further and consult with your healthcare professional to fully understand how this essential nutrient can become your ally in your health journey.<\/p>",
+        "interesting_facts_about": "",
+        "the_safety_of_our_products": "",
+        "text": ""
+      }
+    },
+    "home_faq_7rbyjY": {
+      "type": "home-faq",
+      "blocks": {
+        "qa_tqaw8b": {
+          "type": "qa",
+          "settings": {
+            "ques": "Heart*",
+            "ans": "<p>Silica is known to be more present in healthy hearts than in diseased hearts, because it strengthens blood vessels and muscle tissue.*<\/p>"
+          }
+        },
+        "qa_fN9Vcc": {
+          "type": "qa",
+          "settings": {
+            "ques": "Gut*",
+            "ans": "<p>Since silica strengthens muscle tissue, it help sstrengthen the muscles and tissues of the stomach and digestive tract. It can help regenerate these muscles if they have been damaged by poor diet, parasites, age, orother injuries.*<\/p>"
+          }
+        },
+        "qa_YUJzae": {
+          "type": "qa",
+          "settings": {
+            "ques": "Joints*",
+            "ans": "<p>Like collagen, silica is vital for the health of joints, connective tissue or ligaments,tendons, and cartilage.*<\/p>"
+          }
+        },
+        "qa_6rcq9C": {
+          "type": "qa",
+          "settings": {
+            "ques": "Skin, Hair & Nails*",
+            "ans": "<p>Its deficiency causes our nails and hair to grow more slowly and become more brittle.the skin loses elasticity and luminosity.*<\/p>"
+          }
+        },
+        "qa_wP3BC4": {
+          "type": "qa",
+          "settings": {
+            "ques": "Bones*",
+            "ans": "<p>There is ample evidence that silica prevents fractures as we age. Like bones, teeth and gumsalso benefit from silica.*<\/p>"
+          }
+        },
+        "qa_NwMxBT": {
+          "type": "qa",
+          "settings": {
+            "ques": "Immune System*",
+            "ans": "<p>It has been shown to improve immunity. Silica is important because it helps the body identify and fight potential threats such as bacteria, viruses, and parasites.* <\/p>"
+          }
+        },
+        "qa_xfGQdL": {
+          "type": "qa",
+          "settings": {
+            "ques": "Healing Process*",
+            "ans": "<p>As part of collagen, silica can accelerate the healing of burns, wounds, and scar tissue.It is widely recommended by dermatologists.<\/p>"
+          }
+        },
+        "qa_6nxAHy": {
+          "type": "qa",
+          "settings": {
+            "ques": "Detox Diets*",
+            "ans": "<p>It has been shown to be a safe and effective toxin chelator in humans. This process binds metals and minerals so they can be excreted from the body.*<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "qa_tqaw8b",
+        "qa_fN9Vcc",
+        "qa_YUJzae",
+        "qa_6rcq9C",
+        "qa_wP3BC4",
+        "qa_NwMxBT",
+        "qa_xfGQdL",
+        "qa_6nxAHy"
+      ],
+      "settings": {
+        "headingmain": "",
+        "heading": "",
+        "p_t": 36,
+        "p_b": 36,
+        "p_tx": 36,
+        "p_bx": 36
+      }
+    },
+    "super_rich_VF8pBa": {
+      "type": "super-rich",
+      "settings": {
+        "background_color": "#ffffff",
+        "para": "",
+        "interesting_facts_about": "LEARN MORE ABOUT",
+        "the_safety_of_our_products": "SILICA",
+        "text": ""
+      }
+    },
+    "blog_multicolumn_pHzk9m": {
+      "type": "blog-multicolumn",
+      "blocks": {
+        "column_QrRynV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_42_4.png",
+            "title": "Why Silica?",
+            "text": "<p>Silica is one of those elements whose list of documented benefits keeps growing over time. Learn about its multiple benefits here.<\/p>",
+            "link_label": "Previous Article",
+            "link": "shopify:\/\/pages\/why-silica"
+          }
+        },
+        "column_MAz4qx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_42_5.png",
+            "title": "Types Of Silica",
+            "text": "<p>Silica supplements offer a diverse range of options. Explore their distinct compositions and benefits for your wellness journey.<\/p>",
+            "link_label": "Read Next",
+            "link": "shopify:\/\/pages\/types-of-silica"
+          }
+        }
+      },
+      "block_order": [
+        "column_QrRynV",
+        "column_MAz4qx"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 36
+      }
+    },
+    "home_benfit_UreTJM": {
+      "type": "home-benfit",
+      "blocks": {
+        "block_4VrC8q": {
+          "type": "block",
+          "settings": {
+            "rich": "<p>Clinical Study By Faragon\u2028Anti-Aging Effects of Monomethylsilanetriol & Maltodextrin-Stabilized Orthosilicic Acid on Nails, Skin and Hair.<\/p>",
+            "link_text": "Read Clinical Study",
+            "url": "https:\/\/www.researchgate.net\/publication\/326140595_Anti-Aging_Effects_of_Monomethylsilanetriol_and_Maltodextrin-Stabilized_Orthosilicic_Acid_on_Nails_Skin_and_Hair#pf3"
+          }
+        },
+        "block_9hchch": {
+          "type": "block",
+          "settings": {
+            "rich": "<p>Van Dyck, K, Van Cauwenbergh, R, Robberecht, H, et al. (1999) Bioavailability of silicon from food and food supplements. Fresenius J Anal Chem 363, 541–544<\/p>",
+            "link_text": "Read Clinical Study",
+            "url": "https:\/\/pubmed.ncbi.nlm.nih.gov\/16205932\/"
+          }
+        },
+        "block_xFYq4b": {
+          "type": "block",
+          "settings": {
+            "rich": "<p>Macdonald, HM, Hardcastle, AE, Jugdaohsingh, R, et al. (2005) Dietary silicon intake is associated with bone mineral density in premenopasual women and postmenopausal women taking HRT. J Bone Miner Res 20, S393.<\/p>",
+            "link_text": "Read Clinical Study",
+            "url": "https:\/\/pubmed.ncbi.nlm.nih.gov\/14969400\/"
+          }
+        },
+        "block_E364dh": {
+          "type": "block",
+          "settings": {
+            "rich": "<p>Sripanyakorn S, Jugdaohsingh R, Thompson RPH, et al. (2005) Dietary silicon and bone health. Nutr Bull 30, 222–230.<\/p>",
+            "link_text": "Read Clinical Study",
+            "url": "https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC2744664\/"
+          }
+        },
+        "block_KHPV7E": {
+          "type": "block",
+          "settings": {
+            "rich": "<p>Jugdaohsingh, R (2007) Silicon and bone health. J Nutr Health Aging 11, 99–110<\/p>",
+            "link_text": "Read Clinical Study",
+            "url": "https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC2658806\/"
+          }
+        },
+        "block_tj8T3D": {
+          "type": "block",
+          "settings": {
+            "rich": "<p>Jugdaohsingh, R, Tucker, KL, Qiao, N, et al. (2004) Silicon intake is a major dietary determinant of bone mineral density in men and pre-menopausal women of the Framingham Offspring Cohort. J Bone Miner Res 19, 297–307.<\/p>",
+            "link_text": "Read Clinical Study",
+            "url": "https:\/\/pubmed.ncbi.nlm.nih.gov\/14969400\/"
+          }
+        },
+        "block_baDyza": {
+          "type": "block",
+          "settings": {
+            "rich": "<p>Sripanyakorn S. et al., The comparative absorption of silicon from different foods and food supplements. Br J Nutr. 2009 Sep;102(6):825-834<\/p>",
+            "link_text": "Read Clinical Study",
+            "url": "https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC2744664\/"
+          }
+        },
+        "block_7pVLWx": {
+          "type": "block",
+          "settings": {
+            "rich": "<p>Allain, P, Cailleux, A, Mauras, Y, et al. (1983) Digestive absorption of silicon after a single administration in man in the form of methylsilanetriol salicylate (in French). Therapie 38, 171–174.<\/p>",
+            "link_text": "Read Clinical Study",
+            "url": "https:\/\/pubmed.ncbi.nlm.nih.gov\/6636024\/"
+          }
+        },
+        "block_KMRheY": {
+          "type": "block",
+          "settings": {
+            "rich": "<p>Jugdaohsingh, R, Anderson, SH, Tucker, KL, et al. (2002) Dietary silicon intake and absorption. Am J Clin Nutr 75, 887–893<\/p>",
+            "link_text": "Read Clinical Study",
+            "url": "https:\/\/web.archive.org\/web\/20180726173704id_\/https:\/\/www.cambridge.org\/core\/services\/aop-cambridge-core\/content\/view\/9B2B43C95B926FA37862E9C5692D9549\/S0007114504000534a.pdf\/div-class-title-the-silicon-content-of-beer-and-its-bioavailability-in-healthy-volunteers-div.pdf"
+          }
+        },
+        "block_NDjRbp": {
+          "type": "block",
+          "settings": {
+            "rich": "<p>Calomme, MR, Cos, P, D’Haese, PC, et al. (1998) Absorption of silicon in healthy subjects. In Metal Ions in Biology and Medicine, pp.228–232 [Collery, P, Brätter, P, Negretti de Brätter, V, Khassanova, L and Etienne, J-C, editors]. Paris: John Libbey Eurotext.<\/p>",
+            "link_text": "Read Clinical Study",
+            "url": "https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC3912935\/"
+          }
+        },
+        "block_H3WmGN": {
+          "type": "block",
+          "settings": {
+            "rich": "<p>Van Dyck, K, Van Cauwenbergh, R, Robberecht, H, et al. (1999) Bioavailability of silicon from food and food supplements. Fresenius J Anal Chem 363, 541–544.<\/p>",
+            "link_text": "Read Clinical Study",
+            "url": "https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC8363645\/"
+          }
+        }
+      },
+      "block_order": [
+        "block_4VrC8q",
+        "block_9hchch",
+        "block_xFYq4b",
+        "block_E364dh",
+        "block_KHPV7E",
+        "block_tj8T3D",
+        "block_baDyza",
+        "block_7pVLWx",
+        "block_KMRheY",
+        "block_NDjRbp",
+        "block_H3WmGN"
+      ],
+      "settings": {
+        "head": "REFERENCE",
+        "sub_head": "Clinical Studies:",
+        "t_url": "View All References",
+        "bt_url": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "home_super_one_RcrX3d",
+    "super_rich_kbahan",
+    "super_rich_iwUaB9",
+    "home_faq_7rbyjY",
+    "super_rich_VF8pBa",
+    "blog_multicolumn_pHzk9m",
+    "home_benfit_UreTJM"
+  ]
+}

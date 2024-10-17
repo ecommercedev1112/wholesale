@@ -1,0 +1,134 @@
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+  .swiper-wrapper img {
+  width: 100vw;
+}
+  img.banner-mobile {
+    display: none !important;
+}
+  .full-width .swiper-slide {
+    display: flex;
+}
+  a.block-images {
+    display: flex;
+}
+  .full-width span.swiper-pagination-bullet {
+    background-color: #D9D9D9;
+    opacity: 1;
+    width:10px;
+    height:10px;
+}
+.full-width span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #00C1D5 !important;
+    width:15px;
+    height:15px;
+}
+  .full-width .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+/* .full-width .swiper-button-next::after {
+    color: white;
+}
+.full-width .swiper-button-prev::after {
+    color: white;
+} */
+
+  @media only screen and (max-width: 768px){
+    img.banner-mobile {
+    display: block !important;
+}
+    img.banner-desctop {
+    display: none !important;
+}
+}
+    @media only screen and (max-width: 550px){
+  .full-width .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+    margin-bottom: 0;
+}
+  }
+</style>
+<div class="full-width">
+  <div class="swiper mySwiper--{{ section.id }}">
+    <div class="swiper-wrapper">
+      {%- for block in section.blocks -%}
+        <div class="swiper-slide">
+          <a class="block-images" href="{{ block.settings.button_link }}"><img loading="lazy" class="banner-desctop" src="{{ block.settings.image | img_url : 'master' }}"></a>
+          <a class="block-images" href="{{ block.settings.button_link }}"><img loading="lazy" class="banner-mobile" src="{{ block.settings.image2 | img_url : 'master' }}"></a>
+        </div>
+        {% endfor %}
+    </div>
+
+    <!-- <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div> -->
+        <div class="swiper-pagination"></div>
+  </div> 
+</div>
+ <script>
+    var swiper = new Swiper(".mySwiper--{{ section.id }}", {
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' +  "</span>";
+        },
+      },
+    });
+  </script>
+<!-- <script>
+     var swiper = new Swiper(".mySwiper--{{ section.id }}", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+      var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + "</span>";
+        },
+      },
+    });
+</script> -->
+
+{% schema %}
+  {
+  "name": "slider",
+  "settings": [
+
+  ],
+    "blocks": [
+    {
+      "name": "Block",
+      "type": "block",
+      "settings": [
+        {
+      "type": "image_picker",
+      "label": "For Desctop Image",
+      "id": "image"
+    },
+    {
+      "type": "image_picker",
+      "label": "For Mobile Image",
+      "id": "image2"
+    },
+    {
+  "type": "url",
+  "id": "button_link",
+  "label": "Shop link"
+}
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "slider"
+    }
+  ]
+}  
+{% endschema %}

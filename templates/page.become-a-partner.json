@@ -1,0 +1,136 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "home_super_one_86GnPG": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 145,
+        "paddingsettingtwo": 65,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_231_5137274e-6d10-4c02-87ab-ff718e24cd74.png",
+        "image_text": "BECOME A PARTNER"
+      }
+    },
+    "become_partner_VdCG3b": {
+      "type": "become-partner",
+      "blocks": {
+        "add_button_section_VqzNtr": {
+          "type": "add-button-section",
+          "settings": {
+            "button-section-content": "<p>Become a distributor or reseller of our products, please contact us.<\/p>",
+            "become-url": "shopify:\/\/pages\/customer-service",
+            "become-button-text": "CONTACT US"
+          }
+        },
+        "add_button_section_6EJPgq": {
+          "type": "add-button-section",
+          "settings": {
+            "button-section-content": "<p>Create an account: The first step to partnering with <strong>LIVING SILICA®<\/strong> is opening an account, which gives you access to our partner benefits.<\/p>",
+            "become-url": "https:\/\/wholesale.livingsilica.com\/",
+            "become-button-text": "CREATE AN ACCOUNT HERE"
+          }
+        }
+      },
+      "block_order": [
+        "add_button_section_VqzNtr",
+        "add_button_section_6EJPgq"
+      ],
+      "settings": {
+      }
+    },
+    "home_become_one_PBhgCG": {
+      "type": "home-become-one",
+      "blocks": {
+        "block_wm44bG": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/charity_1_0fa0bb85-1bc8-447a-8886-a5044e74e1bf.png",
+            "heading": "HEALTHCARE PROFESSIONAL",
+            "para": "Many of ORGONO® enthusiastic partners are healthcare professionals who work every day to help improve world healthy. We salute your dedication and are pleased to offer a wholesale discount to healthcare professionals on ORGONO® products",
+            "link": "HealthCare Application",
+            "url": "https:\/\/wholesale.livingsilica.com\/wholesale-registration\/"
+          }
+        },
+        "block_ijY6c3": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/marketplace_1_88eb860f-e132-4c24-98c2-83d4d44753c9.png",
+            "heading": "RETAILER",
+            "para": "It does not matter if you are a small store or a supermarket. At Silicium Laboratories®, we have a wide range of products for you to get started. As leading providers of premium silica, we can provide numerous partnering benefits.",
+            "link": "Retailer Application",
+            "url": "https:\/\/wholesale.livingsilica.com\/wholesale-registration\/"
+          }
+        },
+        "block_fqpxFd": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/box_1_a618eb86-09d9-41c4-8a09-a2f0a6d2ab13.png",
+            "heading": "WHOLESALER",
+            "para": "We provide our distribution partners with the best silica products and offer advice to help nurture their business strategies, developing close relationships in order to make each business venture a success.",
+            "link": "Wholesaler Application",
+            "url": "https:\/\/wholesale.livingsilica.com\/wholesale-registration\/"
+          }
+        }
+      },
+      "block_order": [
+        "block_wm44bG",
+        "block_ijY6c3",
+        "block_fqpxFd"
+      ],
+      "settings": {
+        "contpara": "first step to become a partner",
+        "cont_h": "CREATE AN ACCOUNT",
+        "cont_p1": "Please Select The Profile That Best Applies To You And Complete The Application Form:"
+      }
+    },
+    "home_super_two_77LQVP": {
+      "type": "home-super-two",
+      "blocks": {
+        "content_erkiyr": {
+          "type": "content",
+          "settings": {
+            "change_direction": false,
+            "section_image": "shopify:\/\/shop_images\/Rectangle_135_49345456-0dc9-4a1a-8b75-a1f91b875cb5.png",
+            "step": "",
+            "section_heading": "silicium laboratories",
+            "section_subheading": "INGREDIENTS",
+            "section_subheadingtwo": "",
+            "section_description": "<p><strong>LIVING SILICA®<\/strong> is the leading global source of silica (silicon from Silicic Acid, OSA, and Monomethylsilanetriol) trusted by supplement manufacturers. We work with nutraceutical companies and physicians worldwide to produce and distribute the safest and purest form of silica.<\/p><p>We are pleased to redirect you to our specialized website www.siliciumlaboratories.com, where you will find all the information you need to start working with us.<\/p><p><\/p>",
+            "btntext": "GO TO WEBSITE",
+            "btntexturl": "https:\/\/siliciumlaboratories.com\/",
+            "accordionone": "",
+            "accordiontwo": "",
+            "mobile_font_size": "26",
+            "desktop_letter_spacing": 2,
+            "mobile_letter_spacing": 2,
+            "mobile_font_weight": "400",
+            "line_height_for_mobile": 32
+          }
+        }
+      },
+      "block_order": [
+        "content_erkiyr"
+      ],
+      "settings": {
+        "backcolor": "",
+        "main_title": "",
+        "main_paragraph": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "home_super_one_86GnPG",
+    "become_partner_VdCG3b",
+    "home_become_one_PBhgCG",
+    "home_super_two_77LQVP"
+  ]
+}

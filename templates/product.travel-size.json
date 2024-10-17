@@ -1,0 +1,396 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "c6f2b535-1dba-4660-bc61-d057717a7fed": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<div style=\"display:flex; justify-content: center; align-items: center;gap:7px;padding-top:0px;padding-bottom: 12px;\" class=\"text-with-icon__container\">\n\n<div style=\"color:#1C2E3A !important;font-size: 19px;font-weight:400;text-align:left;width: 100%\" class=\"text-container;\">\nBuy 2 and Get 5% Discount\n<\/div>\n<\/div>"
+          }
+        },
+        "metafile_accordion_TDpCr8": {
+          "type": "metafile_accordion",
+          "settings": {
+            "main_title_accordion": "BENEFITS",
+            "main_content_accordion": "<ul><li><strong>MINERAL-BASED FORMULA<\/strong>: Our original legacy formula is scientific results in a bottle. A state-of-the-art creation that unlocks the true potential of quartz. Elevate your routine to a new dimension.* <\/li><li><strong>PROMOTE YOUR OWN COLLAGEN<\/strong>: Our formula, infused with the best form of absorbable silica is backed by research to effectively support your natural collagen and connective tissues.* <\/li><li><strong>GLOWING SKIN, HAIR & NAILS:<\/strong> Clinically validated to promote healthier hair, skin, and nails.* <\/li><li><strong>HEALTHY BONES & CARTILAGES: <\/strong>Supports healthy bone and cartilage structure.* <\/li><li><strong>JOINT FLEXIBILITY*:<\/strong> Helps support healthy joints, mobility and flexibility.* <\/li><\/ul>"
+          }
+        },
+        "metafile_accordion_8Jrw6P": {
+          "type": "metafile_accordion",
+          "settings": {
+            "main_title_accordion": "OUR DIFFERENCE",
+            "main_content_accordion": "<p><a href=\"https:\/\/online.fliphtml5.com\/rfnst\/xapx\/\" target=\"_blank\" title=\"https:\/\/online.fliphtml5.com\/rfnst\/xapx\/\"><strong>Discover The Essential Mineral<\/strong><\/a><\/p>"
+          }
+        },
+        "metafile_accordion_YrVcnt": {
+          "type": "metafile_accordion",
+          "settings": {
+            "main_title_accordion": "NUTRITION INFORMATION",
+            "main_content_accordion": "<ul><li>Serving Size: 1\/2 tsp (65 drops)<\/li><li>Serving Per Container: About 30<\/li><li>Amount Per Serving:<br\/>Silicon (as LIVING SILICA®) 22.5mg†<br\/>†Daily Value Not Established.*<br\/>% Daily Value are based on a 2,000 calorie diet.*<br\/>* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent saccharides. Does not contain any artificial flavor, sweetener or colorant — ingredients 100 % natural.*<\/li><\/ul>"
+          }
+        },
+        "49aa9743-5442-4a17-a2bb-e31669b60bc7": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "{{ block.settings.page.title }}BENEFITS",
+            "icon": "none",
+            "content": "<ul><li><strong>MINERAL-BASED FORMULA<\/strong>: Our original legacy formula is scientific results in a bottle. A state-of-the-art creation that unlocks the true potential of quartz. Elevate your routine to a new dimension.* <\/li><li><strong>PROMOTE YOUR OWN COLLAGEN<\/strong>: Our formula, infused with the best form of absorbable silica is backed by research to effectively support your natural collagen and connective tissues.* <\/li><li><strong>GLOWING SKIN, HAIR & NAILS:<\/strong> Clinically validated to promote healthier hair, skin, and nails.* <\/li><li><strong>HEALTHY BONES & CARTILAGES: <\/strong>Supports healthy bone and cartilage structure.* <\/li><li><strong>JOINT FLEXIBILITY*:<\/strong> Helps support healthy joints, mobility and flexibility.* <\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "1ce7ea7a-d6dc-4124-acf2-c525477ac765": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "OUR DIFFERENCE",
+            "icon": "none",
+            "content": "<p><a href=\"https:\/\/hubs.ly\/Q02F8t1n0 \" target=\"_blank\" title=\"https:\/\/hubs.ly\/Q02F8t1n0 \"><strong>Discover The Essential Mineral<\/strong><\/a><\/p>",
+            "page": ""
+          }
+        },
+        "b5e0dfdd-deac-4da5-bd80-852d0f217e65": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "NUTRITION INFORMATION",
+            "icon": "none",
+            "content": "<ul><li>Serving Size: 1\/2 tsp (65 drops)<\/li><li>Serving Per Container: About 30<\/li><li>Amount Per Serving:<br\/>Silicon (as LIVING SILICA®) 22.5mg†<br\/>†Daily Value Not Established.*<br\/>% Daily Value are based on a 2,000 calorie diet.*<br\/>* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent saccharides. Does not contain any artificial flavor, sweetener or colorant — ingredients 100 % natural.*<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "5bc79539-bd5c-4346-bc55-ded23fe05640": {
+          "type": "text",
+          "settings": {
+            "text": "Free US Shipping over $100",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "c6f2b535-1dba-4660-bc61-d057717a7fed",
+        "metafile_accordion_TDpCr8",
+        "metafile_accordion_8Jrw6P",
+        "metafile_accordion_YrVcnt",
+        "49aa9743-5442-4a17-a2bb-e31669b60bc7",
+        "1ce7ea7a-d6dc-4124-acf2-c525477ac765",
+        "b5e0dfdd-deac-4da5-bd80-852d0f217e65",
+        "5bc79539-bd5c-4346-bc55-ded23fe05640"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "home_slider_incredient_Dxm9ka": {
+      "type": "home-slider-incredient",
+      "blocks": {
+        "slider_YLQ7En": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "BOOST YOUR OWN COLLAGEN"
+          }
+        },
+        "slider_AC9qND": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "HIGHEST ABSORPTION"
+          }
+        },
+        "slider_hmLrDd": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "HEALTHY BONES"
+          }
+        },
+        "slider_MbbDek": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "FLEXIBLE JOINTS"
+          }
+        },
+        "slider_gFaDpY": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "GLOWING SKIN"
+          }
+        },
+        "slider_NMcW3i": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "HEALTHY HAIR"
+          }
+        },
+        "slider_gQUDRJ": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "FLEXIBLE JOINTS"
+          }
+        },
+        "slider_cWJ3ba": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "FLEXIBLE JOINTS"
+          }
+        }
+      },
+      "block_order": [
+        "slider_YLQ7En",
+        "slider_AC9qND",
+        "slider_hmLrDd",
+        "slider_MbbDek",
+        "slider_gFaDpY",
+        "slider_NMcW3i",
+        "slider_gQUDRJ",
+        "slider_cWJ3ba"
+      ],
+      "settings": {
+      }
+    },
+    "home_product_incrdients_TVgghQ": {
+      "type": "home-product-incrdients",
+      "blocks": {
+        "block_YghgAM": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_267_f4e5a523-08be-41e4-971e-63202f5ebc48.png",
+            "text": "LIVING SILICA ®",
+            "para": "US patented Silicon formula. Perfected by our exclusive Heritage Concentrate™ proprietary process to promote the power of your own collagen."
+          }
+        },
+        "block_NmNfjX": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_pb_f8c2e053-b931-4a0c-b63d-5d6f74153de9.jpg",
+            "text": "RO WATER",
+            "para": "Reverse osmosis (RO) water is a type of filtered water that has gone through a purification process called reverse osmosis. This results in highly purified water."
+          }
+        }
+      },
+      "block_order": [
+        "block_YghgAM",
+        "block_NmNfjX"
+      ],
+      "settings": {
+        "textobe": "Ingredients",
+        "slidesperview_desktopone": 2,
+        "slidesperview_desktop": 2
+      }
+    },
+    "home_advance_p7BBUD": {
+      "type": "home-advance",
+      "settings": {
+        "text_transformation": "capitalize",
+        "first_heading": "",
+        "scnd_heading": "",
+        "top_heading": "HOW TO USE",
+        "ctop_heading": "Maintenance",
+        "carone": "<h4>Dosage:<\/h4><p>1\/2 tsp<\/p>",
+        "caroneone": "<h4>Daily Serving:<\/h4><p>1<\/p><p><\/p>",
+        "richt1": "<p>Designed to supplement your daily silica intake. It's especially beneficial for those who may not obtain sufficient silica from their regular dietary sources. The maintenance dose is 1\/2 tsp, to be taken 15 minutes before a meal holding the product for a minute or two under the tongue to improve the absorption.  <\/p><p>Great for promoting glowing skin, hair & nails. <\/p>",
+        "cltop_heading": "Intensive",
+        "cartwo": "<h4>Dosage:<\/h4><p>1 tsp<\/p>",
+        "cartwotwo": "<h4>Daily Serving:<\/h4><p>2- 3<\/p>",
+        "richt2": "<p>The intensive dosage is the recommended intake for individuals wanting to see faster results or starting the silica for the first time. The intensive loading dosage includes 2 to 3 tsp per day, to be taken 15 minutes before a meal. The dosage should be divided into two shots , for example, two 1 + 1\/2 tsp shots. <\/p><p>Great for supporting healthy bones & joints. <\/p>"
+      }
+    },
+    "50ab2f8b-acfb-469f-9349-a2d6eb1513d1": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--21752750178611__50ab2f8b-acfb-469f-9349-a2d6eb1513d1-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why LIVING SILICA® is the most effective form of silica?",
+            "icon": "none",
+            "row_content": "<p>Bioavailability measures the extent to which a nutrient can be used by cells in the body. No other colloidal silica, silicic acid, or plant extract-based silica supplements in the marketplace provide higher bioavailability than LIVING SILICA®. This superior bioavailability is attributed to our Heritage Concentrate™ proprietary process. This one-of-a-kind method ensures that the silica in our product is in a form that your body can absorb effectively. When you absorb more silica into your body, you’re able to generate more collagen.* The issue is that most people consume collagen to experience its ultimate effects. LIVING SILICA® helps our bodies promote healthy collagen production without the need for consumption, offering a full spectrum of benefits that positively affect our energy, stress levels, and more!<\/p>",
+            "page": ""
+          }
+        },
+        "template--21752750178611__50ab2f8b-acfb-469f-9349-a2d6eb1513d1-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "The importance about incorporating LIVING SILICA®",
+            "icon": "none",
+            "row_content": "<p>By adding LIVING SILICA® to your daily routine, you can support the optimal levels of silica your body needs to thrive at its best. Silica is an essential trace mineral required for the production of collagen, elastin, keratin, and glycosaminoglycans (GAGs). These elements contribute to tissue hydration, elasticity, and strength, helping you look and feel your best every day.* LIVING SILICA® promotes healthy skin cells, supports collagen, and aids in cell turnover with hyaluronic acid to keep your hair, skin, and nails looking vibrant and healthy.<\/p>",
+            "page": ""
+          }
+        },
+        "template--21752750178611__50ab2f8b-acfb-469f-9349-a2d6eb1513d1-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What´s different about LIVING SILICA® Mineral- Based Travel Size?",
+            "icon": "none",
+            "row_content": "<p>Our Mineral-Based Collagen Booster Travel Size is an ideal all-natural supplement for people looking for a vegan alternative to collagen.  LIVING SILICA Mineral-Based Collagen Booster Concentrate in drops (100mL - TS), offers the same proven benefits as our current Mineral-Based Collagen Booster products. The main difference between the new travel size in Drops and our Mineral-Based Collagen Booster Liquids in 500mL | 1000mL sizes is the liquid concentration, now packed in a 100mL bottle.<\/p>",
+            "page": ""
+          }
+        },
+        "template--21752750178611__50ab2f8b-acfb-469f-9349-a2d6eb1513d1-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "The uniqueness about LIVING SILICA®",
+            "icon": "none",
+            "row_content": "<p>LIVING SILICA® is a doctor-formulated, professional-grade supplement designed to support your natural healthy collagen production. Formulated in 1994 by Sc. D. Loïc Le Ribault, and with more than 30 years in the market, LIVING SILICA® pioneered a proprietary process known as Heritage Concentrate™. Heritage Concentrate™ is the proprietary process used across all LIVING SILICA® products. It raises the solubility limit of silicon (Si) and maintains it in a small, monomeric, and well-absorbed form for optimal intestinal absorption. This unique process ensures that you get the most out of every dose of LIVING SILICA®, making it the perfect addition to your daily health routine.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21752750178611__50ab2f8b-acfb-469f-9349-a2d6eb1513d1-collapsible_row-1",
+        "template--21752750178611__50ab2f8b-acfb-469f-9349-a2d6eb1513d1-collapsible_row-2",
+        "template--21752750178611__50ab2f8b-acfb-469f-9349-a2d6eb1513d1-collapsible_row-3",
+        "template--21752750178611__50ab2f8b-acfb-469f-9349-a2d6eb1513d1-collapsible_row-4"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQS",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "accent-2",
+        "container_color_scheme": "accent-2",
+        "open_first_collapsible_row": true,
+        "image": "shopify:\/\/shop_images\/Rectangle_96_f5d15f0b-cacb-4521-867b-4ae975229b6e.png",
+        "image_ratio": "adapt",
+        "desktop_layout": "image_first",
+        "padding_top": 100,
+        "padding_bottom": 96
+      }
+    },
+    "1703442628570bbf40": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "home_five_new_7fP6MW": {
+      "type": "home-five-new",
+      "settings": {
+        "backimage": "shopify:\/\/shop_images\/Rectangle_231_5137274e-6d10-4c02-87ab-ff718e24cd74.png",
+        "seaction-pic": "shopify:\/\/shop_images\/HC_dark_blue_TRANSPARENT_1.png",
+        "seaction-heading": "HERITAGE CONCENTRATE",
+        "seaction-para": "<p>Proprietary process used across all LIVING SILICA® products. Developed in 1994 by Sc.D. Loïc Le Ribault, this unique method raises the solubility limit of Si and maintains it in a small, monomeric, and well-absorbed form for maximum intestinal absorption.<\/p>",
+        "seaction-butt": "LEARN MORE",
+        "button_link": "shopify:\/\/pages\/the-science-behind-silica"
+      }
+    },
+    "super_rich_xb3dhe": {
+      "type": "super-rich",
+      "settings": {
+        "background_color": "#ffffff",
+        "para": "",
+        "interesting_facts_about": "You May Also Like",
+        "the_safety_of_our_products": "Related Products",
+        "text": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "show_center_slide": false,
+        "slide_show_on_desktop": 3,
+        "heading": "",
+        "heading_size": "h2",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "color_scheme": "accent-2",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "textrelated": "SHOP ALL PRODUCTS",
+        "urlrelated": "shopify:\/\/collections\/all",
+        "hidetrelated": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    },
+    "featured_collection_P6irhe": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "liquids",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "home_slider_incredient_Dxm9ka",
+    "home_product_incrdients_TVgghQ",
+    "home_advance_p7BBUD",
+    "50ab2f8b-acfb-469f-9349-a2d6eb1513d1",
+    "1703442628570bbf40",
+    "home_five_new_7fP6MW",
+    "super_rich_xb3dhe",
+    "related-products",
+    "featured_collection_P6irhe"
+  ]
+}

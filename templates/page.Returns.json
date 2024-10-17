@@ -1,0 +1,86 @@
+{
+  "sections": {
+    "home_super_one_iqYPEc": {
+      "type": "home-super-one",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "paddingsetting": 145,
+        "paddingsettingtwo": 65,
+        "backgound_image": "shopify:\/\/shop_images\/Rectangle_231_5137274e-6d10-4c02-87ab-ff718e24cd74.png",
+        "image_text": "Returns"
+      }
+    },
+    "home_faq_fNcmC6": {
+      "type": "home-faq",
+      "blocks": {
+        "qa_zhKxVH": {
+          "type": "qa",
+          "settings": {
+            "ques": "Feel Free To Contact us",
+            "ans": "<p>If at any time you have questions about returning an item purchased from SILICIUM LABORATORIES:<br\/>Please call our Customer Service department at (305) 779-0171 <\/p>"
+          }
+        },
+        "qa_78NNyw": {
+          "type": "qa",
+          "settings": {
+            "ques": "Refunds Permitted",
+            "ans": "<p>Silicium Laboratories LLC wants you to be delighted with your shopping experience and purchase. We accept returns; if you find that you must return an item, we try to make this process as comfortable as possible. Within 60 days of receiving a shipment from Silicium Laboratories LLC , you may return any unused or used product for a full refund less shipping and handling.Our products are 100% guaranteed so that if you are not satisfied with their efficacy, you may return the product for a full refund less shipping and handling.<br\/>Upon receipt of the returned item, we will thoroughly examine it and notify you via email, within a reasonable period, whether you are entitled to a return. If you are entitled to a return, we will refund your purchase price and a credit will automatically be applied to your original method of payment.<\/p>"
+          }
+        },
+        "qa_dwKQQc": {
+          "type": "qa",
+          "settings": {
+            "ques": "Exchanges",
+            "ans": "<p>We only exchange goods if they are defective or damaged. In circumstances where you consider that a product is broken, you should promptly contact us att Silicium Laboratories. Please call our Customer Service department at (305) 779-0171, to share details of the product and the defect. You will need to provide pictures as proof and from them, we will decide that you need to send the product back. <\/p><p>You can send the item you consider defective to: Silicium Laboratories LLC 3325 NW 70TH AVE MIAMI, FL 33122 1-877-454-2486.<\/p><p>Upon receipt of the returned product, we will thoroughly examine it and notify you via e-mail, within a reasonable period, whether you are entitled to a replacement as a result of the defect. If you are eligible, we will send you a replacement product. <\/p>"
+          }
+        },
+        "qa_diJkfx": {
+          "type": "qa",
+          "settings": {
+            "ques": "Exceptions",
+            "ans": "<p>Some items are non-refundable and non-exchangeable. These include: <\/p><p>Orders shipping to either Alaska or Hawaii are treated as international orders. <\/p><p>Silicium Laboratories LLC takes specific care in choosing which promotional items and promotional products are on our site. Due to the limited time promotions and the deals that we have promotions or one-day deals are not returnable, or you will have to submit a case, and all items will need to be returned including the free items. Please check your order for defects immediately upon arrival, as there are no returns after 60 DAYS from receipt of the order. If you receive defective or damaged merchandise, please contact our sales department: (305) 779-0171, and we will work diligently to resolve the issue.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "qa_zhKxVH",
+        "qa_78NNyw",
+        "qa_dwKQQc",
+        "qa_diJkfx"
+      ],
+      "settings": {
+        "headingmain": "",
+        "heading": "",
+        "p_t": 36,
+        "p_b": 36,
+        "p_tx": 36,
+        "p_bx": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "super_rich_JMxnGK": {
+      "type": "super-rich",
+      "settings": {
+        "background_color": "#ffffff",
+        "para": "",
+        "interesting_facts_about": "thank you for choosing",
+        "the_safety_of_our_products": "SILICIUM LABORATORIES",
+        "text": ""
+      }
+    }
+  },
+  "order": [
+    "home_super_one_iqYPEc",
+    "home_faq_fNcmC6",
+    "main",
+    "super_rich_JMxnGK"
+  ]
+}

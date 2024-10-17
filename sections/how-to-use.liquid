@@ -1,0 +1,216 @@
+<style>
+  .use-min-container {
+    max-width: 900px;
+    margin: auto;
+    border: 1px solid transparent;
+    background-color: #F7F9FB;
+    padding: 50px;
+  }
+  .use-main-title h3 {
+    font-size: 48px;
+    text-align: center;
+    line-height: normal;
+    color: #1C2E3A;
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .power-scoop-title h3 {
+    margin: 0;
+    font-size: 38px;
+    text-align: center;
+    padding-bottom: 15px;
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+  }
+
+  .power-scoop-descrription p {
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    line-height: normal;
+    letter-spacing: normal;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #1C2E3A;
+  }
+
+  .dosage-text h3,
+  .servings-text h3 {
+    margin: 0;
+    font-size: 20px;
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1C2E3A;
+  }
+
+  .dosage-cont,
+  .servings-cont {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: start;
+  }
+
+  .dosage-quantity p,
+  .servings-quantity p {
+    margin: 0;
+    color: #1C2E3A;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+  span.new-line {
+    display: block;
+    height: 2px;
+    background-color: black;
+    width: 60%;
+  }
+
+  span.a-new-line {
+    display: block;
+    height: 1px;
+    background-color: grey;
+    width: 50%;
+  }
+
+  .line-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dosage-cont {
+    padding-top: 15px;
+  }
+  @media screen and (max-width: 550px) {
+    .use-min-container {
+        padding: 18px 15px;
+    }
+    .use-main-title h3{
+    font-size: 35px;
+    text-align: center;
+    margin: 10px;
+    }
+    .power-scoop-title h3 {
+    font-size: 20px;
+    text-align: start;
+    }
+    .power-scoop-descrription p{
+        text-align: start;
+        letter-spacing: 1px;
+        line-height: 25px;
+    }
+    .dosage-quantity p, .servings-quantity p {
+    font-size: 16px;
+    }
+    .dosage-text h3, .servings-text h3{
+        font-size: 16px;
+    }
+  }
+  .dosage-cont, .servings-cont {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: flex-start;
+    width: 38%;
+    margin: auto;
+  }
+  @media screen and (max-width:500px) {
+    .dosage-cont, .servings-cont{
+      width: 100%;
+    }
+    .new-page-set-mar {
+    margin-top: 20px;
+  }
+
+  }
+</style>
+<div class="new-page-set-mar">
+<div class="page-width">
+  <div class="use-main-title">
+    <h3>{{ section.settings.use_title }}</h3>
+  </div>
+  <div class="use-min-container">
+    <div class="use-sub-container">
+      <div class="power-scoop-title">
+        <h3>{{ section.settings.scoop_title }}</h3>
+      </div>
+      <div class="line-bottom">
+        <span class="new-line"></span>
+      </div>
+      <div class="power-scoop-descrription">{{ section.settings.scoop_description }}</div>
+      {% if section.settings.dosage_text != blank %}
+      <div class="line-bottom">
+        <span class="a-new-line"></span>
+      </div>
+      {% endif %}
+      <div class="dosage-cont">
+        <div class="dosage-text">
+          <h3>{{ section.settings.dosage_text }}</h3>
+        </div>
+        <div class="dosage-quantity">
+          <p>{{ section.settings.dosage_quantity }}</p>
+        </div>
+      </div>
+      <div class="servings-cont">
+        <div class="servings-text">
+          <h3>{{ section.settings.servings_text }}</h3>
+        </div>
+        <div class="servings-quantity">
+          <p>{{ section.settings.servings_quantity }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+{% schema %}
+  {
+    "name": "How To Use Plant-Based",
+    "settings": [
+      {
+        "type": "text",
+        "id": "use_title",
+        "label": "How To Use"
+      },
+      {
+        "type": "text",
+        "id": "scoop_title",
+        "label": "Title"
+      },
+      {
+        "type": "richtext",
+        "id": "scoop_description",
+        "label": "Description"
+      },
+      {
+        "type": "text",
+        "id": "dosage_text",
+        "label": "Dosage"
+      }, {
+        "type": "text",
+        "id": "dosage_quantity",
+        "label": "Dosage Quantity"
+      }, {
+        "type": "text",
+        "id": "servings_text",
+        "label": "Daily Servings"
+      }, {
+        "type": "text",
+        "id": "servings_quantity",
+        "label": "Daily Servings Quantity"
+      }
+    ],
+    "presets": [
+      {
+        "name": "How To Use Plant-Based "
+      }
+    ]
+  }
+{% endschema %}
